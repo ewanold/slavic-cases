@@ -82,8 +82,10 @@ Run python3 scripts/validate-samples.py to check language/case/track coverage,
 prompt blank, four distinct options and a valid answer key. Templates and archives
 are excluded. Default mode includes drafts so implementation can use the full set.
 For publishing, --release requires all loaded samples to be marked reviewed.
-A future Android importer must also distinguish development drafts from released
-content. No Android loader or authoring preview is implemented yet.
+The prototype validates and packages YAML into a deterministic JSON asset via
+scripts/package-content.py, then loads it in Android. Its loader excludes drafts
+outside debug, and release builds require reviewed YAML. Direct on-device YAML
+import and a dedicated authoring preview remain unimplemented.
 
 The validator does not prove linguistic correctness or unique grammatical validity.
 Human review must check every correct answer, distractor, native translation and

@@ -10,10 +10,32 @@ material and code. Russian is my personal starting point, but the long-term goal
 is to support all Slavic languages. I am releasing the project as open source so
 others can contribute examples, improve it, or continue it in a fork.
 
-**Current status:** the Android app is not implemented yet. The repository has
-project plans, reusable setup scripts, and 390 draft practice questions for
-Russian and Polish. AI-generated language material needs linguistic review.
+**Current status:** the first Android prototype builds and passes emulator tests. It
+contains Russian/Polish practice, mixed sessions, English/German controls and
+speech support. The 390 draft questions still need linguistic review.
 The project uses the [MIT license](LICENSE).
+
+## Set up for development
+
+New to Android development? Follow the [step-by-step setup guide](AI/DEVELOPMENT.md#step-by-step-setup).
+It explains installation, checking the tools, starting Android Studio, and the
+remaining steps before we can build the app. The installer supports Linux x86-64.
+You do not need Android tools to contribute sample sentences.
+
+After installing the SDK and Python content tools, prepare dependencies and build:
+
+```bash
+bash scripts/install-build-tools.sh
+```
+
+For later builds with dependencies already cached:
+
+```bash
+bash scripts/build.sh
+```
+
+The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk`.
+The setup guide explains how to install it on a phone or use the optional emulator.
 
 ## Planned learning experience
 

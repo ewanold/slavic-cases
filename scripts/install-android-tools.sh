@@ -41,7 +41,8 @@ export JAVA_HOME="$studio_dir/jbr"
 export ANDROID_HOME="$sdk_dir"
 export PATH="$JAVA_HOME/bin:$cli_dir/bin:$sdk_dir/platform-tools:$PATH"
 if [[ $# -gt 0 ]]; then
-  "$cli_dir/bin/sdkmanager" --sdk_root="$sdk_dir" --licenses
+  # Install prompts only for licenses required by the requested packages.
+  # --licenses would also ask about unrelated packages contributors do not need.
   "$cli_dir/bin/sdkmanager" --sdk_root="$sdk_dir" --install "$@"
 fi
 printf 'Studio: %s/bin/studio.sh\nSDK: %s\nJAVA_HOME: %s\n' "$studio_dir" "$sdk_dir" "$JAVA_HOME"

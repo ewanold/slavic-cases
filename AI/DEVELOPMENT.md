@@ -1,7 +1,200 @@
 # Development setup
 
-Observed host: Ubuntu 24.04, x86-64 Java runtime 21. No javac, adb, sdkmanager,
-or studio found on PATH. Tools elsewhere on disk have not been ruled out.
+## Step-by-step setup
+
+This guide is for Linux x86-64, with Ubuntu 24.04 as the observed development host.
+Run commands in a terminal from the repository folder containing README.md.
+The first prototype is now scaffolded. SDK installation prepares the tools;
+step 6 builds the app. Commands below assume the installer's default directories.
+If you override ANDROID_HOME, use your chosen SDK path instead.
+
+### 1. Check prerequisites
+
+```bash
+uname -s
+uname -m
+command -v bash curl tar unzip sha256sum mktemp rg
+```
+
+Expect Linux, x86_64, and a path for every listed tool. Allow several gigabytes
+of free space; an emulator needs additional space. Missing prerequisites must be
+added to a reusable installer script before installation. The current script does
+not support Windows, macOS, or Linux ARM.
+
+Ripgrep supplies the `rg` command used for repository searches and emulator setup.
+On Ubuntu/Debian, install it with the reusable system-tools installer:
+
+```bash
+bash scripts/install-system-tools.sh
+```
+
+The script runs `sudo apt install ripgrep`. APT uses your distribution's
+authenticated repositories and available package version; this system package
+is not pinned to a project-specific version.
+
+### 2. Install the editor and SDK command-line tools
+
+Android Studio is the editor/debugger. The Android SDK provides Android API files
+and build/device tools. Studio includes a Java development kit (JDK).
+
+```bash
+bash scripts/install-android-tools.sh
+```
+
+This downloads pinned, checksum-verified archives into your home directory without
+sudo and prints the installed paths. If you already ran it, continue to step 3.
+Rerunning reuses existing installations.
+
+### 3. Install the platform, build tools and phone tools
+
+The recommended prototype baseline is Android 16 (API 36) and Build Tools 36.0.0.
+Platform Tools includes adb, which communicates with a connected phone. Your phone
+does not need Android 16 simply because we compile with this SDK. These choices
+remain proposals until the first project build is verified.
+
+```bash
+bash scripts/install-android-tools.sh --sdk-packages \
+  'platforms;android-36' \
+  'build-tools;36.0.0' \
+  'platform-tools'
+```
+
+Read and answer the license prompts if you accept the terms. Keep the quotes around
+package IDs: semicolons otherwise have a special meaning in the shell. The script
+reuses installed Studio and CLI tools. Google resolves SDK packages through its
+repository; the bootstrap archive hashes do not cover these packages. Platform
+Tools uses the repository's current revision; record it after installation.
+
+### 4. Verify installation
+
+```bash
+"$HOME/.local/opt/slavic-cases/android-studio-rabbit1/jbr/bin/java" -version
+"$HOME/Android/Sdk/platform-tools/adb" version
+export JAVA_HOME="$HOME/.local/opt/slavic-cases/android-studio-rabbit1/jbr"
+export ANDROID_HOME="$HOME/Android/Sdk"
+"$ANDROID_HOME/cmdline-tools/15859902/bin/sdkmanager" --sdk_root="$ANDROID_HOME" --list_installed
+```
+
+Expect version output and installed entries for platforms;android-36,
+build-tools;36.0.0, and platform-tools. The exports last only for this terminal.
+The installer sets its own environment but cannot change the terminal that started
+it. These checks do not request installation of additional packages.
+
+### 5. Start Android Studio
+
+```bash
+"$HOME/.local/opt/slavic-cases/android-studio-rabbit1/bin/studio.sh"
+```
+
+Importing previous settings is optional. If the first-launch wizard offers SDK
+downloads, skip them where possible and use the scripted installation above.
+In Studio's SDK settings, select the directory printed by the installer, normally
+Android/Sdk inside your home directory. Use Studio's bundled JDK for the proposed
+Gradle setup.
+
+Choose Open and select this repository's root folder. Do not create a separate
+wizard project: the shared project is already here. Complete step 6's dependency
+bootstrap before Gradle synchronization. Use Studio's offline Gradle mode for
+later work; any missing dependency should be fetched through the reusable script.
+
+### 6. Build and check the app
+
+Gradle runs the build; the Android Gradle Plugin adds Android support. The prototype
+uses Kotlin/Compose, AGP 9.1.1 and Gradle 9.3.1, with pinned dependencies. Python
+and PyYAML are also required to validate and package the editable sample files.
+If your Python 3.12 already has PyYAML, use it. Otherwise prepare the content tools:
+
+```bash
+bash scripts/install-content-tools.sh
+export CONTENT_PYTHON="$HOME/.local/share/slavic-cases/content-venv/bin/python"
+```
+
+Keep that export in the terminal where you build; in Studio, the same environment
+must be available to Gradle. If python3 already has PyYAML, no override is needed.
+Prepare Gradle and download the project dependencies through the reusable script:
+
+```bash
+bash scripts/install-build-tools.sh
+```
+
+This verifies the Gradle archive checksum, prepares the wrapper cache, builds the
+debug APK, runs JVM tests and Android lint. Dependencies are verified against the
+recorded hashes in gradle/verification-metadata.xml. First-time hashes are a
+repository bootstrap baseline; they do not independently authenticate publishers.
+The SDK platform/build-tools must already be installed; automatic SDK download
+during Gradle builds is disabled.
+
+For subsequent builds using cached dependencies:
+
+```bash
+bash scripts/build.sh
+```
+
+The APK is app/build/outputs/apk/debug/app-debug.apk. Test and lint reports are in
+app/build/reports/. If offline mode reports a missing dependency, run the installer
+again. Release builds intentionally fail until all samples have linguistic review.
+
+### 7. Install on a phone or test with an emulator
+
+A physical phone needs Android 8 or later for this prototype. Enable Developer
+options and USB debugging in the phone's settings, connect by USB, and accept the
+phone's debugging authorization prompt for your computer. Run:
+
+```bash
+"$HOME/Android/Sdk/platform-tools/adb" devices -l
+"$HOME/Android/Sdk/platform-tools/adb" install -r app/build/outputs/apk/debug/app-debug.apk
+"$HOME/Android/Sdk/platform-tools/adb" shell am start -n org.slaviccases.app/.MainActivity
+```
+
+The device list should show one device with status device. If unauthorized, check
+the phone's screen; if no device appears, check USB mode/cable and Linux device
+permissions. With multiple devices, specify adb -s SERIAL. Open the app from its
+launcher icon after installation if preferred. Use an installed offline Russian
+or Polish text-to-speech voice for the Speak button; unavailable speech does not
+prevent practice.
+
+For an optional API 36 emulator on Linux x86-64:
+
+```bash
+bash scripts/install-test-emulator.sh
+bash scripts/run-emulator.sh
+```
+
+The installer reuses accepted SDK licenses, prompts for any missing ones, and
+creates a Pixel 6 virtual device. KVM access is recommended. Once it finishes
+booting, use the same adb install/start commands above. SDK repository revisions
+for the emulator/image are recorded after installation; package IDs alone do not
+pin their revisions. Screen-level tests require a connected phone or emulator:
+
+```bash
+bash scripts/install-build-tools.sh connectedDebugAndroidTest
+```
+
+Once test dependencies are cached, use scripts/build.sh instead for an offline
+run. Instrumented tests exercise a complete session, rotation/recreation, repeat,
+incorrect-answer locking and mixed mode. Do not use personal learning data during
+these development tests.
+
+### Common problems
+
+- Missing adb: complete step 3; the basic installer only installs Studio and CLI.
+- Java not on PATH: use the full bundled Java path or the exports in step 4.
+- SDK Manager deprecation warning: installed SDK components still work. Migration
+  to Android CLI is tracked in TODOS.md; its launcher bootstraps a separate runtime
+  which needs version/checksum handling before replacing the scripted setup.
+- Studio uses another SDK: select the SDK directory printed by the installer.
+- No Android Run configuration: open the repository root and complete Gradle sync.
+- Download/checksum error: read the error and retry the script. If it reports an
+  incomplete installation directory, inspect that directory before changing it.
+- SMB/CIFS checkout: the first build must verify locking and permissions; a
+  local-disk checkout may be necessary if Gradle cannot work on the share.
+
+Sample-only contributors can use the content authoring instructions below without
+installing Android tools.
+
+Initial observation before installation: Ubuntu 24.04, x86-64 Java runtime 21;
+Android tools absent from PATH. Studio and SDK CLI are now installed; see the
+verified installation record below.
 
 ## Reusable installation
 
@@ -35,7 +228,7 @@ It changes to the repository directory and runs:
 Extra arguments are passed through. The Codex CLI and locally stored original
 chat must be available; forks should start their own session using AI/ notes.
 
-No app build or device validation is possible yet: app source has not been created.
+For current prototype behavior and validation limits, see PROTOTYPE.md and LOG.md.
 
 ## Content authoring and checks
 
@@ -61,5 +254,37 @@ refuses overwrites. Editable samples/ YAML is authoritative after export.
 
 During setup, updating the existing .gitignore was denied despite escalation;
 its content was preserved. The content environment was placed outside the checkout
-instead, which also avoids committing local dependencies. No app source or build
-validation exists yet.
+instead, which also avoids committing local dependencies. At that initial stage,
+app source/build validation did not yet exist; current results are in LOG.md.
+
+## User installation verified — 2026-10-10
+
+User reports running the Android tools installer. Verified Studio build
+AI-262.9437.185.2621.16467767 at the documented default location, SDK command-line
+tools revision 22.0 in cmdline-tools/15859902, and bundled OpenJDK 25.0.3
+(build 25.0.3+-15898627-b508.16). The Java executable runs successfully.
+At this initial verification, the SDK contained only cmdline-tools; platform,
+build-tools, platform-tools and emulator installation followed later. Studio GUI launch was not tested.
+Choose build dependencies compatible with this JDK, or script a separate supported
+build JDK before building; do not assume the bundled Java version is 21.
+
+### Proposed first prototype build selection — 2026-10-10
+
+User asked how to select platform and remaining tools. Recommend, not yet agreed:
+minSdk 26 (Android 8), compileSdk/targetSdk 36 (Android 16), Build Tools 36.0.0,
+platform-tools for adb, AGP 9.1.1 with Gradle 9.3.1. This is a conservative
+baseline, not a claim that API 36 is the newest available platform. Minimum SDK
+controls supported devices; compile SDK controls available APIs; target SDK
+selects runtime behavior. No app feature currently demands a higher minimum.
+AGP documentation specifies Gradle 9.3.1, Build Tools 36.0.0 and minimum JDK 17;
+Gradle supports running on Java 25 starting at 9.1.0. Try installed JDK 25 with
+this combination and verify the actual build before claiming end-to-end support.
+Kotlin/Compose versions remain to be pinned during scaffolding. Start testing
+on a physical phone if available; emulator/system image optional and selected
+based on host architecture and test API. No NDK/CMake needed for proposed Kotlin app.
+Install packages through existing reusable script:
+bash scripts/install-android-tools.sh --sdk-packages 'platforms;android-36' 'build-tools;36.0.0' 'platform-tools'
+No downloads/installations executed in this discussion.
+Sources: https://developer.android.com/about/versions/16/setup-sdk
+https://developer.android.com/build/releases/agp-9-1-0-release-notes
+https://docs.gradle.org/current/userguide/compatibility.html

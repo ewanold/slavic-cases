@@ -1,87 +1,73 @@
 # Implementation handover — 2026-10-10
 
-## Readiness
+## Current status
 
-Ready to begin the first Android prototype. Product requirements and the accepted
-YAML content model are sufficient. No Android app source, Gradle wrapper or SDK
-platform has been created/installed yet. User plans to compact this conversation
-and run the installer before the next implementation step. Do not install tools
-on their behalf unless subsequently requested.
+First native Android prototype implemented and verified. User completed Studio and
+SDK installation and authorized autonomous continuation while away. No immediate
+user answer was needed. Provisional implementation choices remain reviewable;
+confirmed requirements are separate in MAIN.md and UI.md.
 
-Read MAIN.md, UI.md, CONTENT_FORMAT.md, DEVELOPMENT.md, TODOS.md and recent LOG.md.
-Preserve discussion/build history here in AI/ and keep all downloading/installing
-in reusable scripts. README includes the owner's AI-development introduction and
-instructions for sample creation, forks/PRs and feedback via GitHub Issues.
+Read MAIN.md, PROTOTYPE.md, UI.md, CONTENT_FORMAT.md, DEVELOPMENT.md, TODOS.md and
+recent LOG.md. Keep decisions/build history in AI/, source/scripts outside it,
+and all dependency downloads in reusable installers.
 
-## First steps after compaction
+## Run and review
 
-1. User runs `bash scripts/install-android-tools.sh` from the project root.
-   This installs pinned Android Studio and SDK CLI tools only. It does not install
-   platform-tools, a platform SDK, build tools or an emulator without explicit
-   --sdk-packages arguments. License acceptance happens interactively when SDK
-   packages are requested. The script's exported environment ends with the script;
-   it prints paths but does not alter the user's shell configuration.
-2. Inspect actual installed Studio/JDK/SDK versions. Select and pin compatible
-   Android Gradle Plugin, Kotlin, Compose and Gradle versions plus compile/target
-   SDK and minimum supported Android version. Verify official compatibility docs.
-3. Extend reusable setup/build scripts for the chosen SDK packages, Gradle wrapper
-   and dependency bootstrap. Include platform-tools for device deployment; choose
-   emulator/system image only if needed. Choose physical device versus emulator.
-4. Scaffold the native Kotlin/Compose prototype (currently the proposed stack).
-   Bundle YAML or a reproducibly generated content artifact; YAML remains the
-   contributor-facing source of truth. Use drafts in development explicitly.
-5. Implement one end-to-end session: menu -> case/track -> question -> feedback ->
-   Next -> results -> Repeat/Back. Include independent GUI/learning language settings
-   and selected-answer speech, then mixed mode. Verify build and device launch.
+Open the repository root in Android Studio with its bundled JDK. Dependency setup:
+bash scripts/install-build-tools.sh. Offline build/tests/lint: bash scripts/build.sh.
+Debug APK: app/build/outputs/apk/debug/app-debug.apk (generated and ignored by Git).
+Phone installation steps are in DEVELOPMENT.md, prominently linked in README.
+Optional emulator: bash scripts/run-emulator.sh, after install-test-emulator.sh.
+The original host already has the API 36 Google APIs x86-64 AVD installed.
+The headless validation emulator has been stopped to free resources; restart it
+with scripts/run-emulator.sh when needed.
+Screen tests: bash scripts/build.sh connectedDebugAndroidTest with a test device
+connected. The installer prepares uncached test dependencies if necessary.
+Visual references are AI/reference/prototype-{menu,question,feedback}.png.
 
-## Content already present
+## Prototype and validation
 
-390 original, AI-assisted MIT questions in samples/:
-- ru: 6 cases × nouns/adjectives × 15 = 180.
-- pl: 7 cases (including vocative) × nouns/adjectives × 15 = 210.
+Russian/Polish cases, separate noun/adjective-numeral tracks, mixed practice,
+English/German GUI independent of learning language, native sentences and neutral
+prompts, shuffled four-choice answers, first-answer scoring, green/red plus text,
+selected-answer offline speech, Next, results, Repeat and originating-menu Back.
+Settings persist and session state survives activity recreation. Exact defaults,
+source organization and pinned build versions are in PROTOTYPE.md.
 
-Separate noun/adjective folders. Adjective tracks label ordinary adjectives,
-cardinal numerals and ordinal numerals. Cardinal questions answer with a complete
-phrase to represent noun government. Native English/German translations and neutral
-learning-language prompts are inside samples. Language packs declare at most eight
-teaching cases. Templates have 15 editable question slots. All starter content is
-draft pending linguistic review; it is usable for implementation, not reviewed
-release material. The exporter refuses overwrites; edited YAML is authoritative.
+390 draft questions pass structural validation. All 18 tests pass: 11 existing
+content regressions, one deterministic asset integration test, three JVM tests,
+and three emulator UI tests. Latest complete offline debug build/lint/tests passed
+following the speech-feedback adjustment; only formatting changed afterward.
+Lint has zero errors, with newer-version and optional KTX suggestions. Legacy
+Compose test-rule and SDK XML-version warnings remain nonblocking.
+Release-content guard was tested and correctly rejected unreviewed YAML.
+No release signing/publication configured; all lessons need human linguistic review.
 
-## Open choices and provisional defaults
+## Environment and follow-ups
 
-These do not block initial scaffolding. They are proposals, not user-confirmed:
-- Native sentence language: initially follow the GUI language where a supplied
-  translation exists; explicitly handle missing translations. A separate native
-  language setting remains an option. No silent language switch.
-- Neutral display: one sentence blank with a dictionary-form hint, as in samples.
-- Score the first selection, lock it, then enable Next; show text/icons plus colors.
-- Case/track practice: use all questions in the selected sample (15 initially).
-- Mixed mode: 15 reviewed/authored questions sampled without replacement across
-  available cases/tracks; do not generate arbitrary vocabulary combinations.
-- Repeat: same question set, shuffled answer positions; Back: originating menu.
+SDK platform API 36 revision 2; Build Tools 36.0.0; Platform Tools 37.0.1; SDK CLI
+22.0; bundled JDK 25.0.3. Emulator 37.2.12 build 16428233, Google APIs API 36
+x86-64 image revision 7. SDK package IDs do not pin repository revisions. Gradle
+archive and wrapper JAR have official SHA-256 pins; initial repository dependency
+verification baseline records 854 artifacts, with strict subsequent verification.
 
-Confirm/adjust choices when implementing their dependent screens. Initial learner
-level, GUI language coverage, minimum supported device version and exact sampling
-balance can be settled during the first prototype. Larger language coverage,
-advanced declensions, review scheduling and release signing are later work.
+Checkout is on SMB/CIFS; debug build and offline tests work there. Duplicate
+incremental resource entries were cleared by a clean build. Avoid editing sources
+while a build reads them. A build client disconnected and was retried. KVM works.
+Initial emulator launcher/System UI ANRs during busy first boot cleared; app tests
+passed at 720x1280/density 280 with an animation scale disabled. No app crash was
+found in inspected emulator errors. Headless test emulator used port 5580.
 
-## Verified setup and limitations
+Next: review on the owner's phone, especially Russian/Polish offline voice quality,
+accessibility and provisional practice defaults. Linguistic review, dedicated
+sample authoring preview/on-device import, additional languages, progress history,
+and final application ID/release setup remain future work.
 
-2026-10-10: bash/curl/tar/unzip/sha256sum/mktemp are available. Shell syntax checks
-passed for Android installer, content installer and resume script. No downloads or
-installs executed. Observed free space: home ~51 GB, root/tmp ~7.7 GB.
+SDK Manager is deprecated but functional. Android CLI migration is queued until
+its separately bootstrapped runtime can be pinned and verified. Help unexpectedly
+downloaded/unpacked it during inspection; the operation is now recorded in
+scripts/inspect-android-cli.sh. No SDK license was accepted by the agent.
 
-Working tree is on a CIFS/SMB share (/home/ewald/sonne). Test Gradle/build behavior;
-if locking or executable/permission behavior fails, use a local-disk checkout or
-worktree and document the workflow. Do not assume the first build is verified.
-Updating the existing .gitignore was denied even with escalation; it was preserved.
-Content-tool environments default outside the checkout to avoid local dependencies.
-
-Existing Python 3.12 / PyYAML 6.0.1 validated all 390 questions, and 11 focused
-regression checks passed. Optional scripts/install-content-tools.sh is prepared
-with hash-pinned Linux CPython 3.12 wheels, but is unnecessary on the observed host.
-
-Resume original local chat with run-codex.sh. The committed notes also support a
-new chat or fork without access to the original conversation. Files are local
-changes; no commit, push, issue or PR has been made by the assistant.
+All changes are local; no assistant commit, push, publication, issue or PR. No
+signing keys or personal learning data added. run-codex.sh resumes the original
+chat; committed AI notes let fork contributors continue without that chat.

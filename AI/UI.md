@@ -20,7 +20,10 @@ A bottom-right Next button advances to the next question.
 After all session questions are answered, show results with Repeat and a button
 to go back one menu step.
 
-## Proposed interaction details
+## Provisional interaction defaults
+
+Implemented under the user's authorization to continue autonomously. These remain
+reviewable choices, not additional confirmed product requirements. See PROTOTYPE.md.
 
 Main menu -> case and noun/adjective track (or mixed mode) -> finite question
 session -> results. The precise placement of the track choice is still proposed.
@@ -29,8 +32,8 @@ Language packs declare their available teaching cases. Russian uses six; each
 language may declare up to eight. Do not fill unused slots or assume vocative is
 present. Other languages and treatment of additional cases need reviewed content.
 
-Interpret "neutral form" provisionally as a sentence with a blank and the target
-noun/adjective given in dictionary form. Confirm before implementing this behavior.
+Interpret "neutral form" provisionally as the authored sentence with a blank and
+dictionary-form hint. The prototype now uses this representation.
 Example: native-language sentence, then `Я вижу ___. (новый дом)`.
 Render four complete candidate phrases. Shuffle options once per question and retain
 that order while the question is visible. Keep the correct answer by stable ID.
@@ -40,12 +43,14 @@ Show Correct/Incorrect text or icons as well as color. Enable Next after selecti
 If wrong, highlight the correct answer too; this additional feedback is a proposal.
 Speech reads the selected answer in the learning language, including a wrong answer
 if that is selected. Disable Speech until an item is selected. If no suitable voice
-is available, explain that without blocking practice. Audio behavior is not implemented.
+is available, explain that without blocking practice. The prototype implements
+this using installed offline voices and a visible, nonblocking status message.
 Results show correct answers, total questions, and percentage. Repeat restarts the
 same set with fresh option order; Back returns to the menu that started the session.
 Mixed mode samples complete, reviewed questions across available cases and word pairs;
 do not randomly combine unrelated words into unreviewed sentences.
-Mixed session length, sampling distribution, and repeat behavior await agreement.
+The prototype uses 15 questions, uniformly sampled without replacement within the
+selected learning language; Repeat retains the set with a fresh option shuffle.
 
 ## Open decisions
 

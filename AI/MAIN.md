@@ -29,12 +29,16 @@ and track: 180 Russian + 210 Polish, all draft pending linguistic review.
 Native Kotlin with Jetpack Compose; offline lessons and exercises; local progress.
 Start with a small reviewed Russian learning path, then add language packs using
 shared exercise infrastructure and language-specific grammar descriptions.
-These are proposals, not yet user-approved product decisions.
+The first prototype now uses Kotlin/Compose under the user's authorization to
+continue implementation autonomously. This is an implementation choice; broader
+offline/local-progress proposals are not newly confirmed product requirements.
+See PROTOTYPE.md for provisional defaults implemented for later review.
 Do not assume every Slavic language has Russian's case system or morphology.
 
 ## Documentation map
 
 - HANDOVER.md: setup readiness and exact next steps after chat compaction.
+- PROTOTYPE.md: implemented first-prototype behavior, build choices and validation scope.
 
 - DOCUMENTATION.md: maintenance and handover rules.
 - IMPLEMENTATION_PLAN.md: phased delivery and validation.
