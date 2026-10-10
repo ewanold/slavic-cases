@@ -14,6 +14,11 @@ implementation choices for review, not additional confirmed product requirements
 - Mixed mode samples 15 authored questions without replacement within one learning
   language, uniformly over questions, rather than composing unrelated word pairs.
 - Authored blank-and-dictionary-hint prompts appear unchanged.
+- Adjective/ordinal hints contain both dictionary forms, with no inflected noun
+  in the sentence; their choices still test the adjective/ordinal alone.
+- Device light/dark mode is followed; Android 12+ uses dynamic Material colors,
+  Android 10/11 built-in palettes. Green/red feedback uses suitable dark variants.
+- Settings displays version 0.1 and the build date captured in UTC by Gradle.
 - First selection scores and locks the answer. Correct/wrong choices show text plus
   green/red; a wrong selection also reveals the correct answer. Next requires an answer.
 - Speech reads the selected item, even if wrong, using an installed offline voice
@@ -37,7 +42,7 @@ Python 3.12/PyYAML as documented; no Android YAML library is needed.
 
 AGP 9.1.1, Gradle 9.3.1, built-in Kotlin and Compose compiler 2.2.10,
 Compose BOM 2026.04.01, Activity Compose 1.10.1, compile/target SDK 36,
-Build Tools 36.0.0, minimum SDK 26, bytecode target Java 17. Host build runs on
+Build Tools 36.0.0, minimum SDK 29 (Android 10), bytecode target Java 17. Host build runs on
 Studio's bundled Java 25.0.3. Application ID org.slaviccases.app is provisional
 and must be finalized before public distribution. MIT license remains unchanged.
 
@@ -60,5 +65,8 @@ JVM session-rule tests, Android lint/build, and Compose instrumented session tes
 Actual results are recorded in LOG.md as completed. Instrumented tests cover full
 session/results/repeat, recreation, wrong-answer locking, and mixed-mode Back.
 Language material still requires human review; speech voice quality and physical
-phone behavior need manual testing. No publication, commit or push is authorized
+phone voice quality need manual testing; user confirmed basic phone operation.
+Latest version/prompt changes passed build, JVM/content checks and emulator visual
+checks; instrumented tests last ran before these later changes (see HANDOVER.md).
+No publication, commit or push is authorized
 or performed as part of this prototype work.

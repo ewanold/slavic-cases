@@ -205,3 +205,81 @@ now checks for rg before installing SDK packages. APT uses the distribution's
 authenticated package repositories rather than a pinned downloaded archive.
 Installation was not requested or executed. Both installer scripts passed bash
 syntax validation.
+
+### Emulator usability
+
+User reported very slow emulator and apparent Google setup requirement. Inspected
+running emulator-5580: KVM usable, software SwiftShader rendering, two CPU cores,
+snapshot disabled, display already reduced to 720x1280; host had 2.5 GiB swap in
+use. Android device_provisioned and user_setup_complete were both 1. Our app was
+not installed. Installed existing debug APK and launched MainActivity successfully
+using new reusable scripts/run-app.sh; no Google account or download needed.
+Updated run-emulator.sh to use GPU auto and allow Quick Boot snapshots, retaining
+two cores and skipping boot animation; enabled audio for speech checks. Existing
+running emulator was not restarted, so speed improvement remains unverified.
+Both scripts passed bash syntax checks. Setup guide explains direct app launch,
+graphics fallbacks and snapshot saving; official acceleration documentation:
+https://developer.android.com/studio/run/emulator-acceleration
+
+### Question answer visibility
+
+User confirmed emulator works reasonably well and supplied a screenshot showing
+the fourth answer clipped above the bottom controls. Reduced question-only column
+spacing from 12 to 8 dp and vertical padding from 20 to 8 dp; button sizes and
+fixed Speak/Next controls retained, scrolling remains available for longer content.
+Offline assembleDebug passed. Installed updated APK on emulator-5554 and visually
+verified Russian accusative noun practice at 720x1280 / 280 dpi: all four answer
+buttons fully visible above bottom controls without scrolling. Screenshot saved
+as AI/reference/prototype-question-spacing.png. No full regression suite rerun
+for this spacing-only change. Installation restarted the app; left it at the first
+accusative noun question for the user.
+
+### Device theme and minimum Android version
+
+User requested dark mode or device theming and said Android 8 support is no longer
+needed. Implemented system light/dark following and Android 12+ dynamic Material
+colors; Android 10/11 use built-in palettes. Green/red feedback has separate dark
+colors with readable foregrounds. Chose minimum SDK 29 (Android 10) as an
+implementation default consistent with system-wide dark mode, not a technical
+requirement imposed by Compose. Compile/target SDK remain 36. Updated current
+setup/prototype requirements; earlier Android 8 build-selection notes are history.
+User asked about phone installation: documented direct APK transfer or adb helper,
+Android 10+, installation permission for the chosen file source, no Google account.
+Offline assembleDebug and lintDebug passed. Installed on emulator-5554, visually
+checked dark menu and wrong/correct feedback and restored original light setting.
+Reference screenshots: prototype-dark-menu.png and prototype-dark-feedback.png.
+Android 10/11 fallback palette has not been device-tested. No new dependencies or
+downloads. Official references:
+https://developer.android.com/develop/ui/compose/designsystems/material3
+https://developer.android.com/develop/ui/views/theming/darktheme
+
+### Version display and non-revealing adjective hints
+
+User confirmed the APK works on their phone. Requested Settings version 0.1 and
+build date, and adjective prompts without an inflected noun revealing agreement.
+Changed versionName to 0.1 (versionCode remains 1 during this initial development
+iteration). BuildConfig captures the Gradle build/configuration date as ISO UTC;
+Settings displays it in English/German, independent of installation date.
+Changed only neutral_prompt in 159 Russian/Polish adjective and ordinal questions:
+e.g. Я вижу ___. (добрый брат). Both dictionary forms are in the hint; options and
+scoring still test the adjective/ordinal alone. Cardinal phrase questions already
+used neutral noun hints and remain unchanged. Updated generator, template and
+content authoring instructions; preserved all other lesson fields and draft status.
+Validation: all 390 questions structurally valid; offline assembleDebug and three
+JVM tests passed; 12 existing Python content/packaging regressions passed;
+git diff --check passed. Installed on emulator-5554 and visually confirmed Settings
+version/date and the Russian accusative adjective prompt, with four answers fully
+visible. References: prototype-settings-version.png and
+prototype-adjective-neutral.png. No download, commit or publication performed.
+
+### End-of-day handover for compaction
+
+User requested updating relevant notes before compacting/closing for today.
+Refreshed HANDOVER, TODOS, PROTOTYPE and UI with phone success, version/date,
+Android 10 minimum, device themes, corrected adjective hints, spacing fix, current
+emulator helper behavior and exact validation scope. Distinguished earlier full
+instrumented run from latest build/JVM/Python/visual checks. Recorded remaining
+voice quality/accessibility, Android 10/11 fallback, linguistic review, CLI
+migration and release work. User emulator-5554 remains running; no build pending.
+Changes remain local; no assistant commit/push/publication. No immediate question
+or blocker prevents continuing next session. Documentation whitespace check passed.

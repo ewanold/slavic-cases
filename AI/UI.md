@@ -10,6 +10,9 @@ contains cardinal and ordinal numerals. Contributor sample files use accepted YA
 The initial implementation provides 15 example questions per case and track, with
 full Russian and Polish starter sets. Their linguistic review is pending.
 Settings select the GUI language independently from the language being learned.
+Settings also show version 0.1 and build date. Appearance follows the device theme.
+Adjective/ordinal prompts put both dictionary forms inside brackets and omit the
+inflected noun from the sentence so it cannot reveal the answer's case ending.
 
 Every sample and template contains both the example in the learner's native
 language and the neutral question in the language being learned. The question
@@ -35,7 +38,9 @@ present. Other languages and treatment of additional cases need reviewed content
 Interpret "neutral form" provisionally as the authored sentence with a blank and
 dictionary-form hint. The prototype now uses this representation.
 Example: native-language sentence, then `Я вижу ___. (новый дом)`.
-Render four complete candidate phrases. Shuffle options once per question and retain
+Render four candidate words or phrases according to the sample's answer_scope.
+Adjective/ordinal questions use word answers; cardinal questions use phrase answers.
+Shuffle options once per question and retain
 that order while the question is visible. Keep the correct answer by stable ID.
 
 Proposed scoring: one scored selection per question, then lock answer selection.
@@ -55,6 +60,6 @@ selected learning language; Repeat retains the set with a fresh option shuffle.
 ## Open decisions
 
 - Does native-language text follow the GUI setting or require a third setting?
-- What precisely should "neutral form" show?
+- Review neutral hints for new languages; adjective/noun bracket placement is confirmed.
 - Are wrong answers final, or may learners retry before Next?
 - How many questions belong to a mixed session?

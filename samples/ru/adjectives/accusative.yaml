@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: I see the kind brother.
     de: Ich sehe den freundlichen Bruder.
-  neutral_prompt: Я вижу ___ брата. (добрый)
+  neutral_prompt: Я вижу ___. (добрый брат)
   answer_scope: word
   options:
     a: доброго
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: I see the kind sister.
     de: Ich sehe die freundliche Schwester.
-  neutral_prompt: Я вижу ___ сестру. (добрый)
+  neutral_prompt: Я вижу ___. (добрый сестра)
   answer_scope: word
   options:
     a: добрая
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: I see the old male friend.
     de: Ich sehe den alten Freund.
-  neutral_prompt: Я вижу ___ друга. (старый)
+  neutral_prompt: Я вижу ___. (старый друг)
   answer_scope: word
   options:
     a: старый
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: I see the old female friend.
     de: Ich sehe die alte Freundin.
-  neutral_prompt: Я вижу ___ подругу. (старый)
+  neutral_prompt: Я вижу ___. (старый подруга)
   answer_scope: word
   options:
     a: старая
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: I see the new male teacher.
     de: Ich sehe den neuen Lehrer.
-  neutral_prompt: Я вижу ___ учителя. (новый)
+  neutral_prompt: Я вижу ___. (новый учитель)
   answer_scope: word
   options:
     a: нового
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: I see the new female teacher.
     de: Ich sehe die neue Lehrerin.
-  neutral_prompt: Я вижу ___ учительницу. (новый)
+  neutral_prompt: Я вижу ___. (новый учительница)
   answer_scope: word
   options:
     a: новая
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: I see the young male student.
     de: Ich sehe den jungen Studenten.
-  neutral_prompt: Я вижу ___ студента. (молодой)
+  neutral_prompt: Я вижу ___. (молодой студент)
   answer_scope: word
   options:
     a: молодой
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: I see the young female student.
     de: Ich sehe die junge Studentin.
-  neutral_prompt: Я вижу ___ студентку. (молодой)
+  neutral_prompt: Я вижу ___. (молодой студентка)
   answer_scope: word
   options:
     a: молодая
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: I see the good male neighbor.
     de: Ich sehe den guten Nachbarn.
-  neutral_prompt: Я вижу ___ соседа. (хороший)
+  neutral_prompt: Я вижу ___. (хороший сосед)
   answer_scope: word
   options:
     a: хорошего
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: I see the good female neighbor.
     de: Ich sehe die gute Nachbarin.
-  neutral_prompt: Я вижу ___ соседку. (хороший)
+  neutral_prompt: Я вижу ___. (хороший соседка)
   answer_scope: word
   options:
     a: хорошая
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: I see the first male student.
     de: Ich sehe den ersten Studenten.
-  neutral_prompt: Я вижу ___ студента. (первый)
+  neutral_prompt: Я вижу ___. (первый студент)
   answer_scope: word
   options:
     a: первый
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: I see the second female student.
     de: Ich sehe die zweite Studentin.
-  neutral_prompt: Я вижу ___ студентку. (второй)
+  neutral_prompt: Я вижу ___. (второй студентка)
   answer_scope: word
   options:
     a: вторая

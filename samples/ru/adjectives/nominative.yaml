@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: The kind brother lives here.
     de: Der freundliche Bruder wohnt hier.
-  neutral_prompt: Здесь живёт ___ брат. (добрый)
+  neutral_prompt: Здесь живёт ___. (добрый брат)
   answer_scope: word
   options:
     a: добрый
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: The kind sister lives here.
     de: Die freundliche Schwester wohnt hier.
-  neutral_prompt: Здесь живёт ___ сестра. (добрый)
+  neutral_prompt: Здесь живёт ___. (добрый сестра)
   answer_scope: word
   options:
     a: доброй
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: The old male friend lives here.
     de: Der alte Freund wohnt hier.
-  neutral_prompt: Здесь живёт ___ друг. (старый)
+  neutral_prompt: Здесь живёт ___. (старый друг)
   answer_scope: word
   options:
     a: старого
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: The old female friend lives here.
     de: Die alte Freundin wohnt hier.
-  neutral_prompt: Здесь живёт ___ подруга. (старый)
+  neutral_prompt: Здесь живёт ___. (старый подруга)
   answer_scope: word
   options:
     a: старой
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: The new male teacher lives here.
     de: Der neue Lehrer wohnt hier.
-  neutral_prompt: Здесь живёт ___ учитель. (новый)
+  neutral_prompt: Здесь живёт ___. (новый учитель)
   answer_scope: word
   options:
     a: новый
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: The new female teacher lives here.
     de: Die neue Lehrerin wohnt hier.
-  neutral_prompt: Здесь живёт ___ учительница. (новый)
+  neutral_prompt: Здесь живёт ___. (новый учительница)
   answer_scope: word
   options:
     a: новой
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: The young male student lives here.
     de: Der junge Student wohnt hier.
-  neutral_prompt: Здесь живёт ___ студент. (молодой)
+  neutral_prompt: Здесь живёт ___. (молодой студент)
   answer_scope: word
   options:
     a: молодого
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: The young female student lives here.
     de: Die junge Studentin wohnt hier.
-  neutral_prompt: Здесь живёт ___ студентка. (молодой)
+  neutral_prompt: Здесь живёт ___. (молодой студентка)
   answer_scope: word
   options:
     a: молодой
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: The good male neighbor lives here.
     de: Der gute Nachbar wohnt hier.
-  neutral_prompt: Здесь живёт ___ сосед. (хороший)
+  neutral_prompt: Здесь живёт ___. (хороший сосед)
   answer_scope: word
   options:
     a: хороший
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: The good female neighbor lives here.
     de: Die gute Nachbarin wohnt hier.
-  neutral_prompt: Здесь живёт ___ соседка. (хороший)
+  neutral_prompt: Здесь живёт ___. (хороший соседка)
   answer_scope: word
   options:
     a: хорошей
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: The first male student lives here.
     de: Der erste Student wohnt hier.
-  neutral_prompt: Здесь живёт ___ студент. (первый)
+  neutral_prompt: Здесь живёт ___. (первый студент)
   answer_scope: word
   options:
     a: первого
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: The second female student lives here.
     de: Die zweite Studentin wohnt hier.
-  neutral_prompt: Здесь живёт ___ студентка. (второй)
+  neutral_prompt: Здесь живёт ___. (второй студентка)
   answer_scope: word
   options:
     a: второй

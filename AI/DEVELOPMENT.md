@@ -136,7 +136,7 @@ again. Release builds intentionally fail until all samples have linguistic revie
 
 ### 7. Install on a phone or test with an emulator
 
-A physical phone needs Android 8 or later for this prototype. Enable Developer
+A physical phone needs Android 10 or later for this prototype. Enable Developer
 options and USB debugging in the phone's settings, connect by USB, and accept the
 phone's debugging authorization prompt for your computer. Run:
 
@@ -159,6 +159,25 @@ For an optional API 36 emulator on Linux x86-64:
 bash scripts/install-test-emulator.sh
 bash scripts/run-emulator.sh
 ```
+
+The launcher now uses automatic graphics selection and enables Quick Boot
+snapshots; close the emulator normally to save a snapshot for the next start.
+Avoid `-gpu swiftshader` for everyday use: it renders graphics on the CPU.
+If automatic graphics works poorly, try `bash scripts/run-emulator.sh -gpu host`;
+if hardware rendering fails, use `-gpu software` as a slower fallback.
+Reference: https://developer.android.com/studio/run/emulator-acceleration
+
+No Google account is required to install or use this app. Skip Google sign-in;
+after Android finishes booting, install and open our existing debug build directly:
+
+```bash
+bash scripts/run-app.sh
+```
+
+With multiple devices, pass the emulator serial, for example
+`bash scripts/run-app.sh emulator-5580`. This does not use the Play Store.
+The Google APIs image was chosen for testing, not because the app requires Google
+services. Speech still requires an installed suitable voice.
 
 The installer reuses accepted SDK licenses, prompts for any missing ones, and
 creates a Pixel 6 virtual device. KVM access is recommended. Once it finishes
@@ -256,6 +275,18 @@ During setup, updating the existing .gitignore was denied despite escalation;
 its content was preserved. The content environment was placed outside the checkout
 instead, which also avoids committing local dependencies. At that initial stage,
 app source/build validation did not yet exist; current results are in LOG.md.
+
+## Device theme and APK transfer
+
+The app follows the device's light/dark setting, using wallpaper-derived Material
+colors on Android 12+ and a built-in palette on Android 10/11. Correct/incorrect
+answers retain green/red colors in both themes. Android 10 (API 29) is the current
+minimum; the earlier Android 8 baseline below is historical.
+
+You can also transfer app/build/outputs/apk/debug/app-debug.apk to your phone and
+open it from a file manager. Permit installation from that source when Android
+asks. No Google account is required. This is the development/debug build; lesson
+content still awaits linguistic review.
 
 ## User installation verified — 2026-10-10
 

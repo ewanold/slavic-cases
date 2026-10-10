@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: The kind brother lives here.
     de: Der freundliche Bruder wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ brat. (dobry)
+  neutral_prompt: Tutaj mieszka ___. (dobry brat)
   answer_scope: word
   options:
     a: dobry
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: The kind sister lives here.
     de: Die freundliche Schwester wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ siostra. (dobry)
+  neutral_prompt: Tutaj mieszka ___. (dobry siostra)
   answer_scope: word
   options:
     a: dobrej
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: The old male friend lives here.
     de: Der alte Freund wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ przyjaciel. (stary)
+  neutral_prompt: Tutaj mieszka ___. (stary przyjaciel)
   answer_scope: word
   options:
     a: starego
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: The old female friend lives here.
     de: Die alte Freundin wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ przyjaciółka. (stary)
+  neutral_prompt: Tutaj mieszka ___. (stary przyjaciółka)
   answer_scope: word
   options:
     a: starej
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: The new male teacher lives here.
     de: Der neue Lehrer wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ nauczyciel. (nowy)
+  neutral_prompt: Tutaj mieszka ___. (nowy nauczyciel)
   answer_scope: word
   options:
     a: nowy
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: The new female teacher lives here.
     de: Die neue Lehrerin wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ nauczycielka. (nowy)
+  neutral_prompt: Tutaj mieszka ___. (nowy nauczycielka)
   answer_scope: word
   options:
     a: nowej
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: The young male student lives here.
     de: Der junge Student wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ student. (młody)
+  neutral_prompt: Tutaj mieszka ___. (młody student)
   answer_scope: word
   options:
     a: młodego
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: The young female student lives here.
     de: Die junge Studentin wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ studentka. (młody)
+  neutral_prompt: Tutaj mieszka ___. (młody studentka)
   answer_scope: word
   options:
     a: młodej
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: The good male neighbor lives here.
     de: Der gute Nachbar wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ sąsiad. (dobry)
+  neutral_prompt: Tutaj mieszka ___. (dobry sąsiad)
   answer_scope: word
   options:
     a: dobry
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: The good female neighbor lives here.
     de: Die gute Nachbarin wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ sąsiadka. (dobry)
+  neutral_prompt: Tutaj mieszka ___. (dobry sąsiadka)
   answer_scope: word
   options:
     a: dobrej
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: The first male student lives here.
     de: Der erste Student wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ student. (pierwszy)
+  neutral_prompt: Tutaj mieszka ___. (pierwszy student)
   answer_scope: word
   options:
     a: pierwszego
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: The second female student lives here.
     de: Die zweite Studentin wohnt hier.
-  neutral_prompt: Tutaj mieszka ___ studentka. (drugi)
+  neutral_prompt: Tutaj mieszka ___. (drugi studentka)
   answer_scope: word
   options:
     a: drugiej

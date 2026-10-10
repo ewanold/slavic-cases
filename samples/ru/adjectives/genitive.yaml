@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: The kind brother is not here.
     de: Der freundliche Bruder ist nicht hier.
-  neutral_prompt: Здесь нет ___ брата. (добрый)
+  neutral_prompt: Здесь нет ___. (добрый брат)
   answer_scope: word
   options:
     a: доброго
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: The kind sister is not here.
     de: Die freundliche Schwester ist nicht hier.
-  neutral_prompt: Здесь нет ___ сестры. (добрый)
+  neutral_prompt: Здесь нет ___. (добрый сестра)
   answer_scope: word
   options:
     a: добрая
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: The old male friend is not here.
     de: Der alte Freund ist nicht hier.
-  neutral_prompt: Здесь нет ___ друга. (старый)
+  neutral_prompt: Здесь нет ___. (старый друг)
   answer_scope: word
   options:
     a: старый
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: The old female friend is not here.
     de: Die alte Freundin ist nicht hier.
-  neutral_prompt: Здесь нет ___ подруги. (старый)
+  neutral_prompt: Здесь нет ___. (старый подруга)
   answer_scope: word
   options:
     a: старая
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: The new male teacher is not here.
     de: Der neue Lehrer ist nicht hier.
-  neutral_prompt: Здесь нет ___ учителя. (новый)
+  neutral_prompt: Здесь нет ___. (новый учитель)
   answer_scope: word
   options:
     a: нового
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: The new female teacher is not here.
     de: Die neue Lehrerin ist nicht hier.
-  neutral_prompt: Здесь нет ___ учительницы. (новый)
+  neutral_prompt: Здесь нет ___. (новый учительница)
   answer_scope: word
   options:
     a: новая
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: The young male student is not here.
     de: Der junge Student ist nicht hier.
-  neutral_prompt: Здесь нет ___ студента. (молодой)
+  neutral_prompt: Здесь нет ___. (молодой студент)
   answer_scope: word
   options:
     a: молодой
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: The young female student is not here.
     de: Die junge Studentin ist nicht hier.
-  neutral_prompt: Здесь нет ___ студентки. (молодой)
+  neutral_prompt: Здесь нет ___. (молодой студентка)
   answer_scope: word
   options:
     a: молодая
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: The good male neighbor is not here.
     de: Der gute Nachbar ist nicht hier.
-  neutral_prompt: Здесь нет ___ соседа. (хороший)
+  neutral_prompt: Здесь нет ___. (хороший сосед)
   answer_scope: word
   options:
     a: хорошего
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: The good female neighbor is not here.
     de: Die gute Nachbarin ist nicht hier.
-  neutral_prompt: Здесь нет ___ соседки. (хороший)
+  neutral_prompt: Здесь нет ___. (хороший соседка)
   answer_scope: word
   options:
     a: хорошая
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: The first male student is not here.
     de: Der erste Student ist nicht hier.
-  neutral_prompt: Здесь нет ___ студента. (первый)
+  neutral_prompt: Здесь нет ___. (первый студент)
   answer_scope: word
   options:
     a: первый
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: The second female student is not here.
     de: Die zweite Studentin ist nicht hier.
-  neutral_prompt: Здесь нет ___ студентки. (второй)
+  neutral_prompt: Здесь нет ___. (второй студентка)
   answer_scope: word
   options:
     a: вторая

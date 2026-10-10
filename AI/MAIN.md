@@ -9,6 +9,11 @@
 - Follow the durable documentation approach of the sibling polar-web-app project.
 - Record all downloading and installation in reusable installer scripts.
 - Provide run-codex.sh to resume the current local chat.
+- Follow the device theme; user requested dark mode and no longer requires Android 8 support.
+  Android 10 minimum is the resulting implementation choice.
+- Settings show version 0.1 and build date. User confirmed the app works on their phone.
+- Adjective prompts put adjective and noun dictionary forms together in brackets;
+  do not reveal the noun's inflected target-case form in the sentence.
 
 ## Confirmed learning flow
 

@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: Kind brother, please listen to me!
     de: Freundlicher Bruder, bitte hör mir zu!
-  neutral_prompt: ___ bracie, proszę, posłuchaj mnie! (dobry)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry brat)
   answer_scope: word
   options:
     a: dobry
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: Kind sister, please listen to me!
     de: Freundliche Schwester, bitte hör mir zu!
-  neutral_prompt: ___ siostro, proszę, posłuchaj mnie! (dobry)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry siostra)
   answer_scope: word
   options:
     a: dobrej
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: Old male friend, please listen to me!
     de: Alter Freund, bitte hör mir zu!
-  neutral_prompt: ___ przyjacielu, proszę, posłuchaj mnie! (stary)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (stary przyjaciel)
   answer_scope: word
   options:
     a: starego
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: Old female friend, please listen to me!
     de: Alte Freundin, bitte hör mir zu!
-  neutral_prompt: ___ przyjaciółko, proszę, posłuchaj mnie! (stary)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (stary przyjaciółka)
   answer_scope: word
   options:
     a: starej
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: New male teacher, please listen to me!
     de: Neuer Lehrer, bitte hör mir zu!
-  neutral_prompt: ___ nauczycielu, proszę, posłuchaj mnie! (nowy)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nowy nauczyciel)
   answer_scope: word
   options:
     a: nowy
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: New female teacher, please listen to me!
     de: Neue Lehrerin, bitte hör mir zu!
-  neutral_prompt: ___ nauczycielko, proszę, posłuchaj mnie! (nowy)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nowy nauczycielka)
   answer_scope: word
   options:
     a: nowej
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: Young male student, please listen to me!
     de: Junger Student, bitte hör mir zu!
-  neutral_prompt: ___ studencie, proszę, posłuchaj mnie! (młody)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (młody student)
   answer_scope: word
   options:
     a: młodego
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: Young female student, please listen to me!
     de: Junge Studentin, bitte hör mir zu!
-  neutral_prompt: ___ studentko, proszę, posłuchaj mnie! (młody)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (młody studentka)
   answer_scope: word
   options:
     a: młodej
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: Good male neighbor, please listen to me!
     de: Guter Nachbar, bitte hör mir zu!
-  neutral_prompt: ___ sąsiedzie, proszę, posłuchaj mnie! (dobry)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry sąsiad)
   answer_scope: word
   options:
     a: dobry
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: Good female neighbor, please listen to me!
     de: Gute Nachbarin, bitte hör mir zu!
-  neutral_prompt: ___ sąsiadko, proszę, posłuchaj mnie! (dobry)
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry sąsiadka)
   answer_scope: word
   options:
     a: dobrej
@@ -205,7 +205,7 @@ sentences:
   native_text:
     en: First competitor, come to the starting line!
     de: Erster Teilnehmer, komm zur Startlinie!
-  neutral_prompt: ___ zawodniku, podejdź do linii startu! (pierwszy)
+  neutral_prompt: ___, podejdź do linii startu! (pierwszy zawodnik)
   answer_scope: word
   options:
     a: pierwszego
@@ -223,7 +223,7 @@ sentences:
   native_text:
     en: Second competitor, come to the starting line!
     de: Zweiter Teilnehmer, komm zur Startlinie!
-  neutral_prompt: ___ zawodniku, podejdź do linii startu! (drugi)
+  neutral_prompt: ___, podejdź do linii startu! (drugi zawodnik)
   answer_scope: word
   options:
     a: drugiego
@@ -241,7 +241,7 @@ sentences:
   native_text:
     en: Third competitor, come to the starting line!
     de: Dritter Teilnehmer, komm zur Startlinie!
-  neutral_prompt: ___ zawodniku, podejdź do linii startu! (trzeci)
+  neutral_prompt: ___, podejdź do linii startu! (trzeci zawodnik)
   answer_scope: word
   options:
     a: trzeci
@@ -259,7 +259,7 @@ sentences:
   native_text:
     en: Fourth competitor, come to the starting line!
     de: Vierter Teilnehmer, komm zur Startlinie!
-  neutral_prompt: ___ zawodniku, podejdź do linii startu! (czwarty)
+  neutral_prompt: ___, podejdź do linii startu! (czwarty zawodnik)
   answer_scope: word
   options:
     a: czwartego
@@ -277,7 +277,7 @@ sentences:
   native_text:
     en: Fifth competitor, come to the starting line!
     de: Fünfter Teilnehmer, komm zur Startlinie!
-  neutral_prompt: ___ zawodniku, podejdź do linii startu! (piąty)
+  neutral_prompt: ___, podejdź do linii startu! (piąty zawodnik)
   answer_scope: word
   options:
     a: piątego

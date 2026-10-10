@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: I help the kind brother.
     de: Ich helfe dem freundlichen Bruder.
-  neutral_prompt: Pomagam ___ bratu. (dobry)
+  neutral_prompt: Pomagam ___. (dobry brat)
   answer_scope: word
   options:
     a: dobremu
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: I help the kind sister.
     de: Ich helfe der freundlichen Schwester.
-  neutral_prompt: Pomagam ___ siostrze. (dobry)
+  neutral_prompt: Pomagam ___. (dobry siostra)
   answer_scope: word
   options:
     a: dobra
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: I help the old male friend.
     de: Ich helfe dem alten Freund.
-  neutral_prompt: Pomagam ___ przyjacielowi. (stary)
+  neutral_prompt: Pomagam ___. (stary przyjaciel)
   answer_scope: word
   options:
     a: stary
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: I help the old female friend.
     de: Ich helfe der alten Freundin.
-  neutral_prompt: Pomagam ___ przyjaciółce. (stary)
+  neutral_prompt: Pomagam ___. (stary przyjaciółka)
   answer_scope: word
   options:
     a: stara
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: I help the new male teacher.
     de: Ich helfe dem neuen Lehrer.
-  neutral_prompt: Pomagam ___ nauczycielowi. (nowy)
+  neutral_prompt: Pomagam ___. (nowy nauczyciel)
   answer_scope: word
   options:
     a: nowemu
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: I help the new female teacher.
     de: Ich helfe der neuen Lehrerin.
-  neutral_prompt: Pomagam ___ nauczycielce. (nowy)
+  neutral_prompt: Pomagam ___. (nowy nauczycielka)
   answer_scope: word
   options:
     a: nowa
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: I help the young male student.
     de: Ich helfe dem jungen Studenten.
-  neutral_prompt: Pomagam ___ studentowi. (młody)
+  neutral_prompt: Pomagam ___. (młody student)
   answer_scope: word
   options:
     a: młody
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: I help the young female student.
     de: Ich helfe der jungen Studentin.
-  neutral_prompt: Pomagam ___ studentce. (młody)
+  neutral_prompt: Pomagam ___. (młody studentka)
   answer_scope: word
   options:
     a: młoda
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: I help the good male neighbor.
     de: Ich helfe dem guten Nachbarn.
-  neutral_prompt: Pomagam ___ sąsiadowi. (dobry)
+  neutral_prompt: Pomagam ___. (dobry sąsiad)
   answer_scope: word
   options:
     a: dobremu
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: I help the good female neighbor.
     de: Ich helfe der guten Nachbarin.
-  neutral_prompt: Pomagam ___ sąsiadce. (dobry)
+  neutral_prompt: Pomagam ___. (dobry sąsiadka)
   answer_scope: word
   options:
     a: dobra
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: I help the first male student.
     de: Ich helfe dem ersten Studenten.
-  neutral_prompt: Pomagam ___ studentowi. (pierwszy)
+  neutral_prompt: Pomagam ___. (pierwszy student)
   answer_scope: word
   options:
     a: pierwszy
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: I help the second female student.
     de: Ich helfe der zweiten Studentin.
-  neutral_prompt: Pomagam ___ studentce. (drugi)
+  neutral_prompt: Pomagam ___. (drugi studentka)
   answer_scope: word
   options:
     a: druga

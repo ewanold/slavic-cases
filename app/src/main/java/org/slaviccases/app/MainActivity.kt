@@ -1,12 +1,14 @@
 package org.slaviccases.app
 
 import android.os.Bundle
+import android.os.Build
 import android.speech.tts.TextToSpeech
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -26,7 +28,15 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MaterialTheme(colorScheme = lightColorScheme(primary = Color(0xFF355F78), secondary = Color(0xFF586B42))) {
+            val dark = isSystemInDarkTheme()
+            val colors = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                if (dark) dynamicDarkColorScheme(this) else dynamicLightColorScheme(this)
+            } else if (dark) {
+                darkColorScheme(primary = Color(0xFFA1CBE5), secondary = Color(0xFFBCCC9E))
+            } else {
+                lightColorScheme(primary = Color(0xFF355F78), secondary = Color(0xFF586B42))
+            }
+            MaterialTheme(colorScheme = colors) {
                 SlavicApp()
             }
         }
@@ -47,6 +57,7 @@ private val stringListSaver = listSaver<List<String>, String>(save = { it }, res
 
 @Composable
 private fun SlavicApp() {
+    val dark = isSystemInDarkTheme()
     val context = LocalContext.current
     val prefs = remember { context.getSharedPreferences("settings", 0) }
     val loaded = remember { runCatching { Lessons.load(context) } }
@@ -136,8 +147,9 @@ private fun SlavicApp() {
         },
         snackbarHost = { SnackbarHost(speechSnackbar) }
     ) { padding ->
-        Column(Modifier.fillMaxSize().padding(padding).verticalScroll(rememberScrollState()).padding(20.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.fillMaxSize().padding(padding).verticalScroll(rememberScrollState())
+            .padding(horizontal = 20.dp, vertical = if (route == "question") 8.dp else 20.dp),
+            verticalArrangement = Arrangement.spacedBy(if (route == "question") 8.dp else 12.dp)) {
             if (route != "menu") TextButton(onClick = { back() }) { Text(labels.text("Back", "Zurück")) }
             when (route) {
                 "menu" -> {
@@ -177,6 +189,8 @@ private fun SlavicApp() {
                         FilterChip(selected = pack.code == language.code, onClick = { learning = language.code }, label = { Text(language.name) })
                     }
                     Text(labels.text("Sentence translations follow the interface language.", "Satzübersetzungen folgen der Sprache der Oberfläche."))
+                    Text("${labels.text("Version", "Version")} ${BuildConfig.VERSION_NAME}")
+                    Text("${labels.text("Build date", "Build-Datum")} ${BuildConfig.BUILD_DATE} (UTC)")
                 }
                 "question" -> {
                     val question = session.getOrNull(position)
@@ -196,8 +210,16 @@ private fun SlavicApp() {
                         Practice.options(question.choices, question.id, sessionSeed).forEach { choice ->
                             val isCorrect = selected != null && choice.key == question.correctKey
                             val isWrong = selected == choice.key && !isCorrect
-                            val background = when { isCorrect -> Color(0xFFD9EFDE); isWrong -> Color(0xFFFADBD8); else -> MaterialTheme.colorScheme.surface }
-                            val foreground = when { isCorrect -> Color(0xFF14532D); isWrong -> Color(0xFF8B1D18); else -> MaterialTheme.colorScheme.onSurface }
+                            val background = when {
+                                isCorrect -> if (dark) Color(0xFF17452A) else Color(0xFFD9EFDE)
+                                isWrong -> if (dark) Color(0xFF632824) else Color(0xFFFADBD8)
+                                else -> MaterialTheme.colorScheme.surface
+                            }
+                            val foreground = when {
+                                isCorrect -> if (dark) Color(0xFFB7F0C7) else Color(0xFF14532D)
+                                isWrong -> if (dark) Color(0xFFFFDAD6) else Color(0xFF8B1D18)
+                                else -> MaterialTheme.colorScheme.onSurface
+                            }
                             val suffix = when { isCorrect -> labels.text(" — Correct", " — Richtig"); isWrong -> labels.text(" — Incorrect", " — Falsch"); else -> "" }
                             OutlinedButton(modifier = Modifier.fillMaxWidth(), enabled = selected == null,
                                 colors = ButtonDefaults.outlinedButtonColors(containerColor = background, contentColor = foreground,

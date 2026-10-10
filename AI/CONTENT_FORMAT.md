@@ -34,6 +34,13 @@ Sample: schema_version, unique id, learning_language, track, declared case,
 native_languages, translated instruction, contributor, license, sources,
 review_status (draft/reviewed), and exactly 15 sentences.
 
+Adjective and ordinal prompts must put both dictionary forms in the hint:
+`Я вижу ___. (добрый брат)`, rather than `Я вижу ___ брата. (добрый)`.
+This avoids revealing the target case through an already-inflected noun. For
+word-scope questions, choices still contain only the adjective/ordinal being
+tested; the noun in brackets supplies context. Cardinal phrase questions retain
+their existing dictionary-form hints and full-phrase answers.
+
 Question: unique id, word_type (noun/adjective/cardinal_numeral/ordinal_numeral),
 dictionary_form, features, native_text (language-to-text mapping), neutral_prompt
 (one ___ blank plus dictionary-form hint), answer_scope (word/phrase), options

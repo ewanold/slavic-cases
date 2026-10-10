@@ -198,15 +198,15 @@ def build(lang):
                 for n,(row,adj) in enumerate(zip(rows,adjectives)):
                     lemma,paradigm,en,de=adj
                     forms=paradigm.split()
-                    noun=row[2].split()[index]
-                    prompt=frames[index].format('___ '+noun)+f' ({lemma})'
+                    noun=row[2].split()[0]
+                    prompt=frames[index].format('___')+f' ({lemma} {noun})'
                     sentences.append(question(f'{lang}-{track}-{case}-{row[0]}','adjective',lemma,prompt,
                       forms,index,native_person(row,index,(en,de)),features(row),offset=n))
                 if case=='vocative':
                     for n,(lemma,paradigm,en,de) in enumerate(VOC_ORD,10):
                         forms=paradigm.split()
                         sentences.append(question(f'pl-adjectives-vocative-ordinal-{n-9}','ordinal_numeral',lemma,
-                          f'___ zawodniku, podejdź do linii startu! ({lemma})', forms,0,
+                          f'___, podejdź do linii startu! ({lemma} zawodnik)', forms,0,
                           {'en':f'{en.capitalize()} competitor, come to the starting line!',
                            'de':f'{de.capitalize()}er Teilnehmer, komm zur Startlinie!'},
                           {'number':'singular','gender':'masculine','animacy':'animate'},offset=n))
@@ -224,7 +224,7 @@ def build(lang):
                     for n,(lemma,paradigm,row_index,en,de) in enumerate(ordinals,13):
                         row=rows[row_index]
                         forms=paradigm.split()
-                        prompt=frames[index].format('___ '+row[2].split()[index])+f' ({lemma})'
+                        prompt=frames[index].format('___')+f' ({lemma} {row[2].split()[0]})'
                         sentences.append(question(f'{lang}-adjectives-{case}-ordinal-{n-12}',
                           'ordinal_numeral',lemma,prompt,forms,index,native_person(row,index,(en,de)),features(row),offset=n))
             instruction={'en':'Choose the form that fits the sentence and the selected case.',

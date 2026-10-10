@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: I walk with the kind brother.
     de: Ich gehe mit dem freundlichen Bruder spazieren.
-  neutral_prompt: Я гуляю с ___ братом. (добрый)
+  neutral_prompt: Я гуляю с ___. (добрый брат)
   answer_scope: word
   options:
     a: добрым
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: I walk with the kind sister.
     de: Ich gehe mit der freundlichen Schwester spazieren.
-  neutral_prompt: Я гуляю с ___ сестрой. (добрый)
+  neutral_prompt: Я гуляю с ___. (добрый сестра)
   answer_scope: word
   options:
     a: добрая
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: I walk with the old male friend.
     de: Ich gehe mit dem alten Freund spazieren.
-  neutral_prompt: Я гуляю с ___ другом. (старый)
+  neutral_prompt: Я гуляю с ___. (старый друг)
   answer_scope: word
   options:
     a: старый
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: I walk with the old female friend.
     de: Ich gehe mit der alten Freundin spazieren.
-  neutral_prompt: Я гуляю с ___ подругой. (старый)
+  neutral_prompt: Я гуляю с ___. (старый подруга)
   answer_scope: word
   options:
     a: старая
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: I walk with the new male teacher.
     de: Ich gehe mit dem neuen Lehrer spazieren.
-  neutral_prompt: Я гуляю с ___ учителем. (новый)
+  neutral_prompt: Я гуляю с ___. (новый учитель)
   answer_scope: word
   options:
     a: новым
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: I walk with the new female teacher.
     de: Ich gehe mit der neuen Lehrerin spazieren.
-  neutral_prompt: Я гуляю с ___ учительницей. (новый)
+  neutral_prompt: Я гуляю с ___. (новый учительница)
   answer_scope: word
   options:
     a: новая
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: I walk with the young male student.
     de: Ich gehe mit dem jungen Studenten spazieren.
-  neutral_prompt: Я гуляю с ___ студентом. (молодой)
+  neutral_prompt: Я гуляю с ___. (молодой студент)
   answer_scope: word
   options:
     a: молодой
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: I walk with the young female student.
     de: Ich gehe mit der jungen Studentin spazieren.
-  neutral_prompt: Я гуляю с ___ студенткой. (молодой)
+  neutral_prompt: Я гуляю с ___. (молодой студентка)
   answer_scope: word
   options:
     a: молодая
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: I walk with the good male neighbor.
     de: Ich gehe mit dem guten Nachbarn spazieren.
-  neutral_prompt: Я гуляю с ___ соседом. (хороший)
+  neutral_prompt: Я гуляю с ___. (хороший сосед)
   answer_scope: word
   options:
     a: хорошим
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: I walk with the good female neighbor.
     de: Ich gehe mit der guten Nachbarin spazieren.
-  neutral_prompt: Я гуляю с ___ соседкой. (хороший)
+  neutral_prompt: Я гуляю с ___. (хороший соседка)
   answer_scope: word
   options:
     a: хорошая
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: I walk with the first male student.
     de: Ich gehe mit dem ersten Studenten spazieren.
-  neutral_prompt: Я гуляю с ___ студентом. (первый)
+  neutral_prompt: Я гуляю с ___. (первый студент)
   answer_scope: word
   options:
     a: первый
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: I walk with the second female student.
     de: Ich gehe mit der zweiten Studentin spazieren.
-  neutral_prompt: Я гуляю с ___ студенткой. (второй)
+  neutral_prompt: Я гуляю с ___. (второй студентка)
   answer_scope: word
   options:
     a: вторая

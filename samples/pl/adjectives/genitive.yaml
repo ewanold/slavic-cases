@@ -25,7 +25,7 @@ sentences:
   native_text:
     en: The kind brother is not here.
     de: Der freundliche Bruder ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ brata. (dobry)
+  neutral_prompt: Nie ma tutaj ___. (dobry brat)
   answer_scope: word
   options:
     a: dobrego
@@ -43,7 +43,7 @@ sentences:
   native_text:
     en: The kind sister is not here.
     de: Die freundliche Schwester ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ siostry. (dobry)
+  neutral_prompt: Nie ma tutaj ___. (dobry siostra)
   answer_scope: word
   options:
     a: dobra
@@ -61,7 +61,7 @@ sentences:
   native_text:
     en: The old male friend is not here.
     de: Der alte Freund ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ przyjaciela. (stary)
+  neutral_prompt: Nie ma tutaj ___. (stary przyjaciel)
   answer_scope: word
   options:
     a: stary
@@ -79,7 +79,7 @@ sentences:
   native_text:
     en: The old female friend is not here.
     de: Die alte Freundin ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ przyjaciółki. (stary)
+  neutral_prompt: Nie ma tutaj ___. (stary przyjaciółka)
   answer_scope: word
   options:
     a: stara
@@ -97,7 +97,7 @@ sentences:
   native_text:
     en: The new male teacher is not here.
     de: Der neue Lehrer ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ nauczyciela. (nowy)
+  neutral_prompt: Nie ma tutaj ___. (nowy nauczyciel)
   answer_scope: word
   options:
     a: nowego
@@ -115,7 +115,7 @@ sentences:
   native_text:
     en: The new female teacher is not here.
     de: Die neue Lehrerin ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ nauczycielki. (nowy)
+  neutral_prompt: Nie ma tutaj ___. (nowy nauczycielka)
   answer_scope: word
   options:
     a: nowa
@@ -133,7 +133,7 @@ sentences:
   native_text:
     en: The young male student is not here.
     de: Der junge Student ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ studenta. (młody)
+  neutral_prompt: Nie ma tutaj ___. (młody student)
   answer_scope: word
   options:
     a: młody
@@ -151,7 +151,7 @@ sentences:
   native_text:
     en: The young female student is not here.
     de: Die junge Studentin ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ studentki. (młody)
+  neutral_prompt: Nie ma tutaj ___. (młody studentka)
   answer_scope: word
   options:
     a: młoda
@@ -169,7 +169,7 @@ sentences:
   native_text:
     en: The good male neighbor is not here.
     de: Der gute Nachbar ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ sąsiada. (dobry)
+  neutral_prompt: Nie ma tutaj ___. (dobry sąsiad)
   answer_scope: word
   options:
     a: dobrego
@@ -187,7 +187,7 @@ sentences:
   native_text:
     en: The good female neighbor is not here.
     de: Die gute Nachbarin ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ sąsiadki. (dobry)
+  neutral_prompt: Nie ma tutaj ___. (dobry sąsiadka)
   answer_scope: word
   options:
     a: dobra
@@ -262,7 +262,7 @@ sentences:
   native_text:
     en: The first male student is not here.
     de: Der erste Student ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ studenta. (pierwszy)
+  neutral_prompt: Nie ma tutaj ___. (pierwszy student)
   answer_scope: word
   options:
     a: pierwszy
@@ -280,7 +280,7 @@ sentences:
   native_text:
     en: The second female student is not here.
     de: Die zweite Studentin ist nicht hier.
-  neutral_prompt: Nie ma tutaj ___ studentki. (drugi)
+  neutral_prompt: Nie ma tutaj ___. (drugi studentka)
   answer_scope: word
   options:
     a: druga
