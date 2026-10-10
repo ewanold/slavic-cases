@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-accusative-starter
+learning_language: ru
+track: adjectives
+case: accusative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-accusative-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the kind brother.
+    de: Ich sehe den freundlichen Bruder.
+  neutral_prompt: Я вижу ___ брата. (добрый)
+  answer_scope: word
+  options:
+    a: доброго
+    b: добрый
+    c: доброму
+    d: добрым
+  correct: a
+- id: ru-adjectives-accusative-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the kind sister.
+    de: Ich sehe die freundliche Schwester.
+  neutral_prompt: Я вижу ___ сестру. (добрый)
+  answer_scope: word
+  options:
+    a: добрая
+    b: добрую
+    c: доброй
+    d: добрые
+  correct: b
+- id: ru-adjectives-accusative-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the old male friend.
+    de: Ich sehe den alten Freund.
+  neutral_prompt: Я вижу ___ друга. (старый)
+  answer_scope: word
+  options:
+    a: старый
+    b: старому
+    c: старого
+    d: старым
+  correct: c
+- id: ru-adjectives-accusative-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the old female friend.
+    de: Ich sehe die alte Freundin.
+  neutral_prompt: Я вижу ___ подругу. (старый)
+  answer_scope: word
+  options:
+    a: старая
+    b: старой
+    c: старые
+    d: старую
+  correct: d
+- id: ru-adjectives-accusative-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the new male teacher.
+    de: Ich sehe den neuen Lehrer.
+  neutral_prompt: Я вижу ___ учителя. (новый)
+  answer_scope: word
+  options:
+    a: нового
+    b: новый
+    c: новому
+    d: новым
+  correct: a
+- id: ru-adjectives-accusative-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the new female teacher.
+    de: Ich sehe die neue Lehrerin.
+  neutral_prompt: Я вижу ___ учительницу. (новый)
+  answer_scope: word
+  options:
+    a: новая
+    b: новую
+    c: новой
+    d: новые
+  correct: b
+- id: ru-adjectives-accusative-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the young male student.
+    de: Ich sehe den jungen Studenten.
+  neutral_prompt: Я вижу ___ студента. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодому
+    c: молодого
+    d: молодым
+  correct: c
+- id: ru-adjectives-accusative-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the young female student.
+    de: Ich sehe die junge Studentin.
+  neutral_prompt: Я вижу ___ студентку. (молодой)
+  answer_scope: word
+  options:
+    a: молодая
+    b: молодой
+    c: молодые
+    d: молодую
+  correct: d
+- id: ru-adjectives-accusative-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the good male neighbor.
+    de: Ich sehe den guten Nachbarn.
+  neutral_prompt: Я вижу ___ соседа. (хороший)
+  answer_scope: word
+  options:
+    a: хорошего
+    b: хороший
+    c: хорошему
+    d: хорошим
+  correct: a
+- id: ru-adjectives-accusative-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the good female neighbor.
+    de: Ich sehe die gute Nachbarin.
+  neutral_prompt: Я вижу ___ соседку. (хороший)
+  answer_scope: word
+  options:
+    a: хорошая
+    b: хорошую
+    c: хорошей
+    d: хорошие
+  correct: b
+- id: ru-adjectives-accusative-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read one book.
+    de: Ich lese ein Buch.
+  neutral_prompt: Я читаю ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одна книга
+    b: одной книги
+    c: одну книгу
+    d: одной книге
+  correct: c
+- id: ru-adjectives-accusative-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read two books.
+    de: Ich lese zwei Bücher.
+  neutral_prompt: Я читаю ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: двух книг
+    b: двум книгам
+    c: двумя книгами
+    d: две книги
+  correct: d
+- id: ru-adjectives-accusative-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read five books.
+    de: Ich lese fünf Bücher.
+  neutral_prompt: Я читаю ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пять книг
+    b: пяти книг
+    c: пяти книгам
+    d: пятью книгами
+  correct: a
+- id: ru-adjectives-accusative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the first male student.
+    de: Ich sehe den ersten Studenten.
+  neutral_prompt: Я вижу ___ студента. (первый)
+  answer_scope: word
+  options:
+    a: первый
+    b: первого
+    c: первому
+    d: первым
+  correct: b
+- id: ru-adjectives-accusative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the second female student.
+    de: Ich sehe die zweite Studentin.
+  neutral_prompt: Я вижу ___ студентку. (второй)
+  answer_scope: word
+  options:
+    a: вторая
+    b: второй
+    c: вторую
+    d: вторые
+  correct: c

@@ -1,0 +1,291 @@
+# General sample template: noun track. For adjectives/numerals use adjectives.template.yaml.
+# Authoring template: replace all REPLACE_* text; templates are never loaded as lessons.
+# Change native language keys/list together if your translations use other languages.
+# Correct is an option key, not answer text. Retain exactly four distinct answers.
+# Numerals belong to the adjectives track; use appropriate language-specific forms.
+schema_version: 1
+id: REPLACE_UNIQUE_SAMPLE_ID
+learning_language: REPLACE_LANGUAGE_TAG
+track: nouns
+case: REPLACE_DECLARED_CASE_ID
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: REPLACE_CONTRIBUTOR_NAME
+license: MIT
+sources: REPLACE_ORIGINAL_AUTHORSHIP_OR_REDISTRIBUTABLE_SOURCE
+review_status: draft
+sentences:
+- id: REPLACE_QUESTION_ID_01
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_02
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_03
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_04
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_05
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_06
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_07
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_08
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_09
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_10
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_11
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_12
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_13
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_14
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a
+- id: REPLACE_QUESTION_ID_15
+  word_type: noun
+  dictionary_form: REPLACE_DICTIONARY_FORM
+  features:
+    number: REPLACE_NUMBER
+    gender: REPLACE_GENDER
+    animacy: REPLACE_ANIMACY
+  native_text:
+    en: REPLACE_ENGLISH_SENTENCE
+    de: REPLACE_GERMAN_SENTENCE
+  neutral_prompt: REPLACE_NEUTRAL_TARGET_SENTENCE_WITH___BLANK (DICTIONARY_FORM)
+  answer_scope: word
+  options:
+    a: REPLACE_OPTION_A
+    b: REPLACE_OPTION_B
+    c: REPLACE_OPTION_C
+    d: REPLACE_OPTION_D
+  correct: a

@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-adjectives-instrumental-starter
+learning_language: pl
+track: adjectives
+case: instrumental
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-adjectives-instrumental-brother
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the kind brother.
+    de: Ich gehe mit dem freundlichen Bruder spazieren.
+  neutral_prompt: Idę z ___ bratem. (dobry)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+- id: pl-adjectives-instrumental-sister
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the kind sister.
+    de: Ich gehe mit der freundlichen Schwester spazieren.
+  neutral_prompt: Idę z ___ siostrą. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrą
+    c: dobrej
+    d: dobre
+  correct: b
+- id: pl-adjectives-instrumental-friend-m
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the old male friend.
+    de: Ich gehe mit dem alten Freund spazieren.
+  neutral_prompt: Idę z ___ przyjacielem. (stary)
+  answer_scope: word
+  options:
+    a: stary
+    b: starego
+    c: starym
+    d: staremu
+  correct: c
+- id: pl-adjectives-instrumental-friend-f
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the old female friend.
+    de: Ich gehe mit der alten Freundin spazieren.
+  neutral_prompt: Idę z ___ przyjaciółką. (stary)
+  answer_scope: word
+  options:
+    a: stara
+    b: starej
+    c: stare
+    d: starą
+  correct: d
+- id: pl-adjectives-instrumental-teacher-m
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the new male teacher.
+    de: Ich gehe mit dem neuen Lehrer spazieren.
+  neutral_prompt: Idę z ___ nauczycielem. (nowy)
+  answer_scope: word
+  options:
+    a: nowym
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+- id: pl-adjectives-instrumental-teacher-f
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the new female teacher.
+    de: Ich gehe mit der neuen Lehrerin spazieren.
+  neutral_prompt: Idę z ___ nauczycielką. (nowy)
+  answer_scope: word
+  options:
+    a: nowa
+    b: nową
+    c: nowej
+    d: nowe
+  correct: b
+- id: pl-adjectives-instrumental-student-m
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the young male student.
+    de: Ich gehe mit dem jungen Studenten spazieren.
+  neutral_prompt: Idę z ___ studentem. (młody)
+  answer_scope: word
+  options:
+    a: młody
+    b: młodego
+    c: młodym
+    d: młodemu
+  correct: c
+- id: pl-adjectives-instrumental-student-f
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the young female student.
+    de: Ich gehe mit der jungen Studentin spazieren.
+  neutral_prompt: Idę z ___ studentką. (młody)
+  answer_scope: word
+  options:
+    a: młoda
+    b: młodej
+    c: młode
+    d: młodą
+  correct: d
+- id: pl-adjectives-instrumental-neighbor-m
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the good male neighbor.
+    de: Ich gehe mit dem guten Nachbarn spazieren.
+  neutral_prompt: Idę z ___ sąsiadem. (dobry)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+- id: pl-adjectives-instrumental-neighbor-f
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the good female neighbor.
+    de: Ich gehe mit der guten Nachbarin spazieren.
+  neutral_prompt: Idę z ___ sąsiadką. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrą
+    c: dobrej
+    d: dobre
+  correct: b
+- id: pl-adjectives-instrumental-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: jeden
+  features:
+    quantity: 1
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with one book.
+    de: Ich bin mit einem Buch gekommen.
+  neutral_prompt: Przyszedłem z ___. (jeden; książka)
+  answer_scope: phrase
+  options:
+    a: jedna książka
+    b: jednej książki
+    c: jedną książką
+    d: jednej książce
+  correct: c
+- id: pl-adjectives-instrumental-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: dwa
+  features:
+    quantity: 2
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with two books.
+    de: Ich bin mit zwei Büchern gekommen.
+  neutral_prompt: Przyszedłem z ___. (dwa; książka)
+  answer_scope: phrase
+  options:
+    a: dwie książki
+    b: dwóch książek
+    c: dwóm książkom
+    d: dwiema książkami
+  correct: d
+- id: pl-adjectives-instrumental-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: pięć
+  features:
+    quantity: 5
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with five books.
+    de: Ich bin mit fünf Büchern gekommen.
+  neutral_prompt: Przyszedłem z ___. (pięć; książka)
+  answer_scope: phrase
+  options:
+    a: pięcioma książkami
+    b: pięć książek
+    c: pięciu książek
+    d: pięciu książkom
+  correct: a
+- id: pl-adjectives-instrumental-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: pierwszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the first male student.
+    de: Ich gehe mit dem ersten Studenten spazieren.
+  neutral_prompt: Idę z ___ studentem. (pierwszy)
+  answer_scope: word
+  options:
+    a: pierwszy
+    b: pierwszym
+    c: pierwszego
+    d: pierwszemu
+  correct: b
+- id: pl-adjectives-instrumental-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: drugi
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the second female student.
+    de: Ich gehe mit der zweiten Studentin spazieren.
+  neutral_prompt: Idę z ___ studentką. (drugi)
+  answer_scope: word
+  options:
+    a: druga
+    b: drugiej
+    c: drugą
+    d: drugie
+  correct: c

@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-nouns-nominative-starter
+learning_language: ru
+track: nouns
+case: nominative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-brother
+  word_type: noun
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The brother lives here.
+    de: Der Bruder wohnt hier.
+  neutral_prompt: Здесь живёт ___. (брат)
+  answer_scope: word
+  options:
+    a: брат
+    b: брата
+    c: брату
+    d: братом
+  correct: a
+- id: ru-nouns-nominative-sister
+  word_type: noun
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister lives here.
+    de: Die Schwester wohnt hier.
+  neutral_prompt: Здесь живёт ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестра
+    c: сестре
+    d: сестру
+  correct: b
+- id: ru-nouns-nominative-friend-m
+  word_type: noun
+  dictionary_form: друг
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male friend lives here.
+    de: Der Freund wohnt hier.
+  neutral_prompt: Здесь живёт ___. (друг)
+  answer_scope: word
+  options:
+    a: друга
+    b: другу
+    c: друг
+    d: другом
+  correct: c
+- id: ru-nouns-nominative-friend-f
+  word_type: noun
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female friend lives here.
+    de: Die Freundin wohnt hier.
+  neutral_prompt: Здесь живёт ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруги
+    b: подруге
+    c: подругу
+    d: подруга
+  correct: d
+- id: ru-nouns-nominative-teacher-m
+  word_type: noun
+  dictionary_form: учитель
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male teacher lives here.
+    de: Der Lehrer wohnt hier.
+  neutral_prompt: Здесь живёт ___. (учитель)
+  answer_scope: word
+  options:
+    a: учитель
+    b: учителя
+    c: учителю
+    d: учителем
+  correct: a
+- id: ru-nouns-nominative-teacher-f
+  word_type: noun
+  dictionary_form: учительница
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female teacher lives here.
+    de: Die Lehrerin wohnt hier.
+  neutral_prompt: Здесь живёт ___. (учительница)
+  answer_scope: word
+  options:
+    a: учительницы
+    b: учительница
+    c: учительнице
+    d: учительницу
+  correct: b
+- id: ru-nouns-nominative-student-m
+  word_type: noun
+  dictionary_form: студент
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male student lives here.
+    de: Der Student wohnt hier.
+  neutral_prompt: Здесь живёт ___. (студент)
+  answer_scope: word
+  options:
+    a: студента
+    b: студенту
+    c: студент
+    d: студентом
+  correct: c
+- id: ru-nouns-nominative-student-f
+  word_type: noun
+  dictionary_form: студентка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female student lives here.
+    de: Die Studentin wohnt hier.
+  neutral_prompt: Здесь живёт ___. (студентка)
+  answer_scope: word
+  options:
+    a: студентки
+    b: студентке
+    c: студентку
+    d: студентка
+  correct: d
+- id: ru-nouns-nominative-neighbor-m
+  word_type: noun
+  dictionary_form: сосед
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male neighbor lives here.
+    de: Der Nachbar wohnt hier.
+  neutral_prompt: Здесь живёт ___. (сосед)
+  answer_scope: word
+  options:
+    a: сосед
+    b: соседа
+    c: соседу
+    d: соседом
+  correct: a
+- id: ru-nouns-nominative-neighbor-f
+  word_type: noun
+  dictionary_form: соседка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female neighbor lives here.
+    de: Die Nachbarin wohnt hier.
+  neutral_prompt: Здесь живёт ___. (соседка)
+  answer_scope: word
+  options:
+    a: соседки
+    b: соседка
+    c: соседке
+    d: соседку
+  correct: b
+- id: ru-nouns-nominative-doctor
+  word_type: noun
+  dictionary_form: врач
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The doctor lives here.
+    de: Der Arzt wohnt hier.
+  neutral_prompt: Здесь живёт ___. (врач)
+  answer_scope: word
+  options:
+    a: врача
+    b: врачу
+    c: врач
+    d: врачом
+  correct: c
+- id: ru-nouns-nominative-mother
+  word_type: noun
+  dictionary_form: мама
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The mother lives here.
+    de: Die Mutter wohnt hier.
+  neutral_prompt: Здесь живёт ___. (мама)
+  answer_scope: word
+  options:
+    a: мамы
+    b: маме
+    c: маму
+    d: мама
+  correct: d
+- id: ru-nouns-nominative-father
+  word_type: noun
+  dictionary_form: папа
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The father lives here.
+    de: Der Vater wohnt hier.
+  neutral_prompt: Здесь живёт ___. (папа)
+  answer_scope: word
+  options:
+    a: папа
+    b: папы
+    c: папе
+    d: папу
+  correct: a
+- id: ru-nouns-nominative-grandfather
+  word_type: noun
+  dictionary_form: дедушка
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The grandfather lives here.
+    de: Der Großvater wohnt hier.
+  neutral_prompt: Здесь живёт ___. (дедушка)
+  answer_scope: word
+  options:
+    a: дедушки
+    b: дедушка
+    c: дедушке
+    d: дедушку
+  correct: b
+- id: ru-nouns-nominative-grandmother
+  word_type: noun
+  dictionary_form: бабушка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The grandmother lives here.
+    de: Die Großmutter wohnt hier.
+  neutral_prompt: Здесь живёт ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушки
+    b: бабушке
+    c: бабушка
+    d: бабушку
+  correct: c

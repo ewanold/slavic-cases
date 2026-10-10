@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-nouns-instrumental-starter
+learning_language: pl
+track: nouns
+case: instrumental
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-brother
+  word_type: noun
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the brother.
+    de: Ich gehe mit dem Bruder spazieren.
+  neutral_prompt: Idę z ___. (brat)
+  answer_scope: word
+  options:
+    a: bratem
+    b: brat
+    c: brata
+    d: bratu
+  correct: a
+- id: pl-nouns-instrumental-sister
+  word_type: noun
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the sister.
+    de: Ich gehe mit der Schwester spazieren.
+  neutral_prompt: Idę z ___. (siostra)
+  answer_scope: word
+  options:
+    a: siostra
+    b: siostrą
+    c: siostry
+    d: siostrze
+  correct: b
+- id: pl-nouns-instrumental-friend-m
+  word_type: noun
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the male friend.
+    de: Ich gehe mit dem Freund spazieren.
+  neutral_prompt: Idę z ___. (przyjaciel)
+  answer_scope: word
+  options:
+    a: przyjaciel
+    b: przyjaciela
+    c: przyjacielem
+    d: przyjacielowi
+  correct: c
+- id: pl-nouns-instrumental-friend-f
+  word_type: noun
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the female friend.
+    de: Ich gehe mit der Freundin spazieren.
+  neutral_prompt: Idę z ___. (przyjaciółka)
+  answer_scope: word
+  options:
+    a: przyjaciółka
+    b: przyjaciółki
+    c: przyjaciółce
+    d: przyjaciółką
+  correct: d
+- id: pl-nouns-instrumental-teacher-m
+  word_type: noun
+  dictionary_form: nauczyciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the male teacher.
+    de: Ich gehe mit dem Lehrer spazieren.
+  neutral_prompt: Idę z ___. (nauczyciel)
+  answer_scope: word
+  options:
+    a: nauczycielem
+    b: nauczyciel
+    c: nauczyciela
+    d: nauczycielowi
+  correct: a
+- id: pl-nouns-instrumental-teacher-f
+  word_type: noun
+  dictionary_form: nauczycielka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the female teacher.
+    de: Ich gehe mit der Lehrerin spazieren.
+  neutral_prompt: Idę z ___. (nauczycielka)
+  answer_scope: word
+  options:
+    a: nauczycielka
+    b: nauczycielką
+    c: nauczycielki
+    d: nauczycielce
+  correct: b
+- id: pl-nouns-instrumental-student-m
+  word_type: noun
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the male student.
+    de: Ich gehe mit dem Studenten spazieren.
+  neutral_prompt: Idę z ___. (student)
+  answer_scope: word
+  options:
+    a: student
+    b: studenta
+    c: studentem
+    d: studentowi
+  correct: c
+- id: pl-nouns-instrumental-student-f
+  word_type: noun
+  dictionary_form: studentka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the female student.
+    de: Ich gehe mit der Studentin spazieren.
+  neutral_prompt: Idę z ___. (studentka)
+  answer_scope: word
+  options:
+    a: studentka
+    b: studentki
+    c: studentce
+    d: studentką
+  correct: d
+- id: pl-nouns-instrumental-neighbor-m
+  word_type: noun
+  dictionary_form: sąsiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the male neighbor.
+    de: Ich gehe mit dem Nachbarn spazieren.
+  neutral_prompt: Idę z ___. (sąsiad)
+  answer_scope: word
+  options:
+    a: sąsiadem
+    b: sąsiad
+    c: sąsiada
+    d: sąsiadowi
+  correct: a
+- id: pl-nouns-instrumental-neighbor-f
+  word_type: noun
+  dictionary_form: sąsiadka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the female neighbor.
+    de: Ich gehe mit der Nachbarin spazieren.
+  neutral_prompt: Idę z ___. (sąsiadka)
+  answer_scope: word
+  options:
+    a: sąsiadka
+    b: sąsiadką
+    c: sąsiadki
+    d: sąsiadce
+  correct: b
+- id: pl-nouns-instrumental-doctor
+  word_type: noun
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the doctor.
+    de: Ich gehe mit dem Arzt spazieren.
+  neutral_prompt: Idę z ___. (lekarz)
+  answer_scope: word
+  options:
+    a: lekarz
+    b: lekarza
+    c: lekarzem
+    d: lekarzowi
+  correct: c
+- id: pl-nouns-instrumental-mother
+  word_type: noun
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the mother.
+    de: Ich gehe mit der Mutter spazieren.
+  neutral_prompt: Idę z ___. (mama)
+  answer_scope: word
+  options:
+    a: mama
+    b: mamy
+    c: mamie
+    d: mamą
+  correct: d
+- id: pl-nouns-instrumental-father
+  word_type: noun
+  dictionary_form: tata
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the father.
+    de: Ich gehe mit dem Vater spazieren.
+  neutral_prompt: Idę z ___. (tata)
+  answer_scope: word
+  options:
+    a: tatą
+    b: tata
+    c: taty
+    d: tacie
+  correct: a
+- id: pl-nouns-instrumental-grandfather
+  word_type: noun
+  dictionary_form: dziadek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the grandfather.
+    de: Ich gehe mit dem Großvater spazieren.
+  neutral_prompt: Idę z ___. (dziadek)
+  answer_scope: word
+  options:
+    a: dziadek
+    b: dziadkiem
+    c: dziadka
+    d: dziadkowi
+  correct: b
+- id: pl-nouns-instrumental-grandmother
+  word_type: noun
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the grandmother.
+    de: Ich gehe mit der Großmutter spazieren.
+  neutral_prompt: Idę z ___. (babcia)
+  answer_scope: word
+  options:
+    a: babcia
+    b: babci
+    c: babcią
+    d: babcię
+  correct: c

@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-nouns-accusative-starter
+learning_language: ru
+track: nouns
+case: accusative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-nouns-accusative-brother
+  word_type: noun
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the brother.
+    de: Ich sehe den Bruder.
+  neutral_prompt: Я вижу ___. (брат)
+  answer_scope: word
+  options:
+    a: брата
+    b: брат
+    c: брату
+    d: братом
+  correct: a
+- id: ru-nouns-accusative-sister
+  word_type: noun
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the sister.
+    de: Ich sehe die Schwester.
+  neutral_prompt: Я вижу ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестра
+    b: сестру
+    c: сестры
+    d: сестре
+  correct: b
+- id: ru-nouns-accusative-friend-m
+  word_type: noun
+  dictionary_form: друг
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the male friend.
+    de: Ich sehe den Freund.
+  neutral_prompt: Я вижу ___. (друг)
+  answer_scope: word
+  options:
+    a: друг
+    b: другу
+    c: друга
+    d: другом
+  correct: c
+- id: ru-nouns-accusative-friend-f
+  word_type: noun
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the female friend.
+    de: Ich sehe die Freundin.
+  neutral_prompt: Я вижу ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруга
+    b: подруги
+    c: подруге
+    d: подругу
+  correct: d
+- id: ru-nouns-accusative-teacher-m
+  word_type: noun
+  dictionary_form: учитель
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the male teacher.
+    de: Ich sehe den Lehrer.
+  neutral_prompt: Я вижу ___. (учитель)
+  answer_scope: word
+  options:
+    a: учителя
+    b: учитель
+    c: учителю
+    d: учителем
+  correct: a
+- id: ru-nouns-accusative-teacher-f
+  word_type: noun
+  dictionary_form: учительница
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the female teacher.
+    de: Ich sehe die Lehrerin.
+  neutral_prompt: Я вижу ___. (учительница)
+  answer_scope: word
+  options:
+    a: учительница
+    b: учительницу
+    c: учительницы
+    d: учительнице
+  correct: b
+- id: ru-nouns-accusative-student-m
+  word_type: noun
+  dictionary_form: студент
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the male student.
+    de: Ich sehe den Studenten.
+  neutral_prompt: Я вижу ___. (студент)
+  answer_scope: word
+  options:
+    a: студент
+    b: студенту
+    c: студента
+    d: студентом
+  correct: c
+- id: ru-nouns-accusative-student-f
+  word_type: noun
+  dictionary_form: студентка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the female student.
+    de: Ich sehe die Studentin.
+  neutral_prompt: Я вижу ___. (студентка)
+  answer_scope: word
+  options:
+    a: студентка
+    b: студентки
+    c: студентке
+    d: студентку
+  correct: d
+- id: ru-nouns-accusative-neighbor-m
+  word_type: noun
+  dictionary_form: сосед
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the male neighbor.
+    de: Ich sehe den Nachbarn.
+  neutral_prompt: Я вижу ___. (сосед)
+  answer_scope: word
+  options:
+    a: соседа
+    b: сосед
+    c: соседу
+    d: соседом
+  correct: a
+- id: ru-nouns-accusative-neighbor-f
+  word_type: noun
+  dictionary_form: соседка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the female neighbor.
+    de: Ich sehe die Nachbarin.
+  neutral_prompt: Я вижу ___. (соседка)
+  answer_scope: word
+  options:
+    a: соседка
+    b: соседку
+    c: соседки
+    d: соседке
+  correct: b
+- id: ru-nouns-accusative-doctor
+  word_type: noun
+  dictionary_form: врач
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the doctor.
+    de: Ich sehe den Arzt.
+  neutral_prompt: Я вижу ___. (врач)
+  answer_scope: word
+  options:
+    a: врач
+    b: врачу
+    c: врача
+    d: врачом
+  correct: c
+- id: ru-nouns-accusative-mother
+  word_type: noun
+  dictionary_form: мама
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the mother.
+    de: Ich sehe die Mutter.
+  neutral_prompt: Я вижу ___. (мама)
+  answer_scope: word
+  options:
+    a: мама
+    b: мамы
+    c: маме
+    d: маму
+  correct: d
+- id: ru-nouns-accusative-father
+  word_type: noun
+  dictionary_form: папа
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the father.
+    de: Ich sehe den Vater.
+  neutral_prompt: Я вижу ___. (папа)
+  answer_scope: word
+  options:
+    a: папу
+    b: папа
+    c: папы
+    d: папе
+  correct: a
+- id: ru-nouns-accusative-grandfather
+  word_type: noun
+  dictionary_form: дедушка
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the grandfather.
+    de: Ich sehe den Großvater.
+  neutral_prompt: Я вижу ___. (дедушка)
+  answer_scope: word
+  options:
+    a: дедушка
+    b: дедушку
+    c: дедушки
+    d: дедушке
+  correct: b
+- id: ru-nouns-accusative-grandmother
+  word_type: noun
+  dictionary_form: бабушка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the grandmother.
+    de: Ich sehe die Großmutter.
+  neutral_prompt: Я вижу ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушка
+    b: бабушки
+    c: бабушку
+    d: бабушке
+  correct: c

@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-adjectives-locative-starter
+learning_language: pl
+track: adjectives
+case: locative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-adjectives-locative-brother
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the kind brother.
+    de: Ich denke an den freundlichen Bruder.
+  neutral_prompt: Myślę o ___ bracie. (dobry)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+- id: pl-adjectives-locative-sister
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the kind sister.
+    de: Ich denke an die freundliche Schwester.
+  neutral_prompt: Myślę o ___ siostrze. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrej
+    c: dobrą
+    d: dobre
+  correct: b
+- id: pl-adjectives-locative-friend-m
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the old male friend.
+    de: Ich denke an den alten Freund.
+  neutral_prompt: Myślę o ___ przyjacielu. (stary)
+  answer_scope: word
+  options:
+    a: stary
+    b: starego
+    c: starym
+    d: staremu
+  correct: c
+- id: pl-adjectives-locative-friend-f
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the old female friend.
+    de: Ich denke an die alte Freundin.
+  neutral_prompt: Myślę o ___ przyjaciółce. (stary)
+  answer_scope: word
+  options:
+    a: stara
+    b: starą
+    c: stare
+    d: starej
+  correct: d
+- id: pl-adjectives-locative-teacher-m
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the new male teacher.
+    de: Ich denke an den neuen Lehrer.
+  neutral_prompt: Myślę o ___ nauczycielu. (nowy)
+  answer_scope: word
+  options:
+    a: nowym
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+- id: pl-adjectives-locative-teacher-f
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the new female teacher.
+    de: Ich denke an die neue Lehrerin.
+  neutral_prompt: Myślę o ___ nauczycielce. (nowy)
+  answer_scope: word
+  options:
+    a: nowa
+    b: nowej
+    c: nową
+    d: nowe
+  correct: b
+- id: pl-adjectives-locative-student-m
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the young male student.
+    de: Ich denke an den jungen Studenten.
+  neutral_prompt: Myślę o ___ studencie. (młody)
+  answer_scope: word
+  options:
+    a: młody
+    b: młodego
+    c: młodym
+    d: młodemu
+  correct: c
+- id: pl-adjectives-locative-student-f
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the young female student.
+    de: Ich denke an die junge Studentin.
+  neutral_prompt: Myślę o ___ studentce. (młody)
+  answer_scope: word
+  options:
+    a: młoda
+    b: młodą
+    c: młode
+    d: młodej
+  correct: d
+- id: pl-adjectives-locative-neighbor-m
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the good male neighbor.
+    de: Ich denke an den guten Nachbarn.
+  neutral_prompt: Myślę o ___ sąsiedzie. (dobry)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+- id: pl-adjectives-locative-neighbor-f
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the good female neighbor.
+    de: Ich denke an die gute Nachbarin.
+  neutral_prompt: Myślę o ___ sąsiadce. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrej
+    c: dobrą
+    d: dobre
+  correct: b
+- id: pl-adjectives-locative-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: jeden
+  features:
+    quantity: 1
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about one book.
+    de: Ich spreche über ein Buch.
+  neutral_prompt: Mówię o ___. (jeden; książka)
+  answer_scope: phrase
+  options:
+    a: jedna książka
+    b: jednej książki
+    c: jednej książce
+    d: jedną książkę
+  correct: c
+- id: pl-adjectives-locative-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: dwa
+  features:
+    quantity: 2
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about two books.
+    de: Ich spreche über zwei Bücher.
+  neutral_prompt: Mówię o ___. (dwa; książka)
+  answer_scope: phrase
+  options:
+    a: dwie książki
+    b: dwóch książek
+    c: dwóm książkom
+    d: dwóch książkach
+  correct: d
+- id: pl-adjectives-locative-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: pięć
+  features:
+    quantity: 5
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about five books.
+    de: Ich spreche über fünf Bücher.
+  neutral_prompt: Mówię o ___. (pięć; książka)
+  answer_scope: phrase
+  options:
+    a: pięciu książkach
+    b: pięć książek
+    c: pięciu książek
+    d: pięciu książkom
+  correct: a
+- id: pl-adjectives-locative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: pierwszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the first male student.
+    de: Ich denke an den ersten Studenten.
+  neutral_prompt: Myślę o ___ studencie. (pierwszy)
+  answer_scope: word
+  options:
+    a: pierwszy
+    b: pierwszym
+    c: pierwszego
+    d: pierwszemu
+  correct: b
+- id: pl-adjectives-locative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: drugi
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the second female student.
+    de: Ich denke an die zweite Studentin.
+  neutral_prompt: Myślę o ___ studentce. (drugi)
+  answer_scope: word
+  options:
+    a: druga
+    b: drugą
+    c: drugiej
+    d: drugie
+  correct: c

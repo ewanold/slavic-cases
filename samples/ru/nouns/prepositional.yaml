@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-nouns-prepositional-starter
+learning_language: ru
+track: nouns
+case: prepositional
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-nouns-prepositional-brother
+  word_type: noun
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the brother.
+    de: Ich denke an den Bruder.
+  neutral_prompt: Я думаю о ___. (брат)
+  answer_scope: word
+  options:
+    a: брате
+    b: брат
+    c: брата
+    d: брату
+  correct: a
+- id: ru-nouns-prepositional-sister
+  word_type: noun
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the sister.
+    de: Ich denke an die Schwester.
+  neutral_prompt: Я думаю о ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестра
+    b: сестре
+    c: сестры
+    d: сестру
+  correct: b
+- id: ru-nouns-prepositional-friend-m
+  word_type: noun
+  dictionary_form: друг
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the male friend.
+    de: Ich denke an den Freund.
+  neutral_prompt: Я думаю о ___. (друг)
+  answer_scope: word
+  options:
+    a: друг
+    b: друга
+    c: друге
+    d: другу
+  correct: c
+- id: ru-nouns-prepositional-friend-f
+  word_type: noun
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the female friend.
+    de: Ich denke an die Freundin.
+  neutral_prompt: Я думаю о ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруга
+    b: подруги
+    c: подругу
+    d: подруге
+  correct: d
+- id: ru-nouns-prepositional-teacher-m
+  word_type: noun
+  dictionary_form: учитель
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the male teacher.
+    de: Ich denke an den Lehrer.
+  neutral_prompt: Я думаю о ___. (учитель)
+  answer_scope: word
+  options:
+    a: учителе
+    b: учитель
+    c: учителя
+    d: учителю
+  correct: a
+- id: ru-nouns-prepositional-teacher-f
+  word_type: noun
+  dictionary_form: учительница
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the female teacher.
+    de: Ich denke an die Lehrerin.
+  neutral_prompt: Я думаю о ___. (учительница)
+  answer_scope: word
+  options:
+    a: учительница
+    b: учительнице
+    c: учительницы
+    d: учительницу
+  correct: b
+- id: ru-nouns-prepositional-student-m
+  word_type: noun
+  dictionary_form: студент
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the male student.
+    de: Ich denke an den Studenten.
+  neutral_prompt: Я думаю о ___. (студент)
+  answer_scope: word
+  options:
+    a: студент
+    b: студента
+    c: студенте
+    d: студенту
+  correct: c
+- id: ru-nouns-prepositional-student-f
+  word_type: noun
+  dictionary_form: студентка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the female student.
+    de: Ich denke an die Studentin.
+  neutral_prompt: Я думаю о ___. (студентка)
+  answer_scope: word
+  options:
+    a: студентка
+    b: студентки
+    c: студентку
+    d: студентке
+  correct: d
+- id: ru-nouns-prepositional-neighbor-m
+  word_type: noun
+  dictionary_form: сосед
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the male neighbor.
+    de: Ich denke an den Nachbarn.
+  neutral_prompt: Я думаю о ___. (сосед)
+  answer_scope: word
+  options:
+    a: соседе
+    b: сосед
+    c: соседа
+    d: соседу
+  correct: a
+- id: ru-nouns-prepositional-neighbor-f
+  word_type: noun
+  dictionary_form: соседка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the female neighbor.
+    de: Ich denke an die Nachbarin.
+  neutral_prompt: Я думаю о ___. (соседка)
+  answer_scope: word
+  options:
+    a: соседка
+    b: соседке
+    c: соседки
+    d: соседку
+  correct: b
+- id: ru-nouns-prepositional-doctor
+  word_type: noun
+  dictionary_form: врач
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the doctor.
+    de: Ich denke an den Arzt.
+  neutral_prompt: Я думаю о ___. (врач)
+  answer_scope: word
+  options:
+    a: врач
+    b: врача
+    c: враче
+    d: врачу
+  correct: c
+- id: ru-nouns-prepositional-mother
+  word_type: noun
+  dictionary_form: мама
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the mother.
+    de: Ich denke an die Mutter.
+  neutral_prompt: Я думаю о ___. (мама)
+  answer_scope: word
+  options:
+    a: мама
+    b: мамы
+    c: маму
+    d: маме
+  correct: d
+- id: ru-nouns-prepositional-father
+  word_type: noun
+  dictionary_form: папа
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the father.
+    de: Ich denke an den Vater.
+  neutral_prompt: Я думаю о ___. (папа)
+  answer_scope: word
+  options:
+    a: папе
+    b: папа
+    c: папы
+    d: папу
+  correct: a
+- id: ru-nouns-prepositional-grandfather
+  word_type: noun
+  dictionary_form: дедушка
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the grandfather.
+    de: Ich denke an den Großvater.
+  neutral_prompt: Я думаю о ___. (дедушка)
+  answer_scope: word
+  options:
+    a: дедушка
+    b: дедушке
+    c: дедушки
+    d: дедушку
+  correct: b
+- id: ru-nouns-prepositional-grandmother
+  word_type: noun
+  dictionary_form: бабушка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the grandmother.
+    de: Ich denke an die Großmutter.
+  neutral_prompt: Я думаю о ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушка
+    b: бабушки
+    c: бабушке
+    d: бабушку
+  correct: c

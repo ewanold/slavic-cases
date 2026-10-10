@@ -1,0 +1,28 @@
+# Illustrative draft only: expand to 15 sentences after grouping is agreed.
+# Copy the sentence block and replace every ID and text for each new question.
+schema_version: 1
+id: ru-accusative-novyi-dom-draft
+learning_language: ru
+case: accusative
+noun: "дом"
+adjective: "новый"
+features:
+  number: singular
+  gender: masculine
+  animacy: inanimate
+contributor: "Project draft; replace with contributor name"
+license: MIT
+sources: "Original illustrative example"
+review_status: draft
+sentences:
+  - id: see-new-house
+    native_text:
+      en: "I see a new house."
+      de: "Ich sehe ein neues Haus."
+    neutral_prompt: "Я вижу ___. (новый дом)"
+    options:
+      a: "новый дом"
+      b: "нового дома"
+      c: "новому дому"
+      d: "новым домом"
+    correct: a

@@ -1,0 +1,6 @@
+# PyYAML 6.0.1 Linux CPython 3.12 wheels (x86-64 and aarch64).
+# Official metadata: https://pypi.org/pypi/PyYAML/6.0.1/json
+# Checked 2026-10-10; source builds and unverified artifacts are excluded.
+PyYAML==6.0.1 \
+    --hash=sha256:6c22bec3fbe2524cde73d7ada88f6566758a8f7227bfbf93a408a9d86bcc12a0 \
+    --hash=sha256:a08c6f0fe150303c1c6b71ebcd7213c2858041a7e01975da3a99aed1e7a378ef

@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-dative-starter
+learning_language: ru
+track: adjectives
+case: dative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-dative-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the kind brother.
+    de: Ich helfe dem freundlichen Bruder.
+  neutral_prompt: Я помогаю ___ брату. (добрый)
+  answer_scope: word
+  options:
+    a: доброму
+    b: добрый
+    c: доброго
+    d: добрым
+  correct: a
+- id: ru-adjectives-dative-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the kind sister.
+    de: Ich helfe der freundlichen Schwester.
+  neutral_prompt: Я помогаю ___ сестре. (добрый)
+  answer_scope: word
+  options:
+    a: добрая
+    b: доброй
+    c: добрую
+    d: добрые
+  correct: b
+- id: ru-adjectives-dative-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the old male friend.
+    de: Ich helfe dem alten Freund.
+  neutral_prompt: Я помогаю ___ другу. (старый)
+  answer_scope: word
+  options:
+    a: старый
+    b: старого
+    c: старому
+    d: старым
+  correct: c
+- id: ru-adjectives-dative-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the old female friend.
+    de: Ich helfe der alten Freundin.
+  neutral_prompt: Я помогаю ___ подруге. (старый)
+  answer_scope: word
+  options:
+    a: старая
+    b: старую
+    c: старые
+    d: старой
+  correct: d
+- id: ru-adjectives-dative-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the new male teacher.
+    de: Ich helfe dem neuen Lehrer.
+  neutral_prompt: Я помогаю ___ учителю. (новый)
+  answer_scope: word
+  options:
+    a: новому
+    b: новый
+    c: нового
+    d: новым
+  correct: a
+- id: ru-adjectives-dative-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the new female teacher.
+    de: Ich helfe der neuen Lehrerin.
+  neutral_prompt: Я помогаю ___ учительнице. (новый)
+  answer_scope: word
+  options:
+    a: новая
+    b: новой
+    c: новую
+    d: новые
+  correct: b
+- id: ru-adjectives-dative-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the young male student.
+    de: Ich helfe dem jungen Studenten.
+  neutral_prompt: Я помогаю ___ студенту. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодого
+    c: молодому
+    d: молодым
+  correct: c
+- id: ru-adjectives-dative-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the young female student.
+    de: Ich helfe der jungen Studentin.
+  neutral_prompt: Я помогаю ___ студентке. (молодой)
+  answer_scope: word
+  options:
+    a: молодая
+    b: молодую
+    c: молодые
+    d: молодой
+  correct: d
+- id: ru-adjectives-dative-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the good male neighbor.
+    de: Ich helfe dem guten Nachbarn.
+  neutral_prompt: Я помогаю ___ соседу. (хороший)
+  answer_scope: word
+  options:
+    a: хорошему
+    b: хороший
+    c: хорошего
+    d: хорошим
+  correct: a
+- id: ru-adjectives-dative-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the good female neighbor.
+    de: Ich helfe der guten Nachbarin.
+  neutral_prompt: Я помогаю ___ соседке. (хороший)
+  answer_scope: word
+  options:
+    a: хорошая
+    b: хорошей
+    c: хорошую
+    d: хорошие
+  correct: b
+- id: ru-adjectives-dative-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am happy about one book.
+    de: Ich freue mich über ein Buch.
+  neutral_prompt: Я рад ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одна книга
+    b: одной книги
+    c: одной книге
+    d: одну книгу
+  correct: c
+- id: ru-adjectives-dative-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am happy about two books.
+    de: Ich freue mich über zwei Bücher.
+  neutral_prompt: Я рад ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: две книги
+    b: двух книг
+    c: двумя книгами
+    d: двум книгам
+  correct: d
+- id: ru-adjectives-dative-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am happy about five books.
+    de: Ich freue mich über fünf Bücher.
+  neutral_prompt: Я рад ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пяти книгам
+    b: пять книг
+    c: пяти книг
+    d: пятью книгами
+  correct: a
+- id: ru-adjectives-dative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the first male student.
+    de: Ich helfe dem ersten Studenten.
+  neutral_prompt: Я помогаю ___ студенту. (первый)
+  answer_scope: word
+  options:
+    a: первый
+    b: первому
+    c: первого
+    d: первым
+  correct: b
+- id: ru-adjectives-dative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the second female student.
+    de: Ich helfe der zweiten Studentin.
+  neutral_prompt: Я помогаю ___ студентке. (второй)
+  answer_scope: word
+  options:
+    a: вторая
+    b: вторую
+    c: второй
+    d: вторые
+  correct: c

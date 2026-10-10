@@ -1,0 +1,11 @@
+# Copy as samples/<language-tag>/language.yaml and replace placeholders.
+# Declare only teaching cases used in this language; at most eight.
+schema_version: 1
+learning_language: "REPLACE_LANGUAGE_TAG"
+name: "REPLACE_LANGUAGE_NAME"
+native_languages: [en, de]
+tracks: [nouns, adjectives]
+cases:
+  - id: "REPLACE_STABLE_CASE_ID"
+    name: "REPLACE_CASE_NAME_IN_LEARNING_LANGUAGE"
+# Repeat case entries as needed. Never invent cases just to fill eight slots.

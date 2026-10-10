@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-adjectives-accusative-starter
+learning_language: pl
+track: adjectives
+case: accusative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-adjectives-accusative-brother
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the kind brother.
+    de: Ich sehe den freundlichen Bruder.
+  neutral_prompt: Widzę ___ brata. (dobry)
+  answer_scope: word
+  options:
+    a: dobrego
+    b: dobry
+    c: dobremu
+    d: dobrym
+  correct: a
+- id: pl-adjectives-accusative-sister
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the kind sister.
+    de: Ich sehe die freundliche Schwester.
+  neutral_prompt: Widzę ___ siostrę. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrą
+    c: dobrej
+    d: dobre
+  correct: b
+- id: pl-adjectives-accusative-friend-m
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the old male friend.
+    de: Ich sehe den alten Freund.
+  neutral_prompt: Widzę ___ przyjaciela. (stary)
+  answer_scope: word
+  options:
+    a: stary
+    b: staremu
+    c: starego
+    d: starym
+  correct: c
+- id: pl-adjectives-accusative-friend-f
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the old female friend.
+    de: Ich sehe die alte Freundin.
+  neutral_prompt: Widzę ___ przyjaciółkę. (stary)
+  answer_scope: word
+  options:
+    a: stara
+    b: starej
+    c: stare
+    d: starą
+  correct: d
+- id: pl-adjectives-accusative-teacher-m
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the new male teacher.
+    de: Ich sehe den neuen Lehrer.
+  neutral_prompt: Widzę ___ nauczyciela. (nowy)
+  answer_scope: word
+  options:
+    a: nowego
+    b: nowy
+    c: nowemu
+    d: nowym
+  correct: a
+- id: pl-adjectives-accusative-teacher-f
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the new female teacher.
+    de: Ich sehe die neue Lehrerin.
+  neutral_prompt: Widzę ___ nauczycielkę. (nowy)
+  answer_scope: word
+  options:
+    a: nowa
+    b: nową
+    c: nowej
+    d: nowe
+  correct: b
+- id: pl-adjectives-accusative-student-m
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the young male student.
+    de: Ich sehe den jungen Studenten.
+  neutral_prompt: Widzę ___ studenta. (młody)
+  answer_scope: word
+  options:
+    a: młody
+    b: młodemu
+    c: młodego
+    d: młodym
+  correct: c
+- id: pl-adjectives-accusative-student-f
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the young female student.
+    de: Ich sehe die junge Studentin.
+  neutral_prompt: Widzę ___ studentkę. (młody)
+  answer_scope: word
+  options:
+    a: młoda
+    b: młodej
+    c: młode
+    d: młodą
+  correct: d
+- id: pl-adjectives-accusative-neighbor-m
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the good male neighbor.
+    de: Ich sehe den guten Nachbarn.
+  neutral_prompt: Widzę ___ sąsiada. (dobry)
+  answer_scope: word
+  options:
+    a: dobrego
+    b: dobry
+    c: dobremu
+    d: dobrym
+  correct: a
+- id: pl-adjectives-accusative-neighbor-f
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the good female neighbor.
+    de: Ich sehe die gute Nachbarin.
+  neutral_prompt: Widzę ___ sąsiadkę. (dobry)
+  answer_scope: word
+  options:
+    a: dobra
+    b: dobrą
+    c: dobrej
+    d: dobre
+  correct: b
+- id: pl-adjectives-accusative-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: jeden
+  features:
+    quantity: 1
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read one book.
+    de: Ich lese ein Buch.
+  neutral_prompt: Czytam ___. (jeden; książka)
+  answer_scope: phrase
+  options:
+    a: jedna książka
+    b: jednej książki
+    c: jedną książkę
+    d: jednej książce
+  correct: c
+- id: pl-adjectives-accusative-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: dwa
+  features:
+    quantity: 2
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read two books.
+    de: Ich lese zwei Bücher.
+  neutral_prompt: Czytam ___. (dwa; książka)
+  answer_scope: phrase
+  options:
+    a: dwóch książek
+    b: dwóm książkom
+    c: dwiema książkami
+    d: dwie książki
+  correct: d
+- id: pl-adjectives-accusative-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: pięć
+  features:
+    quantity: 5
+    noun_dictionary_form: książka
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I read five books.
+    de: Ich lese fünf Bücher.
+  neutral_prompt: Czytam ___. (pięć; książka)
+  answer_scope: phrase
+  options:
+    a: pięć książek
+    b: pięciu książek
+    c: pięciu książkom
+    d: pięcioma książkami
+  correct: a
+- id: pl-adjectives-accusative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: pierwszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I see the first male student.
+    de: Ich sehe den ersten Studenten.
+  neutral_prompt: Widzę ___ studenta. (pierwszy)
+  answer_scope: word
+  options:
+    a: pierwszy
+    b: pierwszego
+    c: pierwszemu
+    d: pierwszym
+  correct: b
+- id: pl-adjectives-accusative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: drugi
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I see the second female student.
+    de: Ich sehe die zweite Studentin.
+  neutral_prompt: Widzę ___ studentkę. (drugi)
+  answer_scope: word
+  options:
+    a: druga
+    b: drugiej
+    c: drugą
+    d: drugie
+  correct: c

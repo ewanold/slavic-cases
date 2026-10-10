@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-instrumental-starter
+learning_language: ru
+track: adjectives
+case: instrumental
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-instrumental-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the kind brother.
+    de: Ich gehe mit dem freundlichen Bruder spazieren.
+  neutral_prompt: Я гуляю с ___ братом. (добрый)
+  answer_scope: word
+  options:
+    a: добрым
+    b: добрый
+    c: доброго
+    d: доброму
+  correct: a
+- id: ru-adjectives-instrumental-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the kind sister.
+    de: Ich gehe mit der freundlichen Schwester spazieren.
+  neutral_prompt: Я гуляю с ___ сестрой. (добрый)
+  answer_scope: word
+  options:
+    a: добрая
+    b: доброй
+    c: добрую
+    d: добрые
+  correct: b
+- id: ru-adjectives-instrumental-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the old male friend.
+    de: Ich gehe mit dem alten Freund spazieren.
+  neutral_prompt: Я гуляю с ___ другом. (старый)
+  answer_scope: word
+  options:
+    a: старый
+    b: старого
+    c: старым
+    d: старому
+  correct: c
+- id: ru-adjectives-instrumental-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the old female friend.
+    de: Ich gehe mit der alten Freundin spazieren.
+  neutral_prompt: Я гуляю с ___ подругой. (старый)
+  answer_scope: word
+  options:
+    a: старая
+    b: старую
+    c: старые
+    d: старой
+  correct: d
+- id: ru-adjectives-instrumental-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the new male teacher.
+    de: Ich gehe mit dem neuen Lehrer spazieren.
+  neutral_prompt: Я гуляю с ___ учителем. (новый)
+  answer_scope: word
+  options:
+    a: новым
+    b: новый
+    c: нового
+    d: новому
+  correct: a
+- id: ru-adjectives-instrumental-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the new female teacher.
+    de: Ich gehe mit der neuen Lehrerin spazieren.
+  neutral_prompt: Я гуляю с ___ учительницей. (новый)
+  answer_scope: word
+  options:
+    a: новая
+    b: новой
+    c: новую
+    d: новые
+  correct: b
+- id: ru-adjectives-instrumental-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the young male student.
+    de: Ich gehe mit dem jungen Studenten spazieren.
+  neutral_prompt: Я гуляю с ___ студентом. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодого
+    c: молодым
+    d: молодому
+  correct: c
+- id: ru-adjectives-instrumental-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the young female student.
+    de: Ich gehe mit der jungen Studentin spazieren.
+  neutral_prompt: Я гуляю с ___ студенткой. (молодой)
+  answer_scope: word
+  options:
+    a: молодая
+    b: молодую
+    c: молодые
+    d: молодой
+  correct: d
+- id: ru-adjectives-instrumental-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the good male neighbor.
+    de: Ich gehe mit dem guten Nachbarn spazieren.
+  neutral_prompt: Я гуляю с ___ соседом. (хороший)
+  answer_scope: word
+  options:
+    a: хорошим
+    b: хороший
+    c: хорошего
+    d: хорошему
+  correct: a
+- id: ru-adjectives-instrumental-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the good female neighbor.
+    de: Ich gehe mit der guten Nachbarin spazieren.
+  neutral_prompt: Я гуляю с ___ соседкой. (хороший)
+  answer_scope: word
+  options:
+    a: хорошая
+    b: хорошей
+    c: хорошую
+    d: хорошие
+  correct: b
+- id: ru-adjectives-instrumental-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with one book.
+    de: Ich bin mit einem Buch gekommen.
+  neutral_prompt: Я пришёл с ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одна книга
+    b: одной книги
+    c: одной книгой
+    d: одной книге
+  correct: c
+- id: ru-adjectives-instrumental-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with two books.
+    de: Ich bin mit zwei Büchern gekommen.
+  neutral_prompt: Я пришёл с ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: две книги
+    b: двух книг
+    c: двум книгам
+    d: двумя книгами
+  correct: d
+- id: ru-adjectives-instrumental-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I came with five books.
+    de: Ich bin mit fünf Büchern gekommen.
+  neutral_prompt: Я пришёл с ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пятью книгами
+    b: пять книг
+    c: пяти книг
+    d: пяти книгам
+  correct: a
+- id: ru-adjectives-instrumental-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I walk with the first male student.
+    de: Ich gehe mit dem ersten Studenten spazieren.
+  neutral_prompt: Я гуляю с ___ студентом. (первый)
+  answer_scope: word
+  options:
+    a: первый
+    b: первым
+    c: первого
+    d: первому
+  correct: b
+- id: ru-adjectives-instrumental-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I walk with the second female student.
+    de: Ich gehe mit der zweiten Studentin spazieren.
+  neutral_prompt: Я гуляю с ___ студенткой. (второй)
+  answer_scope: word
+  options:
+    a: вторая
+    b: вторую
+    c: второй
+    d: вторые
+  correct: c

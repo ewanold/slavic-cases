@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-nominative-starter
+learning_language: ru
+track: adjectives
+case: nominative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-nominative-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The kind brother lives here.
+    de: Der freundliche Bruder wohnt hier.
+  neutral_prompt: Здесь живёт ___ брат. (добрый)
+  answer_scope: word
+  options:
+    a: добрый
+    b: доброго
+    c: доброму
+    d: добрым
+  correct: a
+- id: ru-adjectives-nominative-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The kind sister lives here.
+    de: Die freundliche Schwester wohnt hier.
+  neutral_prompt: Здесь живёт ___ сестра. (добрый)
+  answer_scope: word
+  options:
+    a: доброй
+    b: добрая
+    c: добрую
+    d: добрые
+  correct: b
+- id: ru-adjectives-nominative-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The old male friend lives here.
+    de: Der alte Freund wohnt hier.
+  neutral_prompt: Здесь живёт ___ друг. (старый)
+  answer_scope: word
+  options:
+    a: старого
+    b: старому
+    c: старый
+    d: старым
+  correct: c
+- id: ru-adjectives-nominative-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The old female friend lives here.
+    de: Die alte Freundin wohnt hier.
+  neutral_prompt: Здесь живёт ___ подруга. (старый)
+  answer_scope: word
+  options:
+    a: старой
+    b: старую
+    c: старые
+    d: старая
+  correct: d
+- id: ru-adjectives-nominative-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The new male teacher lives here.
+    de: Der neue Lehrer wohnt hier.
+  neutral_prompt: Здесь живёт ___ учитель. (новый)
+  answer_scope: word
+  options:
+    a: новый
+    b: нового
+    c: новому
+    d: новым
+  correct: a
+- id: ru-adjectives-nominative-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The new female teacher lives here.
+    de: Die neue Lehrerin wohnt hier.
+  neutral_prompt: Здесь живёт ___ учительница. (новый)
+  answer_scope: word
+  options:
+    a: новой
+    b: новая
+    c: новую
+    d: новые
+  correct: b
+- id: ru-adjectives-nominative-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The young male student lives here.
+    de: Der junge Student wohnt hier.
+  neutral_prompt: Здесь живёт ___ студент. (молодой)
+  answer_scope: word
+  options:
+    a: молодого
+    b: молодому
+    c: молодой
+    d: молодым
+  correct: c
+- id: ru-adjectives-nominative-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The young female student lives here.
+    de: Die junge Studentin wohnt hier.
+  neutral_prompt: Здесь живёт ___ студентка. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодую
+    c: молодые
+    d: молодая
+  correct: d
+- id: ru-adjectives-nominative-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The good male neighbor lives here.
+    de: Der gute Nachbar wohnt hier.
+  neutral_prompt: Здесь живёт ___ сосед. (хороший)
+  answer_scope: word
+  options:
+    a: хороший
+    b: хорошего
+    c: хорошему
+    d: хорошим
+  correct: a
+- id: ru-adjectives-nominative-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The good female neighbor lives here.
+    de: Die gute Nachbarin wohnt hier.
+  neutral_prompt: Здесь живёт ___ соседка. (хороший)
+  answer_scope: word
+  options:
+    a: хорошей
+    b: хорошая
+    c: хорошую
+    d: хорошие
+  correct: b
+- id: ru-adjectives-nominative-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: There is one book on the table.
+    de: Ein Buch liegt auf dem Tisch.
+  neutral_prompt: На столе ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одной книги
+    b: одной книге
+    c: одна книга
+    d: одну книгу
+  correct: c
+- id: ru-adjectives-nominative-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: There are two books on the table.
+    de: Zwei Bücher liegen auf dem Tisch.
+  neutral_prompt: На столе ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: двух книг
+    b: двум книгам
+    c: двумя книгами
+    d: две книги
+  correct: d
+- id: ru-adjectives-nominative-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: There are five books on the table.
+    de: Fünf Bücher liegen auf dem Tisch.
+  neutral_prompt: На столе ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пять книг
+    b: пяти книг
+    c: пяти книгам
+    d: пятью книгами
+  correct: a
+- id: ru-adjectives-nominative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The first male student lives here.
+    de: Der erste Student wohnt hier.
+  neutral_prompt: Здесь живёт ___ студент. (первый)
+  answer_scope: word
+  options:
+    a: первого
+    b: первый
+    c: первому
+    d: первым
+  correct: b
+- id: ru-adjectives-nominative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The second female student lives here.
+    de: Die zweite Studentin wohnt hier.
+  neutral_prompt: Здесь живёт ___ студентка. (второй)
+  answer_scope: word
+  options:
+    a: второй
+    b: вторую
+    c: вторая
+    d: вторые
+  correct: c

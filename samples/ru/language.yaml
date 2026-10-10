@@ -1,0 +1,23 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+learning_language: ru
+name: Русский
+native_languages:
+- en
+- de
+tracks:
+- nouns
+- adjectives
+cases:
+- id: nominative
+  name: Именительный
+- id: genitive
+  name: Родительный
+- id: dative
+  name: Дательный
+- id: accusative
+  name: Винительный
+- id: instrumental
+  name: Творительный
+- id: prepositional
+  name: Предложный

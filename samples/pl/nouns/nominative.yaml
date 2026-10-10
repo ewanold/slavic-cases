@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-nouns-nominative-starter
+learning_language: pl
+track: nouns
+case: nominative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-nouns-nominative-brother
+  word_type: noun
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The brother lives here.
+    de: Der Bruder wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (brat)
+  answer_scope: word
+  options:
+    a: brat
+    b: brata
+    c: bratu
+    d: bratem
+  correct: a
+- id: pl-nouns-nominative-sister
+  word_type: noun
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister lives here.
+    de: Die Schwester wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (siostra)
+  answer_scope: word
+  options:
+    a: siostry
+    b: siostra
+    c: siostrze
+    d: siostrę
+  correct: b
+- id: pl-nouns-nominative-friend-m
+  word_type: noun
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male friend lives here.
+    de: Der Freund wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (przyjaciel)
+  answer_scope: word
+  options:
+    a: przyjaciela
+    b: przyjacielowi
+    c: przyjaciel
+    d: przyjacielem
+  correct: c
+- id: pl-nouns-nominative-friend-f
+  word_type: noun
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female friend lives here.
+    de: Die Freundin wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (przyjaciółka)
+  answer_scope: word
+  options:
+    a: przyjaciółki
+    b: przyjaciółce
+    c: przyjaciółkę
+    d: przyjaciółka
+  correct: d
+- id: pl-nouns-nominative-teacher-m
+  word_type: noun
+  dictionary_form: nauczyciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male teacher lives here.
+    de: Der Lehrer wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (nauczyciel)
+  answer_scope: word
+  options:
+    a: nauczyciel
+    b: nauczyciela
+    c: nauczycielowi
+    d: nauczycielem
+  correct: a
+- id: pl-nouns-nominative-teacher-f
+  word_type: noun
+  dictionary_form: nauczycielka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female teacher lives here.
+    de: Die Lehrerin wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (nauczycielka)
+  answer_scope: word
+  options:
+    a: nauczycielki
+    b: nauczycielka
+    c: nauczycielce
+    d: nauczycielkę
+  correct: b
+- id: pl-nouns-nominative-student-m
+  word_type: noun
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male student lives here.
+    de: Der Student wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (student)
+  answer_scope: word
+  options:
+    a: studenta
+    b: studentowi
+    c: student
+    d: studentem
+  correct: c
+- id: pl-nouns-nominative-student-f
+  word_type: noun
+  dictionary_form: studentka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female student lives here.
+    de: Die Studentin wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (studentka)
+  answer_scope: word
+  options:
+    a: studentki
+    b: studentce
+    c: studentkę
+    d: studentka
+  correct: d
+- id: pl-nouns-nominative-neighbor-m
+  word_type: noun
+  dictionary_form: sąsiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male neighbor lives here.
+    de: Der Nachbar wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (sąsiad)
+  answer_scope: word
+  options:
+    a: sąsiad
+    b: sąsiada
+    c: sąsiadowi
+    d: sąsiadem
+  correct: a
+- id: pl-nouns-nominative-neighbor-f
+  word_type: noun
+  dictionary_form: sąsiadka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female neighbor lives here.
+    de: Die Nachbarin wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (sąsiadka)
+  answer_scope: word
+  options:
+    a: sąsiadki
+    b: sąsiadka
+    c: sąsiadce
+    d: sąsiadkę
+  correct: b
+- id: pl-nouns-nominative-doctor
+  word_type: noun
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The doctor lives here.
+    de: Der Arzt wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (lekarz)
+  answer_scope: word
+  options:
+    a: lekarza
+    b: lekarzowi
+    c: lekarz
+    d: lekarzem
+  correct: c
+- id: pl-nouns-nominative-mother
+  word_type: noun
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The mother lives here.
+    de: Die Mutter wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (mama)
+  answer_scope: word
+  options:
+    a: mamy
+    b: mamie
+    c: mamę
+    d: mama
+  correct: d
+- id: pl-nouns-nominative-father
+  word_type: noun
+  dictionary_form: tata
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The father lives here.
+    de: Der Vater wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (tata)
+  answer_scope: word
+  options:
+    a: tata
+    b: taty
+    c: tacie
+    d: tatę
+  correct: a
+- id: pl-nouns-nominative-grandfather
+  word_type: noun
+  dictionary_form: dziadek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The grandfather lives here.
+    de: Der Großvater wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (dziadek)
+  answer_scope: word
+  options:
+    a: dziadka
+    b: dziadek
+    c: dziadkowi
+    d: dziadkiem
+  correct: b
+- id: pl-nouns-nominative-grandmother
+  word_type: noun
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The grandmother lives here.
+    de: Die Großmutter wohnt hier.
+  neutral_prompt: Tutaj mieszka ___. (babcia)
+  answer_scope: word
+  options:
+    a: babci
+    b: babcię
+    c: babcia
+    d: babcią
+  correct: c

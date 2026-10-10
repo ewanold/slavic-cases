@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-genitive-starter
+learning_language: ru
+track: adjectives
+case: genitive
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-genitive-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The kind brother is not here.
+    de: Der freundliche Bruder ist nicht hier.
+  neutral_prompt: Здесь нет ___ брата. (добрый)
+  answer_scope: word
+  options:
+    a: доброго
+    b: добрый
+    c: доброму
+    d: добрым
+  correct: a
+- id: ru-adjectives-genitive-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The kind sister is not here.
+    de: Die freundliche Schwester ist nicht hier.
+  neutral_prompt: Здесь нет ___ сестры. (добрый)
+  answer_scope: word
+  options:
+    a: добрая
+    b: доброй
+    c: добрую
+    d: добрые
+  correct: b
+- id: ru-adjectives-genitive-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The old male friend is not here.
+    de: Der alte Freund ist nicht hier.
+  neutral_prompt: Здесь нет ___ друга. (старый)
+  answer_scope: word
+  options:
+    a: старый
+    b: старому
+    c: старого
+    d: старым
+  correct: c
+- id: ru-adjectives-genitive-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The old female friend is not here.
+    de: Die alte Freundin ist nicht hier.
+  neutral_prompt: Здесь нет ___ подруги. (старый)
+  answer_scope: word
+  options:
+    a: старая
+    b: старую
+    c: старые
+    d: старой
+  correct: d
+- id: ru-adjectives-genitive-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The new male teacher is not here.
+    de: Der neue Lehrer ist nicht hier.
+  neutral_prompt: Здесь нет ___ учителя. (новый)
+  answer_scope: word
+  options:
+    a: нового
+    b: новый
+    c: новому
+    d: новым
+  correct: a
+- id: ru-adjectives-genitive-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The new female teacher is not here.
+    de: Die neue Lehrerin ist nicht hier.
+  neutral_prompt: Здесь нет ___ учительницы. (новый)
+  answer_scope: word
+  options:
+    a: новая
+    b: новой
+    c: новую
+    d: новые
+  correct: b
+- id: ru-adjectives-genitive-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The young male student is not here.
+    de: Der junge Student ist nicht hier.
+  neutral_prompt: Здесь нет ___ студента. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодому
+    c: молодого
+    d: молодым
+  correct: c
+- id: ru-adjectives-genitive-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The young female student is not here.
+    de: Die junge Studentin ist nicht hier.
+  neutral_prompt: Здесь нет ___ студентки. (молодой)
+  answer_scope: word
+  options:
+    a: молодая
+    b: молодую
+    c: молодые
+    d: молодой
+  correct: d
+- id: ru-adjectives-genitive-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The good male neighbor is not here.
+    de: Der gute Nachbar ist nicht hier.
+  neutral_prompt: Здесь нет ___ соседа. (хороший)
+  answer_scope: word
+  options:
+    a: хорошего
+    b: хороший
+    c: хорошему
+    d: хорошим
+  correct: a
+- id: ru-adjectives-genitive-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The good female neighbor is not here.
+    de: Die gute Nachbarin ist nicht hier.
+  neutral_prompt: Здесь нет ___ соседки. (хороший)
+  answer_scope: word
+  options:
+    a: хорошая
+    b: хорошей
+    c: хорошую
+    d: хорошие
+  correct: b
+- id: ru-adjectives-genitive-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am missing one book.
+    de: Mir fehlt ein Buch.
+  neutral_prompt: Мне не хватает ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одна книга
+    b: одной книге
+    c: одной книги
+    d: одну книгу
+  correct: c
+- id: ru-adjectives-genitive-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am missing two books.
+    de: Mir fehlen zwei Bücher.
+  neutral_prompt: Мне не хватает ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: две книги
+    b: двум книгам
+    c: двумя книгами
+    d: двух книг
+  correct: d
+- id: ru-adjectives-genitive-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I am missing five books.
+    de: Mir fehlen fünf Bücher.
+  neutral_prompt: Мне не хватает ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пяти книг
+    b: пять книг
+    c: пяти книгам
+    d: пятью книгами
+  correct: a
+- id: ru-adjectives-genitive-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The first male student is not here.
+    de: Der erste Student ist nicht hier.
+  neutral_prompt: Здесь нет ___ студента. (первый)
+  answer_scope: word
+  options:
+    a: первый
+    b: первого
+    c: первому
+    d: первым
+  correct: b
+- id: ru-adjectives-genitive-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The second female student is not here.
+    de: Die zweite Studentin ist nicht hier.
+  neutral_prompt: Здесь нет ___ студентки. (второй)
+  answer_scope: word
+  options:
+    a: вторая
+    b: вторую
+    c: второй
+    d: вторые
+  correct: c

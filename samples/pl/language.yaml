@@ -1,0 +1,25 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+learning_language: pl
+name: Polski
+native_languages:
+- en
+- de
+tracks:
+- nouns
+- adjectives
+cases:
+- id: nominative
+  name: Mianownik
+- id: genitive
+  name: Dopełniacz
+- id: dative
+  name: Celownik
+- id: accusative
+  name: Biernik
+- id: instrumental
+  name: Narzędnik
+- id: locative
+  name: Miejscownik
+- id: vocative
+  name: Wołacz

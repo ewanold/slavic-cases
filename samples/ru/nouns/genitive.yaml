@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-nouns-genitive-starter
+learning_language: ru
+track: nouns
+case: genitive
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-brother
+  word_type: noun
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The brother is not here.
+    de: Der Bruder ist nicht hier.
+  neutral_prompt: Здесь нет ___. (брат)
+  answer_scope: word
+  options:
+    a: брата
+    b: брат
+    c: брату
+    d: братом
+  correct: a
+- id: ru-nouns-genitive-sister
+  word_type: noun
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister is not here.
+    de: Die Schwester ist nicht hier.
+  neutral_prompt: Здесь нет ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестра
+    b: сестры
+    c: сестре
+    d: сестру
+  correct: b
+- id: ru-nouns-genitive-friend-m
+  word_type: noun
+  dictionary_form: друг
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male friend is not here.
+    de: Der Freund ist nicht hier.
+  neutral_prompt: Здесь нет ___. (друг)
+  answer_scope: word
+  options:
+    a: друг
+    b: другу
+    c: друга
+    d: другом
+  correct: c
+- id: ru-nouns-genitive-friend-f
+  word_type: noun
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female friend is not here.
+    de: Die Freundin ist nicht hier.
+  neutral_prompt: Здесь нет ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруга
+    b: подруге
+    c: подругу
+    d: подруги
+  correct: d
+- id: ru-nouns-genitive-teacher-m
+  word_type: noun
+  dictionary_form: учитель
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male teacher is not here.
+    de: Der Lehrer ist nicht hier.
+  neutral_prompt: Здесь нет ___. (учитель)
+  answer_scope: word
+  options:
+    a: учителя
+    b: учитель
+    c: учителю
+    d: учителем
+  correct: a
+- id: ru-nouns-genitive-teacher-f
+  word_type: noun
+  dictionary_form: учительница
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female teacher is not here.
+    de: Die Lehrerin ist nicht hier.
+  neutral_prompt: Здесь нет ___. (учительница)
+  answer_scope: word
+  options:
+    a: учительница
+    b: учительницы
+    c: учительнице
+    d: учительницу
+  correct: b
+- id: ru-nouns-genitive-student-m
+  word_type: noun
+  dictionary_form: студент
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male student is not here.
+    de: Der Student ist nicht hier.
+  neutral_prompt: Здесь нет ___. (студент)
+  answer_scope: word
+  options:
+    a: студент
+    b: студенту
+    c: студента
+    d: студентом
+  correct: c
+- id: ru-nouns-genitive-student-f
+  word_type: noun
+  dictionary_form: студентка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female student is not here.
+    de: Die Studentin ist nicht hier.
+  neutral_prompt: Здесь нет ___. (студентка)
+  answer_scope: word
+  options:
+    a: студентка
+    b: студентке
+    c: студентку
+    d: студентки
+  correct: d
+- id: ru-nouns-genitive-neighbor-m
+  word_type: noun
+  dictionary_form: сосед
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male neighbor is not here.
+    de: Der Nachbar ist nicht hier.
+  neutral_prompt: Здесь нет ___. (сосед)
+  answer_scope: word
+  options:
+    a: соседа
+    b: сосед
+    c: соседу
+    d: соседом
+  correct: a
+- id: ru-nouns-genitive-neighbor-f
+  word_type: noun
+  dictionary_form: соседка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female neighbor is not here.
+    de: Die Nachbarin ist nicht hier.
+  neutral_prompt: Здесь нет ___. (соседка)
+  answer_scope: word
+  options:
+    a: соседка
+    b: соседки
+    c: соседке
+    d: соседку
+  correct: b
+- id: ru-nouns-genitive-doctor
+  word_type: noun
+  dictionary_form: врач
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The doctor is not here.
+    de: Der Arzt ist nicht hier.
+  neutral_prompt: Здесь нет ___. (врач)
+  answer_scope: word
+  options:
+    a: врач
+    b: врачу
+    c: врача
+    d: врачом
+  correct: c
+- id: ru-nouns-genitive-mother
+  word_type: noun
+  dictionary_form: мама
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The mother is not here.
+    de: Die Mutter ist nicht hier.
+  neutral_prompt: Здесь нет ___. (мама)
+  answer_scope: word
+  options:
+    a: мама
+    b: маме
+    c: маму
+    d: мамы
+  correct: d
+- id: ru-nouns-genitive-father
+  word_type: noun
+  dictionary_form: папа
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The father is not here.
+    de: Der Vater ist nicht hier.
+  neutral_prompt: Здесь нет ___. (папа)
+  answer_scope: word
+  options:
+    a: папы
+    b: папа
+    c: папе
+    d: папу
+  correct: a
+- id: ru-nouns-genitive-grandfather
+  word_type: noun
+  dictionary_form: дедушка
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The grandfather is not here.
+    de: Der Großvater ist nicht hier.
+  neutral_prompt: Здесь нет ___. (дедушка)
+  answer_scope: word
+  options:
+    a: дедушка
+    b: дедушки
+    c: дедушке
+    d: дедушку
+  correct: b
+- id: ru-nouns-genitive-grandmother
+  word_type: noun
+  dictionary_form: бабушка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The grandmother is not here.
+    de: Die Großmutter ist nicht hier.
+  neutral_prompt: Здесь нет ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушка
+    b: бабушке
+    c: бабушки
+    d: бабушку
+  correct: c

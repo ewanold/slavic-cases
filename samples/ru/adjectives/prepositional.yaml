@@ -1,0 +1,290 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-adjectives-prepositional-starter
+learning_language: ru
+track: adjectives
+case: prepositional
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-adjectives-prepositional-brother
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the kind brother.
+    de: Ich denke an den freundlichen Bruder.
+  neutral_prompt: Я думаю о ___ брате. (добрый)
+  answer_scope: word
+  options:
+    a: добром
+    b: добрый
+    c: доброго
+    d: доброму
+  correct: a
+- id: ru-adjectives-prepositional-sister
+  word_type: adjective
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the kind sister.
+    de: Ich denke an die freundliche Schwester.
+  neutral_prompt: Я думаю о ___ сестре. (добрый)
+  answer_scope: word
+  options:
+    a: добрая
+    b: доброй
+    c: добрую
+    d: добрые
+  correct: b
+- id: ru-adjectives-prepositional-friend-m
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the old male friend.
+    de: Ich denke an den alten Freund.
+  neutral_prompt: Я думаю о ___ друге. (старый)
+  answer_scope: word
+  options:
+    a: старый
+    b: старого
+    c: старом
+    d: старому
+  correct: c
+- id: ru-adjectives-prepositional-friend-f
+  word_type: adjective
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the old female friend.
+    de: Ich denke an die alte Freundin.
+  neutral_prompt: Я думаю о ___ подруге. (старый)
+  answer_scope: word
+  options:
+    a: старая
+    b: старую
+    c: старые
+    d: старой
+  correct: d
+- id: ru-adjectives-prepositional-teacher-m
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the new male teacher.
+    de: Ich denke an den neuen Lehrer.
+  neutral_prompt: Я думаю о ___ учителе. (новый)
+  answer_scope: word
+  options:
+    a: новом
+    b: новый
+    c: нового
+    d: новому
+  correct: a
+- id: ru-adjectives-prepositional-teacher-f
+  word_type: adjective
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the new female teacher.
+    de: Ich denke an die neue Lehrerin.
+  neutral_prompt: Я думаю о ___ учительнице. (новый)
+  answer_scope: word
+  options:
+    a: новая
+    b: новой
+    c: новую
+    d: новые
+  correct: b
+- id: ru-adjectives-prepositional-student-m
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the young male student.
+    de: Ich denke an den jungen Studenten.
+  neutral_prompt: Я думаю о ___ студенте. (молодой)
+  answer_scope: word
+  options:
+    a: молодой
+    b: молодого
+    c: молодом
+    d: молодому
+  correct: c
+- id: ru-adjectives-prepositional-student-f
+  word_type: adjective
+  dictionary_form: молодой
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the young female student.
+    de: Ich denke an die junge Studentin.
+  neutral_prompt: Я думаю о ___ студентке. (молодой)
+  answer_scope: word
+  options:
+    a: молодая
+    b: молодую
+    c: молодые
+    d: молодой
+  correct: d
+- id: ru-adjectives-prepositional-neighbor-m
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the good male neighbor.
+    de: Ich denke an den guten Nachbarn.
+  neutral_prompt: Я думаю о ___ соседе. (хороший)
+  answer_scope: word
+  options:
+    a: хорошем
+    b: хороший
+    c: хорошего
+    d: хорошему
+  correct: a
+- id: ru-adjectives-prepositional-neighbor-f
+  word_type: adjective
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the good female neighbor.
+    de: Ich denke an die gute Nachbarin.
+  neutral_prompt: Я думаю о ___ соседке. (хороший)
+  answer_scope: word
+  options:
+    a: хорошая
+    b: хорошей
+    c: хорошую
+    d: хорошие
+  correct: b
+- id: ru-adjectives-prepositional-cardinal-1
+  word_type: cardinal_numeral
+  dictionary_form: один
+  features:
+    quantity: 1
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about one book.
+    de: Ich spreche über ein Buch.
+  neutral_prompt: Я говорю о ___. (один; книга)
+  answer_scope: phrase
+  options:
+    a: одна книга
+    b: одной книги
+    c: одной книге
+    d: одну книгу
+  correct: c
+- id: ru-adjectives-prepositional-cardinal-2
+  word_type: cardinal_numeral
+  dictionary_form: два
+  features:
+    quantity: 2
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about two books.
+    de: Ich spreche über zwei Bücher.
+  neutral_prompt: Я говорю о ___. (два; книга)
+  answer_scope: phrase
+  options:
+    a: две книги
+    b: двух книг
+    c: двум книгам
+    d: двух книгах
+  correct: d
+- id: ru-adjectives-prepositional-cardinal-5
+  word_type: cardinal_numeral
+  dictionary_form: пять
+  features:
+    quantity: 5
+    noun_dictionary_form: книга
+    noun_gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I talk about five books.
+    de: Ich spreche über fünf Bücher.
+  neutral_prompt: Я говорю о ___. (пять; книга)
+  answer_scope: phrase
+  options:
+    a: пяти книгах
+    b: пять книг
+    c: пяти книг
+    d: пяти книгам
+  correct: a
+- id: ru-adjectives-prepositional-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I think about the first male student.
+    de: Ich denke an den ersten Studenten.
+  neutral_prompt: Я думаю о ___ студенте. (первый)
+  answer_scope: word
+  options:
+    a: первый
+    b: первом
+    c: первого
+    d: первому
+  correct: b
+- id: ru-adjectives-prepositional-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: второй
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I think about the second female student.
+    de: Ich denke an die zweite Studentin.
+  neutral_prompt: Я думаю о ___ студентке. (второй)
+  answer_scope: word
+  options:
+    a: вторая
+    b: вторую
+    c: второй
+    d: вторые
+  correct: c

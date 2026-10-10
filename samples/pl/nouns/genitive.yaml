@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: pl-nouns-genitive-starter
+learning_language: pl
+track: nouns
+case: genitive
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-brother
+  word_type: noun
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The brother is not here.
+    de: Der Bruder ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (brat)
+  answer_scope: word
+  options:
+    a: brata
+    b: brat
+    c: bratu
+    d: bratem
+  correct: a
+- id: pl-nouns-genitive-sister
+  word_type: noun
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister is not here.
+    de: Die Schwester ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (siostra)
+  answer_scope: word
+  options:
+    a: siostra
+    b: siostry
+    c: siostrze
+    d: siostrę
+  correct: b
+- id: pl-nouns-genitive-friend-m
+  word_type: noun
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male friend is not here.
+    de: Der Freund ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (przyjaciel)
+  answer_scope: word
+  options:
+    a: przyjaciel
+    b: przyjacielowi
+    c: przyjaciela
+    d: przyjacielem
+  correct: c
+- id: pl-nouns-genitive-friend-f
+  word_type: noun
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female friend is not here.
+    de: Die Freundin ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (przyjaciółka)
+  answer_scope: word
+  options:
+    a: przyjaciółka
+    b: przyjaciółce
+    c: przyjaciółkę
+    d: przyjaciółki
+  correct: d
+- id: pl-nouns-genitive-teacher-m
+  word_type: noun
+  dictionary_form: nauczyciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male teacher is not here.
+    de: Der Lehrer ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (nauczyciel)
+  answer_scope: word
+  options:
+    a: nauczyciela
+    b: nauczyciel
+    c: nauczycielowi
+    d: nauczycielem
+  correct: a
+- id: pl-nouns-genitive-teacher-f
+  word_type: noun
+  dictionary_form: nauczycielka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female teacher is not here.
+    de: Die Lehrerin ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (nauczycielka)
+  answer_scope: word
+  options:
+    a: nauczycielka
+    b: nauczycielki
+    c: nauczycielce
+    d: nauczycielkę
+  correct: b
+- id: pl-nouns-genitive-student-m
+  word_type: noun
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male student is not here.
+    de: Der Student ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (student)
+  answer_scope: word
+  options:
+    a: student
+    b: studentowi
+    c: studenta
+    d: studentem
+  correct: c
+- id: pl-nouns-genitive-student-f
+  word_type: noun
+  dictionary_form: studentka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female student is not here.
+    de: Die Studentin ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (studentka)
+  answer_scope: word
+  options:
+    a: studentka
+    b: studentce
+    c: studentkę
+    d: studentki
+  correct: d
+- id: pl-nouns-genitive-neighbor-m
+  word_type: noun
+  dictionary_form: sąsiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The male neighbor is not here.
+    de: Der Nachbar ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (sąsiad)
+  answer_scope: word
+  options:
+    a: sąsiada
+    b: sąsiad
+    c: sąsiadowi
+    d: sąsiadem
+  correct: a
+- id: pl-nouns-genitive-neighbor-f
+  word_type: noun
+  dictionary_form: sąsiadka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The female neighbor is not here.
+    de: Die Nachbarin ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (sąsiadka)
+  answer_scope: word
+  options:
+    a: sąsiadka
+    b: sąsiadki
+    c: sąsiadce
+    d: sąsiadkę
+  correct: b
+- id: pl-nouns-genitive-doctor
+  word_type: noun
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The doctor is not here.
+    de: Der Arzt ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (lekarz)
+  answer_scope: word
+  options:
+    a: lekarz
+    b: lekarzowi
+    c: lekarza
+    d: lekarzem
+  correct: c
+- id: pl-nouns-genitive-mother
+  word_type: noun
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The mother is not here.
+    de: Die Mutter ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (mama)
+  answer_scope: word
+  options:
+    a: mama
+    b: mamie
+    c: mamę
+    d: mamy
+  correct: d
+- id: pl-nouns-genitive-father
+  word_type: noun
+  dictionary_form: tata
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The father is not here.
+    de: Der Vater ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (tata)
+  answer_scope: word
+  options:
+    a: taty
+    b: tata
+    c: tacie
+    d: tatę
+  correct: a
+- id: pl-nouns-genitive-grandfather
+  word_type: noun
+  dictionary_form: dziadek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The grandfather is not here.
+    de: Der Großvater ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (dziadek)
+  answer_scope: word
+  options:
+    a: dziadek
+    b: dziadka
+    c: dziadkowi
+    d: dziadkiem
+  correct: b
+- id: pl-nouns-genitive-grandmother
+  word_type: noun
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The grandmother is not here.
+    de: Die Großmutter ist nicht hier.
+  neutral_prompt: Nie ma tutaj ___. (babcia)
+  answer_scope: word
+  options:
+    a: babcia
+    b: babcię
+    c: babci
+    d: babcią
+  correct: c

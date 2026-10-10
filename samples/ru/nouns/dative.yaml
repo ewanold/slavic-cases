@@ -1,0 +1,287 @@
+# Original starter material; linguistic review is pending.
+schema_version: 1
+id: ru-nouns-dative-starter
+learning_language: ru
+track: nouns
+case: dative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+  de: Wähle die Form, die zum Satz und zum ausgewählten Fall passt.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: ru-nouns-dative-brother
+  word_type: noun
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the brother.
+    de: Ich helfe dem Bruder.
+  neutral_prompt: Я помогаю ___. (брат)
+  answer_scope: word
+  options:
+    a: брату
+    b: брат
+    c: брата
+    d: братом
+  correct: a
+- id: ru-nouns-dative-sister
+  word_type: noun
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the sister.
+    de: Ich helfe der Schwester.
+  neutral_prompt: Я помогаю ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестра
+    b: сестре
+    c: сестры
+    d: сестру
+  correct: b
+- id: ru-nouns-dative-friend-m
+  word_type: noun
+  dictionary_form: друг
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the male friend.
+    de: Ich helfe dem Freund.
+  neutral_prompt: Я помогаю ___. (друг)
+  answer_scope: word
+  options:
+    a: друг
+    b: друга
+    c: другу
+    d: другом
+  correct: c
+- id: ru-nouns-dative-friend-f
+  word_type: noun
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the female friend.
+    de: Ich helfe der Freundin.
+  neutral_prompt: Я помогаю ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруга
+    b: подруги
+    c: подругу
+    d: подруге
+  correct: d
+- id: ru-nouns-dative-teacher-m
+  word_type: noun
+  dictionary_form: учитель
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the male teacher.
+    de: Ich helfe dem Lehrer.
+  neutral_prompt: Я помогаю ___. (учитель)
+  answer_scope: word
+  options:
+    a: учителю
+    b: учитель
+    c: учителя
+    d: учителем
+  correct: a
+- id: ru-nouns-dative-teacher-f
+  word_type: noun
+  dictionary_form: учительница
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the female teacher.
+    de: Ich helfe der Lehrerin.
+  neutral_prompt: Я помогаю ___. (учительница)
+  answer_scope: word
+  options:
+    a: учительница
+    b: учительнице
+    c: учительницы
+    d: учительницу
+  correct: b
+- id: ru-nouns-dative-student-m
+  word_type: noun
+  dictionary_form: студент
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the male student.
+    de: Ich helfe dem Studenten.
+  neutral_prompt: Я помогаю ___. (студент)
+  answer_scope: word
+  options:
+    a: студент
+    b: студента
+    c: студенту
+    d: студентом
+  correct: c
+- id: ru-nouns-dative-student-f
+  word_type: noun
+  dictionary_form: студентка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the female student.
+    de: Ich helfe der Studentin.
+  neutral_prompt: Я помогаю ___. (студентка)
+  answer_scope: word
+  options:
+    a: студентка
+    b: студентки
+    c: студентку
+    d: студентке
+  correct: d
+- id: ru-nouns-dative-neighbor-m
+  word_type: noun
+  dictionary_form: сосед
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the male neighbor.
+    de: Ich helfe dem Nachbarn.
+  neutral_prompt: Я помогаю ___. (сосед)
+  answer_scope: word
+  options:
+    a: соседу
+    b: сосед
+    c: соседа
+    d: соседом
+  correct: a
+- id: ru-nouns-dative-neighbor-f
+  word_type: noun
+  dictionary_form: соседка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the female neighbor.
+    de: Ich helfe der Nachbarin.
+  neutral_prompt: Я помогаю ___. (соседка)
+  answer_scope: word
+  options:
+    a: соседка
+    b: соседке
+    c: соседки
+    d: соседку
+  correct: b
+- id: ru-nouns-dative-doctor
+  word_type: noun
+  dictionary_form: врач
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the doctor.
+    de: Ich helfe dem Arzt.
+  neutral_prompt: Я помогаю ___. (врач)
+  answer_scope: word
+  options:
+    a: врач
+    b: врача
+    c: врачу
+    d: врачом
+  correct: c
+- id: ru-nouns-dative-mother
+  word_type: noun
+  dictionary_form: мама
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the mother.
+    de: Ich helfe der Mutter.
+  neutral_prompt: Я помогаю ___. (мама)
+  answer_scope: word
+  options:
+    a: мама
+    b: мамы
+    c: маму
+    d: маме
+  correct: d
+- id: ru-nouns-dative-father
+  word_type: noun
+  dictionary_form: папа
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the father.
+    de: Ich helfe dem Vater.
+  neutral_prompt: Я помогаю ___. (папа)
+  answer_scope: word
+  options:
+    a: папе
+    b: папа
+    c: папы
+    d: папу
+  correct: a
+- id: ru-nouns-dative-grandfather
+  word_type: noun
+  dictionary_form: дедушка
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I help the grandfather.
+    de: Ich helfe dem Großvater.
+  neutral_prompt: Я помогаю ___. (дедушка)
+  answer_scope: word
+  options:
+    a: дедушка
+    b: дедушке
+    c: дедушки
+    d: дедушку
+  correct: b
+- id: ru-nouns-dative-grandmother
+  word_type: noun
+  dictionary_form: бабушка
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help the grandmother.
+    de: Ich helfe der Großmutter.
+  neutral_prompt: Я помогаю ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушка
+    b: бабушки
+    c: бабушке
+    d: бабушку
+  correct: c
