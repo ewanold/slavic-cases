@@ -283,3 +283,300 @@ voice quality/accessibility, Android 10/11 fallback, linguistic review, CLI
 migration and release work. User emulator-5554 remains running; no build pending.
 Changes remain local; no assistant commit/push/publication. No immediate question
 or blocker prevents continuing next session. Documentation whitespace check passed.
+
+## 2026-10-11 — Topic packs and manual themes
+
+User supplied ru-v2/pl-v2 and the sibling cyrillic-grouped.md reference. Implemented
+case → track → authored topic → gender subgroup (gender exercises only), separate
+pack IDs/Settings entries, variable question counts and three-choice gender items.
+Preserved original starter behavior. IDs are scoped per pack because Polish
+vocative samples reuse legacy IDs; extra German vocative translations are allowed.
+New content remains YAML schema 1, rather than silently changing schema versions.
+Added upper-right Light/Dark button with saved preference and system initial default;
+passed effective theme into feedback colors. Previous version only followed device.
+
+Validated 1,602 questions: 390 originals, 591 ru-v2 (43 topics matching reference
+count), 621 pl-v2. Reusable audit script/report records topic sizes, null features
+and three Russian duplicate-option questions. Source material and Polish adaptations
+declare unspecified licenses. Retained provenance and blocked release validation
+until permissions/review are recorded; local draft preview is not redistribution
+approval. No downloads, installs, commits or publication performed.
+All 13 Python regressions passed, including full-pack identity/topic/choice test.
+Added Android regression for gender navigation/theme persistence; adjusted older
+tests to distinguish pack IDs from learning-language codes. No adb device available,
+so runtime UI/instrumented verification remains pending.
+
+Offline assembleDebug, three JVM tests and lintDebug passed. Initial sandbox build
+could not load Gradle native services; reran with approved access to installed
+host tooling. Existing SDK XML warning remains nonblocking. Audit flags 601
+questions with at least one unknown/null grammatical feature. git diff --check passed.
+Updated debug APK: app/build/outputs/apk/debug/app-debug.apk.
+
+## 2026-10-11 — Clipped answer feedback
+
+User screenshot shows only the top pixels of the feedback paragraph below four
+answers. Moved feedback out of the scrolling question column into the fixed bottom
+control area above Speak/Next. Scaffold reserves its full measured height, including
+wrapped feedback; long questions/answers remain scrollable. No content or scoring
+change. Offline APK build requested; validation result follows.
+
+Validation: offline assembleDebug passed and git diff --check passed. Installed on
+emulator-5554 and selected a wrong answer in Russian v2 genitive practice. Verified
+full feedback bounds [28,1070][610,1112] above Speak [70,1151][139,1186],
+visually inspected AI/reference/prototype-fixed-feedback.png. Footer feedback
+is fully visible; answer list still scrolls when its height exceeds available
+space. No broad regression suite rerun for this layout-only change. Emulator left
+running at the checked practice question.
+
+## 2026-10-11 — Version 0.2 and local release artifact
+
+User requested simple/deep pack labels, a release version and version 0.2.
+Changed manifest names and removed inferred v2 suffix; saved IDs unchanged.
+Updated instrumented selectors and packaging name assertion. VersionCode is 2.
+Added explicit localReleasePreview property and reusable build helper: release
+is non-debuggable and uses existing development key for private phone testing.
+Drafts are included explicitly without marking them reviewed or licensed.
+Normal publication build keeps content checks. No public release or upload.
+
+During the build user asked about common development environments. Recommended
+already-installed Android Studio for editing, emulator/phone Run/Debug, Compose
+inspection and Logcat; terminal scripts remain useful alongside it. Recorded setup
+context and official IDE introduction in DEVELOPMENT.md.
+
+Verified installed Studio bin/studio and bin/studio.sh exist; gave the default
+launcher location. Release APK signature v2 verifies; aapt confirms version 0.2,
+versionCode 2, minSdk 29, targetSdk 36 and no application-debuggable flag. Asset
+contains all four simple/deep names and 1,602 questions. Packaging name regression
+passed. Final build/lint result follows.
+
+Offline assembleDebug, assembleRelease (explicit local preview), three JVM tests
+and lintRelease all passed. Build duration 5m48s for first release variant.
+Release artifact: app/build/outputs/apk/release/app-release.apk; no install or
+publication performed. Reusable build helper passed bash syntax validation.
+
+## 2026-10-11 — Friendly APK filenames
+
+User requested slavic-cases.apk and slavic-cases-debug.apk. Added variant-aware
+Gradle Copy exports to app/build/distributions/ wired into assemble tasks using
+SingleArtifact.APK provider. Kept original AGP output/installation metadata intact;
+exported APK bytes and signatures are unchanged. Updated current README/setup/
+handover paths and run-app.sh. No app display name, version, package ID or signing
+change. Historical LOG artifact paths intentionally preserved.
+
+User confirmed finding Android Studio and creating its desktop link; requested
+recording this in Markdown. Added confirmation to handover and reusable
+Tools → Create Desktop Entry instructions to DEVELOPMENT.md. No desktop files
+or machine-specific launcher paths added to the repository.
+
+Validation: offline assembleDebug/assembleRelease with local preview passed.
+Both renamed exports are SHA-256 identical to their source APKs (signatures
+preserved); shell syntax and documentation whitespace checks passed. No runtime
+suite rerun for artifact naming and documentation only. No publication/install.
+
+## 2026-10-11 — Closing handover
+
+User requested relevant file updates before closing. Replaced accumulated handover
+with current 0.2 status, simple/deep navigation, manual themes, fixed feedback,
+private release/signing limits, final artifact names and exact validation scope.
+Refreshed MAIN, UI, PROTOTYPE and TODOS to remove stale current-version/flow claims.
+Preserved historical work in this log. Recorded owner desktop launcher success.
+Noted newly present untracked Gradle daemon JVM criteria file without modifying it;
+it needs review for toolchain download behavior before adoption. User emulator
+left running, no build pending, no commit/push/publication performed.
+
+## 2026-10-11 — Architecture walkthrough
+
+User requested a quick explanation of the app's inner workings and confirmed
+there are three production Kotlin files. Explained MainActivity.kt as Compose UI,
+navigation, saved session state, preferences, themes and Android speech;
+Lessons.kt as data models and bundled JSON loader; Practice.kt as pure shuffle
+and scoring rules. Content is authored in YAML, validated/converted by Python at
+build time and bundled as JSON. Test Kotlin files are separate from production.
+This is a compact prototype; splitting screens can follow as complexity grows.
+Documentation-only discussion record; no app changes or tests required.
+
+## 2026-10-11 — Automatic continuation setting
+
+User requested a setting for automatic continuation. Added saved autoContinue
+preference and English/German Settings switch. Chosen implementation defaults:
+off, 2-second feedback delay for either answer outcome; final answer shows results.
+Shared next action serves timer and manual button. Compose effect cancellation
+handles manual Next/back/new sessions; Speak pauses advance for the current
+question so pronunciation is not interrupted. No version bump requested.
+
+Validation: offline assembleDebug passed (2m15s), including Kotlin compilation
+and exported slavic-cases-debug.apk. git diff --check passed. Sandbox native
+library initialization failed initially; host build succeeded. No device runtime
+check, release rebuild, install or publication performed for this addition.
+
+## 2026-10-11 — Guess the case
+
+User requested random guess-the-case mode, default 30 questions with configurable
+Settings count. Added persisted count (implementation range 1–200), main-menu
+button and saved session mode. Pool is all questions of the selected language
+pack across tracks/topics/cases, without replacement. Generated case questions
+use authored correct form to fill blanks and identify target form explicitly (→).
+Offer all cases of that pack, hiding the case from progress heading; source YAML
+is unchanged. Shared answer feedback/results/auto-continuation work in both modes.
+Speech reads target form. Added JVM checks for conversion, case identity, source
+translation preservation, default 30 and small-pool behavior.
+
+Validation: offline assembleDebug and testDebugUnitTest passed (2m30s), including
+five JVM practice tests. Updated debug export contains both new settings/mode.
+README and AI notes updated; git diff --check passed. No device runtime test,
+release rebuild, install or publication performed.
+
+## 2026-10-11 — Scope expansion to German and app rename
+
+User requested Learn Grammatical Cases as the app name and a German lesson basis.
+Added German simple (de): 120 original MIT draft questions, four cases, 15 per
+case/track. Whole-phrase answers teach articles, genders, singular genitives,
+weak masculine nouns, plural dative and weak/mixed/strong adjective patterns,
+including cardinal/ordinal numerals. Reusable original exporter refuses overwrite;
+YAML remains authoritative. Grammar references checked against IDS grammis and
+recorded in AI/LINKS and samples/de/README. Independent review remains pending.
+App label/header and Gradle project/APK names renamed. Android ID/namespace kept
+for update/settings continuity, installer paths/repository URL unchanged.
+Same-language native translations hidden so German GUI does not reveal answers.
+Version remains 0.2. Added German structural/grammar regression checks and an
+Android UI test for four-case navigation/translation hiding (device unavailable).
+
+Validation exposed six existing Russian deep files missing contributor metadata;
+added explicit unknown-original-author labels preserving sources/license/draft.
+More Russian files subsequently lost the field while work was running; asked
+whether user is concurrently editing/regenerating them. Do not infer authorship
+or redistribution permission. Full validation/build status will follow.
+
+Russian import files continued losing contributor fields during work. Reverted
+only this turn's inserted contributor lines. Import-specific validation now allows
+unknown author only for apk-topic-import with retained per-question source records,
+sources and license; packaging labels the author explicitly unknown in JSON.
+Original/simple/adaptation sets still require contributor. Release review/license
+guards unchanged. This avoids repeated changes to externally edited source YAML.
+First combined build stopped at missing contributor; rebuilding after this fix.
+German-only checks passed; no connected device reported by adb.
+
+Final validation: all 1,722 draft questions pass structure; 15 Python and five
+JVM checks pass. Offline assembleDebug, explicit local-preview assembleRelease,
+assembleDebugAndroidTest and lintDebug pass (6m38s). aapt confirms Learn Grammatical
+Cases launcher label, unchanged org.slaviccases.app identity, version 0.2/code 2.
+Both exports match internal APK SHA-256 and contain five packs / 1,722 questions;
+German has four cases and 120 questions. Local release signature verifies.
+No connected emulator/phone: five UI tests compiled but not run. No new downloads,
+installations, commit, push or publication. README, sample guide, AI scope/design/
+setup/handover/research notes updated for German and naming. Device testing and
+independent German linguistic review remain pending.
+
+## 2026-10-11 — Localized launcher and in-app name
+
+User asked whether the phone launcher and app title can be translated. Added
+values-de app_name Grammatische Fälle lernen, using the existing manifest resource
+label; English remains the default. In-app title now loads app_name through a
+configuration context for the saved GUI language, avoiding dependence on device
+locale. Both header and load-error title share it. Launcher locale is Android's
+choice, independent of the app's internal GUI preference. Consulted official
+Android localization guide; no dependencies/downloads or app identity change.
+
+While the localization build was running, user requested removing the UTC marker
+from the date-only build date. Will remove the Settings suffix and rebuild after
+the current source-reading build completes. Underlying date generation unchanged.
+
+User further identified English-only sample selection buttons. Extend the pending
+fix to localized language-pack names in Settings/header and authored topic labels
+in deep menus. Store translations with pack metadata, retaining stable IDs and
+original fallback names. Existing build finishes before modifying source inputs.
+
+Localization-only builds completed, but debug lint correctly caught reading device
+Configuration through LocalContext (could become stale). Fixed by observing
+LocalConfiguration and keying title lookup on configuration and GUI changes.
+Then applied user steering: date-only Settings suffix removed; manifest names and
+topic_names provide English/German pack/topic labels; loader and UI use them in
+selection chips, header and deep menus. Translations remain separate from source
+questions/native texts. Added metadata validation, extended packaging coverage
+check, and updated GUI persistence test to check German title/pack labels.
+Rebuilding both APKs, compiling Android tests, rerunning JVM/Python/lint checks.
+
+Final localization/date validation: offline debug/local release builds, Android
+UI-test APK compilation, five JVM tests and debug lint passed (6m14s). All 15
+Python checks and 1,722-question structure validation passed. aapt verified default
+Learn Grammatical Cases and German Grammatische Fälle lernen launcher labels.
+Both APKs bundle five translated pack names and 84 topic labels (32 RU, 52 PL).
+Original names/IDs remain intact; unknown-label fallback remains for older packs.
+Whitespace check passed. No emulator/phone install or runtime check, download,
+publication or commit. In-app title/selection labels follow GUI setting; launcher
+follows Android locale; date-only Settings value no longer includes UTC.
+
+## 2026-10-11 — Interface string resources
+
+User asked where button translations live and why Kotlin pairs were used.
+Explained that this was a first-prototype implementation shortcut, not an Android
+requirement/user preference. User agreed to migrate to localized strings.xml.
+Moved all interface literals into 58 English/default and German resource entries:
+buttons, settings/headings, cases/genders, speech/error notices, answer feedback,
+guess-case instruction, formatted counts/progress/results/version/date. Resource
+lookup uses saved GUI locale and observes device configuration changes. Full
+formatted phrases use numbered typed placeholders rather than concatenated labels.
+Practice rules no longer embed the guess-case UI instruction. Authored lessons and
+pack/topic names remain YAML. Added translation ID/typed-placeholder parity check.
+
+User asked about other prototype shortcuts while work continued. Explained the
+large MainActivity, string-based routes, SharedPreferences/saved session state,
+bundled-only content (no Android importer/author preview), fixed mixed size 15,
+draft content and development-signed private release. This is disclosure of current
+implementation/limits, not authorization or an agreed plan to rewrite them.
+
+Interface migration validation: offline debug/local release builds, Android test
+APK compilation, JVM tests and debug lint passed (5m15s). New XML translation
+parity check passed. Device execution remains pending.
+
+User clarified Google Play is not intended, F-Droid may be used, and the current
+phone runs GrapheneOS. Research: APK signing is required for direct installs too;
+GrapheneOS uses Android application signing, separate from OS verified-boot keys.
+Current local release explicitly uses the debug signing configuration. Recommend
+a separate protected release key for developer-distributed APKs; this is a
+proposal, no key generated. F-Droid normally builds/signs with its own per-app key;
+verified reproducible builds can retain the developer signature. Different signing
+identities normally prevent in-place updates; plan the testing-to-release transition.
+Current wall-clock BUILD_DATE needs a reproducible value if pursuing that route.
+Sources: https://developer.android.com/studio/publish/app-signing ;
+https://f-droid.org/docs/FAQ_-_App_Developers/ ;
+https://f-droid.org/docs/Reproducible_Builds/ ; https://grapheneos.org/usage .
+No publication, signing-key creation, download or installation performed.
+
+## 2026-10-11 — README screenshots
+
+User supplied four screenshots and requested adding them to README based on their
+names. Visually inspected all four: main menu, Russian deep genitive topic menu,
+German genitive adjective practice, and Russian guess-the-case feedback. Added a
+two-column gallery near the top with descriptive captions/alt text and 280-pixel
+display widths. Original screenshot files and filenames remain unchanged.
+Verified all gallery paths exist and whitespace checks pass; no app build needed.
+
+## 2026-10-11 — End-of-day handover
+
+User requested final documentation updates before closing. Refreshed HANDOVER
+with screenshots, current five-pack/1,722-question totals versus historical
+four-pack validation, uncommitted work and restart priorities. Screenshot evidence
+shows menus/feedback, but is not a complete newest-build runtime test. Updated
+completed screenshot task in TODOS. Latest builds/checks remain those recorded
+above; closing changes are documentation only, with whitespace validation. No
+commit, push, publication, new installation or key generation requested/performed.
+
+## 2026-10-11 — Russian and Polish GUI
+
+User requested Russian and Polish interface translations before closing. Added
+values-ru/values-pl resources, 60 entries matching English/German (including two
+new language autonyms). Settings offers four saved GUI choices in two rows.
+Launcher labels also localize. Added Russian/Polish pack and topic names to YAML
+metadata without changing lesson texts, provenance or question counts. Missing
+sentence translations stay explicit. Extended resource and packaging parity
+checks; building debug/local release and compiling Android tests offline. Native
+speaker and device review remain pending. No downloads or signing changes.
+
+Russian/Polish GUI validation complete: offline debug and private release builds,
+Android test APK compilation, five JVM tests and debug lint passed (7m13s).
+All 16 Python checks passed across the full run and the corrected packaging-check
+rerun: its old two-locale expectation was updated to four. Resource IDs and typed
+placeholders match across all four 60-entry files; all pack/topic labels include
+four locales. Phone execution and native-speaker review remain pending. Both APKs
+are ready at the usual distribution paths; no build is running.

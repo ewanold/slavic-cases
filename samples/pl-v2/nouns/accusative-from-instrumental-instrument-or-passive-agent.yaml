@@ -1,0 +1,240 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-accusative-from-instrumental-instrument-or-passive-agent-adapted
+learning_language: pl
+track: nouns
+case: accusative
+topic:
+  id: from-instrumental-instrument-or-passive-agent
+  name: from instrumental instrument or passive agent
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-instrument-passive-by-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: Made by a child.
+  neutral_prompt: Zrobione przez ___. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziecko
+    b: dziecka
+    c: dziecku
+    d: dzieckiem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-007
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: instrument-passive-by
+      name: instrument, passive + by
+    russian_prompt: Сделано (ребёнком).
+    russian_native_text:
+      en: Made by a child.
+    polish_marked_prompt: Zrobione przez [dziecko].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Written by a student.
+  neutral_prompt: Napisane przez ___. (student; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: studenta
+    b: student
+    c: studentowi
+    d: studentem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-008
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Написано (студентом).
+    russian_native_text:
+      en: Written by a student.
+    polish_marked_prompt: Napisane przez [studenta].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: artysta
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Painted by an artist.
+  neutral_prompt: Namalowane przez ___. (artysta; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: artystę
+    b: artysta
+    c: artysty
+    d: artyście
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-009
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Нарисовано (художником).
+    russian_native_text:
+      en: Painted by an artist.
+    polish_marked_prompt: Namalowane przez [artystę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: uczeń
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Made by a student.
+  neutral_prompt: Zrobione przez ___. (uczeń; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ucznia
+    b: uczeń
+    c: uczniowi
+    d: uczniem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-010
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Сделано (учеником).
+    russian_native_text:
+      en: Made by a student.
+    polish_marked_prompt: Zrobione przez [ucznia].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Bought by parents.
+  neutral_prompt: Kupione przez ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodziców
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-011
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Куплено (родителями).
+    russian_native_text:
+      en: Bought by parents.
+    polish_marked_prompt: Kupione przez [rodziców].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Made by students.
+  neutral_prompt: Zrobione przez ___. (student; liczba mnoga)
+  answer_scope: word
+  options:
+    a: studentów
+    b: student
+    c: studenta
+    d: studentowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-012
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Сделано (студентами).
+    russian_native_text:
+      en: Made by students.
+    polish_marked_prompt: Zrobione przez [studentów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Written by a friend.
+  neutral_prompt: Napisane przez ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciela
+    b: przyjaciel
+    c: przyjacielowi
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-013
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Написано (другом).
+    russian_native_text:
+      en: Written by a friend.
+    polish_marked_prompt: Napisane przez [przyjaciela].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.

@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-s-so-iz-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: s-so-iz
+  name: с/со, из
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-s-so-iz-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Китай
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A souvenir from China.
+  neutral_prompt: Сувенир из ___. (Китай)
+  answer_scope: word
+  options:
+    a: Китая
+    b: Китаю
+    c: Китае
+    d: Китаем
+  correct: a
+  source:
+    index: 1
+    prompt: Сувенир из (Китая).
+    base_or_stem: Китай
+    cyrillic_options:
+    - Китай
+    - Китаю
+    - Китае
+    - Китаем
+    string_ids:
+      prompt: 8356
+      english: 4498
+      stored_options:
+      - 8055
+      - 8056
+      - 8051
+      - 8052
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: здание
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Way out of the building.
+  neutral_prompt: Выход из ___. (здание)
+  answer_scope: word
+  options:
+    a: Здания
+    b: зданием
+    c: зданию
+    d: зданий
+  correct: a
+  source:
+    index: 2
+    prompt: Выход из (Здания).
+    base_or_stem: здание
+    cyrillic_options:
+    - здание
+    - зданием
+    - зданию
+    - зданий
+    string_ids:
+      prompt: 7995
+      english: 6155
+      stored_options:
+      - 7671
+      - 8272
+      - 9196
+      - 9195
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Россия
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: A present from Russia.
+  neutral_prompt: Подарок из ___. (Россия)
+  answer_scope: word
+  options:
+    a: России
+    b: Россие
+    c: Россию
+    d: Россией
+  correct: a
+  source:
+    index: 3
+    prompt: Подарок из (России).
+    base_or_stem: Россия
+    cyrillic_options:
+    - Россия
+    - Россие
+    - Россию
+    - Россией
+    string_ids:
+      prompt: 8291
+      english: 4489
+      stored_options:
+      - 7595
+      - 8312
+      - 8318
+      - 8313
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ресторан
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Food from the restaurant.
+  neutral_prompt: Еда из ___. (ресторан)
+  answer_scope: word
+  options:
+    a: ресторана
+    b: ресторану
+    c: ресторане
+    d: рестораном
+  correct: a
+  source:
+    index: 4
+    prompt: Еда из (ресторана).
+    base_or_stem: ресторан
+    cyrillic_options:
+    - ресторан
+    - ресторану
+    - ресторане
+    - рестораном
+    string_ids:
+      prompt: 8030
+      english: 5282
+      stored_options:
+      - 8031
+      - 8709
+      - 9193
+      - 9648
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дерево
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: A table made of wood.
+  neutral_prompt: Стол из ___. (дерево)
+  answer_scope: word
+  options:
+    a: дерева
+    b: деревы
+    c: деревой
+    d: деревом
+  correct: a
+  source:
+    index: 5
+    prompt: Стол из (дерева).
+    base_or_stem: дерево
+    cyrillic_options:
+    - дерево
+    - деревы
+    - деревой
+    - деревом
+    string_ids:
+      prompt: 8353
+      english: 4501
+      stored_options:
+      - 7637
+      - 8845
+      - 7638
+      - 8036
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: золото
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A ring made of gold.
+  neutral_prompt: Кольцо из ___. (золото)
+  answer_scope: word
+  options:
+    a: золота
+    b: золоту
+    c: золоте
+    d: золотой
+  correct: a
+  source:
+    index: 6
+    prompt: Кольцо из (золота).
+    base_or_stem: золото
+    cyrillic_options:
+    - золото
+    - золоту
+    - золоте
+    - золотой
+    string_ids:
+      prompt: 8066
+      english: 4492
+      stored_options:
+      - 9221
+      - 9223
+      - 9219
+      - 9222
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: встреча
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To come back from a meeting.
+  neutral_prompt: Вернуться со ___. (встреча)
+  answer_scope: word
+  options:
+    a: встречи
+    b: встречу
+    c: встречей
+    d: встречам
+  correct: a
+  source:
+    index: 7
+    prompt: Вернуться со (встречи).
+    base_or_stem: встреча
+    cyrillic_options:
+    - встреча
+    - встречу
+    - встречей
+    - встречам
+    string_ids:
+      prompt: 7979
+      english: 6023
+      stored_options:
+      - 8721
+      - 8426
+      - 8834
+      - 8722
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сцена
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To sing from a stage.
+  neutral_prompt: Петь со ___. (сцена)
+  answer_scope: word
+  options:
+    a: сцены
+    b: сценой
+    c: сцене
+    d: сценам
+  correct: a
+  source:
+    index: 8
+    prompt: Петь со (сцены).
+    base_or_stem: сцена
+    cyrillic_options:
+    - сцена
+    - сценой
+    - сцене
+    - сценам
+    string_ids:
+      prompt: 8280
+      english: 6030
+      stored_options:
+      - 8643
+      - 9787
+      - 9454
+      - 8644
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: юг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A souvenir from the South.
+  neutral_prompt: Сувенир с ___. (юг)
+  answer_scope: word
+  options:
+    a: юга
+    b: юги
+    c: югу
+    d: юге
+  correct: a
+  source:
+    index: 9
+    prompt: Сувенир с (юга).
+    base_or_stem: юг
+    cyrillic_options:
+    - юг
+    - юги
+    - югу
+    - юге
+    string_ids:
+      prompt: 8357
+      english: 4499
+      stored_options:
+      - 8057
+      - 8120
+      - 8582
+      - 8058
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: прогулка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To come back from a walk.
+  neutral_prompt: Прийти с ___. (прогулка)
+  answer_scope: word
+  options:
+    a: прогулки
+    b: прогулке
+    c: прогулок
+    d: прогулкой
+  correct: a
+  source:
+    index: 10
+    prompt: Прийти с (прогулки).
+    base_or_stem: прогулка
+    cyrillic_options:
+    - прогулка
+    - прогулке
+    - прогулок
+    - прогулкой
+    string_ids:
+      prompt: 8296
+      english: 6024
+      stored_options:
+      - 9104
+      - 9618
+      - 9493
+      - 9619
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: урок
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: To leave a lesson.
+  neutral_prompt: Уйти с ___. (урок)
+  answer_scope: word
+  options:
+    a: урока
+    b: уроке
+    c: уроку
+    d: уроком
+  correct: a
+  source:
+    index: 11
+    prompt: Уйти с (урока).
+    base_or_stem: урок
+    cyrillic_options:
+    - урок
+    - уроке
+    - уроку
+    - уроком
+    string_ids:
+      prompt: 8386
+      english: 6028
+      stored_options:
+      - 7831
+      - 9713
+      - 8044
+      - 9040
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-s-so-iz-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: крыша
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The view from the roof.
+  neutral_prompt: Вид с ___. (крыша)
+  answer_scope: word
+  options:
+    a: крыши
+    b: крыше
+    c: крышам
+    d: крышу
+  correct: a
+  source:
+    index: 12
+    prompt: Вид с (крыши).
+    base_or_stem: крыша
+    cyrillic_options:
+    - крыша
+    - крыше
+    - крышам
+    - крышу
+    string_ids:
+      prompt: 7984
+      english: 5978
+      stored_options:
+      - 9339
+      - 8176
+      - 9340
+      - 9343
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

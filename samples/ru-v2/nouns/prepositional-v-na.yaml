@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-prepositional-v-na-apk
+learning_language: ru
+track: nouns
+case: prepositional
+topic:
+  id: v-na
+  name: в, на
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-prepositional-v-na-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Москва
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I live in Moscow.
+  neutral_prompt: Я живу в ___. (Москва)
+  answer_scope: word
+  options:
+    a: Москве
+    b: Москву
+    c: Москвой
+    d: Москва
+  correct: a
+  source:
+    index: 1
+    prompt: Я живу в (Москве).
+    base_or_stem: Москва
+    cyrillic_options:
+    - Москва
+    - Москву
+    - Москвой
+    - Москва
+    string_ids:
+      prompt: 8142
+      english: 5380
+      stored_options:
+      - 7593
+      - 8148
+      - 8144
+      - 7593
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: офис
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He works in an office.
+  neutral_prompt: Он работает в ___. (офис)
+  answer_scope: word
+  options:
+    a: офисе
+    b: офис
+    c: офиса
+    d: офисом
+  correct: a
+  source:
+    index: 2
+    prompt: Он работает в (офисе).
+    base_or_stem: офис
+    cyrillic_options:
+    - офис
+    - офис
+    - офиса
+    - офисом
+    string_ids:
+      prompt: 8236
+      english: 5358
+      stored_options:
+      - 8237
+      - 8237
+      - 9496
+      - 9433
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: коробка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Candies in a box.
+  neutral_prompt: Конфеты в ___. (коробка)
+  answer_scope: word
+  options:
+    a: коробке
+    b: коробку
+    c: коробкой
+    d: коробок
+  correct: a
+  source:
+    index: 3
+    prompt: Конфеты в (коробке).
+    base_or_stem: коробка
+    cyrillic_options:
+    - коробка
+    - коробку
+    - коробкой
+    - коробок
+    string_ids:
+      prompt: 8075
+      english: 4797
+      stored_options:
+      - 8471
+      - 9303
+      - 9302
+      - 9270
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: шкаф
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Clothes in a wardrobe.
+  neutral_prompt: Одежда в ___. (шкаф)
+  answer_scope: word
+  options:
+    a: шкафу
+    b: шкафи
+    c: шкафа
+    d: шкафом
+  correct: a
+  source:
+    index: 4
+    prompt: Одежда в (шкафу).
+    base_or_stem: шкаф
+    cyrillic_options:
+    - шкаф
+    - шкафи
+    - шкафа
+    - шкафом
+    string_ids:
+      prompt: 8215
+      english: 4841
+      stored_options:
+      - 8216
+      - 9825
+      - 9003
+      - 9839
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: интернет
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: An article in the internet.
+  neutral_prompt: Статья в ___. (интернет)
+  answer_scope: word
+  options:
+    a: интернете
+    b: интернета
+    c: интернету
+    d: интернетом
+  correct: a
+  source:
+    index: 5
+    prompt: Статья в (интернете).
+    base_or_stem: интернет
+    cyrillic_options:
+    - интернет
+    - интернета
+    - интернету
+    - интернетом
+    string_ids:
+      prompt: 8351
+      english: 4551
+      stored_options:
+      - 8352
+      - 7799
+      - 9244
+      - 9241
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Россия
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: We live in Russia.
+  neutral_prompt: Мы живём в ___. (Россия)
+  answer_scope: word
+  options:
+    a: России
+    b: Россие
+    c: Россию
+    d: Россией
+  correct: a
+  source:
+    index: 6
+    prompt: Мы живём в (России).
+    base_or_stem: Россия
+    cyrillic_options:
+    - Россия
+    - Россие
+    - Россию
+    - Россией
+    string_ids:
+      prompt: 8156
+      english: 6161
+      stored_options:
+      - 7595
+      - 8312
+      - 8318
+      - 8313
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: встреча
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He is at the meeting.
+  neutral_prompt: Он на ___. (встреча)
+  answer_scope: word
+  options:
+    a: встрече
+    b: встречу
+    c: встречей
+    d: встреч
+  correct: a
+  source:
+    index: 7
+    prompt: Он на (встрече).
+    base_or_stem: встреча
+    cyrillic_options:
+    - встреча
+    - встречу
+    - встречей
+    - встреч
+    string_ids:
+      prompt: 8232
+      english: 5351
+      stored_options:
+      - 8721
+      - 8426
+      - 8834
+      - 7980
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: улица
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We’re outside.
+  neutral_prompt: Мы на ___. (улица)
+  answer_scope: word
+  options:
+    a: улице
+    b: улицы
+    c: улицей
+    d: улица
+  correct: a
+  source:
+    index: 8
+    prompt: Мы на (улице).
+    base_or_stem: улица
+    cyrillic_options:
+    - улица
+    - улицы
+    - улицей
+    - улица
+    string_ids:
+      prompt: 8163
+      english: 7940
+      stored_options:
+      - 9345
+      - 9224
+      - 9782
+      - 9345
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: небо
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Clouds in the sky.
+  neutral_prompt: Облака на ___. (небо)
+  answer_scope: word
+  options:
+    a: небе
+    b: небы
+    c: неба
+    d: небу
+  correct: a
+  source:
+    index: 9
+    prompt: Облака на (небе).
+    base_or_stem: небо
+    cyrillic_options:
+    - небо
+    - небы
+    - неба
+    - небу
+    string_ids:
+      prompt: 8213
+      english: 4842
+      stored_options:
+      - 7788
+      - 8703
+      - 8515
+      - 8327
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: диван
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To sit on the sofa.
+  neutral_prompt: Сидеть на ___. (диван)
+  answer_scope: word
+  options:
+    a: диване
+    b: диван
+    c: дивану
+    d: дивана
+  correct: a
+  source:
+    index: 10
+    prompt: Сидеть на (диване).
+    base_or_stem: диван
+    cyrillic_options:
+    - диван
+    - диван
+    - дивану
+    - дивана
+    string_ids:
+      prompt: 8337
+      english: 6031
+      stored_options:
+      - 8338
+      - 8338
+      - 9045
+      - 8101
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: крыша
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The bird on the roof.
+  neutral_prompt: Птица на ___. (крыша)
+  answer_scope: word
+  options:
+    a: крыше
+    b: крыши
+    c: крышей
+    d: крышами
+  correct: a
+  source:
+    index: 11
+    prompt: Птица на (крыше).
+    base_or_stem: крыша
+    cyrillic_options:
+    - крыша
+    - крыши
+    - крышей
+    - крышами
+    string_ids:
+      prompt: 8297
+      english: 5947
+      stored_options:
+      - 9339
+      - 7985
+      - 8177
+      - 9341
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-v-na-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: фестиваль
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Music at the festival.
+  neutral_prompt: Музыка на ___. (фестиваль)
+  answer_scope: word
+  options:
+    a: фестивале
+    b: фестивали
+    c: фестивалю
+    d: фестивалем
+  correct: a
+  source:
+    index: 12
+    prompt: Музыка на (фестивале).
+    base_or_stem: фестиваль
+    cyrillic_options:
+    - фестиваль
+    - фестивали
+    - фестивалю
+    - фестивалем
+    string_ids:
+      prompt: 8151
+      english: 5600
+      stored_options:
+      - 9365
+      - 9799
+      - 9009
+      - 9205
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

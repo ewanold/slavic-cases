@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-5-9-0-nadtsat-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: 5-9-0-nadtsat
+  name: 5-9, 0, -надцать
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: доллар
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 5 dollars.
+  neutral_prompt: 5 ___. (доллар)
+  answer_scope: word
+  options:
+    a: долларов
+    b: доллара
+    c: доллару
+    d: доллары
+  correct: a
+  source:
+    index: 1
+    prompt: 5 (долларов).
+    base_or_stem: доллар
+    cyrillic_options:
+    - доллар
+    - доллара
+    - доллару
+    - доллары
+    string_ids:
+      prompt: 7889
+      english: 3725
+      stored_options:
+      - 7881
+      - 7882
+      - 9108
+      - 9110
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: часть
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 5 parts.
+  neutral_prompt: 5 ___. (часть)
+  answer_scope: word
+  options:
+    a: частей
+    b: части
+    c: часть
+    d: часте
+  correct: a
+  source:
+    index: 2
+    prompt: 5 (частей).
+    base_or_stem: часть
+    cyrillic_options:
+    - часть
+    - части
+    - часть
+    - часте
+    string_ids:
+      prompt: 7890
+      english: 3729
+      stored_options:
+      - 7820
+      - 9814
+      - 7820
+      - 7891
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кошка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 7 cats.
+  neutral_prompt: 7 ___. (кошка)
+  answer_scope: word
+  options:
+    a: кошек
+    b: кошки
+    c: кошка
+    d: кошкам
+  correct: a
+  source:
+    index: 3
+    prompt: 7 (кошек).
+    base_or_stem: кошка
+    cyrillic_options:
+    - кошка
+    - кошки
+    - кошка
+    - кошкам
+    string_ids:
+      prompt: 7897
+      english: 1209
+      stored_options:
+      - 7603
+      - 7884
+      - 7603
+      - 7604
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: минута
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 5 minutes.
+  neutral_prompt: 5 ___. (минута)
+  answer_scope: word
+  options:
+    a: минут
+    b: минуты
+    c: минута
+    d: минутам
+  correct: a
+  source:
+    index: 4
+    prompt: 5 (минут).
+    base_or_stem: минута
+    cyrillic_options:
+    - минута
+    - минуты
+    - минута
+    - минутам
+    string_ids:
+      prompt: 7861
+      english: 3733
+      stored_options:
+      - 8734
+      - 7865
+      - 8734
+      - 8735
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: час
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 8 o’clock/6 hours.
+  neutral_prompt: 8 ___. (час)
+  answer_scope: word
+  options:
+    a: часов
+    b: часой
+    c: часом
+    d: часы
+  correct: a
+  source:
+    index: 5
+    prompt: 8 (часов).
+    base_or_stem: час
+    cyrillic_options:
+    - час
+    - часой
+    - часом
+    - часы
+    string_ids:
+      prompt: 7901
+      english: 7902
+      stored_options:
+      - 7738
+      - 9812
+      - 9813
+      - 9792
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 6 days.
+  neutral_prompt: 6 ___. (день)
+  answer_scope: word
+  options:
+    a: дней
+    b: дню
+    c: дня
+    d: днём
+  correct: a
+  source:
+    index: 6
+    prompt: 6 (дней).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - дню
+    - дня
+    - днём
+    string_ids:
+      prompt: 7893
+      english: 1197
+      stored_options:
+      - 7659
+      - 9069
+      - 9070
+      - 8406
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: рубль
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 9 rubles.
+  neutral_prompt: 9 ___. (рубль)
+  answer_scope: word
+  options:
+    a: рублей
+    b: рублям
+    c: рублю
+    d: рубль
+  correct: a
+  source:
+    index: 7
+    prompt: 9 (рублей).
+    base_or_stem: рубль
+    cyrillic_options:
+    - рубль
+    - рублям
+    - рублю
+    - рубль
+    string_ids:
+      prompt: 7903
+      english: 1013
+      stored_options:
+      - 7773
+      - 9654
+      - 9383
+      - 7773
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: карандаш
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 8 pencils.
+  neutral_prompt: 8 ___. (карандаш)
+  answer_scope: word
+  options:
+    a: карандашей
+    b: карандашов
+    c: карандаши
+    d: карандашом
+  correct: a
+  source:
+    index: 8
+    prompt: 8 (карандашей).
+    base_or_stem: карандаш
+    cyrillic_options:
+    - карандаш
+    - карандашов
+    - карандаши
+    - карандашом
+    string_ids:
+      prompt: 7898
+      english: 4016
+      stored_options:
+      - 7899
+      - 8715
+      - 9255
+      - 8308
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 7 friends.
+  neutral_prompt: 7 ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзей
+    b: друзья
+    c: друзьям
+    d: друзьи
+  correct: a
+  source:
+    index: 9
+    prompt: 7 (друзей).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзья
+    - друзьям
+    - друзьи
+    string_ids:
+      prompt: 7895
+      english: 4076
+      stored_options:
+      - 8161
+      - 8161
+      - 8162
+      - 7957
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: минута
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 15 minutes.
+  neutral_prompt: 15 ___. (минута)
+  answer_scope: word
+  options:
+    a: минут
+    b: минута
+    c: минуты
+    d: минутам
+  correct: a
+  source:
+    index: 10
+    prompt: 15 (минут).
+    base_or_stem: минута
+    cyrillic_options:
+    - минута
+    - минута
+    - минуты
+    - минутам
+    string_ids:
+      prompt: 7860
+      english: 3732
+      stored_options:
+      - 8734
+      - 8734
+      - 7865
+      - 8735
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: студент
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 20 students.
+  neutral_prompt: 20 ___. (студент)
+  answer_scope: word
+  options:
+    a: студентов
+    b: студенты
+    c: студент
+    d: студента
+  correct: a
+  source:
+    index: 11
+    prompt: 20 (студентов).
+    base_or_stem: студент
+    cyrillic_options:
+    - студент
+    - студенты
+    - студент
+    - студента
+    string_ids:
+      prompt: 7870
+      english: 3599
+      stored_options:
+      - 7816
+      - 9376
+      - 7816
+      - 8331
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-5-9-0-nadtsat-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: урок
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 30 lessons.
+  neutral_prompt: 30 ___. (урок)
+  answer_scope: word
+  options:
+    a: уроков
+    b: урок
+    c: урокам
+    d: урока
+  correct: a
+  source:
+    index: 12
+    prompt: 30 (уроков).
+    base_or_stem: урок
+    cyrillic_options:
+    - урок
+    - урок
+    - урокам
+    - урока
+    string_ids:
+      prompt: 7879
+      english: 3754
+      stored_options:
+      - 7831
+      - 7831
+      - 9593
+      - 7991
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

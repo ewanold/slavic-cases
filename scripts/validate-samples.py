@@ -56,10 +56,19 @@ def validate(root,release=False):
     subtypes=Counter()
     statuses=Counter()
     for language_file in language_files:
+        seen=set() # IDs are scoped to a selectable language pack.
         lang=read(language_file)
         code=lang.get('learning_language')
-        require(nonempty(code) and code==language_file.parent.name,f'{language_file}: folder/language mismatch')
+        require(nonempty(code) and language_file.parent.name in (code, f'{code}-v2'),f'{language_file}: folder/language mismatch')
         require(nonempty(lang.get('name')),f'{language_file}: missing language name')
+        if 'names' in lang:
+            text_map(lang['names'], ['en','de'], f'{language_file}/names')
+        if 'topic_names' in lang:
+            require(isinstance(lang['topic_names'], dict), f'{language_file}: topic_names must be a mapping')
+            for topic_id, names in lang['topic_names'].items():
+                require(nonempty(topic_id), f'{language_file}: empty topic name ID')
+                text_map(names, ['en','de'], f'{language_file}/topic_names/{topic_id}')
+        topic_profile=lang.get('content_profile') in ('apk-topic-import','polish-topic-adaptation')
         declared=lang.get('cases')
         require(isinstance(declared,list) and 1<=len(declared)<=8,f'{language_file}: declare 1–8 cases')
         require(all(isinstance(c,dict) and nonempty(c.get('id')) and nonempty(c.get('name')) for c in declared),f'{language_file}: invalid case declaration')
@@ -79,6 +88,10 @@ def validate(root,release=False):
             for path in files:
                 data=read(path)
                 where=str(path)
+                require(data.get('content_profile') == lang.get('content_profile'),f'{where}: content profile mismatch')
+                if topic_profile:
+                    topic=data.get('topic')
+                    require(isinstance(topic,dict) and nonempty(topic.get('id')) and nonempty(topic.get('name')),f'{where}: topic id/name required')
                 case=data.get('case')
                 require(case in cases,f'{where}: undeclared case {case!r}')
                 covered.add(case)
@@ -86,16 +99,21 @@ def validate(root,release=False):
                 sid=data.get('id')
                 require(nonempty(sid) and sid not in seen,f'{where}: missing or duplicate sample ID')
                 seen.add(sid)
-                require(data.get('native_languages')==locales,f'{where}: native language list differs from language definition')
-                for field in ('contributor','license','sources'):
+                require((set(locales).issubset(data.get('native_languages', [])) if topic_profile else data.get('native_languages')==locales),f'{where}: native language list differs from language definition')
+                unknown_import_author = data.get('content_profile') == 'apk-topic-import' and not nonempty(data.get('contributor'))
+                if unknown_import_author:
+                    require(all(isinstance(q, dict) and isinstance(q.get('source'), dict) and q['source']
+                        for q in data.get('sentences', [])), f'{where}: unknown import author requires per-question source metadata')
+                for field in (('license','sources') if unknown_import_author else ('contributor','license','sources')):
                     require(nonempty(data.get(field)),f'{where}: missing {field}')
                 status=data.get('review_status')
                 require(status in ('draft','reviewed'),f'{where}: invalid review_status')
                 if release:
+                    require(data.get('license') not in ('unspecified','unknown'),f'{where}: redistribution permission required')
                     require(status=='reviewed',f'{where}: linguistic review required for release')
                 text_map(data.get('instruction'),locales,f'{where}/instruction')
                 questions=data.get('sentences')
-                require(isinstance(questions,list) and len(questions)==15,f'{where}: expected exactly 15 sentences')
+                require(isinstance(questions,list) and (bool(questions) if topic_profile else len(questions)==15),f'{where}: expected exactly 15 sentences')
                 for q in questions:
                     require(isinstance(q,dict),f'{where}: question must be a mapping')
                     qid=q.get('id')
@@ -112,15 +130,15 @@ def validate(root,release=False):
                     require(nonempty(prompt) and prompt.count('___')==1,f'{loc}: prompt needs exactly one ___ blank')
                     require(q.get('answer_scope') in ('word','phrase'),f'{loc}: answer_scope must be word or phrase')
                     options=q.get('options')
-                    require(isinstance(options,dict) and set(options)==set('abcd'),f'{loc}: exactly a,b,c,d options required')
+                    require(isinstance(options,dict) and (set(options) in (set('abc'),set('abcd')) if topic_profile else set(options)==set('abcd')),f'{loc}: exactly a,b,c,d options required')
                     require(all(nonempty(v) for v in options.values()),f'{loc}: empty/non-text option')
                     normalized=[unicodedata.normalize('NFC',v).strip().casefold() for v in options.values()]
-                    require(len(set(normalized))==4,f'{loc}: duplicate answer text')
+                    require(topic_profile or len(set(normalized))==4,f'{loc}: duplicate answer text')
                     require(q.get('correct') in options,f'{loc}: correct must reference one option')
                     totals[(code,track)]+=1
                     subtypes[(code,subtype)]+=1
                     statuses[status]+=1
-                if track=='adjectives':
+                if track=='adjectives' and not topic_profile:
                     require(any(q['word_type']=='adjective' for q in questions),f'{where}: missing adjective questions')
                     require(any(q['word_type'].endswith('_numeral') for q in questions),f'{where}: missing numeral questions')
             require(covered==set(cases),f'{folder}: missing cases: {sorted(set(cases)-covered)}')

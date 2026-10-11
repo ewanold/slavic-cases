@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-2-3-4-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: 2-3-4
+  name: 2, 3, 4
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-2-3-4-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: гость
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Two guests.
+  neutral_prompt: 2 ___. (гость)
+  answer_scope: word
+  options:
+    a: гостя
+    b: гости
+    c: гостей
+    d: гостю
+  correct: a
+  source:
+    index: 1
+    prompt: 2 (гостя).
+    base_or_stem: гость
+    cyrillic_options:
+    - гость
+    - гости
+    - гостей
+    - гостю
+    string_ids:
+      prompt: 7863
+      english: 4648
+      stored_options:
+      - 7649
+      - 8949
+      - 8947
+      - 8632
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: час
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Two hours/o’clock.
+  neutral_prompt: 2 ___. (час)
+  answer_scope: word
+  options:
+    a: часа
+    b: часы
+    c: часу
+    d: часом
+  correct: a
+  source:
+    index: 2
+    prompt: 2 (часа).
+    base_or_stem: час
+    cyrillic_options:
+    - час
+    - часы
+    - часу
+    - часом
+    string_ids:
+      prompt: 7868
+      english: 7937
+      stored_options:
+      - 7738
+      - 9792
+      - 9815
+      - 9813
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Two sisters.
+  neutral_prompt: 2 ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестёр
+    c: сестра
+    d: сестрами
+  correct: a
+  source:
+    index: 3
+    prompt: 2 (сестры).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестёр
+    - сестра
+    - сестрами
+    string_ids:
+      prompt: 7866
+      english: 6060
+      stored_options:
+      - 7784
+      - 9624
+      - 7784
+      - 9401
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: минута
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Two minutes.
+  neutral_prompt: 2 ___. (минута)
+  answer_scope: word
+  options:
+    a: минуты
+    b: минут
+    c: минута
+    d: минутов
+  correct: a
+  source:
+    index: 4
+    prompt: 2 (минуты).
+    base_or_stem: минута
+    cyrillic_options:
+    - минута
+    - минут
+    - минута
+    - минутов
+    string_ids:
+      prompt: 7864
+      english: 6059
+      stored_options:
+      - 8734
+      - 7862
+      - 8734
+      - 8724
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: человек
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 3 persons.
+  neutral_prompt: 3 ___. (человек)
+  answer_scope: word
+  options:
+    a: человека
+    b: человеки
+    c: человеку
+    d: человекам
+  correct: a
+  source:
+    index: 5
+    prompt: 3 (человека).
+    base_or_stem: человек
+    cyrillic_options:
+    - человек
+    - человеки
+    - человеку
+    - человекам
+    string_ids:
+      prompt: 7876
+      english: 3858
+      stored_options:
+      - 7853
+      - 9817
+      - 7854
+      - 8803
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: книга
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 3 books.
+  neutral_prompt: 3 ___. (книга)
+  answer_scope: word
+  options:
+    a: книги
+    b: книга
+    c: книгой
+    d: книгами
+  correct: a
+  source:
+    index: 6
+    prompt: 3 (книги).
+    base_or_stem: книга
+    cyrillic_options:
+    - книга
+    - книга
+    - книгой
+    - книгами
+    string_ids:
+      prompt: 7871
+      english: 1170
+      stored_options:
+      - 7683
+      - 7683
+      - 9274
+      - 7798
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: час
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 3 hours/o’clock.
+  neutral_prompt: 3 ___. (час)
+  answer_scope: word
+  options:
+    a: часа
+    b: часе
+    c: часу
+    d: час
+  correct: a
+  source:
+    index: 7
+    prompt: 3 (часа).
+    base_or_stem: час
+    cyrillic_options:
+    - час
+    - часе
+    - часу
+    - час
+    string_ids:
+      prompt: 7875
+      english: 7878
+      stored_options:
+      - 7738
+      - 9676
+      - 9815
+      - 7738
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ночь
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: 3 nights.
+  neutral_prompt: 3 ___. (ночь)
+  answer_scope: word
+  options:
+    a: ночи
+    b: ночь
+    c: ночам
+    d: ночью
+  correct: a
+  source:
+    index: 8
+    prompt: 3 (ночи).
+    base_or_stem: ночь
+    cyrillic_options:
+    - ночь
+    - ночь
+    - ночам
+    - ночью
+    string_ids:
+      prompt: 7873
+      english: 859
+      stored_options:
+      - 7698
+      - 7698
+      - 9422
+      - 7752
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кошка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 4 cats.
+  neutral_prompt: 4 ___. (кошка)
+  answer_scope: word
+  options:
+    a: кошки
+    b: кошкой
+    c: кошку
+    d: кошкам
+  correct: a
+  source:
+    index: 9
+    prompt: 4 (кошки).
+    base_or_stem: кошка
+    cyrillic_options:
+    - кошка
+    - кошкой
+    - кошку
+    - кошкам
+    string_ids:
+      prompt: 7883
+      english: 3462
+      stored_options:
+      - 7603
+      - 9317
+      - 7855
+      - 7604
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: доллар
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 4 dollars.
+  neutral_prompt: 4 ___. (доллар)
+  answer_scope: word
+  options:
+    a: доллара
+    b: доллар
+    c: доллару
+    d: доллары
+  correct: a
+  source:
+    index: 10
+    prompt: 4 (доллара).
+    base_or_stem: доллар
+    cyrillic_options:
+    - доллар
+    - доллар
+    - доллару
+    - доллары
+    string_ids:
+      prompt: 7880
+      english: 4046
+      stored_options:
+      - 7881
+      - 7881
+      - 9108
+      - 9110
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: 4 children.
+  neutral_prompt: 4 ___. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнка
+    b: ребёнку
+    c: ребёнки
+    d: ребёнок
+  correct: a
+  source:
+    index: 11
+    prompt: 4 (ребёнка).
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребёнку
+    - ребёнки
+    - ребёнок
+    string_ids:
+      prompt: 7885
+      english: 3492
+      stored_options:
+      - 8813
+      - 8116
+      - 9646
+      - 8813
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-2-3-4-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: рубль
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: 4 rubles.
+  neutral_prompt: 4 ___. (рубль)
+  answer_scope: word
+  options:
+    a: рубля
+    b: рублем
+    c: рубли
+    d: рублей
+  correct: a
+  source:
+    index: 12
+    prompt: 4 (рубля).
+    base_or_stem: рубль
+    cyrillic_options:
+    - рубль
+    - рублем
+    - рубли
+    - рублей
+    string_ids:
+      prompt: 7887
+      english: 4057
+      stored_options:
+      - 7773
+      - 9109
+      - 8587
+      - 7904
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

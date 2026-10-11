@@ -1,0 +1,257 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-possession-near-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: possession-near
+  name: possession near
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-u-okolo-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: At a friend’s house.
+  neutral_prompt: W domu u ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciela
+    b: przyjaciel
+    c: przyjacielowi
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-001
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: u-okolo
+      name: у, около
+    russian_prompt: У (друга) дома.
+    russian_native_text:
+      en: At a friend’s house.
+    polish_marked_prompt: W domu u [przyjaciela].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: At parents’ house.
+  neutral_prompt: W domu u ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodziców
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-003
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (родителей) дома.
+    russian_native_text:
+      en: At parents’ house.
+    polish_marked_prompt: W domu u [rodziców].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Near the house.
+  neutral_prompt: Obok ___. (dom; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: domu
+    b: dom
+    c: domowi
+    d: domem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-007
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (дома).
+    russian_native_text:
+      en: Near the house.
+    polish_marked_prompt: Obok [domu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: godzina
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Around an hour.
+  neutral_prompt: Około ___. (godzina; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: godziny
+    b: godzina
+    c: godzinę
+    d: godziną
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-008
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (часа).
+    russian_native_text:
+      en: Around an hour.
+    polish_marked_prompt: Około [godziny].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-genitive-u-okolo-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzwi
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Near the door.
+  neutral_prompt: Obok ___. (drzwi; liczba mnoga)
+  answer_scope: word
+  options:
+    a: drzwi
+    b: drzwiach
+    c: drzwiom
+    d: drzwiami
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-009
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (двери).
+    russian_native_text:
+      en: Near the door.
+    polish_marked_prompt: Obok [drzwi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wejście
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Near the entrance.
+  neutral_prompt: Obok ___. (wejście; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wejścia
+    b: wejście
+    c: wejściu
+    d: wejściem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-010
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (входа).
+    russian_native_text:
+      en: Near the entrance.
+    polish_marked_prompt: Obok [wejścia].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: morze
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Near the sea.
+  neutral_prompt: W pobliżu ___. (morze; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: morza
+    b: morze
+    c: morzu
+    d: morzem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-011
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (моря).
+    russian_native_text:
+      en: Near the sea.
+    polish_marked_prompt: W pobliżu [morza].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-u-okolo-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: minuta
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Around one minute.
+  neutral_prompt: Około ___. (minuta; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: minuty
+    b: minuta
+    c: minutę
+    d: minutą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-012
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Около (минуты).
+    russian_native_text:
+      en: Around one minute.
+    polish_marked_prompt: Około [minuty].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

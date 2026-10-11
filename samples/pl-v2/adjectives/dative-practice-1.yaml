@@ -1,0 +1,170 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-dative-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: dative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: to tell the new workers.
+  neutral_prompt: powiedzieć ___ (nowy pracownicy)
+  answer_scope: word
+  options:
+    a: nowym
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-004
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: сказать (новым) {работникам}.
+    russian_native_text:
+      en: to tell the new workers.
+    polish_marked_prompt: powiedzieć [nowym] {pracownikom}
+    polish_context_lemma: pracownik
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-dative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nieznany
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: to sing to strangers
+  neutral_prompt: śpiewać ___ (nieznany ludzie)
+  answer_scope: word
+  options:
+    a: nieznanym
+    b: nieznany
+    c: nieznanego
+    d: nieznanemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-006
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: петь (незнакомым) {людям}
+    russian_native_text:
+      en: to sing to strangers
+    polish_marked_prompt: śpiewać [nieznanym] {ludziom}
+    polish_context_lemma: człowiek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-dative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: bliski
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: to complain to close friends
+  neutral_prompt: skarżyć się ___ (bliski przyjaciele)
+  answer_scope: word
+  options:
+    a: bliskim
+    b: bliski
+    c: bliskiego
+    d: bliskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-007
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: жаловаться (близким) {друзьям}
+    russian_native_text:
+      en: to complain to close friends
+    polish_marked_prompt: skarżyć się [bliskim] {przyjaciołom}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-dative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: starszy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: the older sister is cold
+  neutral_prompt: ___ jest zimno (starszy siostra)
+  answer_scope: word
+  options:
+    a: starszej
+    b: starszy
+    c: starszego
+    d: starszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-008
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (старшей) {сестре} холодно
+    russian_native_text:
+      en: the older sister is cold
+    polish_marked_prompt: '[starszej] {siostrze} jest zimno'
+    polish_context_lemma: siostra
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-dative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: rosyjski
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: russian tourists are bored
+  neutral_prompt: ___ się nudzi (rosyjski turyści)
+  answer_scope: word
+  options:
+    a: rosyjskim
+    b: rosyjski
+    c: rosyjskiego
+    d: rosyjskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-009
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (русским) {туристам} скучно
+    russian_native_text:
+      en: russian tourists are bored
+    polish_marked_prompt: '[rosyjskim] {turystom} się nudzi'
+    polish_context_lemma: turysta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

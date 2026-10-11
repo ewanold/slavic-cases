@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-nominative-plural-masculine-apk
+learning_language: ru
+track: nouns
+case: nominative
+topic:
+  id: plural-masculine
+  name: Plural masculine
+native_languages:
+- en
+instruction:
+  en: Choose the nominative plural form of the noun.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-plural-masculine-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: компьютер
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: computers
+  neutral_prompt: ___ (компьютер)
+  answer_scope: word
+  options:
+    a: компьютеры
+    b: компьютера
+    c: компиютери
+    d: компьютерья
+  correct: a
+  source:
+    index: 1
+    prompt: (компьютер)
+    base_or_stem: компьютер
+    cyrillic_options:
+    - компьютеры
+    - компьютера
+    - компиютери
+    - компьютерья
+    string_ids:
+      prompt: 7687
+      english: 6569
+      stored_options:
+      - 9285
+      - 8408
+      - 7701
+      - 9288
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: банан
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: bananas
+  neutral_prompt: ___ (банан)
+  answer_scope: word
+  options:
+    a: бананы
+    b: банана
+    c: банани
+    d: бананья
+  correct: a
+  source:
+    index: 2
+    prompt: (банан)
+    base_or_stem: банан
+    cyrillic_options:
+    - бананы
+    - банана
+    - банани
+    - бананья
+    string_ids:
+      prompt: 7601
+      english: 365
+      stored_options:
+      - 8550
+      - 8543
+      - 8545
+      - 8551
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: стол
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: tables
+  neutral_prompt: ___ (стол)
+  answer_scope: word
+  options:
+    a: столы
+    b: стола
+    c: столи
+    d: столья
+  correct: a
+  source:
+    index: 3
+    prompt: (стол)
+    base_or_stem: стол
+    cyrillic_options:
+    - столы
+    - стола
+    - столи
+    - столья
+    string_ids:
+      prompt: 7813
+      english: 6479
+      stored_options:
+      - 9778
+      - 9775
+      - 9777
+      - 9779
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: журнал
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: magazines
+  neutral_prompt: ___ (журнал)
+  answer_scope: word
+  options:
+    a: журналы
+    b: журнала
+    c: журнальи
+    d: журнали
+  correct: a
+  source:
+    index: 4
+    prompt: (журнал)
+    base_or_stem: журнал
+    cyrillic_options:
+    - журналы
+    - журнала
+    - журнальи
+    - журнали
+    string_ids:
+      prompt: 7668
+      english: 5654
+      stored_options:
+      - 9180
+      - 8467
+      - 9181
+      - 8239
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кот
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: cats
+  neutral_prompt: ___ (кот)
+  answer_scope: word
+  options:
+    a: коты
+    b: кота
+    c: котя
+    d: котья
+  correct: a
+  source:
+    index: 5
+    prompt: (кот)
+    base_or_stem: кот
+    cyrillic_options:
+    - коты
+    - кота
+    - котя
+    - котья
+    string_ids:
+      prompt: 7689
+      english: 3463
+      stored_options:
+      - 9307
+      - 9305
+      - 9309
+      - 9308
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: музей
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: museums
+  neutral_prompt: ___ (музей)
+  answer_scope: word
+  options:
+    a: музеи
+    b: музеа
+    c: музейи
+    d: музейя
+  correct: a
+  source:
+    index: 6
+    prompt: (музей)
+    base_or_stem: музей
+    cyrillic_options:
+    - музеи
+    - музеа
+    - музейи
+    - музейя
+    string_ids:
+      prompt: 7729
+      english: 4097
+      stored_options:
+      - 9329
+      - 8484
+      - 9018
+      - 8664
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: писатель
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: writers
+  neutral_prompt: ___ (писатель)
+  answer_scope: word
+  options:
+    a: писатели
+    b: писательи
+    c: писателя
+    d: писателья
+  correct: a
+  source:
+    index: 7
+    prompt: (писатель)
+    base_or_stem: писатель
+    cyrillic_options:
+    - писатели
+    - писательи
+    - писателя
+    - писателья
+    string_ids:
+      prompt: 7763
+      english: 6806
+      stored_options:
+      - 9542
+      - 9030
+      - 9544
+      - 9543
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: отель
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: hotels
+  neutral_prompt: ___ (отель)
+  answer_scope: word
+  options:
+    a: отели
+    b: отельи
+    c: отеля
+    d: отелья
+  correct: a
+  source:
+    index: 8
+    prompt: (отель)
+    base_or_stem: отель
+    cyrillic_options:
+    - отели
+    - отельи
+    - отеля
+    - отелья
+    string_ids:
+      prompt: 7757
+      english: 6780
+      stored_options:
+      - 9220
+      - 8507
+      - 9505
+      - 9503
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: рубль
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: rubles
+  neutral_prompt: ___ (рубль)
+  answer_scope: word
+  options:
+    a: рубли
+    b: рубльи
+    c: рубля
+    d: рублья
+  correct: a
+  source:
+    index: 9
+    prompt: (рубль)
+    base_or_stem: рубль
+    cyrillic_options:
+    - рубли
+    - рубльи
+    - рубля
+    - рублья
+    string_ids:
+      prompt: 7772
+      english: 4059
+      stored_options:
+      - 8587
+      - 9651
+      - 7888
+      - 9653
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: чай
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: teas
+  neutral_prompt: ___ (чай)
+  answer_scope: word
+  options:
+    a: чаи
+    b: чайи
+    c: чайя
+    d: чая
+  correct: a
+  source:
+    index: 10
+    prompt: (чай)
+    base_or_stem: чай
+    cyrillic_options:
+    - чаи
+    - чайи
+    - чайя
+    - чая
+    string_ids:
+      prompt: 7848
+      english: 476
+      stored_options:
+      - 8887
+      - 7647
+      - 9811
+      - 8930
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: попугай
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: parrots
+  neutral_prompt: ___ (попугай)
+  answer_scope: word
+  options:
+    a: попугаи
+    b: попугайи
+    c: попугайя
+    d: попугая
+  correct: a
+  source:
+    index: 11
+    prompt: (попугай)
+    base_or_stem: попугай
+    cyrillic_options:
+    - попугаи
+    - попугайи
+    - попугайя
+    - попугая
+    string_ids:
+      prompt: 7771
+      english: 7457
+      stored_options:
+      - 9582
+      - 9583
+      - 9584
+      - 9585
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-masculine-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: трамвай
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: trams
+  neutral_prompt: ___ (трамвай)
+  answer_scope: word
+  options:
+    a: трамваи
+    b: трамвайи
+    c: трамвая
+    d: трамвайя
+  correct: a
+  source:
+    index: 12
+    prompt: (трамвай)
+    base_or_stem: трамвай
+    cyrillic_options:
+    - трамваи
+    - трамвайи
+    - трамвая
+    - трамвайя
+    string_ids:
+      prompt: 7823
+      english: 597
+      stored_options:
+      - 9600
+      - 8336
+      - 7809
+      - 9757
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

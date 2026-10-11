@@ -1,0 +1,536 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-accusative-v-na-apk
+learning_language: ru
+track: nouns
+case: accusative
+topic:
+  id: v-na
+  name: в, на
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-accusative-v-na-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Москва
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: He is travelling to Moscow.
+  neutral_prompt: Он едет в ___. (Москва)
+  answer_scope: word
+  options:
+    a: Москву
+    b: Москве
+    c: Москвы
+    d: Москвой
+  correct: a
+  source:
+    index: 1
+    prompt: Он едет в (Москву).
+    base_or_stem: Москва
+    cyrillic_options:
+    - Москва
+    - Москве
+    - Москвы
+    - Москвой
+    string_ids:
+      prompt: 8147
+      english: 5352
+      stored_options:
+      - 7593
+      - 8143
+      - 8149
+      - 8144
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: школа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A child goes to school.
+  neutral_prompt: Ребенок ходит в ___. (школа)
+  answer_scope: word
+  options:
+    a: школу
+    b: школе
+    c: школ
+    d: школа
+  correct: a
+  source:
+    index: 2
+    prompt: Ребенок ходит в (школу).
+    base_or_stem: школа
+    cyrillic_options:
+    - школа
+    - школе
+    - школ
+    - школа
+    string_ids:
+      prompt: 8303
+      english: 4460
+      stored_options:
+      - 8453
+      - 7808
+      - 7807
+      - 8453
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: магазин
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She went to the shop.
+  neutral_prompt: Она пошла в ___. (магазин)
+  answer_scope: word
+  options:
+    a: магазин
+    b: магазином
+    c: магазина
+    d: магазины
+  correct: a
+  source:
+    index: 3
+    prompt: Она пошла в (магазин).
+    base_or_stem: магазин
+    cyrillic_options:
+    - магазин
+    - магазином
+    - магазина
+    - магазины
+    string_ids:
+      prompt: 8249
+      english: 5875
+      stored_options:
+      - 8188
+      - 8042
+      - 8189
+      - 8653
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: класс
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A teacher enters the classroom.
+  neutral_prompt: Учитель заходит в ___. (класс)
+  answer_scope: word
+  options:
+    a: класс
+    b: класса
+    c: классе
+    d: классы
+  correct: a
+  source:
+    index: 4
+    prompt: Учитель заходит в (класс).
+    base_or_stem: класс
+    cyrillic_options:
+    - класс
+    - класса
+    - классе
+    - классы
+    string_ids:
+      prompt: 8387
+      english: 4502
+      stored_options:
+      - 8388
+      - 8400
+      - 8600
+      - 9266
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дверь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Somebody knocks the door.
+  neutral_prompt: Кто-то стучит в ___. (дверь)
+  answer_scope: word
+  options:
+    a: дверь
+    b: дверю
+    c: двери
+    d: дверем
+  correct: a
+  source:
+    index: 5
+    prompt: Кто-то стучит в (дверь).
+    base_or_stem: дверь
+    cyrillic_options:
+    - дверь
+    - дверю
+    - двери
+    - дверем
+    string_ids:
+      prompt: 7651
+      english: 5887
+      stored_options:
+      - 7653
+      - 8996
+      - 8220
+      - 8985
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Россия
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I’m going to Russia.
+  neutral_prompt: Я еду в ___. (Россия)
+  answer_scope: word
+  options:
+    a: Россию
+    b: Россия
+    c: России
+    d: Россиу
+  correct: a
+  source:
+    index: 6
+    prompt: Я еду в (Россию).
+    base_or_stem: Россия
+    cyrillic_options:
+    - Россия
+    - Россия
+    - России
+    - Россиу
+    string_ids:
+      prompt: 8316
+      english: 7925
+      stored_options:
+      - 7595
+      - 7595
+      - 8157
+      - 8314
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: встреча
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I’m going to a meeting.
+  neutral_prompt: Я иду на ___. (встреча)
+  answer_scope: word
+  options:
+    a: встречу
+    b: встреч
+    c: встречей
+    d: встречами
+  correct: a
+  source:
+    index: 7
+    prompt: Я иду на (встречу).
+    base_or_stem: встреча
+    cyrillic_options:
+    - встреча
+    - встреч
+    - встречей
+    - встречами
+    string_ids:
+      prompt: 8425
+      english: 7926
+      stored_options:
+      - 8721
+      - 7980
+      - 8834
+      - 8723
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: обед
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Colleagues go to lunch.
+  neutral_prompt: Коллеги идут на ___. (обед)
+  answer_scope: word
+  options:
+    a: обед
+    b: обеду
+    c: обеды
+    d: обеда
+  correct: a
+  source:
+    index: 8
+    prompt: Коллеги идут на (обед).
+    base_or_stem: обед
+    cyrillic_options:
+    - обед
+    - обеду
+    - обеды
+    - обеда
+    string_ids:
+      prompt: 8064
+      english: 4844
+      stored_options:
+      - 8065
+      - 9372
+      - 9381
+      - 9014
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: футбол
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Tickets to a football match.
+  neutral_prompt: Билеты на ___. (футбол)
+  answer_scope: word
+  options:
+    a: футбол
+    b: футболе
+    c: футбола
+    d: футболам
+  correct: a
+  source:
+    index: 9
+    prompt: Билеты на (футбол).
+    base_or_stem: футбол
+    cyrillic_options:
+    - футбол
+    - футболе
+    - футбола
+    - футболам
+    string_ids:
+      prompt: 7964
+      english: 6012
+      stored_options:
+      - 7966
+      - 9351
+      - 9800
+      - 9801
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: самолёт
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Plane tickets.
+  neutral_prompt: Билет на ___. (самолёт)
+  answer_scope: word
+  options:
+    a: самолёт
+    b: самолёта
+    c: самолёту
+    d: самолёте
+  correct: a
+  source:
+    index: 10
+    prompt: Билет на (самолёт).
+    base_or_stem: самолёт
+    cyrillic_options:
+    - самолёт
+    - самолёта
+    - самолёту
+    - самолёте
+    string_ids:
+      prompt: 7962
+      english: 5686
+      stored_options:
+      - 7963
+      - 8461
+      - 8401
+      - 8478
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: концерт
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Tickets to a concert.
+  neutral_prompt: Билет на ___. (концерт)
+  answer_scope: word
+  options:
+    a: концерт
+    b: концерта
+    c: концерту
+    d: концерте
+  correct: a
+  source:
+    index: 11
+    prompt: Билет на (концерт).
+    base_or_stem: концерт
+    cyrillic_options:
+    - концерт
+    - концерта
+    - концерту
+    - концерте
+    string_ids:
+      prompt: 7960
+      english: 6011
+      stored_options:
+      - 7961
+      - 9297
+      - 9300
+      - 9299
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: свадьба
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Invitation to a wedding.
+  neutral_prompt: Приглашение на ___. (свадьба)
+  answer_scope: word
+  options:
+    a: свадьбу
+    b: свадьба
+    c: свадьбе
+    d: свадьбой
+  correct: a
+  source:
+    index: 12
+    prompt: Приглашение на (свадьбу).
+    base_or_stem: свадьба
+    cyrillic_options:
+    - свадьба
+    - свадьба
+    - свадьбе
+    - свадьбой
+    string_ids:
+      prompt: 8294
+      english: 5458
+      stored_options:
+      - 8519
+      - 8519
+      - 8553
+      - 9674
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: клуб
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We went to a club.
+  neutral_prompt: Мы ходили в ___. (клуб)
+  answer_scope: word
+  options:
+    a: клуб
+    b: клуба
+    c: клубой
+    d: клубами
+  correct: a
+  source:
+    index: 13
+    prompt: Мы ходили в (клуб).
+    base_or_stem: клуб
+    cyrillic_options:
+    - клуб
+    - клуба
+    - клубой
+    - клубами
+    string_ids:
+      prompt: 8169
+      english: 6166
+      stored_options:
+      - 8170
+      - 9237
+      - 9269
+      - 9238
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-v-na-apk-014
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: острова
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: They went to islands.
+  neutral_prompt: Они летали на ___. (острова)
+  answer_scope: word
+  options:
+    a: острова
+    b: остров
+    c: островами
+    d: островой
+  correct: a
+  source:
+    index: 14
+    prompt: Они летали на (острова).
+    base_or_stem: острова
+    cyrillic_options:
+    - острова
+    - остров
+    - островами
+    - островой
+    string_ids:
+      prompt: 8259
+      english: 5992
+      stored_options:
+      - 8261
+      - 8260
+      - 9501
+      - 8798
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

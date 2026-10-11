@@ -1,0 +1,53 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-from-instrumental-interests-and-activities-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: from-instrumental-interests-and-activities
+  name: from instrumental interests and activities
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: język
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: They study the Russian language.
+  neutral_prompt: Oni uczą się rosyjskiego ___. (język; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: języka
+    b: język
+    c: językowi
+    d: językiem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-012
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic:
+      id: interesovatsya-uvlekatsya
+      name: интересоваться, увлекаться...
+    russian_prompt: Они занимаются русским (языком).
+    russian_native_text:
+      en: They study Russian language.
+    polish_marked_prompt: Oni uczą się rosyjskiego [języka].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is instrumental.
+  - English was clarified to match the Polish wording; the original is retained in source.

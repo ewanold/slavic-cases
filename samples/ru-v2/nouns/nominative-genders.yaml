@@ -1,0 +1,1033 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-nominative-genders-apk
+learning_language: ru
+track: nouns
+case: nominative
+topic:
+  id: genders
+  name: Genders
+native_languages:
+- en
+instruction:
+  en: Choose the grammatical gender of the noun.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-genders-apk-001
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: собака
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: dog
+  neutral_prompt: 'Род слова «собака»: ___. (собака)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 1
+    prompt: (собака)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7802
+      english: 4184
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-002
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: сестра
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: sister
+  neutral_prompt: 'Род слова «сестра»: ___. (сестра)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 2
+    prompt: (сестра)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7783
+      english: 4457
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-003
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: дочь
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: daughter
+  neutral_prompt: 'Род слова «дочь»: ___. (дочь)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 3
+    prompt: (дочь)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7665
+      english: 4144
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-004
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: тётя
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: aunt
+  neutral_prompt: 'Род слова «тётя»: ___. (тётя)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 4
+    prompt: (тётя)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7825
+      english: 5322
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-005
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: машина
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: car
+  neutral_prompt: 'Род слова «машина»: ___. (машина)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 5
+    prompt: (машина)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7721
+      english: 4494
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-006
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: подруга
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: girlfriend
+  neutral_prompt: 'Род слова «подруга»: ___. (подруга)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 6
+    prompt: (подруга)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7766
+      english: 6469
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-007
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: мышь
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: mouse
+  neutral_prompt: 'Род слова «мышь»: ___. (мышь)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 7
+    prompt: (мышь)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7731
+      english: 7428
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-008
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: ночь
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: night
+  neutral_prompt: 'Род слова «ночь»: ___. (ночь)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 8
+    prompt: (ночь)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7750
+      english: 860
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-009
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: комната
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: room
+  neutral_prompt: 'Род слова «комната»: ___. (комната)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 9
+    prompt: (комната)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7686
+      english: 4496
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-010
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Россия
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Russia
+  neutral_prompt: 'Род слова «Россия»: ___. (Россия)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 10
+    prompt: (Россия)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7594
+      english: 355
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-011
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Мария
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Maria
+  neutral_prompt: 'Род слова «Мария»: ___. (Мария)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 11
+    prompt: (Мария)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7590
+      english: 4477
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-012
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Москва
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Moscow
+  neutral_prompt: 'Род слова «Москва»: ___. (Москва)'
+  answer_scope: phrase
+  options:
+    a: женский род
+    b: мужской род
+    c: средний род
+  correct: a
+  source:
+    index: 12
+    prompt: (Москва)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7592
+      english: 5353
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-013
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: дом
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: house
+  neutral_prompt: 'Род слова «дом»: ___. (дом)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 13
+    prompt: (дом)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7664
+      english: 4523
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-014
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: день
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: day
+  neutral_prompt: 'Род слова «день»: ___. (день)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 14
+    prompt: (день)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7658
+      english: 1198
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-015
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: час
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: hour
+  neutral_prompt: 'Род слова «час»: ___. (час)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 15
+    prompt: (час)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7851
+      english: 4554
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-016
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Иван
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Ivan
+  neutral_prompt: 'Род слова «Иван»: ___. (Иван)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 16
+    prompt: (Иван)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7588
+      english: 5465
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-017
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: брат
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: brother
+  neutral_prompt: 'Род слова «брат»: ___. (брат)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 17
+    prompt: (брат)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7622
+      english: 5375
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-018
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: город
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: city
+  neutral_prompt: 'Род слова «город»: ___. (город)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 18
+    prompt: (город)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7642
+      english: 794
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-019
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: урок
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: lesson
+  neutral_prompt: 'Род слова «урок»: ___. (урок)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 19
+    prompt: (урок)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7830
+      english: 3755
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-020
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: гость
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: guest
+  neutral_prompt: 'Род слова «гость»: ___. (гость)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 20
+    prompt: (гость)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7648
+      english: 4649
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-021
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: край
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: edge
+  neutral_prompt: 'Род слова «край»: ___. (край)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 21
+    prompt: (край)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7690
+      english: 6684
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-022
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: май
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: May
+  neutral_prompt: 'Род слова «май»: ___. (май)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 22
+    prompt: (май)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7709
+      english: 789
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-023
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: рубль
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: ruble
+  neutral_prompt: 'Род слова «рубль»: ___. (рубль)'
+  answer_scope: phrase
+  options:
+    a: мужской род
+    b: средний род
+    c: женский род
+  correct: a
+  source:
+    index: 23
+    prompt: (рубль)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7772
+      english: 4058
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-024
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: лето
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: summer
+  neutral_prompt: 'Род слова «лето»: ___. (лето)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 24
+    prompt: (лето)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7703
+      english: 5387
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-025
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: дерево
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: tree
+  neutral_prompt: 'Род слова «дерево»: ___. (дерево)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 25
+    prompt: (дерево)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7660
+      english: 439
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-026
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: молоко
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: milk
+  neutral_prompt: 'Род слова «молоко»: ___. (молоко)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 26
+    prompt: (молоко)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7724
+      english: 4459
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-027
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: окно
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: window
+  neutral_prompt: 'Род слова «окно»: ___. (окно)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 27
+    prompt: (окно)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7755
+      english: 10563
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-028
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: ощущение
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: feeling
+  neutral_prompt: 'Род слова «ощущение»: ___. (ощущение)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 28
+    prompt: (ощущение)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7759
+      english: 6048
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-029
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: давление
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: pressure
+  neutral_prompt: 'Род слова «давление»: ___. (давление)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 29
+    prompt: (давление)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7650
+      english: 6833
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-030
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: волнение
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: anxiety
+  neutral_prompt: 'Род слова «волнение»: ___. (волнение)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 30
+    prompt: (волнение)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7635
+      english: 6574
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-031
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: счастье
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: happiness
+  neutral_prompt: 'Род слова «счастье»: ___. (счастье)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 31
+    prompt: (счастье)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7819
+      english: 5537
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-032
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: здоровье
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: health
+  neutral_prompt: 'Род слова «здоровье»: ___. (здоровье)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 32
+    prompt: (здоровье)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7672
+      english: 7332
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-033
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: поле
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: field
+  neutral_prompt: 'Род слова «поле»: ___. (поле)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 33
+    prompt: (поле)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7770
+      english: 5175
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-034
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: детство
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: childhood
+  neutral_prompt: 'Род слова «детство»: ___. (детство)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 34
+    prompt: (детство)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7661
+      english: 4761
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-genders-apk-035
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: море
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: sea
+  neutral_prompt: 'Род слова «море»: ___. (море)'
+  answer_scope: phrase
+  options:
+    a: средний род
+    b: мужской род
+    c: женский род
+  correct: a
+  source:
+    index: 35
+    prompt: (море)
+    base_or_stem: null
+    cyrillic_options: []
+    string_ids:
+      prompt: 7726
+      english: 5619
+      stored_options: []
+  review_notes:
+  - Gender classification exercise with three choices; labels translated from English.
+  - Null grammatical features are not established by the source and require review.

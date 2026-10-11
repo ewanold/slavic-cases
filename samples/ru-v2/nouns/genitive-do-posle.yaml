@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-do-posle-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: do-posle
+  name: до, после
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-do-posle-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: обед
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Time till lunch.
+  neutral_prompt: Время до ___. (обед)
+  answer_scope: word
+  options:
+    a: Обеда
+    b: обедом
+    c: обеды
+    d: обеде
+  correct: a
+  source:
+    index: 1
+    prompt: Время до (Обеда).
+    base_or_stem: обед
+    cyrillic_options:
+    - обед
+    - обедом
+    - обеды
+    - обеде
+    string_ids:
+      prompt: 7986
+      english: 4534
+      stored_options:
+      - 8065
+      - 9112
+      - 9381
+      - 7983
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: работа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The way to work.
+  neutral_prompt: Дорога до ___. (работа)
+  answer_scope: word
+  options:
+    a: Работы
+    b: работе
+    c: работой
+    d: работу
+  correct: a
+  source:
+    index: 2
+    prompt: Дорога до (Работы).
+    base_or_stem: работа
+    cyrillic_options:
+    - работа
+    - работе
+    - работой
+    - работу
+    string_ids:
+      prompt: 8022
+      english: 5980
+      stored_options:
+      - 8235
+      - 8506
+      - 8607
+      - 8745
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: праздник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A day before a holiday.
+  neutral_prompt: День до ___. (праздник)
+  answer_scope: word
+  options:
+    a: праздника
+    b: празднику
+    c: празднике
+    d: праздником
+  correct: a
+  source:
+    index: 3
+    prompt: День до (праздника).
+    base_or_stem: праздник
+    cyrillic_options:
+    - праздник
+    - празднику
+    - празднике
+    - праздником
+    string_ids:
+      prompt: 8013
+      english: 4464
+      stored_options:
+      - 8014
+      - 9602
+      - 9601
+      - 9289
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дом
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: The way to the house.
+  neutral_prompt: Дорога до ___. (дом)
+  answer_scope: word
+  options:
+    a: дома
+    b: домой
+    c: домы
+    d: доме
+  correct: a
+  source:
+    index: 4
+    prompt: Дорога до (дома).
+    base_or_stem: дом
+    cyrillic_options:
+    - дом
+    - домой
+    - домы
+    - доме
+    string_ids:
+      prompt: 8023
+      english: 5979
+      stored_options:
+      - 7611
+      - 8682
+      - 9116
+      - 7746
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: лекция
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: An hour before a lecture.
+  neutral_prompt: Час до ___. (лекция)
+  answer_scope: word
+  options:
+    a: лекции
+    b: лекцию
+    c: лекциы
+    d: лекциям
+  correct: a
+  source:
+    index: 5
+    prompt: Час до (лекции).
+    base_or_stem: лекция
+    cyrillic_options:
+    - лекция
+    - лекцию
+    - лекциы
+    - лекциям
+    string_ids:
+      prompt: 8396
+      english: 4553
+      stored_options:
+      - 9356
+      - 9353
+      - 9352
+      - 9357
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: начало
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A minute before the beginning.
+  neutral_prompt: Минута до ___. (начало)
+  answer_scope: word
+  options:
+    a: начала
+    b: началу
+    c: начале
+    d: начал
+  correct: a
+  source:
+    index: 6
+    prompt: Минута до (начала).
+    base_or_stem: начало
+    cyrillic_options:
+    - начало
+    - началу
+    - начале
+    - начал
+    string_ids:
+      prompt: 8132
+      english: 4484
+      stored_options:
+      - 9058
+      - 8718
+      - 9347
+      - 7733
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: закат
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Time before sunset.
+  neutral_prompt: Время до ___. (закат)
+  answer_scope: word
+  options:
+    a: заката
+    b: закату
+    c: закате
+    d: закаты
+  correct: a
+  source:
+    index: 7
+    prompt: Время до (заката).
+    base_or_stem: закат
+    cyrillic_options:
+    - закат
+    - закату
+    - закате
+    - закаты
+    string_ids:
+      prompt: 7988
+      english: 6018
+      stored_options:
+      - 7989
+      - 8766
+      - 9183
+      - 9185
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: урок
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Time after the lesson.
+  neutral_prompt: Время после ___. (урок)
+  answer_scope: word
+  options:
+    a: урока
+    b: уроки
+    c: уроку
+    d: урокам
+  correct: a
+  source:
+    index: 8
+    prompt: Время после (урока).
+    base_or_stem: урок
+    cyrillic_options:
+    - урок
+    - уроки
+    - уроку
+    - урокам
+    string_ids:
+      prompt: 7990
+      english: 6016
+      stored_options:
+      - 7831
+      - 7850
+      - 8044
+      - 9593
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: свадьба
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Life after the wedding.
+  neutral_prompt: Жизнь после ___. (свадьба)
+  answer_scope: word
+  options:
+    a: свадьбы
+    b: свадьбе
+    c: свадьбой
+    d: свадьбу
+  correct: a
+  source:
+    index: 9
+    prompt: Жизнь после (свадьбы).
+    base_or_stem: свадьба
+    cyrillic_options:
+    - свадьба
+    - свадьбе
+    - свадьбой
+    - свадьбу
+    string_ids:
+      prompt: 8033
+      english: 5499
+      stored_options:
+      - 8519
+      - 8553
+      - 9674
+      - 8295
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ужин
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Ice Cream after dinner.
+  neutral_prompt: Мороженое после ___. (ужин)
+  answer_scope: word
+  options:
+    a: ужина
+    b: ужины
+    c: ужине
+    d: ужиной
+  correct: a
+  source:
+    index: 10
+    prompt: Мороженое после (ужина).
+    base_or_stem: ужин
+    cyrillic_options:
+    - ужин
+    - ужины
+    - ужине
+    - ужиной
+    string_ids:
+      prompt: 8140
+      english: 5402
+      stored_options:
+      - 8141
+      - 9027
+      - 8730
+      - 9681
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: работа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Rest after work.
+  neutral_prompt: Отдых после ___. (работа)
+  answer_scope: word
+  options:
+    a: работы
+    b: работе
+    c: работу
+    d: работой
+  correct: a
+  source:
+    index: 11
+    prompt: Отдых после (работы).
+    base_or_stem: работа
+    cyrillic_options:
+    - работа
+    - работе
+    - работу
+    - работой
+    string_ids:
+      prompt: 8264
+      english: 5818
+      stored_options:
+      - 8235
+      - 8506
+      - 8745
+      - 8607
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-do-posle-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: отпуск
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A meeting after the vacation.
+  neutral_prompt: Встреча после ___. (отпуск)
+  answer_scope: word
+  options:
+    a: отпуска
+    b: отпуске
+    c: отпуском
+    d: отпускам
+  correct: a
+  source:
+    index: 12
+    prompt: Встреча после (отпуска).
+    base_or_stem: отпуск
+    cyrillic_options:
+    - отпуск
+    - отпуске
+    - отпуском
+    - отпускам
+    string_ids:
+      prompt: 7992
+      english: 4482
+      stored_options:
+      - 7993
+      - 8028
+      - 9287
+      - 7780
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

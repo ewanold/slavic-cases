@@ -1,0 +1,342 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-interests-and-activities-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: interests-and-activities
+  name: interests and activities
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: historia
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I’m into history.
+  neutral_prompt: Interesuję się ___. (historia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: historią
+    b: historia
+    c: historii
+    d: historię
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-001
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: interesovatsya-uvlekatsya
+      name: интересоваться, увлекаться...
+    russian_prompt: Я интересуюсь (историей).
+    russian_native_text:
+      en: I’m into history.
+    polish_marked_prompt: Interesuję się [historią].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: polityka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Are you into politics?
+  neutral_prompt: Czy interesujesz się ___? (polityka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: polityką
+    b: polityka
+    c: polityki
+    d: politykę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-002
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Ты интересуешься (политикой)?.
+    russian_native_text:
+      en: Are you into politics?
+    polish_marked_prompt: Czy interesujesz się [polityką]?
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: biologia
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: He’s into biology.
+  neutral_prompt: On interesuje się ___. (biologia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: biologią
+    b: biologia
+    c: biologii
+    d: biologię
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-003
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Он интересуется (биологией).
+    russian_native_text:
+      en: He’s into biology.
+    polish_marked_prompt: On interesuje się [biologią].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: architektura
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: She’s into architecture.
+  neutral_prompt: Ona interesuje się ___. (architektura; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: architekturą
+    b: architektura
+    c: architektury
+    d: architekturę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-004
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Она интересуется (архитектурой).
+    russian_native_text:
+      en: She’s into architecture.
+    polish_marked_prompt: Ona interesuje się [architekturą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rysowanie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: I’m into drawing.
+  neutral_prompt: Interesuję się ___. (rysowanie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: rysowaniem
+    b: rysowanie
+    c: rysowania
+    d: rysowaniu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-005
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я увлекаюсь (рисованием).
+    russian_native_text:
+      en: I’m into drawing.
+    polish_marked_prompt: Interesuję się [rysowaniem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: muzyka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: She’s into music.
+  neutral_prompt: Ona interesuje się ___. (muzyka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: muzyką
+    b: muzyka
+    c: muzyki
+    d: muzykę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-006
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Она увлекается (музыкой).
+    russian_native_text:
+      en: She’s into music.
+    polish_marked_prompt: Ona interesuje się [muzyką].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sport
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: They are into sports.
+  neutral_prompt: Oni interesują się ___. (sport; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sportem
+    b: sport
+    c: sportu
+    d: sportowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-007
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Они увлекаются (спортом).
+    russian_native_text:
+      en: They are into sports.
+    polish_marked_prompt: Oni interesują się [sportem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: hokej
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We’re keen on hockey.
+  neutral_prompt: Interesujemy się ___. (hokej; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: hokejem
+    b: hokej
+    c: hokeja
+    d: hokejowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-008
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Мы увлекаемся (хоккеем).
+    russian_native_text:
+      en: We’re keen on hockey.
+    polish_marked_prompt: Interesujemy się [hokejem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sport
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I do sports.
+  neutral_prompt: Zajmuję się ___. (sport; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sportem
+    b: sport
+    c: sportu
+    d: sportowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-009
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я занимаюсь (спортом).
+    russian_native_text:
+      en: I do sports.
+    polish_marked_prompt: Zajmuję się [sportem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: balet
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: You do ballet.
+  neutral_prompt: Zajmujesz się ___. (balet; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: baletem
+    b: balet
+    c: baletu
+    d: baletowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-010
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Ты занимаешься (балетом).
+    russian_native_text:
+      en: She does ballet.
+    polish_marked_prompt: Zajmujesz się [baletem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-instrumental-interesovatsya-uvlekatsya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: taniec
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We take dance classes.
+  neutral_prompt: Zajmujemy się ___. (taniec; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: tańcem
+    b: taniec
+    c: tańca
+    d: tańcowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-011
+    russian_file: samples/ru/nouns/instrumental-interesovatsya-uvlekatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Мы занимаемся (танцами).
+    russian_native_text:
+      en: We take dance classes.
+    polish_marked_prompt: Zajmujemy się [tańcem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

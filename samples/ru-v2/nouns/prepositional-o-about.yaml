@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-prepositional-o-about-apk
+learning_language: ru
+track: nouns
+case: prepositional
+topic:
+  id: o-about
+  name: о (about)
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-prepositional-o-about-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: война
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A book about war.
+  neutral_prompt: Книга о ___. (война)
+  answer_scope: word
+  options:
+    a: войне
+    b: войну
+    c: войны
+    d: война
+  correct: a
+  source:
+    index: 1
+    prompt: Книга о (войне).
+    base_or_stem: война
+    cyrillic_options:
+    - война
+    - войну
+    - войны
+    - война
+    string_ids:
+      prompt: 8061
+      english: 4455
+      stored_options:
+      - 8145
+      - 7639
+      - 8799
+      - 8145
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: природа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A movie about nature.
+  neutral_prompt: Фильм о ___. (природа)
+  answer_scope: word
+  options:
+    a: природе
+    b: природу
+    c: природы
+    d: природой
+  correct: a
+  source:
+    index: 2
+    prompt: Фильм о (природе).
+    base_or_stem: природа
+    cyrillic_options:
+    - природа
+    - природу
+    - природы
+    - природой
+    string_ids:
+      prompt: 8392
+      english: 4486
+      stored_options:
+      - 8965
+      - 9611
+      - 9613
+      - 9610
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: жизнь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thoughts about life.
+  neutral_prompt: Мысли о ___. (жизнь)
+  answer_scope: word
+  options:
+    a: жизни
+    b: жизнь
+    c: жизне
+    d: жизней
+  correct: a
+  source:
+    index: 3
+    prompt: Мысли о (жизни).
+    base_or_stem: жизнь
+    cyrillic_options:
+    - жизнь
+    - жизнь
+    - жизне
+    - жизней
+    string_ids:
+      prompt: 8171
+      english: 6009
+      stored_options:
+      - 9160
+      - 9160
+      - 8859
+      - 8860
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: любовь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A song about love.
+  neutral_prompt: Песня о ___. (любовь)
+  answer_scope: word
+  options:
+    a: любви
+    b: любовь
+    c: любовей
+    d: любовям
+  correct: a
+  source:
+    index: 4
+    prompt: Песня о (любви).
+    base_or_stem: любовь
+    cyrillic_options:
+    - любовь
+    - любовь
+    - любовей
+    - любовям
+    string_ids:
+      prompt: 8279
+      english: 4497
+      stored_options:
+      - 9395
+      - 9395
+      - 9394
+      - 8479
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: политика
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To speak about politics.
+  neutral_prompt: Говорить о ___. (политика)
+  answer_scope: word
+  options:
+    a: политике
+    b: политикой
+    c: политикам
+    d: политика
+  correct: a
+  source:
+    index: 5
+    prompt: Говорить о (политике).
+    base_or_stem: политика
+    cyrillic_options:
+    - политика
+    - политикой
+    - политикам
+    - политика
+    string_ids:
+      prompt: 7998
+      english: 6032
+      stored_options:
+      - 9576
+      - 8367
+      - 9577
+      - 9576
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: отпуск
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To think about the vacation.
+  neutral_prompt: Думать об ___. (отпуск)
+  answer_scope: word
+  options:
+    a: отпуске
+    b: отпуска
+    c: отпуском
+    d: отпусками
+  correct: a
+  source:
+    index: 6
+    prompt: Думать об (отпуске).
+    base_or_stem: отпуск
+    cyrillic_options:
+    - отпуск
+    - отпуска
+    - отпуском
+    - отпусками
+    string_ids:
+      prompt: 8027
+      english: 6036
+      stored_options:
+      - 7993
+      - 7994
+      - 9287
+      - 7781
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: любовь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To dream about love.
+  neutral_prompt: Мечтать о ___. (любовь)
+  answer_scope: word
+  options:
+    a: любви
+    b: любве
+    c: любовь
+    d: любовью
+  correct: a
+  source:
+    index: 7
+    prompt: Мечтать о (любви).
+    base_or_stem: любовь
+    cyrillic_options:
+    - любовь
+    - любве
+    - любовь
+    - любовью
+    string_ids:
+      prompt: 8131
+      english: 6027
+      stored_options:
+      - 9395
+      - 8759
+      - 9395
+      - 9396
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To think about a friend.
+  neutral_prompt: Думать о ___. (друг)
+  answer_scope: word
+  options:
+    a: друге
+    b: друга
+    c: другом
+    d: други
+  correct: a
+  source:
+    index: 8
+    prompt: Думать о (друге).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - друга
+    - другом
+    - други
+    string_ids:
+      prompt: 8025
+      english: 6035
+      stored_options:
+      - 7626
+      - 7768
+      - 8179
+      - 8122
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: погода
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To talk about the weather.
+  neutral_prompt: Говорить о ___. (погода)
+  answer_scope: word
+  options:
+    a: погоде
+    b: погоды
+    c: погодой
+    d: погода
+  correct: a
+  source:
+    index: 9
+    prompt: Говорить о (погоде).
+    base_or_stem: погода
+    cyrillic_options:
+    - погода
+    - погоды
+    - погодой
+    - погода
+    string_ids:
+      prompt: 7997
+      english: 6033
+      stored_options:
+      - 8201
+      - 9558
+      - 9557
+      - 8201
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: человек
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A movie about a man.
+  neutral_prompt: Фильм о ___. (человек)
+  answer_scope: word
+  options:
+    a: человеке
+    b: человека
+    c: человеком
+    d: человеку
+  correct: a
+  source:
+    index: 10
+    prompt: Фильм о (человеке).
+    base_or_stem: человек
+    cyrillic_options:
+    - человек
+    - человека
+    - человеком
+    - человеку
+    string_ids:
+      prompt: 8393
+      english: 4485
+      stored_options:
+      - 7853
+      - 7877
+      - 9818
+      - 7854
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дети
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Think about children.
+  neutral_prompt: Думать о ___. (дети)
+  answer_scope: word
+  options:
+    a: детях
+    b: детям
+    c: детей
+    d: детями
+  correct: a
+  source:
+    index: 11
+    prompt: Думать о (детях).
+    base_or_stem: дети
+    cyrillic_options:
+    - дети
+    - детям
+    - детей
+    - детями
+    string_ids:
+      prompt: 8024
+      english: 5993
+      stored_options:
+      - 8619
+      - 8114
+      - 8391
+      - 9042
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-prepositional-o-about-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: жизнь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To tell about life.
+  neutral_prompt: Рассказывать о ___. (жизнь)
+  answer_scope: word
+  options:
+    a: жизни
+    b: жизня
+    c: жизней
+    d: жизню
+  correct: a
+  source:
+    index: 12
+    prompt: Рассказывать о (жизни).
+    base_or_stem: жизнь
+    cyrillic_options:
+    - жизнь
+    - жизня
+    - жизней
+    - жизню
+    string_ids:
+      prompt: 8302
+      english: 6034
+      stored_options:
+      - 9160
+      - 9162
+      - 8860
+      - 9161
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

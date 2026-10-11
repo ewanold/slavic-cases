@@ -1,0 +1,375 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-accusative-direct-object-adapted
+learning_language: pl
+track: nouns
+case: accusative
+topic:
+  id: direct-object
+  name: direct object
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-accusative-direct-object-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: książka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: He reads a book.
+  neutral_prompt: On czyta ___. (książka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: książkę
+    b: książka
+    c: książki
+    d: książką
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-001
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: direct-object
+      name: direct object
+    russian_prompt: Он читает (книгу).
+    russian_native_text:
+      en: He reads a book.
+    polish_marked_prompt: On czyta [książkę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: historia
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I know history well.
+  neutral_prompt: Dobrze znam ___. (historia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: historię
+    b: historia
+    c: historii
+    d: historią
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-002
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я хорошо знаю (историю).
+    russian_native_text:
+      en: I know history well.
+    polish_marked_prompt: Dobrze znam [historię].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: budynek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We see a building.
+  neutral_prompt: Widzimy ___. (budynek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: budynek
+    b: budynku
+    c: budynkowi
+    d: budynkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-003
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Мы видим (здание).
+    russian_native_text:
+      en: We see a building.
+    polish_marked_prompt: Widzimy [budynek].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: czekolada
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: You like chocolate.
+  neutral_prompt: Lubisz ___. (czekolada; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: czekoladę
+    b: czekolada
+    c: czekolady
+    d: czekoladą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-004
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Ты любишь (шоколад).
+    russian_native_text:
+      en: You like chocolate.
+    polish_marked_prompt: Lubisz [czekoladę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pieniądz
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: They take money.
+  neutral_prompt: Oni biorą ___. (pieniądz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pieniądze
+    b: pieniądz
+    c: pieniądza
+    d: pieniądzowi
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-005
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Они берут (деньги).
+    russian_native_text:
+      en: They take money.
+    polish_marked_prompt: Oni biorą [pieniądze].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mleko
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: I bought milk.
+  neutral_prompt: Kupiłem ___. (mleko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mleko
+    b: mleka
+    c: mleku
+    d: mlekiem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-006
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я купил (молоко).
+    russian_native_text:
+      en: I bought milk.
+    polish_marked_prompt: Kupiłem [mleko].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rada
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: He gives someone advice.
+  neutral_prompt: On daje komuś ___. (rada; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: radę
+    b: rada
+    c: rady
+    d: radą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-007
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Он дает (совет).
+    russian_native_text:
+      en: He gives advice.
+    polish_marked_prompt: On daje komuś [radę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-accusative-direct-object-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: muzyka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I like music.
+  neutral_prompt: Lubię ___. (muzyka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: muzykę
+    b: muzyka
+    c: muzyki
+    d: muzyką
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-008
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я люблю (музыку).
+    russian_native_text:
+      en: I like music.
+    polish_marked_prompt: Lubię [muzykę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: obraz
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: They see pictures.
+  neutral_prompt: Oni widzą ___. (obraz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: obrazy
+    b: obraz
+    c: obrazu
+    d: obrazowi
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-009
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Они видят (картины).
+    russian_native_text:
+      en: They see pictures.
+    polish_marked_prompt: Oni widzą [obrazy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: produkt
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: You buy groceries.
+  neutral_prompt: Kupujesz ___ spożywcze. (produkt; liczba mnoga)
+  answer_scope: word
+  options:
+    a: produkty
+    b: produkt
+    c: produktu
+    d: produktowi
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-010
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Ты покупаешь (продукты).
+    russian_native_text:
+      en: You buy groceries.
+    polish_marked_prompt: Kupujesz [produkty] spożywcze.
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kot
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A girl feeds a cat.
+  neutral_prompt: Dziewczynka karmi ___. (kot; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kota
+    b: kot
+    c: kotu
+    d: kotem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-011
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Девочка кормит (кошку).
+    russian_native_text:
+      en: A girl feeds a cat.
+    polish_marked_prompt: Dziewczynka karmi [kota].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-direct-object-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzwi
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Father opens the door.
+  neutral_prompt: Tata otwiera ___. (drzwi; liczba mnoga)
+  answer_scope: word
+  options:
+    a: drzwi
+    b: drzwiach
+    c: drzwiom
+    d: drzwiami
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-direct-object-apk-012
+    russian_file: samples/ru/nouns/accusative-direct-object.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Папа открывает (дверь).
+    russian_native_text:
+      en: Father opens the door.
+    polish_marked_prompt: Tata otwiera [drzwi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

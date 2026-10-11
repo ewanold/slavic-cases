@@ -1,0 +1,298 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+id: pl-adjectives-vocative-starter
+learning_language: pl
+track: adjectives
+case: vocative
+native_languages:
+- en
+- de
+instruction:
+  en: Use the traditional vocative for direct address, even where colloquial nominative address is possible.
+  de: Verwende für die Anrede den traditionellen Vokativ, auch wenn umgangssprachlich der Nominativ möglich
+    ist.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-adjectives-vocative-brother
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Kind brother, please listen to me!
+    de: Freundlicher Bruder, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry brat)
+  answer_scope: word
+  options:
+    a: dobry
+    b: dobrego
+    c: dobremu
+    d: dobrym
+  correct: a
+- id: pl-adjectives-vocative-sister
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Kind sister, please listen to me!
+    de: Freundliche Schwester, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry siostra)
+  answer_scope: word
+  options:
+    a: dobrej
+    b: dobra
+    c: dobrą
+    d: dobre
+  correct: b
+- id: pl-adjectives-vocative-friend-m
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Old male friend, please listen to me!
+    de: Alter Freund, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (stary przyjaciel)
+  answer_scope: word
+  options:
+    a: starego
+    b: staremu
+    c: stary
+    d: starym
+  correct: c
+- id: pl-adjectives-vocative-friend-f
+  word_type: adjective
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Old female friend, please listen to me!
+    de: Alte Freundin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (stary przyjaciółka)
+  answer_scope: word
+  options:
+    a: starej
+    b: starą
+    c: stare
+    d: stara
+  correct: d
+- id: pl-adjectives-vocative-teacher-m
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: New male teacher, please listen to me!
+    de: Neuer Lehrer, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nowy nauczyciel)
+  answer_scope: word
+  options:
+    a: nowy
+    b: nowego
+    c: nowemu
+    d: nowym
+  correct: a
+- id: pl-adjectives-vocative-teacher-f
+  word_type: adjective
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: New female teacher, please listen to me!
+    de: Neue Lehrerin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nowy nauczycielka)
+  answer_scope: word
+  options:
+    a: nowej
+    b: nowa
+    c: nową
+    d: nowe
+  correct: b
+- id: pl-adjectives-vocative-student-m
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Young male student, please listen to me!
+    de: Junger Student, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (młody student)
+  answer_scope: word
+  options:
+    a: młodego
+    b: młodemu
+    c: młody
+    d: młodym
+  correct: c
+- id: pl-adjectives-vocative-student-f
+  word_type: adjective
+  dictionary_form: młody
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Young female student, please listen to me!
+    de: Junge Studentin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (młody studentka)
+  answer_scope: word
+  options:
+    a: młodej
+    b: młodą
+    c: młode
+    d: młoda
+  correct: d
+- id: pl-adjectives-vocative-neighbor-m
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Good male neighbor, please listen to me!
+    de: Guter Nachbar, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry sąsiad)
+  answer_scope: word
+  options:
+    a: dobry
+    b: dobrego
+    c: dobremu
+    d: dobrym
+  correct: a
+- id: pl-adjectives-vocative-neighbor-f
+  word_type: adjective
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Good female neighbor, please listen to me!
+    de: Gute Nachbarin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dobry sąsiadka)
+  answer_scope: word
+  options:
+    a: dobrej
+    b: dobra
+    c: dobrą
+    d: dobre
+  correct: b
+- id: pl-adjectives-vocative-ordinal-1
+  word_type: ordinal_numeral
+  dictionary_form: pierwszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: First competitor, come to the starting line!
+    de: Erster Teilnehmer, komm zur Startlinie!
+  neutral_prompt: ___, podejdź do linii startu! (pierwszy zawodnik)
+  answer_scope: word
+  options:
+    a: pierwszego
+    b: pierwszemu
+    c: pierwszy
+    d: pierwszym
+  correct: c
+- id: pl-adjectives-vocative-ordinal-2
+  word_type: ordinal_numeral
+  dictionary_form: drugi
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Second competitor, come to the starting line!
+    de: Zweiter Teilnehmer, komm zur Startlinie!
+  neutral_prompt: ___, podejdź do linii startu! (drugi zawodnik)
+  answer_scope: word
+  options:
+    a: drugiego
+    b: drugiemu
+    c: drugim
+    d: drugi
+  correct: d
+- id: pl-adjectives-vocative-ordinal-3
+  word_type: ordinal_numeral
+  dictionary_form: trzeci
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Third competitor, come to the starting line!
+    de: Dritter Teilnehmer, komm zur Startlinie!
+  neutral_prompt: ___, podejdź do linii startu! (trzeci zawodnik)
+  answer_scope: word
+  options:
+    a: trzeci
+    b: trzeciego
+    c: trzeciemu
+    d: trzecim
+  correct: a
+- id: pl-adjectives-vocative-ordinal-4
+  word_type: ordinal_numeral
+  dictionary_form: czwarty
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Fourth competitor, come to the starting line!
+    de: Vierter Teilnehmer, komm zur Startlinie!
+  neutral_prompt: ___, podejdź do linii startu! (czwarty zawodnik)
+  answer_scope: word
+  options:
+    a: czwartego
+    b: czwarty
+    c: czwartemu
+    d: czwartym
+  correct: b
+- id: pl-adjectives-vocative-ordinal-5
+  word_type: ordinal_numeral
+  dictionary_form: piąty
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Fifth competitor, come to the starting line!
+    de: Fünfter Teilnehmer, komm zur Startlinie!
+  neutral_prompt: ___, podejdź do linii startu! (piąty zawodnik)
+  answer_scope: word
+  options:
+    a: piątego
+    b: piątemu
+    c: piąty
+    d: piątym
+  correct: c
+content_profile: polish-topic-adaptation
+topic:
+  id: direct-address
+  name: Traditional vocative for direct address
+source:
+  project: slavic-cases
+  file: samples/pl/adjectives/vocative.yaml
+  snapshot: apk-analysis/polish-source/adjectives/vocative.yaml
+  sha256: 5ee44fec27199b414e66a6cd0c706a316b8b6055ae0d7a99e1c45dd1b441cf5e
+  method: Original Polish source; sentences and translations copied unchanged.

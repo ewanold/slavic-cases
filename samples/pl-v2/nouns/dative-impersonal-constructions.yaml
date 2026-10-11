@@ -1,0 +1,256 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-dative-impersonal-constructions-adapted
+learning_language: pl
+track: nouns
+case: dative
+topic:
+  id: impersonal-constructions
+  name: impersonal constructions
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-impersonal-constructions-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The student feels bored.
+  neutral_prompt: ___ się nudzi. (student; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Studentowi
+    b: Student
+    c: Studenta
+    d: Studentem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-001
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: impersonal-constructions
+      name: impersonal constructions
+    russian_prompt: (студенту) скучно.
+    russian_native_text:
+      en: The student feels bored.
+    polish_marked_prompt: '[Studentowi] się nudzi.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: chłopiec
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The boy feels cold.
+  neutral_prompt: ___ jest zimno. (chłopiec; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Chłopcu
+    b: Chłopiec
+    c: Chłopca
+    d: Chłopcem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-002
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (мальчику) холодно.
+    russian_native_text:
+      en: The boy feels cold.
+    polish_marked_prompt: '[Chłopcu] jest zimno.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: turysta
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Tourists are feeling hot.
+  neutral_prompt: ___ jest gorąco. (turysta; liczba mnoga)
+  answer_scope: word
+  options:
+    a: Turystom
+    b: Turysta
+    c: Turysty
+    d: Turyście
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-005
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (туристам) жарко.
+    russian_native_text:
+      en: Tourists are feeling hot.
+    polish_marked_prompt: '[Turystom] jest gorąco.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister feels sorry for him.
+  neutral_prompt: ___ go żal. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Siostrze
+    b: Siostra
+    c: Siostry
+    d: Siostrę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-006
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (сестре) его жаль.
+    russian_native_text:
+      en: The sister feels sorry for him.
+    polish_marked_prompt: '[Siostrze] go żal.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: człowiek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The man feels sorry for the cat.
+  neutral_prompt: ___ żal kota. (człowiek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Człowiekowi
+    b: Człowiek
+    c: Człowieka
+    d: Człowiekiem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-007
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (человеку) жаль кошку.
+    russian_native_text:
+      en: The man feels sorry for the cat.
+    polish_marked_prompt: '[Człowiekowi] żal kota.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: człowiek
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: People are having fun.
+  neutral_prompt: ___ jest wesoło. (człowiek; liczba mnoga)
+  answer_scope: word
+  options:
+    a: Ludziom
+    b: Człowiek
+    c: Człowieka
+    d: Człowiekowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-008
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (людям) весело.
+    russian_native_text:
+      en: People are having fun.
+    polish_marked_prompt: '[Ludziom] jest wesoło.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The student is interested in it.
+  neutral_prompt: To wydaje się ___ interesujące. (student; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: studentowi
+    b: student
+    c: studenta
+    d: studentem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-010
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (студенту) это интересно.
+    russian_native_text:
+      en: The student is interested in it.
+    polish_marked_prompt: To wydaje się [studentowi] interesujące.
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-impersonal-constructions-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: chłopiec
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: The boys are bored.
+  neutral_prompt: ___ się nudzi. (chłopiec; liczba mnoga)
+  answer_scope: word
+  options:
+    a: Chłopcom
+    b: Chłopiec
+    c: Chłopca
+    d: Chłopcu
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-011
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (мальчикам) скучно.
+    russian_native_text:
+      en: The boys are bored.
+    polish_marked_prompt: '[Chłopcom] się nudzi.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

@@ -1,0 +1,601 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-plural-neuter-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: plural-neuter
+  name: plural neuter
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-nominative-plural-masculine-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: czasopismo
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: magazines
+  neutral_prompt: ___ (czasopismo; liczba mnoga)
+  answer_scope: word
+  options:
+    a: czasopisma
+    b: czasopismo
+    c: czasopismu
+    d: czasopismem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-004
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: plural-masculine
+      name: Plural masculine
+    russian_prompt: (журнал)
+    russian_native_text:
+      en: magazines
+    polish_marked_prompt: '[czasopisma]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-nominative-plural-masculine-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: muzeum
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: museums
+  neutral_prompt: ___ (muzeum; liczba mnoga)
+  answer_scope: word
+  options:
+    a: muzea
+    b: muzeum
+    c: muzeów
+    d: muzeami
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-006
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (музей)
+    russian_native_text:
+      en: museums
+    polish_marked_prompt: '[muzea]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-nominative-plural-neuter-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: okno
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: windows
+  neutral_prompt: ___ (okno; liczba mnoga)
+  answer_scope: word
+  options:
+    a: okna
+    b: okno
+    c: oknu
+    d: oknem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-001
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: &id002
+      id: plural-neuter
+      name: Plural neuter
+    russian_prompt: (окно)
+    russian_native_text:
+      en: windows
+    polish_marked_prompt: '[okna]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wino
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: wines
+  neutral_prompt: ___ (wino; liczba mnoga)
+  answer_scope: word
+  options:
+    a: wina
+    b: wino
+    c: winu
+    d: winem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-002
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (вино)
+    russian_native_text:
+      en: wines
+    polish_marked_prompt: '[wina]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: morze
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: seas
+  neutral_prompt: ___ (morze; liczba mnoga)
+  answer_scope: word
+  options:
+    a: morza
+    b: morze
+    c: morzu
+    d: morzem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-003
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (море)
+    russian_native_text:
+      en: seas
+    polish_marked_prompt: '[morza]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pole
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: fields
+  neutral_prompt: ___ (pole; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pola
+    b: pole
+    c: polu
+    d: polem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-006
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (поле)
+    russian_native_text:
+      en: fields
+    polish_marked_prompt: '[pola]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: jajko
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: eggs
+  neutral_prompt: ___ (jajko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: jajka
+    b: jajko
+    c: jajku
+    d: jajkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-007
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (яйцо)
+    russian_native_text:
+      en: eggs
+    polish_marked_prompt: '[jajka]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ramię
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: shoulders
+  neutral_prompt: ___ (ramię; liczba mnoga)
+  answer_scope: word
+  options:
+    a: ramiona
+    b: ramię
+    c: ramienia
+    d: ramieniu
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-008
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (плечо)
+    russian_native_text:
+      en: shoulders
+    polish_marked_prompt: '[ramiona]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: serce
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: hearts
+  neutral_prompt: ___ (serce; liczba mnoga)
+  answer_scope: word
+  options:
+    a: serca
+    b: serce
+    c: sercu
+    d: sercem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-009
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (сердце)
+    russian_native_text:
+      en: hearts
+    polish_marked_prompt: '[serca]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: słowo
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: words
+  neutral_prompt: ___ (słowo; liczba mnoga)
+  answer_scope: word
+  options:
+    a: słowa
+    b: słowo
+    c: słowu
+    d: słowem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-010
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (слово)
+    russian_native_text:
+      en: words
+    polish_marked_prompt: '[słowa]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-neuter-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miejsce
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: places
+  neutral_prompt: ___ (miejsce; liczba mnoga)
+  answer_scope: word
+  options:
+    a: miejsca
+    b: miejsce
+    c: miejscu
+    d: miejscem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-011
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (место)
+    russian_native_text:
+      en: places
+    polish_marked_prompt: '[miejsca]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: oko
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: eyes
+  neutral_prompt: ___ (oko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: oczy
+    b: oko
+    c: oka
+    d: oku
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-001
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: &id003
+      id: plural-exceptions
+      name: Plural exceptions
+    russian_prompt: (глаз)
+    russian_native_text:
+      en: eyes
+    polish_marked_prompt: '[oczy]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: cities
+  neutral_prompt: ___ (miasto; liczba mnoga)
+  answer_scope: word
+  options:
+    a: miasta
+    b: miasto
+    c: miastu
+    d: miastem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-006
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (город)
+    russian_native_text:
+      en: cities
+    polish_marked_prompt: '[miasta]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-nominative-plural-exceptions-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: krzesło
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: chairs
+  neutral_prompt: ___ (krzesło; liczba mnoga)
+  answer_scope: word
+  options:
+    a: krzesła
+    b: krzesło
+    c: krzesłu
+    d: krzesłem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-009
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (стул)
+    russian_native_text:
+      en: chairs
+    polish_marked_prompt: '[krzesła]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-014
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzewo
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: trees
+  neutral_prompt: ___ (drzewo; liczba mnoga)
+  answer_scope: word
+  options:
+    a: drzewa
+    b: drzewo
+    c: drzewu
+    d: drzewem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-014
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (дерево)
+    russian_native_text:
+      en: trees
+    polish_marked_prompt: '[drzewa]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-015
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: skrzydło
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: wings
+  neutral_prompt: ___ (skrzydło; liczba mnoga)
+  answer_scope: word
+  options:
+    a: skrzydła
+    b: skrzydło
+    c: skrzydłu
+    d: skrzydłem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-015
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (крыло)
+    russian_native_text:
+      en: wings
+    polish_marked_prompt: '[skrzydła]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-016
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pióro
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: feather
+  neutral_prompt: ___ (pióro; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pióra
+    b: pióro
+    c: pióru
+    d: piórem
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-016
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (перо)
+    russian_native_text:
+      en: feather
+    polish_marked_prompt: '[pióra]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-017
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: imię
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: names
+  neutral_prompt: ___ (imię; liczba mnoga)
+  answer_scope: word
+  options:
+    a: imiona
+    b: imię
+    c: imienia
+    d: imieniu
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-017
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (имя)
+    russian_native_text:
+      en: names
+    polish_marked_prompt: '[imiona]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-018
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: plemię
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: tribe
+  neutral_prompt: ___ (plemię; liczba mnoga)
+  answer_scope: word
+  options:
+    a: plemiona
+    b: plemię
+    c: plemienia
+    d: plemieniu
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-018
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (племя)
+    russian_native_text:
+      en: tribe
+    polish_marked_prompt: '[plemiona]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

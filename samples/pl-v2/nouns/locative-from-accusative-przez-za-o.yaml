@@ -1,0 +1,83 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-locative-from-accusative-przez-za-o-adapted
+learning_language: pl
+track: nouns
+case: locative
+topic:
+  id: from-accusative-przez-za-o
+  name: from accusative przez za o
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-accusative-cherez-za-pro-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wystawa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I haven’t heard about an exhibition.
+  neutral_prompt: Nie słyszałem o ___. (wystawa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wystawie
+    b: wystawa
+    c: wystawy
+    d: wystawę
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-005
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: cherez-za-pro
+      name: через, за, про
+    russian_prompt: Я не слышал про (выставку).
+    russian_native_text:
+      en: I haven’t heard about an exhibition.
+    polish_marked_prompt: Nie słyszałem o [wystawie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-cherez-za-pro-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: podróż
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: He’s talking about a trip.
+  neutral_prompt: On mówi o ___. (podróż; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: podróży
+    b: podróż
+    c: podróżą
+    d: podróżom
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-006
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Он говорит про (поездку).
+    russian_native_text:
+      en: He’s talking about a trip.
+    polish_marked_prompt: On mówi o [podróży].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is accusative.

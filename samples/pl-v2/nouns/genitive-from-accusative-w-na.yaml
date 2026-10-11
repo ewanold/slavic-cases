@@ -1,0 +1,239 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-from-accusative-w-na-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: from-accusative-w-na
+  name: from accusative w na
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-accusative-v-na-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Moskwa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: He is travelling to Moscow.
+  neutral_prompt: On jedzie do ___. (Moskwa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Moskwy
+    b: Moskwa
+    c: Moskwę
+    d: Moskwą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-001
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: v-na
+      name: в, на
+    russian_prompt: Он едет в (Москву).
+    russian_native_text:
+      en: He is travelling to Moscow.
+    polish_marked_prompt: On jedzie do [Moskwy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szkoła
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A child goes to school.
+  neutral_prompt: Dziecko chodzi do ___. (szkoła; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szkoły
+    b: szkoła
+    c: szkołę
+    d: szkołą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-002
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Ребенок ходит в (школу).
+    russian_native_text:
+      en: A child goes to school.
+    polish_marked_prompt: Dziecko chodzi do [szkoły].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sklep
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: She went to the shop.
+  neutral_prompt: Ona poszła do ___. (sklep; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sklepu
+    b: sklep
+    c: sklepowi
+    d: sklepem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-003
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Она пошла в (магазин).
+    russian_native_text:
+      en: She went to the shop.
+    polish_marked_prompt: Ona poszła do [sklepu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: klasa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A teacher enters the classroom.
+  neutral_prompt: Nauczyciel wchodzi do ___. (klasa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: klasy
+    b: klasa
+    c: klasę
+    d: klasą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-004
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Учитель заходит в (класс).
+    russian_native_text:
+      en: A teacher enters the classroom.
+    polish_marked_prompt: Nauczyciel wchodzi do [klasy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzwi
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Somebody knocks the door.
+  neutral_prompt: Ktoś puka do ___. (drzwi; liczba mnoga)
+  answer_scope: word
+  options:
+    a: drzwi
+    b: drzwiach
+    c: drzwiom
+    d: drzwiami
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-005
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Кто-то стучит в (дверь).
+    russian_native_text:
+      en: Somebody knocks the door.
+    polish_marked_prompt: Ktoś puka do [drzwi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Rosja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I’m going to Russia.
+  neutral_prompt: Jadę do ___. (Rosja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Rosji
+    b: Rosja
+    c: Rosję
+    d: Rosją
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-006
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я еду в (Россию).
+    russian_native_text:
+      en: I’m going to Russia.
+    polish_marked_prompt: Jadę do [Rosji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-nouns-accusative-v-na-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: klub
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We went to a club.
+  neutral_prompt: Chodziliśmy do ___. (klub; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: klubu
+    b: klub
+    c: klubowi
+    d: klubem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-013
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Мы ходили в (клуб).
+    russian_native_text:
+      en: We went to a club.
+    polish_marked_prompt: Chodziliśmy do [klubu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.

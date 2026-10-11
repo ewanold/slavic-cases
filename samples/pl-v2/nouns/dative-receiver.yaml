@@ -1,0 +1,317 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-dative-receiver-adapted
+learning_language: pl
+track: nouns
+case: dative
+topic:
+  id: receiver
+  name: receiver
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-receiver-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: He gives a phone to a friend.
+  neutral_prompt: On daje telefon ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjacielowi
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-001
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: receiver
+      name: receiver
+    russian_prompt: Он дает телефон (другу).
+    russian_native_text:
+      en: He gives a phone to a fiend.
+    polish_marked_prompt: On daje telefon [przyjacielowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-dative-receiver-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I help mother.
+  neutral_prompt: Pomagam ___. (mama; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mamie
+    b: mama
+    c: mamy
+    d: mamę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-002
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я помогаю (маме).
+    russian_native_text:
+      en: I help mother.
+    polish_marked_prompt: Pomagam [mamie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: Mother gives the child permission.
+  neutral_prompt: Mama daje ___ pozwolenie. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziecku
+    b: dziecko
+    c: dziecka
+    d: dzieckiem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-004
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Мама разрешает (ребёнку).
+    russian_native_text:
+      en: Mother allows to a child.
+    polish_marked_prompt: Mama daje [dziecku] pozwolenie.
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-dative-receiver-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szef
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I bring papers to a boss.
+  neutral_prompt: Przynoszę dokumenty ___. (szef; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szefowi
+    b: szef
+    c: szefa
+    d: szefem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-005
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я приношу документы (начальнику).
+    russian_native_text:
+      en: I bring papers to a boss.
+    polish_marked_prompt: Przynoszę dokumenty [szefowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Give the book to the student.
+  neutral_prompt: Daj książkę ___. (student; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: studentowi
+    b: student
+    c: studenta
+    d: studentem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-007
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Дай книгу (студенту).
+    russian_native_text:
+      en: Give the book to the student.
+    polish_marked_prompt: Daj książkę [studentowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I give a magazine to the sister.
+  neutral_prompt: Daję czasopismo ___. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: siostrze
+    b: siostra
+    c: siostry
+    d: siostrę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-008
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я даю журнал (сестре).
+    russian_native_text:
+      en: I give a magazine to the sister.
+    polish_marked_prompt: Daję czasopismo [siostrze].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: We help friends.
+  neutral_prompt: Pomagamy ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciołom
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-009
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Мы помогаем (друзьям).
+    russian_native_text:
+      en: We help friends.
+    polish_marked_prompt: Pomagamy [przyjaciołom].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: syn
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Father tells to the son.
+  neutral_prompt: Tata mówi ___. (syn; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: synowi
+    b: syn
+    c: syna
+    d: synem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-010
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Папа говорит (сыну).
+    russian_native_text:
+      en: Father tells to the son.
+    polish_marked_prompt: Tata mówi [synowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: plural
+    gender: neuter
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Mother sings to children.
+  neutral_prompt: Mama śpiewa ___. (dziecko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dzieciom
+    b: dziecko
+    c: dziecka
+    d: dziecku
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-011
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Мама поёт (детям).
+    russian_native_text:
+      en: Mother sings to children.
+    polish_marked_prompt: Mama śpiewa [dzieciom].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-receiver-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I give a present to the brother.
+  neutral_prompt: Daję prezent ___. (brat; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: bratu
+    b: brat
+    c: brata
+    d: bratem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-012
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я дарю подарок (брату).
+    russian_native_text:
+      en: I give a present to the brother.
+    polish_marked_prompt: Daję prezent [bratu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

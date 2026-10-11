@@ -1,0 +1,177 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-locative-from-genitive-do-po-przed-adapted
+learning_language: pl
+track: nouns
+case: locative
+topic:
+  id: from-genitive-do-po-przed
+  name: from genitive do po przed
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-do-posle-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lekcja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Time after the lesson.
+  neutral_prompt: Czas po ___. (lekcja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: lekcji
+    b: lekcja
+    c: lekcję
+    d: lekcją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-008
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: do-posle
+      name: до, после
+    russian_prompt: Время после (урока).
+    russian_native_text:
+      en: Time after the lesson.
+    polish_marked_prompt: Czas po [lekcji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-genitive-do-posle-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ślub
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Life after the wedding.
+  neutral_prompt: Życie po ___. (ślub; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ślubie
+    b: ślub
+    c: ślubu
+    d: ślubowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-009
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Жизнь после (свадьбы).
+    russian_native_text:
+      en: Life after the wedding.
+    polish_marked_prompt: Życie po [ślubie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-do-posle-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kolacja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Ice Cream after dinner.
+  neutral_prompt: Lody po ___. (kolacja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kolacji
+    b: kolacja
+    c: kolację
+    d: kolacją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-010
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Мороженое после (ужина).
+    russian_native_text:
+      en: Ice Cream after dinner.
+    polish_marked_prompt: Lody po [kolacji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-do-posle-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: praca
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Rest after work.
+  neutral_prompt: Odpoczynek po ___. (praca; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pracy
+    b: praca
+    c: pracę
+    d: pracą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-011
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Отдых после (работы).
+    russian_native_text:
+      en: Rest after work.
+    polish_marked_prompt: Odpoczynek po [pracy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-do-posle-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: urlop
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: A meeting after the vacation.
+  neutral_prompt: Spotkanie po ___. (urlop; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: urlopie
+    b: urlop
+    c: urlopu
+    d: urlopowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-012
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Встреча после (отпуска).
+    russian_native_text:
+      en: A meeting after the vacation.
+    polish_marked_prompt: Spotkanie po [urlopie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.

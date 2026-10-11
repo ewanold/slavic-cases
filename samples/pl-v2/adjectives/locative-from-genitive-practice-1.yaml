@@ -1,0 +1,210 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-locative-from-genitive-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: locative
+topic:
+  id: from-genitive-practice-1
+  name: from genitive practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-1-apk-019
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zimny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: after the cold winter
+  neutral_prompt: po ___ (zimny zima)
+  answer_scope: word
+  options:
+    a: zimnej
+    b: zimny
+    c: zimnego
+    d: zimnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-019
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: после (холодной) {зимы}
+    russian_native_text:
+      en: after the cold winter
+    polish_marked_prompt: po [zimnej] {zimie}
+    polish_context_lemma: zima
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-1-apk-020
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ostatni
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: after the last lesson
+  neutral_prompt: po ___ (ostatni lekcja)
+  answer_scope: word
+  options:
+    a: ostatniej
+    b: ostatni
+    c: ostatniego
+    d: ostatniemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-020
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: после (последнего) {урока}
+    russian_native_text:
+      en: after the last lesson
+    polish_marked_prompt: po [ostatniej] {lekcji}
+    polish_context_lemma: lekcja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-1-apk-021
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: silny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: after the heavy rain
+  neutral_prompt: po ___ (silny deszcz)
+  answer_scope: word
+  options:
+    a: silnym
+    b: silny
+    c: silnego
+    d: silnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-021
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: после (сильного) {дождя}
+    russian_native_text:
+      en: after the heavy rain
+    polish_marked_prompt: po [silnym] {deszczu}
+    polish_context_lemma: deszcz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-1-apk-022
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: długi
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: after a long day
+  neutral_prompt: po ___ (długi dzień)
+  answer_scope: word
+  options:
+    a: długim
+    b: długi
+    c: długiego
+    d: długiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-022
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: после (долгого) {дня}
+    russian_native_text:
+      en: after a long day
+    polish_marked_prompt: po [długim] {dniu}
+    polish_context_lemma: dzień
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-1-apk-023
+  word_type: ordinal_numeral
+  exercise_type: inflection
+  dictionary_form: pierwszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: after the first lecture
+  neutral_prompt: po ___ (pierwszy wykład)
+  answer_scope: word
+  options:
+    a: pierwszym
+    b: pierwszy
+    c: pierwszego
+    d: pierwszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-023
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: после (первой) {лекции}
+    russian_native_text:
+      en: after the first lecture
+    polish_marked_prompt: po [pierwszym] {wykładzie}
+    polish_context_lemma: wykład
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-1-apk-024
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: after big changes
+  neutral_prompt: po ___ (duży zmiany)
+  answer_scope: word
+  options:
+    a: dużych
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-024
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: после (больших) {перемен}
+    russian_native_text:
+      en: after big changes
+    polish_marked_prompt: po [dużych] {zmianach}
+    polish_context_lemma: zmiana
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.

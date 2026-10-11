@@ -1,0 +1,52 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-instrumental-from-genitive-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: instrumental
+topic:
+  id: from-genitive-practice-2
+  name: from genitive practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-2-apk-020
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czerwony
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to live near the Red Sea
+  neutral_prompt: mieszkać nad ___ (czerwony morze)
+  answer_scope: word
+  options:
+    a: Czerwonym
+    b: Czerwony
+    c: Czerwonego
+    d: Czerwonemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-020
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic:
+      id: practice-2
+      name: practice 2
+    russian_prompt: жить у (Красного) {моря}
+    russian_native_text:
+      en: to live near the Red Sea
+    polish_marked_prompt: mieszkać nad [Czerwonym] {Morzem}
+    polish_context_lemma: morze
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is genitive.

@@ -1,0 +1,906 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-genitive-practice-1-apk
+learning_language: ru
+track: adjectives
+case: genitive
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-genitive-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: дорогой
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: without an expensive car
+  neutral_prompt: без ___ (дорогой машина)
+  answer_scope: word
+  options:
+    a: дорогой
+    b: дорогое
+    c: дорогей
+    d: дорогый
+  correct: a
+  source:
+    index: 1
+    prompt: без (дорогой) {машины}
+    base_or_stem: дорогая машина
+    cyrillic_options:
+    - дорогая машина
+    - дорогое
+    - дорогей
+    - дорогый
+    string_ids:
+      prompt: 8556
+      english: 5480
+      stored_options:
+      - 9048
+      - 9121
+      - 9120
+      - 9122
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: близкий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: for a close friend
+  neutral_prompt: для ___ (близкий друг)
+  answer_scope: word
+  options:
+    a: близкого
+    b: близкому
+    c: близкей
+    d: близкой
+  correct: a
+  source:
+    index: 2
+    prompt: для (близкого) {друга}
+    base_or_stem: близкий друг
+    cyrillic_options:
+    - близкий друг
+    - близкому
+    - близкей
+    - близкой
+    string_ids:
+      prompt: 8563
+      english: 472
+      stored_options:
+      - 8603
+      - 8614
+      - 8596
+      - 8613
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: for a little kid
+  neutral_prompt: для ___ (маленький ребёнок)
+  answer_scope: word
+  options:
+    a: маленького
+    b: маленьки
+    c: 'маленькой  '
+    d: маленька
+  correct: a
+  source:
+    index: 3
+    prompt: для (маленького) {ребёнка}
+    base_or_stem: маленький ребёнок
+    cyrillic_options:
+    - маленький ребёнок
+    - маленьки
+    - 'маленькой  '
+    - маленька
+    string_ids:
+      prompt: 9062
+      english: 742
+      stored_options:
+      - 8812
+      - 9164
+      - 8839
+      - 9407
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: without new computers
+  neutral_prompt: без ___ (новый компьютеры)
+  answer_scope: word
+  options:
+    a: новых
+    b: новех
+    c: новому
+    d: новего
+  correct: a
+  source:
+    index: 4
+    prompt: без (новых) {компьютеров}
+    base_or_stem: новые компьютеры
+    cyrillic_options:
+    - новые компьютеры
+    - новех
+    - новому
+    - новего
+    string_ids:
+      prompt: 8560
+      english: 6568
+      stored_options:
+      - 9284
+      - 8959
+      - 7737
+      - 8797
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: without a big window
+  neutral_prompt: без ___ (большой окно)
+  answer_scope: word
+  options:
+    a: большого
+    b: большей
+    c: большому
+    d: большая
+  correct: a
+  source:
+    index: 5
+    prompt: без (большого) {окна}
+    base_or_stem: большое окно
+    cyrillic_options:
+    - большое окно
+    - большей
+    - большому
+    - большая
+    string_ids:
+      prompt: 8554
+      english: 6125
+      stored_options:
+      - 8661
+      - 8650
+      - 8673
+      - 8636
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: тяжёлый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: without hard work
+  neutral_prompt: без ___ (тяжёлый работа)
+  answer_scope: word
+  options:
+    a: тяжёлой
+    b: тяжёлого
+    c: тяжёлую
+    d: тяжёлий
+  correct: a
+  source:
+    index: 6
+    prompt: без (тяжёлой) {работы}
+    base_or_stem: тяжёлая работа
+    cyrillic_options:
+    - тяжёлая работа
+    - тяжёлого
+    - тяжёлую
+    - тяжёлий
+    string_ids:
+      prompt: 8561
+      english: 5310
+      stored_options:
+      - 8628
+      - 9310
+      - 8871
+      - 8700
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: младший
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: for a younger sister
+  neutral_prompt: для ___ (младший сестра)
+  answer_scope: word
+  options:
+    a: младшей
+    b: младшую
+    c: младшый
+    d: младший
+  correct: a
+  source:
+    index: 7
+    prompt: для (младшей) {сестры}
+    base_or_stem: младшая сестра
+    cyrillic_options:
+    - младшая сестра
+    - младшую
+    - младшый
+    - младший
+    string_ids:
+      prompt: 9063
+      english: 6993
+      stored_options:
+      - 9399
+      - 9418
+      - 8830
+      - 8087
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: лучший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: for the best friend
+  neutral_prompt: для ___ (лучший друг)
+  answer_scope: word
+  options:
+    a: лучшего
+    b: лучшим
+    c: лучшой
+    d: лучшиго
+  correct: a
+  source:
+    index: 8
+    prompt: для (лучшего) {друга}
+    base_or_stem: лучший друг
+    cyrillic_options:
+    - лучший друг
+    - лучшим
+    - лучшой
+    - лучшиго
+    string_ids:
+      prompt: 9061
+      english: 6681
+      stored_options:
+      - 8894
+      - 9378
+      - 9379
+      - 9371
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: зелёный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: without a green scarf
+  neutral_prompt: без ___ (зелёный шарф)
+  answer_scope: word
+  options:
+    a: зелёного
+    b: зелёному
+    c: зелёныго
+    d: зелёной
+  correct: a
+  source:
+    index: 9
+    prompt: без (зелёного) {шарфа}
+    base_or_stem: зелёный шарф
+    cyrillic_options:
+    - зелёный шарф
+    - зелёному
+    - зелёныго
+    - зелёной
+    string_ids:
+      prompt: 8559
+      english: 5596
+      stored_options:
+      - 9204
+      - 9200
+      - 8946
+      - 9199
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: for a new apartment
+  neutral_prompt: для ___ (новый квартира)
+  answer_scope: word
+  options:
+    a: новой
+    b: новай
+    c: новей
+    d: нового
+  correct: a
+  source:
+    index: 10
+    prompt: для (новой) {квартиры}
+    base_or_stem: новая квартира
+    cyrillic_options:
+    - новая квартира
+    - новай
+    - новей
+    - нового
+    string_ids:
+      prompt: 9064
+      english: 6990
+      stored_options:
+      - 8606
+      - 8083
+      - 9465
+      - 9469
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: for new students
+  neutral_prompt: для ___ (новый студенты)
+  answer_scope: word
+  options:
+    a: новых
+    b: нового
+    c: нових
+    d: новыв
+  correct: a
+  source:
+    index: 11
+    prompt: для (новых) {студентов}
+    base_or_stem: новые студенты
+    cyrillic_options:
+    - новые студенты
+    - нового
+    - нових
+    - новыв
+    string_ids:
+      prompt: 9065
+      english: 5268
+      stored_options:
+      - 9476
+      - 9469
+      - 9466
+      - 8727
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: горячий
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: without hot water
+  neutral_prompt: без ___ (горячий вода)
+  answer_scope: word
+  options:
+    a: горячей
+    b: горячой
+    c: горячий
+    d: горячи
+  correct: a
+  source:
+    index: 12
+    prompt: без (горячей) {воды}
+    base_or_stem: горячая вода
+    cyrillic_options:
+    - горячая вода
+    - горячой
+    - горячий
+    - горячи
+    string_ids:
+      prompt: 7834
+      english: 5215
+      stored_options:
+      - 8929
+      - 8940
+      - 7646
+      - 7645
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: последний
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: until the last minute
+  neutral_prompt: до ___ (последний минута)
+  answer_scope: word
+  options:
+    a: последней
+    b: последнев
+    c: последнего
+    d: последний
+  correct: a
+  source:
+    index: 13
+    prompt: до (последней) {минуты}
+    base_or_stem: последняя минута
+    cyrillic_options:
+    - последняя минута
+    - последнев
+    - последнего
+    - последний
+    string_ids:
+      prompt: 9076
+      english: 6789
+      stored_options:
+      - 8733
+      - 8747
+      - 9589
+      - 9591
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-014
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ранний
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: until the early morning
+  neutral_prompt: до ___ (ранний утро)
+  answer_scope: word
+  options:
+    a: раннего
+    b: ранниго
+    c: ранних
+    d: ранного
+  correct: a
+  source:
+    index: 14
+    prompt: до (раннего) {утра}
+    base_or_stem: раннее утро
+    cyrillic_options:
+    - раннее утро
+    - ранниго
+    - ранних
+    - ранного
+    string_ids:
+      prompt: 9078
+      english: 4794
+      stored_options:
+      - 9637
+      - 9508
+      - 9640
+      - 9510
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-015
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: утренний
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: before the morning walk
+  neutral_prompt: до ___ (утренний прогулка)
+  answer_scope: word
+  options:
+    a: утренней
+    b: утренних
+    c: утреннего
+    d: утренной
+  correct: a
+  source:
+    index: 15
+    prompt: до (утренней) {прогулки}
+    base_or_stem: утренняя прогулка
+    cyrillic_options:
+    - утренняя прогулка
+    - утренних
+    - утреннего
+    - утренной
+    string_ids:
+      prompt: 9081
+      english: 6680
+      stored_options:
+      - 8710
+      - 8746
+      - 9612
+      - 9608
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-016
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: следующий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: until the next time
+  neutral_prompt: до ___ (следующий раз)
+  answer_scope: word
+  options:
+    a: следующего
+    b: слудующый
+    c: слудующой
+    d: следующого
+  correct: a
+  source:
+    index: 16
+    prompt: до (следующего) {раза}
+    base_or_stem: следующий раз
+    cyrillic_options:
+    - следующий раз
+    - слудующый
+    - слудующой
+    - следующого
+    string_ids:
+      prompt: 9079
+      english: 798
+      stored_options:
+      - 9627
+      - 9720
+      - 9719
+      - 9286
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-017
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: before the new laws
+  neutral_prompt: до ___ (новый законы)
+  answer_scope: word
+  options:
+    a: новых
+    b: нових
+    c: нового
+    d: новый
+  correct: a
+  source:
+    index: 17
+    prompt: до (новых) {законов}
+    base_or_stem: новые законы
+    cyrillic_options:
+    - новые законы
+    - нових
+    - нового
+    - новый
+    string_ids:
+      prompt: 9075
+      english: 3965
+      stored_options:
+      - 9473
+      - 9466
+      - 9469
+      - 7745
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-018
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: жаркий
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: before the hot summer
+  neutral_prompt: до ___ (жаркий лето)
+  answer_scope: word
+  options:
+    a: жаркого
+    b: жаркего
+    c: жаркой
+    d: жарких
+  correct: a
+  source:
+    index: 18
+    prompt: до (жаркого) {лета}
+    base_or_stem: жаркое лето
+    cyrillic_options:
+    - жаркое лето
+    - жаркего
+    - жаркой
+    - жарких
+    string_ids:
+      prompt: 9074
+      english: 638
+      stored_options:
+      - 9145
+      - 8944
+      - 9147
+      - 9133
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-019
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: холодный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: after the cold winter
+  neutral_prompt: после ___ (холодный зима)
+  answer_scope: word
+  options:
+    a: холодной
+    b: холодней
+    c: холодных
+    d: холодного
+  correct: a
+  source:
+    index: 19
+    prompt: после (холодной) {зимы}
+    base_or_stem: холодная зима
+    cyrillic_options:
+    - холодная зима
+    - холодней
+    - холодных
+    - холодного
+    string_ids:
+      prompt: 9590
+      english: 6564
+      stored_options:
+      - 8854
+      - 8873
+      - 9168
+      - 7811
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-020
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: последний
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: after the last lesson
+  neutral_prompt: после ___ (последний урок)
+  answer_scope: word
+  options:
+    a: последнего
+    b: последниго
+    c: последних
+    d: последней
+  correct: a
+  source:
+    index: 20
+    prompt: после (последнего) {урока}
+    base_or_stem: последний урок
+    cyrillic_options:
+    - последний урок
+    - последниго
+    - последних
+    - последней
+    string_ids:
+      prompt: 9588
+      english: 448
+      stored_options:
+      - 9592
+      - 9502
+      - 9594
+      - 9077
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-021
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: сильный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: after the heavy rain
+  neutral_prompt: после ___ (сильный дождь)
+  answer_scope: word
+  options:
+    a: сильного
+    b: сильной
+    c: сильная
+    d: сильных
+  correct: a
+  source:
+    index: 21
+    prompt: после (сильного) {дождя}
+    base_or_stem: сильный дождь
+    cyrillic_options:
+    - сильный дождь
+    - сильной
+    - сильная
+    - сильных
+    string_ids:
+      prompt: 9089
+      english: 6566
+      stored_options:
+      - 9688
+      - 9687
+      - 8465
+      - 9689
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-022
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: долгий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: after a long day
+  neutral_prompt: после ___ (долгий день)
+  answer_scope: word
+  options:
+    a: долгого
+    b: долгой
+    c: долгих
+    d: долгего
+  correct: a
+  source:
+    index: 22
+    prompt: после (долгого) {дня}
+    base_or_stem: долгий день
+    cyrillic_options:
+    - долгий день
+    - долгой
+    - долгих
+    - долгего
+    string_ids:
+      prompt: 9586
+      english: 6551
+      stored_options:
+      - 9020
+      - 8763
+      - 9106
+      - 8936
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-023
+  word_type: ordinal_numeral
+  exercise_type: inflection
+  dictionary_form: первый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: after the first lecture
+  neutral_prompt: после ___ (первый лекция)
+  answer_scope: word
+  options:
+    a: первой
+    b: первый
+    c: первей
+    d: первое
+  correct: a
+  source:
+    index: 23
+    prompt: после (первой) {лекции}
+    base_or_stem: первая лекция
+    cyrillic_options:
+    - первая лекция
+    - первый
+    - первей
+    - первое
+    string_ids:
+      prompt: 9587
+      english: 5152
+      stored_options:
+      - 9355
+      - 9527
+      - 9524
+      - 9525
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-1-apk-024
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: after big changes
+  neutral_prompt: после ___ (большой перемены)
+  answer_scope: word
+  options:
+    a: больших
+    b: большой
+    c: большых
+    d: большим
+  correct: a
+  source:
+    index: 24
+    prompt: после (больших) {перемен}
+    base_or_stem: большие перемены
+    cyrillic_options:
+    - большие перемены
+    - большой
+    - большых
+    - большим
+    string_ids:
+      prompt: 8657
+      english: 5513
+      stored_options:
+      - 8654
+      - 8665
+      - 8683
+      - 8527
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

@@ -1,0 +1,372 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-of-something-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: of-something
+  name: of something
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-of-something-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: droga
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: The end of the road.
+  neutral_prompt: Koniec ___. (droga; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: drogi
+    b: droga
+    c: drogę
+    d: drogą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-001
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: of-something
+      name: of something
+    russian_prompt: Конец (дороги).
+    russian_native_text:
+      en: The end of the road.
+    polish_marked_prompt: Koniec [drogi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The roof of the house.
+  neutral_prompt: Dach ___. (dom; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: domu
+    b: dom
+    c: domowi
+    d: domem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-002
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Крыша (дома).
+    russian_native_text:
+      en: The roof of the house.
+    polish_marked_prompt: Dach [domu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A map of the city.
+  neutral_prompt: Mapa ___. (miasto; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: miasta
+    b: miasto
+    c: miastu
+    d: miastem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-003
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Карта (города).
+    russian_native_text:
+      en: A map of the city.
+    polish_marked_prompt: Mapa [miasta].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-genitive-of-something-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kawa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A cup of coffee.
+  neutral_prompt: Filiżanka ___. (kawa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kawy
+    b: kawa
+    c: kawę
+    d: kawą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-004
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Чашка (кофе).
+    russian_native_text:
+      en: A cup of coffee.
+    polish_marked_prompt: Filiżanka [kawy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: książka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: The end of the book.
+  neutral_prompt: Koniec ___. (książka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: książki
+    b: książka
+    c: książkę
+    d: książką
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-005
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Конец (книги).
+    russian_native_text:
+      en: The end of the book.
+    polish_marked_prompt: Koniec [książki].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: komputer
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The screen of the computer.
+  neutral_prompt: Ekran ___. (komputer; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: komputera
+    b: komputer
+    c: komputerowi
+    d: komputerem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-006
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Экран (компьютера).
+    russian_native_text:
+      en: The screen of the computer.
+    polish_marked_prompt: Ekran [komputera].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: film
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The beginning of the movie.
+  neutral_prompt: Początek ___. (film; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: filmu
+    b: film
+    c: filmowi
+    d: filmem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-007
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Начало (фильма).
+    russian_native_text:
+      en: The beginning of the movie.
+    polish_marked_prompt: Początek [filmu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: słońce
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: The light of the Sun.
+  neutral_prompt: Światło ___. (słońce; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: słońca
+    b: słońce
+    c: słońcu
+    d: słońcem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-008
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Свет (солнца).
+    russian_native_text:
+      en: The light of the Sun.
+    polish_marked_prompt: Światło [słońca].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: prezent
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The price of the present.
+  neutral_prompt: Cena ___. (prezent; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: prezentu
+    b: prezent
+    c: prezentowi
+    d: prezentem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-009
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Цена (подарка).
+    russian_native_text:
+      en: The price of the present.
+    polish_marked_prompt: Cena [prezentu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szkoła
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: The corner of the school.
+  neutral_prompt: Róg ___. (szkoła; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szkoły
+    b: szkoła
+    c: szkołę
+    d: szkołą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-010
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Угол (школы).
+    russian_native_text:
+      en: The corner of the school.
+    polish_marked_prompt: Róg [szkoły].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wakacje
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: The beginning of holidays.
+  neutral_prompt: Początek ___. (wakacje; liczba mnoga)
+  answer_scope: word
+  options:
+    a: wakacji
+    b: wakacje
+    c: wakacjom
+    d: wakacjami
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-011
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Начало (каникул).
+    russian_native_text:
+      en: The beginning of holidays.
+    polish_marked_prompt: Początek [wakacji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-of-something-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mleko
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A box of milk.
+  neutral_prompt: Karton ___. (mleko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mleka
+    b: mleko
+    c: mleku
+    d: mlekiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-of-something-apk-012
+    russian_file: samples/ru/nouns/genitive-of-something.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Пакет (молока).
+    russian_native_text:
+      en: A box of milk.
+    polish_marked_prompt: Karton [mleka].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

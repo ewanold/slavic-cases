@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-dative-impersonal-constructions-apk
+learning_language: ru
+track: nouns
+case: dative
+topic:
+  id: impersonal-constructions
+  name: impersonal constructions
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-dative-impersonal-constructions-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Студент
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The student feels bored.
+  neutral_prompt: ___ скучно. (Студент)
+  answer_scope: word
+  options:
+    a: студенту
+    b: студента
+    c: студенты
+    d: студенте
+  correct: a
+  source:
+    index: 1
+    prompt: (студенту) скучно.
+    base_or_stem: Студент
+    cyrillic_options:
+    - Студент
+    - студента
+    - студенты
+    - студенте
+    string_ids:
+      prompt: 7815
+      english: 5974
+      stored_options:
+      - 8354
+      - 8331
+      - 9376
+      - 7829
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Мальчик
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The boy feels cold.
+  neutral_prompt: ___ холодно. (Мальчик)
+  answer_scope: word
+  options:
+    a: мальчику
+    b: мальчика
+    c: мальчик
+    d: мальчике
+  correct: a
+  source:
+    index: 2
+    prompt: (мальчику) холодно.
+    base_or_stem: Мальчик
+    cyrillic_options:
+    - Мальчик
+    - мальчика
+    - мальчик
+    - мальчике
+    string_ids:
+      prompt: 7713
+      english: 5950
+      stored_options:
+      - 8109
+      - 7712
+      - 7711
+      - 8998
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Начальник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The boss has to go.
+  neutral_prompt: ___ нужно идти. (Начальник)
+  answer_scope: word
+  options:
+    a: начальнику
+    b: начальника
+    c: начальник
+    d: начальнике
+  correct: a
+  source:
+    index: 3
+    prompt: (начальнику) нужно идти.
+    base_or_stem: Начальник
+    cyrillic_options:
+    - Начальник
+    - начальника
+    - начальник
+    - начальнике
+    string_ids:
+      prompt: 7732
+      english: 5948
+      stored_options:
+      - 8199
+      - 8266
+      - 7734
+      - 9448
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Мама
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The mother needs to rest.
+  neutral_prompt: ___ нужно отдыхать. (Мама)
+  answer_scope: word
+  options:
+    a: маме
+    b: мамы
+    c: мамой
+    d: мам
+  correct: a
+  source:
+    index: 4
+    prompt: (маме) нужно отдыхать.
+    base_or_stem: Мама
+    cyrillic_options:
+    - Мама
+    - мамы
+    - мамой
+    - мам
+    string_ids:
+      prompt: 7718
+      english: 5966
+      stored_options:
+      - 8112
+      - 8290
+      - 8856
+      - 7716
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Туристы
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Tourists are feeling hot.
+  neutral_prompt: ___ жарко. (Туристы)
+  answer_scope: word
+  options:
+    a: туристам
+    b: туристы
+    c: туристов
+    d: туриста
+  correct: a
+  source:
+    index: 5
+    prompt: (туристам) жарко.
+    base_or_stem: Туристы
+    cyrillic_options:
+    - Туристы
+    - туристы
+    - туристов
+    - туриста
+    string_ids:
+      prompt: 7824
+      english: 6047
+      stored_options:
+      - 8359
+      - 9660
+      - 8767
+      - 7778
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Сестра
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The sister feels sorry for him.
+  neutral_prompt: ___ его жаль. (Сестра)
+  answer_scope: word
+  options:
+    a: сестре
+    b: сестру
+    c: сестры
+    d: сестрой
+  correct: a
+  source:
+    index: 6
+    prompt: (сестре) его жаль.
+    base_or_stem: Сестра
+    cyrillic_options:
+    - Сестра
+    - сестру
+    - сестры
+    - сестрой
+    string_ids:
+      prompt: 7785
+      english: 5972
+      stored_options:
+      - 8335
+      - 9623
+      - 7867
+      - 8449
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Человек
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The man feels sorry for the cat.
+  neutral_prompt: ___ жаль кошку. (Человек)
+  answer_scope: word
+  options:
+    a: человеку
+    b: человека
+    c: человеки
+    d: человек
+  correct: a
+  source:
+    index: 7
+    prompt: (человеку) жаль кошку.
+    base_or_stem: Человек
+    cyrillic_options:
+    - Человек
+    - человека
+    - человеки
+    - человек
+    string_ids:
+      prompt: 7852
+      english: 5965
+      stored_options:
+      - 8399
+      - 7877
+      - 9817
+      - 7853
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Люди
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: People are having fun.
+  neutral_prompt: ___ весело. (Люди)
+  answer_scope: word
+  options:
+    a: людям
+    b: люди
+    c: людей
+    d: людями
+  correct: a
+  source:
+    index: 8
+    prompt: (людям) весело.
+    base_or_stem: Люди
+    cyrillic_options:
+    - Люди
+    - люди
+    - людей
+    - людями
+    string_ids:
+      prompt: 7707
+      english: 5679
+      stored_options:
+      - 8100
+      - 8992
+      - 8136
+      - 9405
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Девочка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The girl feels scared.
+  neutral_prompt: ___ страшно. (Девочка)
+  answer_scope: word
+  options:
+    a: девочке
+    b: девочки
+    c: девочкой
+    d: девочку
+  correct: a
+  source:
+    index: 9
+    prompt: (девочке) страшно.
+    base_or_stem: Девочка
+    cyrillic_options:
+    - Девочка
+    - девочки
+    - девочкой
+    - девочку
+    string_ids:
+      prompt: 7656
+      english: 5961
+      stored_options:
+      - 8010
+      - 8841
+      - 8999
+      - 9000
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Студент
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The student is interested in it.
+  neutral_prompt: ___ это интересно. (Студент)
+  answer_scope: word
+  options:
+    a: студенту
+    b: студента
+    c: студент
+    d: студенты
+  correct: a
+  source:
+    index: 10
+    prompt: (студенту) это интересно.
+    base_or_stem: Студент
+    cyrillic_options:
+    - Студент
+    - студента
+    - студент
+    - студенты
+    string_ids:
+      prompt: 7817
+      english: 5975
+      stored_options:
+      - 8354
+      - 8331
+      - 7816
+      - 9376
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Мальчики
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The boys are bored.
+  neutral_prompt: ___ скучно. (Мальчики)
+  answer_scope: word
+  options:
+    a: мальчикам
+    b: мальчику
+    c: мальчик
+    d: мальчиками
+  correct: a
+  source:
+    index: 11
+    prompt: (мальчикам) скучно.
+    base_or_stem: Мальчики
+    cyrillic_options:
+    - Мальчики
+    - мальчику
+    - мальчик
+    - мальчиками
+    string_ids:
+      prompt: 7710
+      english: 5951
+      stored_options:
+      - 8110
+      - 7714
+      - 7711
+      - 8986
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-impersonal-constructions-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Девочка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A girl needs to go to a doctor.
+  neutral_prompt: ___ нужно к врачу. (Девочка)
+  answer_scope: word
+  options:
+    a: девочке
+    b: девочкой
+    c: девочку
+    d: девочка
+  correct: a
+  source:
+    index: 12
+    prompt: (девочке) нужно к врачу.
+    base_or_stem: Девочка
+    cyrillic_options:
+    - Девочка
+    - девочкой
+    - девочку
+    - девочка
+    string_ids:
+      prompt: 7654
+      english: 4475
+      stored_options:
+      - 8010
+      - 8999
+      - 9000
+      - 7827
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

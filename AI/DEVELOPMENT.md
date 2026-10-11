@@ -130,7 +130,7 @@ For subsequent builds using cached dependencies:
 bash scripts/build.sh
 ```
 
-The APK is app/build/outputs/apk/debug/app-debug.apk. Test and lint reports are in
+The APK is app/build/distributions/learn-grammatical-cases-debug.apk. Test and lint reports are in
 app/build/reports/. If offline mode reports a missing dependency, run the installer
 again. Release builds intentionally fail until all samples have linguistic review.
 
@@ -142,7 +142,7 @@ phone's debugging authorization prompt for your computer. Run:
 
 ```bash
 "$HOME/Android/Sdk/platform-tools/adb" devices -l
-"$HOME/Android/Sdk/platform-tools/adb" install -r app/build/outputs/apk/debug/app-debug.apk
+"$HOME/Android/Sdk/platform-tools/adb" install -r app/build/distributions/learn-grammatical-cases-debug.apk
 "$HOME/Android/Sdk/platform-tools/adb" shell am start -n org.slaviccases.app/.MainActivity
 ```
 
@@ -283,7 +283,7 @@ colors on Android 12+ and a built-in palette on Android 10/11. Correct/incorrect
 answers retain green/red colors in both themes. Android 10 (API 29) is the current
 minimum; the earlier Android 8 baseline below is historical.
 
-You can also transfer app/build/outputs/apk/debug/app-debug.apk to your phone and
+You can also transfer app/build/distributions/learn-grammatical-cases-debug.apk to your phone and
 open it from a file manager. Permit installation from that source when Android
 asks. No Google account is required. This is the development/debug build; lesson
 content still awaits linguistic review.
@@ -319,3 +319,60 @@ No downloads/installations executed in this discussion.
 Sources: https://developer.android.com/about/versions/16/setup-sdk
 https://developer.android.com/build/releases/agp-9-1-0-release-notes
 https://docs.gradle.org/current/userguide/compatibility.html
+
+### Version 0.2 local release build
+
+Run `bash scripts/build-local-release.sh` for a non-debuggable APK at
+`app/build/distributions/learn-grammatical-cases.apk`. This private-testing mode uses
+`-PlocalReleasePreview=true`, includes drafts and signs with the existing Android
+development key. It can update a debug installation built with the same key.
+Never commit the key; a fork uses its own development key.
+Normal `bash scripts/build.sh assembleRelease` still enforces review and licensing.
+Publication needs cleared content and a dedicated protected signing key.
+Neither helper uploads to a store or creates a public GitHub release.
+
+### Editing and debugging
+
+Android Studio is the standard IDE for this Kotlin/Compose app. Open the project
+root, edit Kotlin in app/src/main/java, and use Run/Debug with an emulator or phone.
+Logcat shows device messages; Layout Inspector helps investigate Compose layouts.
+Terminal scripts remain the repeatable build route. Other text editors can edit
+sources but do not supply the same integrated Android tooling.
+Official introduction: https://developer.android.com/studio/intro
+
+Installed Linux Studio launcher (default installer layout):
+`~/.local/opt/slavic-cases/android-studio-rabbit1/bin/studio`.
+Run it from a terminal, then Open the repository root.
+
+### APK filenames
+
+Every assembleDebug/assembleRelease build exports the corresponding APK to
+`app/build/distributions/learn-grammatical-cases-debug.apk` or
+`app/build/distributions/learn-grammatical-cases.apk`. These are byte-for-byte copies of
+AGP's generated APKs, preserving signatures. Gradle's internal output files and
+installation metadata stay together in outputs/apk/ for Android Studio.
+The filenames do not affect the installed app name, package ID or update identity.
+
+For a Linux application-menu launcher, open Android Studio and choose
+**Tools → Create Desktop Entry**. The owner confirmed finding the executable and
+creating the desktop launcher on 2026-10-11. The launcher is local desktop setup,
+not a repository file; fork contributors create their own entry after installation.
+
+## Translating the interface
+
+Edit `app/src/main/res/values/strings.xml` (English/default) and
+`app/src/main/res/values-de/strings.xml` (German),
+`app/src/main/res/values-ru/strings.xml` (Russian), and
+`app/src/main/res/values-pl/strings.xml` (Polish). Match resource IDs; preserve
+numbered, typed placeholders such as `%1$s` (text), `%2$d` (integer), and `%%`
+(literal percent). Translate the whole message and reorder placeholders as needed.
+Use valid UTF-8 XML; escape XML characters (`&amp;`, `&lt;`) and Android string
+apostrophes when needed. GUI selection drives in-app resource resolution; launcher
+label uses Android locale. No `.po` tooling or dependency is required.
+
+Run `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_ui_strings.py`
+for translation key/placeholder checks, then `bash scripts/build.sh` for Android
+resource compilation, JVM tests and lint. Lessons, pack names and topic labels
+are content translations in YAML; see CONTENT_FORMAT.md. To add another GUI
+language, add its values-language resources and a selector entry, then extend the
+resource parity check for that locale.

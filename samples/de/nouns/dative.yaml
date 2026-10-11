@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-nouns-dative-starter
+learning_language: de
+track: nouns
+case: dative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-nouns-dative-01
+  word_type: noun
+  dictionary_form: Mann
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the man.
+    de: Ich helfe dem Mann.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Mann; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: dem Mann
+    b: der Mann
+    c: des Mannes
+    d: den Mann
+  correct: a
+- id: de-nouns-dative-02
+  word_type: noun
+  dictionary_form: Frau
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the woman.
+    de: Ich helfe der Frau.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Frau; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Frau
+    b: der Frau
+    c: dem Frau
+    d: des Frau
+  correct: b
+- id: de-nouns-dative-03
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the child.
+    de: Ich helfe dem Kind.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das Kind
+    b: des Kindes
+    c: dem Kind
+    d: den Kind
+  correct: c
+- id: de-nouns-dative-04
+  word_type: noun
+  dictionary_form: Lehrer
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I answer the male teacher.
+    de: Ich antworte dem Lehrer.
+  neutral_prompt: Ich antworte ___. (bestimmter Artikel; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Lehrer
+    b: des Lehrers
+    c: den Lehrer
+    d: dem Lehrer
+  correct: d
+- id: de-nouns-dative-05
+  word_type: noun
+  dictionary_form: Ärztin
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I thank the female doctor.
+    de: Ich danke der Ärztin.
+  neutral_prompt: Ich danke ___. (bestimmter Artikel; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Ärztin
+    b: die Ärztin
+    c: dem Ärztin
+    d: des Ärztin
+  correct: a
+- id: de-nouns-dative-06
+  word_type: noun
+  dictionary_form: Bruder
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the brother.
+    de: Ich helfe dem Bruder.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Bruder; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Bruder
+    b: dem Bruder
+    c: des Bruders
+    d: den Bruder
+  correct: b
+- id: de-nouns-dative-07
+  word_type: noun
+  dictionary_form: Schwester
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I thank the sister.
+    de: Ich danke der Schwester.
+  neutral_prompt: Ich danke ___. (bestimmter Artikel; Schwester; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Schwester
+    b: dem Schwester
+    c: der Schwester
+    d: des Schwester
+  correct: c
+- id: de-nouns-dative-08
+  word_type: noun
+  dictionary_form: Freund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I trust the male friend.
+    de: Ich vertraue dem Freund.
+  neutral_prompt: Ich vertraue ___. (bestimmter Artikel; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Freund
+    b: des Freundes
+    c: den Freund
+    d: dem Freund
+  correct: d
+- id: de-nouns-dative-09
+  word_type: noun
+  dictionary_form: Student
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the male student.
+    de: Ich helfe dem Studenten.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Student; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: dem Studenten
+    b: der Student
+    c: des Studenten
+    d: den Studenten
+  correct: a
+- id: de-nouns-dative-10
+  word_type: noun
+  dictionary_form: Nachbar
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I answer the male neighbour.
+    de: Ich antworte dem Nachbarn.
+  neutral_prompt: Ich antworte ___. (bestimmter Artikel; Nachbar; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Nachbar
+    b: dem Nachbarn
+    c: des Nachbarn
+    d: den Nachbarn
+  correct: b
+- id: de-nouns-dative-11
+  word_type: noun
+  dictionary_form: Vater
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I help the father.
+    de: Ich helfe dem Vater.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; Vater; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Vater
+    b: des Vaters
+    c: dem Vater
+    d: den Vater
+  correct: c
+- id: de-nouns-dative-12
+  word_type: noun
+  dictionary_form: Mutter
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I thank the mother.
+    de: Ich danke der Mutter.
+  neutral_prompt: Ich danke ___. (bestimmter Artikel; Mutter; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Mutter
+    b: dem Mutter
+    c: des Mutter
+    d: der Mutter
+  correct: d
+- id: de-nouns-dative-13
+  word_type: noun
+  dictionary_form: Buch
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: noun
+  native_text:
+    en: I work with the book.
+    de: Ich arbeite mit dem Buch.
+  neutral_prompt: Ich arbeite mit ___. (bestimmter Artikel; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: dem Buch
+    b: das Buch
+    c: des Buches
+    d: den Buch
+  correct: a
+- id: de-nouns-dative-14
+  word_type: noun
+  dictionary_form: Hund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I play with the dog.
+    de: Ich spiele mit dem Hund.
+  neutral_prompt: Ich spiele mit ___. (bestimmter Artikel; Hund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Hund
+    b: dem Hund
+    c: des Hundes
+    d: den Hund
+  correct: b
+- id: de-nouns-dative-15
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I play with the children.
+    de: Ich spiele mit den Kindern.
+  neutral_prompt: Ich spiele mit ___. (bestimmter Artikel; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die Kinder
+    b: der Kinder
+    c: den Kindern
+    d: dem Kinder
+  correct: c

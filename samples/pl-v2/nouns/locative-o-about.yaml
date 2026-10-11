@@ -1,0 +1,370 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-locative-o-about-adapted
+learning_language: pl
+track: nouns
+case: locative
+topic:
+  id: o-about
+  name: o about
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-prepositional-o-about-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wojna
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A book about war.
+  neutral_prompt: Książka o ___. (wojna; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wojnie
+    b: wojna
+    c: wojny
+    d: wojnę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-001
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: &id001
+      id: o-about
+      name: о (about)
+    russian_prompt: Книга о (войне).
+    russian_native_text:
+      en: A book about war.
+    polish_marked_prompt: Książka o [wojnie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyroda
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A movie about nature.
+  neutral_prompt: Film o ___. (przyroda; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyrodzie
+    b: przyroda
+    c: przyrody
+    d: przyrodę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-002
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Фильм о (природе).
+    russian_native_text:
+      en: A movie about nature.
+    polish_marked_prompt: Film o [przyrodzie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: życie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Thoughts about life.
+  neutral_prompt: Myśli o ___. (życie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: życiu
+    b: życie
+    c: życia
+    d: życiem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-003
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Мысли о (жизни).
+    russian_native_text:
+      en: Thoughts about life.
+    polish_marked_prompt: Myśli o [życiu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miłość
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A song about love.
+  neutral_prompt: Piosenka o ___. (miłość; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: miłości
+    b: miłość
+    c: miłością
+    d: miłościom
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-004
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Песня о (любви).
+    russian_native_text:
+      en: A song about love.
+    polish_marked_prompt: Piosenka o [miłości].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: polityka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To speak about politics.
+  neutral_prompt: Mówić o ___. (polityka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: polityce
+    b: polityka
+    c: polityki
+    d: politykę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-005
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Говорить о (политике).
+    russian_native_text:
+      en: To speak about politics.
+    polish_marked_prompt: Mówić o [polityce].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: urlop
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: To think about the vacation.
+  neutral_prompt: Myśleć o ___. (urlop; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: urlopie
+    b: urlop
+    c: urlopu
+    d: urlopowi
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-006
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Думать об (отпуске).
+    russian_native_text:
+      en: To think about the vacation.
+    polish_marked_prompt: Myśleć o [urlopie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miłość
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To dream about love.
+  neutral_prompt: Marzyć o ___. (miłość; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: miłości
+    b: miłość
+    c: miłością
+    d: miłościom
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-007
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Мечтать о (любви).
+    russian_native_text:
+      en: To dream about love.
+    polish_marked_prompt: Marzyć o [miłości].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: To think about a friend.
+  neutral_prompt: Myśleć o ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjacielu
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-008
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Думать о (друге).
+    russian_native_text:
+      en: To think about a friend.
+    polish_marked_prompt: Myśleć o [przyjacielu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pogoda
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To talk about the weather.
+  neutral_prompt: Rozmawiać o ___. (pogoda; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pogodzie
+    b: pogoda
+    c: pogody
+    d: pogodę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-009
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Говорить о (погоде).
+    russian_native_text:
+      en: To talk about the weather.
+    polish_marked_prompt: Rozmawiać o [pogodzie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: człowiek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A movie about a man.
+  neutral_prompt: Film o ___. (człowiek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: człowieku
+    b: człowiek
+    c: człowieka
+    d: człowiekowi
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-010
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Фильм о (человеке).
+    russian_native_text:
+      en: A movie about a man.
+    polish_marked_prompt: Film o [człowieku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: plural
+    gender: neuter
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Think about children.
+  neutral_prompt: Myśleć o ___. (dziecko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dzieciach
+    b: dziecko
+    c: dziecka
+    d: dziecku
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-011
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Думать о (детях).
+    russian_native_text:
+      en: Think about children.
+    polish_marked_prompt: Myśleć o [dzieciach].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-o-about-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: życie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: To tell about life.
+  neutral_prompt: Opowiadać o ___. (życie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: życiu
+    b: życie
+    c: życia
+    d: życiem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-o-about-apk-012
+    russian_file: samples/ru/nouns/prepositional-o-about.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Рассказывать о (жизни).
+    russian_native_text:
+      en: To tell about life.
+    polish_marked_prompt: Opowiadać o [życiu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

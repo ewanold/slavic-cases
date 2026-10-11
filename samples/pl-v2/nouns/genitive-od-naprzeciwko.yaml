@@ -1,0 +1,384 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-od-naprzeciwko-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: od-naprzeciwko
+  name: od naprzeciwko
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-ot-naprotiv-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A letter from a friend.
+  neutral_prompt: List od ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciela
+    b: przyjaciel
+    c: przyjacielowi
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-001
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: ot-naprotiv
+      name: от, напротив
+    russian_prompt: Письмо от (друга).
+    russian_native_text:
+      en: A letter from a friend.
+    polish_marked_prompt: List od [przyjaciela].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ot-naprotiv-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: uczeń
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: A present from students.
+  neutral_prompt: Prezent od ___. (uczeń; liczba mnoga)
+  answer_scope: word
+  options:
+    a: uczniów
+    b: uczeń
+    c: ucznia
+    d: uczniowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-002
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Подарок от (учеников).
+    russian_native_text:
+      en: A present from students.
+    polish_marked_prompt: Prezent od [uczniów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ot-naprotiv-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Maria
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A letter from Maria.
+  neutral_prompt: List od ___. (Maria; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Marii
+    b: Maria
+    c: Marię
+    d: Marią
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-003
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Письмо от (Марии).
+    russian_native_text:
+      en: A letter from Maria.
+    polish_marked_prompt: List od [Marii].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ot-naprotiv-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Not far from the city.
+  neutral_prompt: Niedaleko ___. (miasto; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: miasta
+    b: miasto
+    c: miastu
+    d: miastem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-004
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Недалеко от (города).
+    russian_native_text:
+      en: Not far from the city.
+    polish_marked_prompt: Niedaleko [miasta].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-genitive-ot-naprotiv-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: plaża
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Not far from the beach.
+  neutral_prompt: Niedaleko ___. (plaża; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: plaży
+    b: plaża
+    c: plażę
+    d: plażą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-005
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Недалеко от (пляжа).
+    russian_native_text:
+      en: Not far from the beach.
+    polish_marked_prompt: Niedaleko [plaży].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ot-naprotiv-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: poczta
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Not far from the post office.
+  neutral_prompt: Niedaleko ___. (poczta; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: poczty
+    b: poczta
+    c: pocztę
+    d: pocztą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-006
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Недалеко от (почты).
+    russian_native_text:
+      en: Not far from the post office.
+    polish_marked_prompt: Niedaleko [poczty].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ot-naprotiv-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sklep
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Opposite the shop.
+  neutral_prompt: Naprzeciwko ___. (sklep; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sklepu
+    b: sklep
+    c: sklepowi
+    d: sklepem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-007
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (магазина).
+    russian_native_text:
+      en: In front of the shop.
+    polish_marked_prompt: Naprzeciwko [sklepu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-ot-naprotiv-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: budynek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Opposite the building.
+  neutral_prompt: Naprzeciwko ___. (budynek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: budynku
+    b: budynek
+    c: budynkowi
+    d: budynkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-008
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (здания).
+    russian_native_text:
+      en: In front of the building.
+    polish_marked_prompt: Naprzeciwko [budynku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-ot-naprotiv-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szkoła
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Opposite the school.
+  neutral_prompt: Naprzeciwko ___. (szkoła; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szkoły
+    b: szkoła
+    c: szkołę
+    d: szkołą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-009
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (школы).
+    russian_native_text:
+      en: In front of the school.
+    polish_marked_prompt: Naprzeciwko [szkoły].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-ot-naprotiv-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wyjście
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Opposite the exit.
+  neutral_prompt: Naprzeciwko ___. (wyjście; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wyjścia
+    b: wyjście
+    c: wyjściu
+    d: wyjściem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-010
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (выхода).
+    russian_native_text:
+      en: In front of the exit.
+    polish_marked_prompt: Naprzeciwko [wyjścia].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-ot-naprotiv-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szpital
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Opposite the hospital.
+  neutral_prompt: Naprzeciwko ___. (szpital; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szpitala
+    b: szpital
+    c: szpitalowi
+    d: szpitalem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-011
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (больницы).
+    russian_native_text:
+      en: In front of the hospital.
+    polish_marked_prompt: Naprzeciwko [szpitala].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-ot-naprotiv-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pomnik
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Opposite the monument.
+  neutral_prompt: Naprzeciwko ___. (pomnik; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pomnika
+    b: pomnik
+    c: pomnikowi
+    d: pomnikiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ot-naprotiv-apk-012
+    russian_file: samples/ru/nouns/genitive-ot-naprotiv.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Напротив (памятника).
+    russian_native_text:
+      en: In front of the monument.
+    polish_marked_prompt: Naprzeciwko [pomnika].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.

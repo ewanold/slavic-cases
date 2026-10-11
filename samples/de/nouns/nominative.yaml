@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-nouns-nominative-starter
+learning_language: de
+track: nouns
+case: nominative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-nouns-nominative-01
+  word_type: noun
+  dictionary_form: Mann
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The man waits here.
+    de: Der Mann wartet hier.
+  neutral_prompt: ___ wartet hier. (bestimmter Artikel; Mann; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Mann
+    b: des Mannes
+    c: dem Mann
+    d: den Mann
+  correct: a
+- id: de-nouns-nominative-02
+  word_type: noun
+  dictionary_form: Frau
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The woman reads.
+    de: Die Frau liest.
+  neutral_prompt: ___ liest. (bestimmter Artikel; Frau; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Frau
+    b: die Frau
+    c: dem Frau
+    d: des Frau
+  correct: b
+- id: de-nouns-nominative-03
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The child plays.
+    de: Das Kind spielt.
+  neutral_prompt: ___ spielt. (bestimmter Artikel; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: des Kindes
+    b: dem Kind
+    c: das Kind
+    d: den Kind
+  correct: c
+- id: de-nouns-nominative-04
+  word_type: noun
+  dictionary_form: Lehrer
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The male teacher explains the task.
+    de: Der Lehrer erklärt die Aufgabe.
+  neutral_prompt: ___ erklärt die Aufgabe. (bestimmter Artikel; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Lehrers
+    b: dem Lehrer
+    c: den Lehrer
+    d: der Lehrer
+  correct: d
+- id: de-nouns-nominative-05
+  word_type: noun
+  dictionary_form: Ärztin
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The female doctor helps me.
+    de: Die Ärztin hilft mir.
+  neutral_prompt: ___ hilft mir. (bestimmter Artikel; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Ärztin
+    b: der Ärztin
+    c: dem Ärztin
+    d: des Ärztin
+  correct: a
+- id: de-nouns-nominative-06
+  word_type: noun
+  dictionary_form: Bruder
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The brother cooks.
+    de: Der Bruder kocht.
+  neutral_prompt: ___ kocht. (bestimmter Artikel; Bruder; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Bruders
+    b: der Bruder
+    c: dem Bruder
+    d: den Bruder
+  correct: b
+- id: de-nouns-nominative-07
+  word_type: noun
+  dictionary_form: Schwester
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The sister sings.
+    de: Die Schwester singt.
+  neutral_prompt: ___ singt. (bestimmter Artikel; Schwester; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Schwester
+    b: dem Schwester
+    c: die Schwester
+    d: des Schwester
+  correct: c
+- id: de-nouns-nominative-08
+  word_type: noun
+  dictionary_form: Freund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The male friend comes today.
+    de: Der Freund kommt heute.
+  neutral_prompt: ___ kommt heute. (bestimmter Artikel; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Freundes
+    b: dem Freund
+    c: den Freund
+    d: der Freund
+  correct: d
+- id: de-nouns-nominative-09
+  word_type: noun
+  dictionary_form: Student
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The male student studies.
+    de: Der Student lernt.
+  neutral_prompt: ___ lernt. (bestimmter Artikel; Student; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Student
+    b: des Studenten
+    c: dem Studenten
+    d: den Studenten
+  correct: a
+- id: de-nouns-nominative-10
+  word_type: noun
+  dictionary_form: Nachbar
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The male neighbour greets me.
+    de: Der Nachbar grüßt mich.
+  neutral_prompt: ___ grüßt mich. (bestimmter Artikel; Nachbar; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Nachbarn
+    b: der Nachbar
+    c: dem Nachbarn
+    d: den Nachbarn
+  correct: b
+- id: de-nouns-nominative-11
+  word_type: noun
+  dictionary_form: Vater
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The father works.
+    de: Der Vater arbeitet.
+  neutral_prompt: ___ arbeitet. (bestimmter Artikel; Vater; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Vaters
+    b: dem Vater
+    c: der Vater
+    d: den Vater
+  correct: c
+- id: de-nouns-nominative-12
+  word_type: noun
+  dictionary_form: Mutter
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The mother laughs.
+    de: Die Mutter lacht.
+  neutral_prompt: ___ lacht. (bestimmter Artikel; Mutter; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Mutter
+    b: dem Mutter
+    c: des Mutter
+    d: die Mutter
+  correct: d
+- id: de-nouns-nominative-13
+  word_type: noun
+  dictionary_form: Buch
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: noun
+  native_text:
+    en: The book lies here.
+    de: Das Buch liegt hier.
+  neutral_prompt: ___ liegt hier. (bestimmter Artikel; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das Buch
+    b: des Buches
+    c: dem Buch
+    d: den Buch
+  correct: a
+- id: de-nouns-nominative-14
+  word_type: noun
+  dictionary_form: Hund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The dog sleeps.
+    de: Der Hund schläft.
+  neutral_prompt: ___ schläft. (bestimmter Artikel; Hund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Hundes
+    b: der Hund
+    c: dem Hund
+    d: den Hund
+  correct: b
+- id: de-nouns-nominative-15
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: noun
+  native_text:
+    en: The children play.
+    de: Die Kinder spielen.
+  neutral_prompt: ___ spielen. (bestimmter Artikel; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: der Kinder
+    b: den Kindern
+    c: die Kinder
+    d: dem Kinder
+  correct: c

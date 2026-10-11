@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-nominative-plural-feminine-apk
+learning_language: ru
+track: nouns
+case: nominative
+topic:
+  id: plural-feminine
+  name: Plural feminine
+native_languages:
+- en
+instruction:
+  en: Choose the nominative plural form of the noun.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-plural-feminine-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: женщина
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: women
+  neutral_prompt: ___ (женщина)
+  answer_scope: word
+  options:
+    a: женщины
+    b: женщини
+    c: женщине
+    d: женщиньи
+  correct: a
+  source:
+    index: 1
+    prompt: (женщина)
+    base_or_stem: женщина
+    cyrillic_options:
+    - женщины
+    - женщини
+    - женщине
+    - женщиньи
+    string_ids:
+      prompt: 7667
+      english: 6861
+      stored_options:
+      - 9154
+      - 9151
+      - 8514
+      - 9155
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: мама
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: mothers
+  neutral_prompt: ___ (мама)
+  answer_scope: word
+  options:
+    a: мамы
+    b: мами
+    c: маме
+    d: мамьи
+  correct: a
+  source:
+    index: 2
+    prompt: (мама)
+    base_or_stem: мама
+    cyrillic_options:
+    - мамы
+    - мами
+    - маме
+    - мамьи
+    string_ids:
+      prompt: 7715
+      english: 7422
+      stored_options:
+      - 8290
+      - 8129
+      - 7719
+      - 9088
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: тётя
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: aunts
+  neutral_prompt: ___ (тётя)
+  answer_scope: word
+  options:
+    a: тёти
+    b: тёты
+    c: тётьи
+    d: тёте
+  correct: a
+  source:
+    index: 3
+    prompt: (тётя)
+    base_or_stem: тётя
+    cyrillic_options:
+    - тёти
+    - тёты
+    - тётьи
+    - тёте
+    string_ids:
+      prompt: 7825
+      english: 5323
+      stored_options:
+      - 9796
+      - 9797
+      - 9798
+      - 9795
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: станция
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: stations
+  neutral_prompt: ___ (станция)
+  answer_scope: word
+  options:
+    a: станции
+    b: станцы
+    c: станци
+    d: станцийи
+  correct: a
+  source:
+    index: 4
+    prompt: (станция)
+    base_or_stem: станция
+    cyrillic_options:
+    - станции
+    - станцы
+    - станци
+    - станцийи
+    string_ids:
+      prompt: 7803
+      english: 4740
+      stored_options:
+      - 8611
+      - 9748
+      - 7804
+      - 9173
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: статья
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: articles
+  neutral_prompt: ___ (статья)
+  answer_scope: word
+  options:
+    a: статьи
+    b: стати
+    c: статьы
+    d: статы
+  correct: a
+  source:
+    index: 5
+    prompt: (статья)
+    base_or_stem: статья
+    cyrillic_options:
+    - статьи
+    - стати
+    - статьы
+    - статы
+    string_ids:
+      prompt: 7812
+      english: 4688
+      stored_options:
+      - 9770
+      - 9766
+      - 9771
+      - 9767
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дверь
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: doors
+  neutral_prompt: ___ (дверь)
+  answer_scope: word
+  options:
+    a: двери
+    b: дверы
+    c: дверьи
+    d: дверья
+  correct: a
+  source:
+    index: 6
+    prompt: (дверь)
+    base_or_stem: дверь
+    cyrillic_options:
+    - двери
+    - дверы
+    - дверьи
+    - дверья
+    string_ids:
+      prompt: 7652
+      english: 6098
+      stored_options:
+      - 8220
+      - 8987
+      - 8990
+      - 8995
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: мышь
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: mice
+  neutral_prompt: ___ (мышь)
+  answer_scope: word
+  options:
+    a: мыши
+    b: мышьи
+    c: мышы
+    d: мышьы
+  correct: a
+  source:
+    index: 7
+    prompt: (мышь)
+    base_or_stem: мышь
+    cyrillic_options:
+    - мыши
+    - мышьи
+    - мышы
+    - мышьы
+    string_ids:
+      prompt: 7731
+      english: 7416
+      stored_options:
+      - 9117
+      - 8203
+      - 8881
+      - 9439
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ночь
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: nights
+  neutral_prompt: ___ (ночь)
+  answer_scope: word
+  options:
+    a: ночи
+    b: ночьи
+    c: ночы
+    d: ночьы
+  correct: a
+  source:
+    index: 8
+    prompt: (ночь)
+    base_or_stem: ночь
+    cyrillic_options:
+    - ночи
+    - ночьи
+    - ночы
+    - ночьы
+    string_ids:
+      prompt: 7750
+      english: 861
+      stored_options:
+      - 7874
+      - 9489
+      - 9488
+      - 9490
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: книга
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: books
+  neutral_prompt: ___ (книга)
+  answer_scope: word
+  options:
+    a: книги
+    b: книгьи
+    c: книгы
+    d: книге
+  correct: a
+  source:
+    index: 9
+    prompt: (книга)
+    base_or_stem: книга
+    cyrillic_options:
+    - книги
+    - книгьи
+    - книгы
+    - книге
+    string_ids:
+      prompt: 7685
+      english: 1172
+      stored_options:
+      - 7872
+      - 9240
+      - 9275
+      - 9272
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: муха
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: flies
+  neutral_prompt: ___ (муха)
+  answer_scope: word
+  options:
+    a: мухи
+    b: мухьи
+    c: мухы
+    d: мухья
+  correct: a
+  source:
+    index: 10
+    prompt: (муха)
+    base_or_stem: муха
+    cyrillic_options:
+    - мухи
+    - мухьи
+    - мухы
+    - мухья
+    string_ids:
+      prompt: 7730
+      english: 3833
+      stored_options:
+      - 7793
+      - 9434
+      - 8549
+      - 9437
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: открытка
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: postcards
+  neutral_prompt: ___ (открытка)
+  answer_scope: word
+  options:
+    a: открытки
+    b: открыткья
+    c: открыткы
+    d: открыткя
+  correct: a
+  source:
+    index: 11
+    prompt: (открытка)
+    base_or_stem: открытка
+    cyrillic_options:
+    - открытки
+    - открыткья
+    - открыткы
+    - открыткя
+    string_ids:
+      prompt: 7758
+      english: 6718
+      stored_options:
+      - 9507
+      - 9511
+      - 9509
+      - 9513
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-feminine-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: утка
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: ducks
+  neutral_prompt: ___ (утка)
+  answer_scope: word
+  options:
+    a: утки
+    b: уткья
+    c: уткы
+    d: уткя
+  correct: a
+  source:
+    index: 12
+    prompt: (утка)
+    base_or_stem: утка
+    cyrillic_options:
+    - утки
+    - уткья
+    - уткы
+    - уткя
+    string_ids:
+      prompt: 7837
+      english: 5849
+      stored_options:
+      - 9519
+      - 8919
+      - 9541
+      - 9564
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

@@ -1,0 +1,24 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+learning_language: de
+name: German simple
+native_languages:
+- en
+- de
+tracks:
+- nouns
+- adjectives
+cases:
+- id: nominative
+  name: Nominativ
+- id: genitive
+  name: Genitiv
+- id: dative
+  name: Dativ
+- id: accusative
+  name: Akkusativ
+names:
+  en: German simple
+  de: Deutsch einfach
+  ru: "Немецкий: базовый курс"
+  pl: "Niemiecki: kurs podstawowy"

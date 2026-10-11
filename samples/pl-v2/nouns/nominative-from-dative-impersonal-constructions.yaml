@@ -1,0 +1,145 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-from-dative-impersonal-constructions-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: from-dative-impersonal-constructions
+  name: from dative impersonal constructions
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-impersonal-constructions-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szef
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The boss has to go.
+  neutral_prompt: ___ musi iść. (szef; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Szef
+    b: Szefa
+    c: Szefowi
+    d: Szefem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-003
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: impersonal-constructions
+      name: impersonal constructions
+    russian_prompt: (начальнику) нужно идти.
+    russian_native_text:
+      en: The boss has to go.
+    polish_marked_prompt: '[Szef] musi iść.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.
+- id: pl-nouns-dative-impersonal-constructions-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The mother needs to rest.
+  neutral_prompt: ___ musi odpocząć. (mama; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Mama
+    b: Mamy
+    c: Mamę
+    d: Mamą
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-004
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (маме) нужно отдыхать.
+    russian_native_text:
+      en: The mother needs to rest.
+    polish_marked_prompt: '[Mama] musi odpocząć.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.
+- id: pl-nouns-dative-impersonal-constructions-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziewczynka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The girl feels scared.
+  neutral_prompt: ___ się boi. (dziewczynka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Dziewczynka
+    b: Dziewczynki
+    c: Dziewczynkę
+    d: Dziewczynką
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-009
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (девочке) страшно.
+    russian_native_text:
+      en: The girl feels scared.
+    polish_marked_prompt: '[Dziewczynka] się boi.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.
+- id: pl-nouns-dative-impersonal-constructions-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziewczynka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A girl needs to go to a doctor.
+  neutral_prompt: ___ musi iść do lekarza. (dziewczynka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Dziewczynka
+    b: Dziewczynki
+    c: Dziewczynkę
+    d: Dziewczynką
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-impersonal-constructions-apk-012
+    russian_file: samples/ru/nouns/dative-impersonal-constructions.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (девочке) нужно к врачу.
+    russian_native_text:
+      en: A girl needs to go to a doctor.
+    polish_marked_prompt: '[Dziewczynka] musi iść do lekarza.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.

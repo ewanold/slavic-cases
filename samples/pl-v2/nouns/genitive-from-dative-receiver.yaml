@@ -1,0 +1,115 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-from-dative-receiver-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: from-dative-receiver
+  name: from dative receiver
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-receiver-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kolega
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: You phone the colleague.
+  neutral_prompt: Dzwonisz do ___. (kolega; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kolegi
+    b: kolega
+    c: koledze
+    d: kolegą
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-003
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: receiver
+      name: receiver
+    russian_prompt: Ты звонишь (коллеге).
+    russian_native_text:
+      en: You phone the colleague.
+    polish_marked_prompt: Dzwonisz do [kolegi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-receiver-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: She phones the parents.
+  neutral_prompt: Ona dzwoni do ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodziców
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-006
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Она звонит (родителям).
+    russian_native_text:
+      en: She phones the parents.
+    polish_marked_prompt: Ona dzwoni do [rodziców].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-receiver-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziewczyna
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: He’s writing to a girlfriend.
+  neutral_prompt: On pisze do ___. (dziewczyna; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziewczyny
+    b: dziewczyna
+    c: dziewczynę
+    d: dziewczyną
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-receiver-apk-013
+    russian_file: samples/ru/nouns/dative-receiver.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Он пишет (девушке).
+    russian_native_text:
+      en: He’s writing to a girlfriend.
+    polish_marked_prompt: On pisze do [dziewczyny].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.

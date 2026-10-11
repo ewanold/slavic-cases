@@ -1,0 +1,370 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-ownership-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: ownership
+  name: ownership
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-ownership-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szef
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The boss's office.
+  neutral_prompt: Biuro ___. (szef; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szefa
+    b: szef
+    c: szefowi
+    d: szefem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-001
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: ownership
+      name: ownership
+    russian_prompt: Офис (начальника).
+    russian_native_text:
+      en: The boss's office.
+    polish_marked_prompt: Biuro [szefa].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Sister’s room.
+  neutral_prompt: Pokój ___. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: siostry
+    b: siostra
+    c: siostrę
+    d: siostrą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-002
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Комната (сестры).
+    russian_native_text:
+      en: Sister’s room.
+    polish_marked_prompt: Pokój [siostry].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A friend’s job.
+  neutral_prompt: Praca ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciela
+    b: przyjaciel
+    c: przyjacielowi
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-003
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Работа (друга).
+    russian_native_text:
+      en: A friend’s job.
+    polish_marked_prompt: Praca [przyjaciela].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: tata
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Father’s book.
+  neutral_prompt: Książka ___. (tata; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: taty
+    b: tata
+    c: tacie
+    d: tatą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-004
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Книга (папы).
+    russian_native_text:
+      en: Father’s book.
+    polish_marked_prompt: Książka [taty].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A girlfriend’s car.
+  neutral_prompt: Samochód ___. (przyjaciółka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciółki
+    b: przyjaciółka
+    c: przyjaciółkę
+    d: przyjaciółką
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-005
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Машина (подруги).
+    russian_native_text:
+      en: A girlfriend’s car.
+    polish_marked_prompt: Samochód [przyjaciółki].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Parents’ money.
+  neutral_prompt: Pieniądze ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodziców
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-006
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Деньги (родителей).
+    russian_native_text:
+      en: Parents’ money.
+    polish_marked_prompt: Pieniądze [rodziców].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kolega
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A colleague's computer.
+  neutral_prompt: Komputer ___. (kolega; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kolegi
+    b: kolega
+    c: koledze
+    d: kolegą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-007
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Компьютер (коллеги).
+    russian_native_text:
+      en: A colleague's computer.
+    polish_marked_prompt: Komputer [kolegi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A sister’s magazine.
+  neutral_prompt: Czasopismo ___. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: siostry
+    b: siostra
+    c: siostrę
+    d: siostrą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-008
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Журнал (сестры).
+    russian_native_text:
+      en: A sister’s magazine.
+    polish_marked_prompt: Czasopismo [siostry].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Aleksander
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Alexandr’s house.
+  neutral_prompt: Dom ___. (Aleksander; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Aleksandra
+    b: Aleksander
+    c: Aleksandrowi
+    d: Aleksandrem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-009
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Дом (Александра).
+    russian_native_text:
+      en: Alexandr’s house.
+    polish_marked_prompt: Dom [Aleksandra].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sąsiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: A neighbour’s dog.
+  neutral_prompt: Pies ___. (sąsiad; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sąsiada
+    b: sąsiad
+    c: sąsiadowi
+    d: sąsiadem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-010
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Собака (соседа).
+    russian_native_text:
+      en: A neighbour’s dog.
+    polish_marked_prompt: Pies [sąsiada].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Grandmother’s glasses.
+  neutral_prompt: Okulary ___. (babcia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: babci
+    b: babcia
+    c: babcię
+    d: babcią
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-011
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Очки (бабушки).
+    russian_native_text:
+      en: Grandmother’s glasses.
+    polish_marked_prompt: Okulary [babci].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-ownership-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: A child’s toy.
+  neutral_prompt: Zabawka ___. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziecka
+    b: dziecko
+    c: dziecku
+    d: dzieckiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-ownership-apk-012
+    russian_file: samples/ru/nouns/genitive-ownership.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Игрушка (ребёнка).
+    russian_native_text:
+      en: A child’s toy.
+    polish_marked_prompt: Zabawka [dziecka].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

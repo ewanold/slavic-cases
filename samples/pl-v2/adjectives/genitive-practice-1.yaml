@@ -1,0 +1,525 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: drogi
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: without an expensive car
+  neutral_prompt: bez ___ (drogi samochód)
+  answer_scope: word
+  options:
+    a: drogiego
+    b: drogi
+    c: drogiemu
+    d: drogim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-001
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: без (дорогой) {машины}
+    russian_native_text:
+      en: without an expensive car
+    polish_marked_prompt: bez [drogiego] {samochodu}
+    polish_context_lemma: samochód
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: bliski
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: for a close friend
+  neutral_prompt: dla ___ (bliski przyjaciel)
+  answer_scope: word
+  options:
+    a: bliskiego
+    b: bliski
+    c: bliskiemu
+    d: bliskim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-002
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (близкого) {друга}
+    russian_native_text:
+      en: for a close friend
+    polish_marked_prompt: dla [bliskiego] {przyjaciela}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: for a little kid
+  neutral_prompt: dla ___ (mały dziecko)
+  answer_scope: word
+  options:
+    a: małego
+    b: mały
+    c: małemu
+    d: małym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-003
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (маленького) {ребёнка}
+    russian_native_text:
+      en: for a little kid
+    polish_marked_prompt: dla [małego] {dziecka}
+    polish_context_lemma: dziecko
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: without new computers
+  neutral_prompt: bez ___ (nowy komputery)
+  answer_scope: word
+  options:
+    a: nowych
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-004
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: без (новых) {компьютеров}
+    russian_native_text:
+      en: without new computers
+    polish_marked_prompt: bez [nowych] {komputerów}
+    polish_context_lemma: komputer
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: without a big window
+  neutral_prompt: bez ___ (duży okno)
+  answer_scope: word
+  options:
+    a: dużego
+    b: duży
+    c: dużemu
+    d: dużym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-005
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: без (большого) {окна}
+    russian_native_text:
+      en: without a big window
+    polish_marked_prompt: bez [dużego] {okna}
+    polish_context_lemma: okno
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ciężki
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: without hard work
+  neutral_prompt: bez ___ (ciężki praca)
+  answer_scope: word
+  options:
+    a: ciężkiej
+    b: ciężki
+    c: ciężkiego
+    d: ciężkiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-006
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: без (тяжёлой) {работы}
+    russian_native_text:
+      en: without hard work
+    polish_marked_prompt: bez [ciężkiej] {pracy}
+    polish_context_lemma: praca
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: młodszy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: for a younger sister
+  neutral_prompt: dla ___ (młodszy siostra)
+  answer_scope: word
+  options:
+    a: młodszej
+    b: młodszy
+    c: młodszego
+    d: młodszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-007
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (младшей) {сестры}
+    russian_native_text:
+      en: for a younger sister
+    polish_marked_prompt: dla [młodszej] {siostry}
+    polish_context_lemma: siostra
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: najlepszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: for the best friend
+  neutral_prompt: dla ___ (najlepszy przyjaciel)
+  answer_scope: word
+  options:
+    a: najlepszego
+    b: najlepszy
+    c: najlepszemu
+    d: najlepszym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-008
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (лучшего) {друга}
+    russian_native_text:
+      en: for the best friend
+    polish_marked_prompt: dla [najlepszego] {przyjaciela}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zielony
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: without a green scarf
+  neutral_prompt: bez ___ (zielony szalik)
+  answer_scope: word
+  options:
+    a: zielonego
+    b: zielony
+    c: zielonemu
+    d: zielonym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-009
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: без (зелёного) {шарфа}
+    russian_native_text:
+      en: without a green scarf
+    polish_marked_prompt: bez [zielonego] {szalika}
+    polish_context_lemma: szalik
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: for a new apartment
+  neutral_prompt: dla ___ (nowy mieszkanie)
+  answer_scope: word
+  options:
+    a: nowego
+    b: nowy
+    c: nowemu
+    d: nowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-010
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (новой) {квартиры}
+    russian_native_text:
+      en: for a new apartment
+    polish_marked_prompt: dla [nowego] {mieszkania}
+    polish_context_lemma: mieszkanie
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: for new students
+  neutral_prompt: dla ___ (nowy studenci)
+  answer_scope: word
+  options:
+    a: nowych
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-011
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: для (новых) {студентов}
+    russian_native_text:
+      en: for new students
+    polish_marked_prompt: dla [nowych] {studentów}
+    polish_context_lemma: student
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: gorący
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: without hot water
+  neutral_prompt: bez ___ (gorący woda)
+  answer_scope: word
+  options:
+    a: gorącej
+    b: gorący
+    c: gorącego
+    d: gorącemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-012
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: без (горячей) {воды}
+    russian_native_text:
+      en: without hot water
+    polish_marked_prompt: bez [gorącej] {wody}
+    polish_context_lemma: woda
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ostatni
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: until the last minute
+  neutral_prompt: do ___ (ostatni minuta)
+  answer_scope: word
+  options:
+    a: ostatniej
+    b: ostatni
+    c: ostatniego
+    d: ostatniemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-013
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: до (последней) {минуты}
+    russian_native_text:
+      en: until the last minute
+    polish_marked_prompt: do [ostatniej] {minuty}
+    polish_context_lemma: minuta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-014
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wczesny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: until the early morning
+  neutral_prompt: do ___ (wczesny ranek)
+  answer_scope: word
+  options:
+    a: wczesnego
+    b: wczesny
+    c: wczesnemu
+    d: wczesnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-014
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: до (раннего) {утра}
+    russian_native_text:
+      en: until the early morning
+    polish_marked_prompt: do [wczesnego] {ranka}
+    polish_context_lemma: ranek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is neuter.
+- id: pl-adjectives-genitive-practice-1-apk-016
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: następny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: until the next time
+  neutral_prompt: do ___ (następny raz)
+  answer_scope: word
+  options:
+    a: następnego
+    b: następny
+    c: następnemu
+    d: następnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-016
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: до (следующего) {раза}
+    russian_native_text:
+      en: until the next time
+    polish_marked_prompt: do [następnego] {razu}
+    polish_context_lemma: raz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-017
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: before the new laws
+  neutral_prompt: do ___ (nowy ustawy)
+  answer_scope: word
+  options:
+    a: nowych
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-017
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: до (новых) {законов}
+    russian_native_text:
+      en: before the new laws
+    polish_marked_prompt: do [nowych] {ustaw}
+    polish_context_lemma: ustawa
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-1-apk-018
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: upalny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: before the hot summer
+  neutral_prompt: do ___ (upalny lato)
+  answer_scope: word
+  options:
+    a: upalnego
+    b: upalny
+    c: upalnemu
+    d: upalnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-018
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: до (жаркого) {лета}
+    russian_native_text:
+      en: before the hot summer
+    polish_marked_prompt: do [upalnego] {lata}
+    polish_context_lemma: lato
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

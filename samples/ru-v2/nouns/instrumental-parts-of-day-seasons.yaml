@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-parts-of-day-seasons-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: parts-of-day-seasons
+  name: parts of the day, seasons
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Лето
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It’s hot in summer.
+  neutral_prompt: ___ жарко. (Лето)
+  answer_scope: word
+  options:
+    a: летом
+    b: летем
+    c: леты
+    d: лето
+  correct: a
+  source:
+    index: 1
+    prompt: (летом) жарко.
+    base_or_stem: Лето
+    cyrillic_options:
+    - Лето
+    - летем
+    - леты
+    - лето
+    string_ids:
+      prompt: 7705
+      english: 7923
+      stored_options:
+      - 8098
+      - 8537
+      - 7965
+      - 7704
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Осень
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It rains in autumn.
+  neutral_prompt: ___ идёт дождь. (Осень)
+  answer_scope: word
+  options:
+    a: осенью
+    b: осеньи
+    c: осеньем
+    d: осеням
+  correct: a
+  source:
+    index: 2
+    prompt: (осенью) идёт дождь.
+    base_or_stem: Осень
+    cyrillic_options:
+    - Осень
+    - осеньи
+    - осеньем
+    - осеням
+    string_ids:
+      prompt: 7756
+      english: 5463
+      stored_options:
+      - 8263
+      - 8792
+      - 8862
+      - 8818
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: лето
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: I will come in the summer.
+  neutral_prompt: Я приеду ___. (лето)
+  answer_scope: word
+  options:
+    a: летом
+    b: летем
+    c: летам
+    d: лете
+  correct: a
+  source:
+    index: 3
+    prompt: Я приеду (летом).
+    base_or_stem: лето
+    cyrillic_options:
+    - лето
+    - летем
+    - летам
+    - лете
+    string_ids:
+      prompt: 8434
+      english: 5386
+      stored_options:
+      - 7704
+      - 8537
+      - 9359
+      - 8536
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Зима
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It’s cold in winter.
+  neutral_prompt: ___ холодно. (Зима)
+  answer_scope: word
+  options:
+    a: зимой
+    b: зиме
+    c: зимам
+    d: зимей
+  correct: a
+  source:
+    index: 4
+    prompt: (зимой) холодно.
+    base_or_stem: Зима
+    cyrillic_options:
+    - Зима
+    - зиме
+    - зимам
+    - зимей
+    string_ids:
+      prompt: 7678
+      english: 7922
+      stored_options:
+      - 8041
+      - 8897
+      - 8855
+      - 8898
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Весна
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It’s warm in spring.
+  neutral_prompt: ___ тепло. (Весна)
+  answer_scope: word
+  options:
+    a: весной
+    b: весней
+    c: весном
+    d: весны
+  correct: a
+  source:
+    index: 5
+    prompt: (весной) тепло.
+    base_or_stem: Весна
+    cyrillic_options:
+    - Весна
+    - весней
+    - весном
+    - весны
+    string_ids:
+      prompt: 7629
+      english: 7924
+      stored_options:
+      - 7981
+      - 8765
+      - 8768
+      - 8576
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: утро
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Early in the morning.
+  neutral_prompt: Рано ___. (утро)
+  answer_scope: word
+  options:
+    a: утром
+    b: утрем
+    c: утрам
+    d: утре
+  correct: a
+  source:
+    index: 6
+    prompt: Рано (утром).
+    base_or_stem: утро
+    cyrillic_options:
+    - утро
+    - утрем
+    - утрам
+    - утре
+    string_ids:
+      prompt: 8300
+      english: 4722
+      stored_options:
+      - 8301
+      - 9603
+      - 9599
+      - 9082
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: I sleep in the afternoon.
+  neutral_prompt: Я сплю ___. (день)
+  answer_scope: word
+  options:
+    a: днём
+    b: дним
+    c: дням
+    d: дней
+  correct: a
+  source:
+    index: 7
+    prompt: Я сплю (днём).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - дним
+    - дням
+    - дней
+    string_ids:
+      prompt: 8439
+      english: 5381
+      stored_options:
+      - 7659
+      - 9066
+      - 9071
+      - 7894
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: What are you doing tomorrow afternoon?
+  neutral_prompt: Что ты делаешь завтра ___. (день)
+  answer_scope: word
+  options:
+    a: днём
+    b: дним
+    c: дням
+    d: дню
+  correct: a
+  source:
+    index: 8
+    prompt: Что ты делаешь завтра (днём).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - дним
+    - дням
+    - дню
+    string_ids:
+      prompt: 8405
+      english: 6170
+      stored_options:
+      - 7659
+      - 9066
+      - 9071
+      - 9069
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вечер
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He works in the evening.
+  neutral_prompt: Он работает ___. (вечер)
+  answer_scope: word
+  options:
+    a: вечером
+    b: вечера
+    c: вечерам
+    d: вечерем
+  correct: a
+  source:
+    index: 9
+    prompt: Он работает (вечером).
+    base_or_stem: вечер
+    cyrillic_options:
+    - вечер
+    - вечера
+    - вечерам
+    - вечерем
+    string_ids:
+      prompt: 8234
+      english: 5359
+      stored_options:
+      - 7631
+      - 8491
+      - 8492
+      - 8772
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вечер
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: What are you doing in the evening?
+  neutral_prompt: Что ты делаешь ___?. (вечер)
+  answer_scope: word
+  options:
+    a: вечером
+    b: вечера
+    c: вечерам
+    d: вечерем
+  correct: a
+  source:
+    index: 10
+    prompt: Что ты делаешь (вечером)?.
+    base_or_stem: вечер
+    cyrillic_options:
+    - вечер
+    - вечера
+    - вечерам
+    - вечерем
+    string_ids:
+      prompt: 8404
+      english: 6169
+      stored_options:
+      - 7631
+      - 8491
+      - 8492
+      - 8772
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Ночь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It was raining at night.
+  neutral_prompt: ___ шёл дождь. (Ночь)
+  answer_scope: word
+  options:
+    a: ночью
+    b: ночьи
+    c: ночьем
+    d: ночем
+  correct: a
+  source:
+    index: 11
+    prompt: (ночью) шёл дождь.
+    base_or_stem: Ночь
+    cyrillic_options:
+    - Ночь
+    - ночьи
+    - ночьем
+    - ночем
+    string_ids:
+      prompt: 7751
+      english: 5464
+      stored_options:
+      - 8212
+      - 9489
+      - 7699
+      - 9424
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-parts-of-day-seasons-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ночь
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Where were you at night?
+  neutral_prompt: Где ты был ___?. (ночь)
+  answer_scope: word
+  options:
+    a: ночью
+    b: ночьи
+    c: ночьем
+    d: ночем
+  correct: a
+  source:
+    index: 12
+    prompt: Где ты был (ночью)?.
+    base_or_stem: ночь
+    cyrillic_options:
+    - ночь
+    - ночьи
+    - ночьем
+    - ночем
+    string_ids:
+      prompt: 7996
+      english: 6172
+      stored_options:
+      - 7698
+      - 9489
+      - 7699
+      - 9424
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

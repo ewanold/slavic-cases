@@ -1,0 +1,499 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-instrument-passive-by-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: instrument-passive-by
+  name: instrument, passive + by
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-instrument-passive-by-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ручка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To write with a pen.
+  neutral_prompt: Писать ___. (ручка)
+  answer_scope: word
+  options:
+    a: ручкой
+    b: ручке
+    c: ручкам
+    d: ручки
+  correct: a
+  source:
+    index: 1
+    prompt: Писать (ручкой).
+    base_or_stem: ручка
+    cyrillic_options:
+    - ручка
+    - ручке
+    - ручкам
+    - ручки
+    string_ids:
+      prompt: 8281
+      english: 6037
+      stored_options:
+      - 9667
+      - 9669
+      - 9668
+      - 9670
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: карандаш
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To draw with a pencil.
+  neutral_prompt: Рисовать ___. (карандаш)
+  answer_scope: word
+  options:
+    a: карандашом
+    b: карандаше
+    c: карандаш
+    d: карандаши
+  correct: a
+  source:
+    index: 2
+    prompt: Рисовать (карандашом).
+    base_or_stem: карандаш
+    cyrillic_options:
+    - карандаш
+    - карандаше
+    - карандаш
+    - карандаши
+    string_ids:
+      prompt: 8307
+      english: 6026
+      stored_options:
+      - 7899
+      - 7900
+      - 7899
+      - 9255
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: нож
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To cut with a knife.
+  neutral_prompt: Резать ___. (нож)
+  answer_scope: word
+  options:
+    a: ножом
+    b: ноже
+    c: ножа
+    d: ножу
+  correct: a
+  source:
+    index: 3
+    prompt: Резать (ножом).
+    base_or_stem: нож
+    cyrillic_options:
+    - нож
+    - ноже
+    - ножа
+    - ножу
+    string_ids:
+      prompt: 8305
+      english: 6025
+      stored_options:
+      - 8306
+      - 8513
+      - 8943
+      - 9171
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: краски
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To paint with colors.
+  neutral_prompt: Рисовать ___. (краски)
+  answer_scope: word
+  options:
+    a: красками
+    b: краски
+    c: краскам
+    d: краска
+  correct: a
+  source:
+    index: 4
+    prompt: Рисовать (красками).
+    base_or_stem: краски
+    cyrillic_options:
+    - краски
+    - краски
+    - краскам
+    - краска
+    string_ids:
+      prompt: 8309
+      english: 6029
+      stored_options:
+      - 9243
+      - 9243
+      - 8311
+      - 8310
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: щётка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To clean with a brush.
+  neutral_prompt: Чистить ___. (щётка)
+  answer_scope: word
+  options:
+    a: щёткой
+    b: щётками
+    c: щёткам
+    d: щётка
+  correct: a
+  source:
+    index: 5
+    prompt: Чистить (щёткой).
+    base_or_stem: щётка
+    cyrillic_options:
+    - щётка
+    - щётками
+    - щёткам
+    - щётка
+    string_ids:
+      prompt: 8403
+      english: 6021
+      stored_options:
+      - 9846
+      - 9848
+      - 9847
+      - 9846
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ложка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: To eat with a spoon.
+  neutral_prompt: Есть ___. (ложка)
+  answer_scope: word
+  options:
+    a: ложкой
+    b: ложки
+    c: ложка
+    d: ложек
+  correct: a
+  source:
+    index: 6
+    prompt: Есть (ложкой).
+    base_or_stem: ложка
+    cyrillic_options:
+    - ложка
+    - ложки
+    - ложка
+    - ложек
+    string_ids:
+      prompt: 8032
+      english: 692
+      stored_options:
+      - 9262
+      - 9368
+      - 9262
+      - 9265
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Made by a child.
+  neutral_prompt: Сделано ___. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнком
+    b: ребёнка
+    c: ребёнке
+    d: ребёнку
+  correct: a
+  source:
+    index: 7
+    prompt: Сделано (ребёнком).
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребёнка
+    - ребёнке
+    - ребёнку
+    string_ids:
+      prompt: 8329
+      english: 5542
+      stored_options:
+      - 8813
+      - 7886
+      - 9645
+      - 8116
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: студент
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Written by a student.
+  neutral_prompt: Написано ___. (студент)
+  answer_scope: word
+  options:
+    a: студентом
+    b: студенты
+    c: студенте
+    d: студеной
+  correct: a
+  source:
+    index: 8
+    prompt: Написано (студентом).
+    base_or_stem: студент
+    cyrillic_options:
+    - студент
+    - студенты
+    - студенте
+    - студеной
+    string_ids:
+      prompt: 8180
+      english: 6182
+      stored_options:
+      - 7816
+      - 9376
+      - 7829
+      - 9179
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: художник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Painted by an artist.
+  neutral_prompt: Нарисовано ___. (художник)
+  answer_scope: word
+  options:
+    a: художником
+    b: художника
+    c: художнике
+    d: художник
+  correct: a
+  source:
+    index: 9
+    prompt: Нарисовано (художником).
+    base_or_stem: художник
+    cyrillic_options:
+    - художник
+    - художника
+    - художнике
+    - художник
+    string_ids:
+      prompt: 8194
+      english: 5675
+      stored_options:
+      - 8195
+      - 9259
+      - 9662
+      - 8195
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ученик
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Made by a student.
+  neutral_prompt: Сделано ___. (ученик)
+  answer_scope: word
+  options:
+    a: учеником
+    b: ученика
+    c: ученики
+    d: ученик
+  correct: a
+  source:
+    index: 10
+    prompt: Сделано (учеником).
+    base_or_stem: ученик
+    cyrillic_options:
+    - ученик
+    - ученика
+    - ученики
+    - ученик
+    string_ids:
+      prompt: 8333
+      english: 5543
+      stored_options:
+      - 8293
+      - 9480
+      - 8402
+      - 8293
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Bought by parents.
+  neutral_prompt: Куплено ___. (родители)
+  answer_scope: word
+  options:
+    a: родителями
+    b: родители
+    c: родителей
+    d: родителям
+  correct: a
+  source:
+    index: 11
+    prompt: Куплено (родителями).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родители
+    - родителей
+    - родителям
+    string_ids:
+      prompt: 8096
+      english: 4756
+      stored_options:
+      - 8668
+      - 8668
+      - 8017
+      - 7976
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: студенты
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Made by students.
+  neutral_prompt: Сделано ___. (студенты)
+  answer_scope: word
+  options:
+    a: студентами
+    b: студенты
+    c: студентой
+    d: студенте
+  correct: a
+  source:
+    index: 12
+    prompt: Сделано (студентами).
+    base_or_stem: студенты
+    cyrillic_options:
+    - студенты
+    - студенты
+    - студентой
+    - студенте
+    string_ids:
+      prompt: 8330
+      english: 5544
+      stored_options:
+      - 9376
+      - 9376
+      - 9780
+      - 7829
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-instrument-passive-by-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Written by a friend.
+  neutral_prompt: Написано ___. (друг)
+  answer_scope: word
+  options:
+    a: другом
+    b: друге
+    c: другой
+    d: другам
+  correct: a
+  source:
+    index: 13
+    prompt: Написано (другом).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - друге
+    - другой
+    - другам
+    string_ids:
+      prompt: 8178
+      english: 6181
+      stored_options:
+      - 7626
+      - 8026
+      - 9139
+      - 9137
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

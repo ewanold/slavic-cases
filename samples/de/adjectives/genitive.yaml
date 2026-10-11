@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-adjectives-genitive-starter
+learning_language: de
+track: adjectives
+case: genitive
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-adjectives-genitive-01
+  word_type: adjective
+  dictionary_form: gut
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: This is the good male friend’s bag.
+    de: Das ist die Tasche des guten Freundes.
+  neutral_prompt: Das ist die Tasche ___. (bestimmter Artikel; gut; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des guten Freundes
+    b: der gute Freund
+    c: dem guten Freund
+    d: den guten Freund
+  correct: a
+- id: de-adjectives-genitive-02
+  word_type: adjective
+  dictionary_form: freundlich
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: This is the friendly female neighbour’s garden.
+    de: Das ist der Garten der freundlichen Nachbarin.
+  neutral_prompt: Das ist der Garten ___. (bestimmter Artikel; freundlich; Nachbarin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die freundliche Nachbarin
+    b: der freundlichen Nachbarin
+    c: dem freundlichen Nachbarin
+    d: des freundlichen Nachbarin
+  correct: b
+- id: de-adjectives-genitive-03
+  word_type: adjective
+  dictionary_form: klein
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: This is the small child’s toy.
+    de: Das ist das Spielzeug des kleinen Kindes.
+  neutral_prompt: Das ist das Spielzeug ___. (bestimmter Artikel; klein; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das kleine Kind
+    b: dem kleinen Kind
+    c: des kleinen Kindes
+    d: dem kleine Kind
+  correct: c
+- id: de-adjectives-genitive-04
+  word_type: adjective
+  dictionary_form: neu
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: The covers of the new books are blue.
+    de: Die Einbände der neuen Bücher sind blau.
+  neutral_prompt: Die Einbände ___ sind blau. (bestimmter Artikel; neu; Buch; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die neuen Bücher
+    b: den neuen Büchern
+    c: den neuen Bücher
+    d: der neuen Bücher
+  correct: d
+- id: de-adjectives-genitive-05
+  word_type: adjective
+  dictionary_form: jung
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: This is a young male teacher’s book.
+    de: Das ist das Buch eines jungen Lehrers.
+  neutral_prompt: Das ist das Buch ___. (unbestimmter Artikel; jung; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: eines jungen Lehrers
+    b: ein junger Lehrer
+    c: einem jungen Lehrer
+    d: einen jungen Lehrer
+  correct: a
+- id: de-adjectives-genitive-06
+  word_type: adjective
+  dictionary_form: erfahren
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: This is an experienced female doctor’s practice.
+    de: Das ist die Praxis einer erfahrenen Ärztin.
+  neutral_prompt: Das ist die Praxis ___. (unbestimmter Artikel; erfahren; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: eine erfahrene Ärztin
+    b: einer erfahrenen Ärztin
+    c: einem erfahrenen Ärztin
+    d: eines erfahrenen Ärztin
+  correct: b
+- id: de-adjectives-genitive-07
+  word_type: adjective
+  dictionary_form: schön
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: mixed
+  native_text:
+    en: This is the door of a beautiful house.
+    de: Das ist die Tür eines schönen Hauses.
+  neutral_prompt: Das ist die Tür ___. (unbestimmter Artikel; schön; Haus; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: ein schönes Haus
+    b: einem schönen Haus
+    c: eines schönen Hauses
+    d: einem schönes Haus
+  correct: c
+- id: de-adjectives-genitive-08
+  word_type: adjective
+  dictionary_form: frisch
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: The aroma of fresh tea is pleasant.
+    de: Der Duft frischen Tees ist angenehm.
+  neutral_prompt: Der Duft ___ ist angenehm. (ohne Artikel; frisch; Tee; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: frischer Tee
+    b: frischem Tee
+    c: frischen Tee
+    d: frischen Tees
+  correct: d
+- id: de-adjectives-genitive-09
+  word_type: adjective
+  dictionary_form: warm
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: The aroma of warm soup wafts through the kitchen.
+    de: Der Duft warmer Suppe zieht durch die Küche.
+  neutral_prompt: Der Duft ___ zieht durch die Küche. (ohne Artikel; warm; Suppe; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: warmer Suppe
+    b: warme Suppe
+    c: warmen Suppe
+    d: warmes Suppe
+  correct: a
+- id: de-adjectives-genitive-10
+  word_type: adjective
+  dictionary_form: kalt
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: The temperature of cold water is low.
+    de: Die Temperatur kalten Wassers ist niedrig.
+  neutral_prompt: Die Temperatur ___ ist niedrig. (ohne Artikel; kalt; Wasser; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: kaltes Wasser
+    b: kalten Wassers
+    c: kaltem Wasser
+    d: kaltem Wassers
+  correct: b
+- id: de-adjectives-genitive-11
+  word_type: cardinal_numeral
+  dictionary_form: ein
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: This is the title of one book.
+    de: Das ist der Titel eines Buches.
+  neutral_prompt: Das ist der Titel ___. (ein; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: ein Buch
+    b: einem Buch
+    c: eines Buches
+    d: einen Buch
+  correct: c
+- id: de-adjectives-genitive-12
+  word_type: cardinal_numeral
+  dictionary_form: zwei
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: numeral
+  native_text:
+    en: These are the toys of two children.
+    de: Das sind die Spielsachen zweier Kinder.
+  neutral_prompt: Das sind die Spielsachen ___. (zwei; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: zwei Kinder
+    b: zwei Kindern
+    c: zweien Kinder
+    d: zweier Kinder
+  correct: d
+- id: de-adjectives-genitive-13
+  word_type: cardinal_numeral
+  dictionary_form: fünf
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: The titles of the five books are on the list.
+    de: Die Titel der fünf Bücher stehen auf der Liste.
+  neutral_prompt: Die Titel ___ stehen auf der Liste. (fünf; Buch; bestimmter Artikel; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: der fünf Bücher
+    b: die fünf Bücher
+    c: den fünf Büchern
+    d: den fünf Bücher
+  correct: a
+- id: de-adjectives-genitive-14
+  word_type: ordinal_numeral
+  dictionary_form: erst
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: This is the number of the first train.
+    de: Das ist die Nummer des ersten Zuges.
+  neutral_prompt: Das ist die Nummer ___. (bestimmter Artikel; erst; Zug; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der erste Zug
+    b: des ersten Zuges
+    c: dem ersten Zug
+    d: den ersten Zug
+  correct: b
+- id: de-adjectives-genitive-15
+  word_type: ordinal_numeral
+  dictionary_form: zweit
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: This is the title of the second lesson.
+    de: Das ist der Titel der zweiten Lektion.
+  neutral_prompt: Das ist der Titel ___. (bestimmter Artikel; zweit; Lektion; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die zweite Lektion
+    b: dem zweiten Lektion
+    c: der zweiten Lektion
+    d: des zweiten Lektion
+  correct: c

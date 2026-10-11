@@ -1,0 +1,208 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-from-dative-dzieki-zgodnie-z-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: from-dative-dzieki-zgodnie-z
+  name: from dative dzieki zgodnie z
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-blagodarya-soglasno-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: prawo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: According to the law.
+  neutral_prompt: Zgodnie z ___. (prawo; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: prawem
+    b: prawo
+    c: prawa
+    d: prawu
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-007
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: blagodarya-soglasno
+      name: благодаря, согласно
+    russian_prompt: Согласно (закону).
+    russian_native_text:
+      en: According to the law.
+    polish_marked_prompt: Zgodnie z [prawem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dokument
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: According to the document.
+  neutral_prompt: Zgodnie z ___. (dokument; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dokumentem
+    b: dokument
+    c: dokumentu
+    d: dokumentowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-008
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Согласно (документу).
+    russian_native_text:
+      en: According to the document.
+    polish_marked_prompt: Zgodnie z [dokumentem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: film
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: According to the film.
+  neutral_prompt: Zgodnie z ___. (film; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: filmem
+    b: film
+    c: filmu
+    d: filmowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-009
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Согласно (фильму).
+    russian_native_text:
+      en: According to the film.
+    polish_marked_prompt: Zgodnie z [filmem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: słowo
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: According to the words.
+  neutral_prompt: Zgodnie ze ___. (słowo; liczba mnoga)
+  answer_scope: word
+  options:
+    a: słowami
+    b: słowo
+    c: słowa
+    d: słowu
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-010
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Согласно (словам).
+    russian_native_text:
+      en: According to the words.
+    polish_marked_prompt: Zgodnie ze [słowami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: legenda
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: According to the legend.
+  neutral_prompt: Zgodnie z ___. (legenda; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: legendą
+    b: legenda
+    c: legendy
+    d: legendę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-011
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Согласно (легенде).
+    russian_native_text:
+      en: According to the legend.
+    polish_marked_prompt: Zgodnie z [legendą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: teoria
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: According to the theory.
+  neutral_prompt: Zgodnie z ___. (teoria; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: teorią
+    b: teoria
+    c: teorii
+    d: teorię
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-012
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Согласно (теории).
+    russian_native_text:
+      en: According to the theory.
+    polish_marked_prompt: Zgodnie z [teorią].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.

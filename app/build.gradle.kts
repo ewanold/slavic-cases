@@ -1,3 +1,4 @@
+import com.android.build.api.artifact.SingleArtifact
 import java.time.LocalDate
 import java.time.ZoneOffset
 
@@ -5,6 +6,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.plugin.compose")
 }
+val localReleasePreview = providers.gradleProperty("localReleasePreview").map { it.toBoolean() }.getOrElse(false)
+
 android {
     namespace = "org.slaviccases.app"
     compileSdk = 36
@@ -13,11 +16,21 @@ android {
         applicationId = "org.slaviccases.app"
         minSdk = 29
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = 2
+        versionName = "0.2"
         val buildDate = LocalDate.now(ZoneOffset.UTC).toString()
         buildConfigField("String", "BUILD_DATE", "\"$buildDate\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        getByName("debug") {
+            buildConfigField("boolean", "ALLOW_DRAFT_CONTENT", "true")
+        }
+        getByName("release") {
+            isDebuggable = false
+            buildConfigField("boolean", "ALLOW_DRAFT_CONTENT", localReleasePreview.toString())
+            if (localReleasePreview) signingConfig = signingConfigs.getByName("debug")
+        }
     }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions {
@@ -40,6 +53,17 @@ val generateContent by tasks.registering(GenerateContent::class) {
 }
 androidComponents.onVariants { variant ->
     variant.sources.assets?.addGeneratedSourceDirectory(generateContent, GenerateContent::outputDirectory)
+    // Keep AGP's install metadata intact; provide stable names for sharing APKs.
+    val exportApk = tasks.register<Copy>("export${variant.name.replaceFirstChar { it.uppercase() }}Apk") {
+        from(variant.artifacts.get(SingleArtifact.APK)) {
+            include("*.apk")
+            rename { if (variant.buildType == "release") "learn-grammatical-cases.apk" else "learn-grammatical-cases-${variant.name}.apk" }
+        }
+        into(layout.buildDirectory.dir("distributions"))
+    }
+    tasks.matching { it.name == "assemble${variant.name.replaceFirstChar { it.uppercase() }}" }.configureEach {
+        dependsOn(exportApk)
+    }
 }
 // Draft lessons are explicitly allowed in debug; publishing requires review.
 val validateReleaseContent by tasks.registering(Exec::class) {
@@ -47,7 +71,7 @@ val validateReleaseContent by tasks.registering(Exec::class) {
             rootProject.file("scripts/validate-samples.py").absolutePath, "--release")
 }
 tasks.matching { it.name == "preReleaseBuild" }.configureEach {
-    dependsOn(validateReleaseContent)
+    if (!localReleasePreview) dependsOn(validateReleaseContent)
 }
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2026.04.01"))

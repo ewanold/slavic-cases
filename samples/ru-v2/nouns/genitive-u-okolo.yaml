@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-u-okolo-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: u-okolo
+  name: у, около
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-u-okolo-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: At a friend’s house.
+  neutral_prompt: У ___ дома. (друг)
+  answer_scope: word
+  options:
+    a: друга
+    b: другу
+    c: други
+    d: другом
+  correct: a
+  source:
+    index: 1
+    prompt: У (друга) дома.
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - другу
+    - други
+    - другом
+    string_ids:
+      prompt: 8376
+      english: 7911
+      stored_options:
+      - 7626
+      - 7971
+      - 8122
+      - 8179
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: The sister has a birthday.
+  neutral_prompt: У ___ день рождения. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестре
+    c: сестрам
+    d: сестрой
+  correct: a
+  source:
+    index: 2
+    prompt: У (сестры) день рождения.
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестре
+    - сестрам
+    - сестрой
+    string_ids:
+      prompt: 8382
+      english: 5973
+      stored_options:
+      - 7784
+      - 7786
+      - 9400
+      - 8449
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: At parents’ house.
+  neutral_prompt: У ___ дома. (родители)
+  answer_scope: word
+  options:
+    a: родителей
+    b: родителы
+    c: родителям
+    d: родителю
+  correct: a
+  source:
+    index: 3
+    prompt: У (родителей) дома.
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родителы
+    - родителям
+    - родителю
+    string_ids:
+      prompt: 8381
+      english: 7913
+      stored_options:
+      - 8668
+      - 9638
+      - 7976
+      - 8758
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: брат
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: The brother has a cat.
+  neutral_prompt: У ___ есть кот. (брат)
+  answer_scope: word
+  options:
+    a: брата
+    b: браты
+    c: брате
+    d: брату
+  correct: a
+  source:
+    index: 4
+    prompt: У (брата) есть кот.
+    base_or_stem: брат
+    cyrillic_options:
+    - брат
+    - браты
+    - брате
+    - брату
+    string_ids:
+      prompt: 8374
+      english: 5952
+      stored_options:
+      - 7623
+      - 8692
+      - 8687
+      - 8419
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: студенты
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Students have books.
+  neutral_prompt: У ___ есть книги. (студенты)
+  answer_scope: word
+  options:
+    a: студентов
+    b: студентам
+    c: студенте
+    d: студентом
+  correct: a
+  source:
+    index: 5
+    prompt: У (студентов) есть книги.
+    base_or_stem: студенты
+    cyrillic_options:
+    - студенты
+    - студентам
+    - студенте
+    - студентом
+    string_ids:
+      prompt: 8383
+      english: 5895
+      stored_options:
+      - 9376
+      - 8332
+      - 7829
+      - 8181
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A child has a toy.
+  neutral_prompt: У ___ есть игрушка. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнка
+    b: ребёнку
+    c: ребёнки
+    d: ребёнкам
+  correct: a
+  source:
+    index: 6
+    prompt: У (ребёнка) есть игрушка.
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребёнку
+    - ребёнки
+    - ребёнкам
+    string_ids:
+      prompt: 8380
+      english: 4461
+      stored_options:
+      - 8813
+      - 8116
+      - 9646
+      - 9644
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дом
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Near the house.
+  neutral_prompt: Около ___. (дом)
+  answer_scope: word
+  options:
+    a: дома
+    b: доме
+    c: дому
+    d: домой
+  correct: a
+  source:
+    index: 7
+    prompt: Около (дома).
+    base_or_stem: дом
+    cyrillic_options:
+    - дом
+    - доме
+    - дому
+    - домой
+    string_ids:
+      prompt: 8221
+      english: 316
+      stored_options:
+      - 7611
+      - 7746
+      - 9113
+      - 8682
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: час
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Around an hour.
+  neutral_prompt: Около ___. (час)
+  answer_scope: word
+  options:
+    a: часа
+    b: часу
+    c: часе
+    d: часом
+  correct: a
+  source:
+    index: 8
+    prompt: Около (часа).
+    base_or_stem: час
+    cyrillic_options:
+    - час
+    - часу
+    - часе
+    - часом
+    string_ids:
+      prompt: 8225
+      english: 4699
+      stored_options:
+      - 7738
+      - 9815
+      - 9676
+      - 9813
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дверь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Near the door.
+  neutral_prompt: Около ___. (дверь)
+  answer_scope: word
+  options:
+    a: двери
+    b: дверей
+    c: дверю
+    d: дверям
+  correct: a
+  source:
+    index: 9
+    prompt: Около (двери).
+    base_or_stem: дверь
+    cyrillic_options:
+    - дверь
+    - дверей
+    - дверю
+    - дверям
+    string_ids:
+      prompt: 8219
+      english: 1284
+      stored_options:
+      - 7653
+      - 8984
+      - 8996
+      - 8997
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вход
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Near the entrance.
+  neutral_prompt: Около ___. (вход)
+  answer_scope: word
+  options:
+    a: входа
+    b: входе
+    c: входу
+    d: входам
+  correct: a
+  source:
+    index: 10
+    prompt: Около (входа).
+    base_or_stem: вход
+    cyrillic_options:
+    - вход
+    - входе
+    - входу
+    - входам
+    string_ids:
+      prompt: 8217
+      english: 5617
+      stored_options:
+      - 8218
+      - 8840
+      - 8843
+      - 8837
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: море
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: Near the sea.
+  neutral_prompt: Около ___. (море)
+  answer_scope: word
+  options:
+    a: моря
+    b: морю
+    c: мори
+    d: морем
+  correct: a
+  source:
+    index: 11
+    prompt: Около (моря).
+    base_or_stem: море
+    cyrillic_options:
+    - море
+    - морю
+    - мори
+    - морем
+    string_ids:
+      prompt: 8223
+      english: 5618
+      stored_options:
+      - 7727
+      - 9428
+      - 8863
+      - 8086
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-u-okolo-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: минута
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Around one minute.
+  neutral_prompt: Около ___. (минута)
+  answer_scope: word
+  options:
+    a: минуты
+    b: минутой
+    c: минутя
+    d: минут
+  correct: a
+  source:
+    index: 12
+    prompt: Около (минуты).
+    base_or_stem: минута
+    cyrillic_options:
+    - минута
+    - минутой
+    - минутя
+    - минут
+    string_ids:
+      prompt: 8222
+      english: 4700
+      stored_options:
+      - 8734
+      - 8852
+      - 8870
+      - 7862
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

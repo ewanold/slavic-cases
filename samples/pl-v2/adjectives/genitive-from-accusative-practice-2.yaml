@@ -1,0 +1,178 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-from-accusative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: from-accusative-practice-2
+  name: from accusative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-accusative-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nocny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to go to a night club
+  neutral_prompt: pójść do ___ (nocny klub)
+  answer_scope: word
+  options:
+    a: nocnego
+    b: nocny
+    c: nocnemu
+    d: nocnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-007
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: пойти в (ночной) {клуб}
+    russian_native_text:
+      en: to go to a night club
+    polish_marked_prompt: pójść do [nocnego] {klubu}
+    polish_context_lemma: klub
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-adjectives-accusative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to go to a new school
+  neutral_prompt: pójść do ___ (nowy szkoła)
+  answer_scope: word
+  options:
+    a: nowej
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-008
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: пойти в (новую) {школу}
+    russian_native_text:
+      en: to go to a new school
+    polish_marked_prompt: pójść do [nowej] {szkoły}
+    polish_context_lemma: szkoła
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-adjectives-accusative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to go to a faraway country
+  neutral_prompt: pojechać do ___ (daleki kraj)
+  answer_scope: word
+  options:
+    a: dalekiego
+    b: daleki
+    c: dalekiemu
+    d: dalekim
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-010
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: поехать в (далёкую) {страну}
+    russian_native_text:
+      en: to go to a faraway country
+    polish_marked_prompt: pojechać do [dalekiego] {kraju}
+    polish_context_lemma: kraj
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-accusative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to move to a small village
+  neutral_prompt: przeprowadzić się do ___ (mały wieś)
+  answer_scope: word
+  options:
+    a: małej
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-011
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: переехать в (маленькую) {деревню}
+    russian_native_text:
+      en: to move to a small village
+    polish_marked_prompt: przeprowadzić się do [małej] {wsi}
+    polish_context_lemma: wieś
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+- id: pl-adjectives-accusative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to move to a big city
+  neutral_prompt: przeprowadzić się do ___ (duży miasto)
+  answer_scope: word
+  options:
+    a: dużego
+    b: duży
+    c: dużemu
+    d: dużym
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-012
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: переехать в (большой) {город}
+    russian_native_text:
+      en: to move to a big city
+    polish_marked_prompt: przeprowadzić się do [dużego] {miasta}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is accusative.
+  - The Polish noun is neuter; the source noun is masculine.

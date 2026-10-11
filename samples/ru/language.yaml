@@ -1,7 +1,7 @@
 # Original starter material; linguistic review is pending.
 schema_version: 1
 learning_language: ru
-name: Русский
+name: Russian simple
 native_languages:
 - en
 - de
@@ -21,3 +21,8 @@ cases:
   name: Творительный
 - id: prepositional
   name: Предложный
+names:
+  en: Russian simple
+  de: Russisch einfach
+  ru: "Русский: базовый курс"
+  pl: "Rosyjski: kurs podstawowy"

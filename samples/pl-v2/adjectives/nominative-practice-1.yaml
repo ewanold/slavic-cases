@@ -1,0 +1,404 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-nominative-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: nominative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-nominative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czerwony
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Red square
+  neutral_prompt: ___ (czerwony plac)
+  answer_scope: word
+  options:
+    a: Czerwony
+    b: Czerwonego
+    c: Czerwonemu
+    d: Czerwonym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-001
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: (Красная) Площадь
+    russian_native_text:
+      en: Red square
+    polish_marked_prompt: '{Plac} [Czerwony]'
+    polish_context_lemma: plac
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-nominative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: piękny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: a beautiful picture
+  neutral_prompt: ___ (piękny obraz)
+  answer_scope: word
+  options:
+    a: piękny
+    b: pięknego
+    c: pięknemu
+    d: pięknym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-002
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (красивая) картина
+    russian_native_text:
+      en: a beautiful picture
+    polish_marked_prompt: '[piękny] {obraz}'
+    polish_context_lemma: obraz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-nominative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: a big window
+  neutral_prompt: ___ (duży okno)
+  answer_scope: word
+  options:
+    a: duże
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-003
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (большое) окно
+    russian_native_text:
+      en: a big window
+    polish_marked_prompt: '[duże] {okno}'
+    polish_context_lemma: okno
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: letni
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: a summer night
+  neutral_prompt: ___ (letni noc)
+  answer_scope: word
+  options:
+    a: letnia
+    b: letni
+    c: letniego
+    d: letniemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-004
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (летняя) ночь
+    russian_native_text:
+      en: a summer night
+    polish_marked_prompt: '[letnia] {noc}'
+    polish_context_lemma: noc
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: bogaty
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: a rich family
+  neutral_prompt: ___ (bogaty rodzina)
+  answer_scope: word
+  options:
+    a: bogata
+    b: bogaty
+    c: bogatego
+    d: bogatemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-005
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (богатая) семья
+    russian_native_text:
+      en: a rich family
+    polish_marked_prompt: '[bogata] {rodzina}'
+    polish_context_lemma: rodzina
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: błękitny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: blue sky
+  neutral_prompt: ___ (błękitny niebo)
+  answer_scope: word
+  options:
+    a: błękitne
+    b: błękitny
+    c: błękitnego
+    d: błękitnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-006
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (синее) небо
+    russian_native_text:
+      en: blue sky
+    polish_marked_prompt: '[błękitne] {niebo}'
+    polish_context_lemma: niebo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: a tall tree
+  neutral_prompt: ___ (wysoki drzewo)
+  answer_scope: word
+  options:
+    a: wysokie
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-007
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (высокое) дерево
+    russian_native_text:
+      en: a tall tree
+    polish_marked_prompt: '[wysokie] {drzewo}'
+    polish_context_lemma: drzewo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: a kind word
+  neutral_prompt: ___ (dobry słowo)
+  answer_scope: word
+  options:
+    a: dobre
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-008
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (доброе) слово
+    russian_native_text:
+      en: a kind word
+    polish_marked_prompt: '[dobre] {słowo}'
+    polish_context_lemma: słowo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: a new house
+  neutral_prompt: ___ (nowy dom)
+  answer_scope: word
+  options:
+    a: nowy
+    b: nowego
+    c: nowemu
+    d: nowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-009
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (новый) дом
+    russian_native_text:
+      en: a new house
+    polish_marked_prompt: '[nowy] {dom}'
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mądry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: a smart girl
+  neutral_prompt: ___ (mądry dziewczynka)
+  answer_scope: word
+  options:
+    a: mądra
+    b: mądry
+    c: mądrego
+    d: mądremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-010
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (умная) девочка
+    russian_native_text:
+      en: a smart girl
+    polish_marked_prompt: '[mądra] {dziewczynka}'
+    polish_context_lemma: dziewczynka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wieczorny
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: evening walks
+  neutral_prompt: ___ (wieczorny spacery)
+  answer_scope: word
+  options:
+    a: wieczorne
+    b: wieczorny
+    c: wieczornego
+    d: wieczornemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-011
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (вечерние) прогулки
+    russian_native_text:
+      en: evening walks
+    polish_marked_prompt: '[wieczorne] {spacery}'
+    polish_context_lemma: spacer
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: big windows
+  neutral_prompt: ___ (duży okna)
+  answer_scope: word
+  options:
+    a: duże
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-012
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (большие) окна
+    russian_native_text:
+      en: big windows
+    polish_marked_prompt: '[duże] {okna}'
+    polish_context_lemma: okno
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-1-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: rosyjski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Russian language
+  neutral_prompt: ___ (rosyjski język)
+  answer_scope: word
+  options:
+    a: rosyjski
+    b: rosyjskiego
+    c: rosyjskiemu
+    d: rosyjskim
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-1-apk-013
+    russian_file: samples/ru/adjectives/nominative-practice-1.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (русский) язык
+    russian_native_text:
+      en: Russian language
+    polish_marked_prompt: '[rosyjski] {język}'
+    polish_context_lemma: język
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

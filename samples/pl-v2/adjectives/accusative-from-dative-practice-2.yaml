@@ -1,0 +1,52 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-accusative-from-dative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: accusative
+topic:
+  id: from-dative-practice-2
+  name: from dative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czerwony
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: a trip to the Red Sea
+  neutral_prompt: wyjazd nad ___ (czerwony morze)
+  answer_scope: word
+  options:
+    a: Czerwone
+    b: Czerwony
+    c: Czerwonego
+    d: Czerwonemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-011
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic:
+      id: practice-2
+      name: practice 2
+    russian_prompt: поездка к (красному) {морю}
+    russian_native_text:
+      en: a trip to the Red Sea
+    polish_marked_prompt: wyjazd nad [Czerwone] {Morze}
+    polish_context_lemma: morze
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is dative.

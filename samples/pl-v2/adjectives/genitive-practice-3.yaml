@@ -1,0 +1,731 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-practice-3-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: practice-3
+  name: practice 3
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-3-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: a present from new collegues
+  neutral_prompt: prezent od ___ (nowy koledzy)
+  answer_scope: word
+  options:
+    a: nowych
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-001
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: practice-3
+      name: practice 3
+    russian_prompt: подарок от (новых) {коллег}
+    russian_native_text:
+      en: a present from new collegues
+    polish_marked_prompt: prezent od [nowych] {kolegów}
+    polish_context_lemma: kolega
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a call from a far relative
+  neutral_prompt: telefon od ___ (daleki krewny)
+  answer_scope: word
+  options:
+    a: dalekiego
+    b: daleki
+    c: dalekiemu
+    d: dalekim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-002
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: звонок от (дальнего) {родственника}
+    russian_native_text:
+      en: a call from a far relative
+    polish_marked_prompt: telefon od [dalekiego] {krewnego}
+    polish_context_lemma: krewny
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: not far from a big city
+  neutral_prompt: niedaleko ___ (duży miasto)
+  answer_scope: word
+  options:
+    a: dużego
+    b: duży
+    c: dużemu
+    d: dużym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-003
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: недалеко от (большого) {города}
+    russian_native_text:
+      en: not far from a big city
+    polish_marked_prompt: niedaleko [dużego] {miasta}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-3-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: not far from tall buildings
+  neutral_prompt: niedaleko ___ (wysoki budynki)
+  answer_scope: word
+  options:
+    a: wysokich
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-004
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: недалеко от (высоких) {зданий}
+    russian_native_text:
+      en: not far from tall buildings
+    polish_marked_prompt: niedaleko [wysokich] {budynków}
+    polish_context_lemma: budynek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zielony
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: not far from a green park
+  neutral_prompt: niedaleko ___ (zielony park)
+  answer_scope: word
+  options:
+    a: zielonego
+    b: zielony
+    c: zielonemu
+    d: zielonym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-005
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: недалеко от (зелёного) {парка}
+    russian_native_text:
+      en: not far from a green park
+    polish_marked_prompt: niedaleko [zielonego] {parku}
+    polish_context_lemma: park
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: spożywczy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: in front of a grocery store
+  neutral_prompt: naprzeciwko ___ (spożywczy sklep)
+  answer_scope: word
+  options:
+    a: spożywczego
+    b: spożywczy
+    c: spożywczemu
+    d: spożywczym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-006
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (продуктового) {магазина}
+    russian_native_text:
+      en: in front of a grocery store
+    polish_marked_prompt: naprzeciwko [spożywczego] {sklepu}
+    polish_context_lemma: sklep
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: in front of the new school
+  neutral_prompt: naprzeciwko ___ (nowy szkoła)
+  answer_scope: word
+  options:
+    a: nowej
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-007
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (новой) {школы}
+    russian_native_text:
+      en: in front of the new school
+    polish_marked_prompt: naprzeciwko [nowej] {szkoły}
+    polish_context_lemma: szkoła
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: główny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: in front of the main entrance
+  neutral_prompt: naprzeciwko ___ (główny wejście)
+  answer_scope: word
+  options:
+    a: głównego
+    b: główny
+    c: głównemu
+    d: głównym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-008
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (главного) {входа}
+    russian_native_text:
+      en: in front of the main entrance
+    polish_marked_prompt: naprzeciwko [głównego] {wejścia}
+    polish_context_lemma: wejście
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-3-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: in front of the blue door
+  neutral_prompt: naprzeciwko ___ (niebieski drzwi)
+  answer_scope: word
+  options:
+    a: niebieskich
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-009
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (синей) {двери}
+    russian_native_text:
+      en: in front of the blue door
+    polish_marked_prompt: naprzeciwko [niebieskich] {drzwi}
+    polish_context_lemma: drzwi
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: in front of a famous monument
+  neutral_prompt: naprzeciwko ___ (znany pomnik)
+  answer_scope: word
+  options:
+    a: znanego
+    b: znany
+    c: znanemu
+    d: znanym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-010
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (известного) {памятника}
+    russian_native_text:
+      en: in front of a famous monument
+    polish_marked_prompt: naprzeciwko [znanego] {pomnika}
+    polish_context_lemma: pomnik
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: drewniany
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: in front of wooden houses
+  neutral_prompt: naprzeciwko ___ (drewniany domy)
+  answer_scope: word
+  options:
+    a: drewnianych
+    b: drewniany
+    c: drewnianego
+    d: drewnianemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-011
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (деревянных) {домов}
+    russian_native_text:
+      en: in front of wooden houses
+    polish_marked_prompt: naprzeciwko [drewnianych] {domów}
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: in front of an old hospital
+  neutral_prompt: naprzeciwko ___ (stary szpital)
+  answer_scope: word
+  options:
+    a: starego
+    b: stary
+    c: staremu
+    d: starym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-012
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: напротив (старой) {больницы}
+    russian_native_text:
+      en: in front of an old hospital
+    polish_marked_prompt: naprzeciwko [starego] {szpitala}
+    polish_context_lemma: szpital
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-3-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: bliski
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a letter from a close friend
+  neutral_prompt: list od ___ (bliski przyjaciel)
+  answer_scope: word
+  options:
+    a: bliskiego
+    b: bliski
+    c: bliskiemu
+    d: bliskim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-013
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: письмо от (близкого) {друга}
+    russian_native_text:
+      en: a letter from a close friend
+    polish_marked_prompt: list od [bliskiego] {przyjaciela}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-014
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nudny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: the end of a boring movie
+  neutral_prompt: koniec ___ (nudny film)
+  answer_scope: word
+  options:
+    a: nudnego
+    b: nudny
+    c: nudnemu
+    d: nudnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-014
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: конец (скучного) {фильма}
+    russian_native_text:
+      en: the end of a boring movie
+    polish_marked_prompt: koniec [nudnego] {filmu}
+    polish_context_lemma: film
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-015
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: długi
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: the end of a long road
+  neutral_prompt: koniec ___ (długi droga)
+  answer_scope: word
+  options:
+    a: długiej
+    b: długi
+    c: długiego
+    d: długiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-015
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: конец (длинной) {дороги}
+    russian_native_text:
+      en: the end of a long road
+    polish_marked_prompt: koniec [długiej] {drogi}
+    polish_context_lemma: droga
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-016
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: interesujący
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: the beginning of an interesting story
+  neutral_prompt: początek ___ (interesujący historia)
+  answer_scope: word
+  options:
+    a: interesującej
+    b: interesujący
+    c: interesującego
+    d: interesującemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-016
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: начало (интересной) {истории}
+    russian_native_text:
+      en: the beginning of an interesting story
+    polish_marked_prompt: początek [interesującej] {historii}
+    polish_context_lemma: historia
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-017
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: długi
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: the beginning of long holidays
+  neutral_prompt: początek ___ (długi wakacje)
+  answer_scope: word
+  options:
+    a: długich
+    b: długi
+    c: długiego
+    d: długiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-017
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: начало (длинных) {каникул}
+    russian_native_text:
+      en: the beginning of long holidays
+    polish_marked_prompt: początek [długich] {wakacji}
+    polish_context_lemma: wakacje
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-018
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: godny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: the price of a decent present
+  neutral_prompt: cena ___ (godny prezent)
+  answer_scope: word
+  options:
+    a: godnego
+    b: godny
+    c: godnemu
+    d: godnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-018
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: цена (достойного) {подарка}
+    russian_native_text:
+      en: the price of a decent present
+    polish_marked_prompt: cena [godnego] {prezentu}
+    polish_context_lemma: prezent
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-019
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: gorący
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: a cup of hot tea
+  neutral_prompt: filiżanka ___ (gorący herbata)
+  answer_scope: word
+  options:
+    a: gorącej
+    b: gorący
+    c: gorącego
+    d: gorącemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-019
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: чашка (горячего) {чая}
+    russian_native_text:
+      en: a cup of hot tea
+    polish_marked_prompt: filiżanka [gorącej] {herbaty}
+    polish_context_lemma: herbata
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-3-apk-020
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a new neighbour's dog
+  neutral_prompt: pies ___ (nowy sąsiad)
+  answer_scope: word
+  options:
+    a: nowego
+    b: nowy
+    c: nowemu
+    d: nowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-020
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: собака (нового) {соседа}
+    russian_native_text:
+      en: a new neighbour's dog
+    polish_marked_prompt: pies [nowego] {sąsiada}
+    polish_context_lemma: sąsiad
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-021
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: starszy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: big sister's room
+  neutral_prompt: pokój ___ (starszy siostra)
+  answer_scope: word
+  options:
+    a: starszej
+    b: starszy
+    c: starszego
+    d: starszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-021
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: комната (старшей) {сестры}
+    russian_native_text:
+      en: big sister's room
+    polish_marked_prompt: pokój [starszej] {siostry}
+    polish_context_lemma: siostra
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-023
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: młodszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: little brother's toy
+  neutral_prompt: zabawka ___ (młodszy brat)
+  answer_scope: word
+  options:
+    a: młodszego
+    b: młodszy
+    c: młodszemu
+    d: młodszym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-023
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: игрушка (младшего) {брата}
+    russian_native_text:
+      en: little brother's toy
+    polish_marked_prompt: zabawka [młodszego] {brata}
+    polish_context_lemma: brat
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-024
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: szczęśliwy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: habits of happy people
+  neutral_prompt: nawyki ___ (szczęśliwy ludzie)
+  answer_scope: word
+  options:
+    a: szczęśliwych
+    b: szczęśliwy
+    c: szczęśliwego
+    d: szczęśliwemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-024
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: привычки (счастливых) {людей}
+    russian_native_text:
+      en: habits of happy people
+    polish_marked_prompt: nawyki [szczęśliwych] {ludzi}
+    polish_context_lemma: człowiek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-3-apk-025
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: najlepszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: best friend's car
+  neutral_prompt: samochód ___ (najlepszy przyjaciel)
+  answer_scope: word
+  options:
+    a: najlepszego
+    b: najlepszy
+    c: najlepszemu
+    d: najlepszym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-025
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: машина (лучшего) {друга}
+    russian_native_text:
+      en: best friend's car
+    polish_marked_prompt: samochód [najlepszego] {przyjaciela}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

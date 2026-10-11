@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-dative-practice-2-apk
+learning_language: ru
+track: adjectives
+case: dative
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-dative-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: первоначальный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: according to the initial plan
+  neutral_prompt: согласно ___ (первоначальный план)
+  answer_scope: word
+  options:
+    a: первоначальному
+    b: первоначального
+    c: первоначальной
+    d: первоначальново
+  correct: a
+  source:
+    index: 1
+    prompt: согласно (первоначальному) {плану}
+    base_or_stem: первоначальный план
+    cyrillic_options:
+    - первоначальный план
+    - первоначального
+    - первоначальной
+    - первоначальново
+    string_ids:
+      prompt: 9732
+      english: 715
+      stored_options:
+      - 8499
+      - 9440
+      - 9526
+      - 8941
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чёткий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: according to strict instructions
+  neutral_prompt: согласно ___ (чёткий указания)
+  answer_scope: word
+  options:
+    a: чётким
+    b: чётких
+    c: чёткой
+    d: чёткем
+  correct: a
+  source:
+    index: 2
+    prompt: согласно (чётким) {указаниям}
+    base_or_stem: чёткие указания
+    cyrillic_options:
+    - чёткие указания
+    - чётких
+    - чёткой
+    - чёткем
+    string_ids:
+      prompt: 9733
+      english: 6531
+      stored_options:
+      - 9836
+      - 9837
+      - 9838
+      - 9835
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: an old school needs a renovation
+  neutral_prompt: ___ нужен ремонт (старый школа)
+  answer_scope: word
+  options:
+    a: старой
+    b: старай
+    c: старей
+    d: старому
+  correct: a
+  source:
+    index: 3
+    prompt: (старой) {школе} нужен ремонт
+    base_or_stem: старая школа
+    cyrillic_options:
+    - старая школа
+    - старай
+    - старей
+    - старому
+    string_ids:
+      prompt: 7805
+      english: 4601
+      stored_options:
+      - 9750
+      - 9749
+      - 9752
+      - 9546
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a new participant needs support
+  neutral_prompt: ___ нужна поддержка (новый участник)
+  answer_scope: word
+  options:
+    a: новому
+    b: новему
+    c: новой
+    d: новым
+  correct: a
+  source:
+    index: 4
+    prompt: (новому) {участнику} нужна поддержка
+    base_or_stem: новый участник
+    cyrillic_options:
+    - новый участник
+    - новему
+    - новой
+    - новым
+    string_ids:
+      prompt: 7736
+      english: 6465
+      stored_options:
+      - 9268
+      - 8663
+      - 8455
+      - 9483
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: усталый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: tired tourists need some rest
+  neutral_prompt: ___ нужен отдых (усталый туристы)
+  answer_scope: word
+  options:
+    a: усталым
+    b: усталых
+    c: усталим
+    d: усталому
+  correct: a
+  source:
+    index: 5
+    prompt: (усталым) {туристам} нужен отдых
+    base_or_stem: усталые туристы
+    cyrillic_options:
+    - усталые туристы
+    - усталых
+    - усталим
+    - усталому
+    string_ids:
+      prompt: 7832
+      english: 1391
+      stored_options:
+      - 8775
+      - 9516
+      - 7618
+      - 9373
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: центральный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: close to the central station
+  neutral_prompt: близко к ___ (центральный станция)
+  answer_scope: word
+  options:
+    a: центральной
+    b: центральнай
+    c: центральнов
+    d: центральному
+  correct: a
+  source:
+    index: 6
+    prompt: близко к (центральной) {станции}
+    base_or_stem: центральная станция
+    cyrillic_options:
+    - центральная станция
+    - центральнай
+    - центральнов
+    - центральному
+    string_ids:
+      prompt: 8610
+      english: 1224
+      stored_options:
+      - 9806
+      - 9805
+      - 8796
+      - 9429
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: зубной
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a visit to a denist
+  neutral_prompt: визит к ___ (зубной врач)
+  answer_scope: word
+  options:
+    a: зубному
+    b: зубных
+    c: зубной
+    d: зубнему
+  correct: a
+  source:
+    index: 7
+    prompt: визит к (зубному) {врачу}
+    base_or_stem: зубной врач
+    cyrillic_options:
+    - зубной врач
+    - зубных
+    - зубной
+    - зубнему
+    string_ids:
+      prompt: 8787
+      english: 6472
+      stored_options:
+      - 8801
+      - 9230
+      - 8800
+      - 8483
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: дальний
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a visit to a far relative
+  neutral_prompt: визит к ___ (дальний родственник)
+  answer_scope: word
+  options:
+    a: дальнему
+    b: дальних
+    c: дальнем
+    d: дальнего
+  correct: a
+  source:
+    index: 8
+    prompt: визит к (дальнему) {родственнику}
+    base_or_stem: дальний родственник
+    cyrillic_options:
+    - дальний родственник
+    - дальних
+    - дальнем
+    - дальнего
+    string_ids:
+      prompt: 8785
+      english: 5202
+      stored_options:
+      - 8599
+      - 8832
+      - 8786
+      - 8964
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: шумный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: close to a noisy street
+  neutral_prompt: близко к ___ (шумный улица)
+  answer_scope: word
+  options:
+    a: шумной
+    b: шумней
+    c: шумную
+    d: шумном
+  correct: a
+  source:
+    index: 9
+    prompt: близко к (шумной) {улице}
+    base_or_stem: шумная улица
+    cyrillic_options:
+    - шумная улица
+    - шумней
+    - шумную
+    - шумном
+    string_ids:
+      prompt: 8612
+      english: 4050
+      stored_options:
+      - 9344
+      - 9843
+      - 9845
+      - 9844
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: местный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: according to a local law
+  neutral_prompt: согласно ___ (местный закон)
+  answer_scope: word
+  options:
+    a: местному
+    b: местных
+    c: местной
+    d: местней
+  correct: a
+  source:
+    index: 10
+    prompt: согласно (местному) {закону}
+    base_or_stem: местный закон
+    cyrillic_options:
+    - местный закон
+    - местных
+    - местной
+    - местней
+    string_ids:
+      prompt: 8585
+      english: 4785
+      stored_options:
+      - 8538
+      - 8805
+      - 9360
+      - 9358
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красный
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: a trip to the Red Sea
+  neutral_prompt: поездка к ___ (красный море)
+  answer_scope: word
+  options:
+    a: красному
+    b: краснему
+    c: краснего
+    d: красной
+  correct: a
+  source:
+    index: 11
+    prompt: поездка к (красному) {морю}
+    base_or_stem: красное море
+    cyrillic_options:
+    - красное море
+    - краснему
+    - краснего
+    - красной
+    string_ids:
+      prompt: 9427
+      english: 4373
+      stored_options:
+      - 9291
+      - 9328
+      - 9111
+      - 9330
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: accodring to a new research
+  neutral_prompt: согласно ___ (новый исследование)
+  answer_scope: word
+  options:
+    a: новому
+    b: новомы
+    c: новой
+    d: новым
+  correct: a
+  source:
+    index: 12
+    prompt: согласно (новому) {исследованию}
+    base_or_stem: новое исследование
+    cyrillic_options:
+    - новое исследование
+    - новомы
+    - новой
+    - новым
+    string_ids:
+      prompt: 9731
+      english: 6529
+      stored_options:
+      - 9229
+      - 8880
+      - 8455
+      - 9483
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

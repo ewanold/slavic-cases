@@ -1,0 +1,114 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-from-dative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: from-dative-practice-2
+  name: from dative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: centralny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: close to the central station
+  neutral_prompt: blisko ___ (centralny stacja)
+  answer_scope: word
+  options:
+    a: centralnej
+    b: centralny
+    c: centralnego
+    d: centralnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-006
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: близко к (центральной) {станции}
+    russian_native_text:
+      en: close to the central station
+    polish_marked_prompt: blisko [centralnej] {stacji}
+    polish_context_lemma: stacja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a visit to a far relative
+  neutral_prompt: wizyta u ___ (daleki krewny)
+  answer_scope: word
+  options:
+    a: dalekiego
+    b: daleki
+    c: dalekiemu
+    d: dalekim
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-008
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: визит к (дальнему) {родственнику}
+    russian_native_text:
+      en: a visit to a far relative
+    polish_marked_prompt: wizyta u [dalekiego] {krewnego}
+    polish_context_lemma: krewny
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: hałaśliwy
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: close to a noisy street
+  neutral_prompt: blisko ___ (hałaśliwy ulica)
+  answer_scope: word
+  options:
+    a: hałaśliwej
+    b: hałaśliwy
+    c: hałaśliwego
+    d: hałaśliwemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-009
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: близко к (шумной) {улице}
+    russian_native_text:
+      en: close to a noisy street
+    polish_marked_prompt: blisko [hałaśliwej] {ulicy}
+    polish_context_lemma: ulica
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.

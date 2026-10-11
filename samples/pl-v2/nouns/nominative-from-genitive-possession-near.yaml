@@ -1,0 +1,146 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-from-genitive-possession-near-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: from-genitive-possession-near
+  name: from genitive possession near
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-u-okolo-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The sister has a birthday.
+  neutral_prompt: ___ ma urodziny. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Siostra
+    b: Siostry
+    c: Siostrę
+    d: Siostrą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-002
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: u-okolo
+      name: у, около
+    russian_prompt: У (сестры) день рождения.
+    russian_native_text:
+      en: The sister has a birthday.
+    polish_marked_prompt: '[Siostra] ma urodziny.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-u-okolo-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The brother has a cat.
+  neutral_prompt: ___ ma kota. (brat; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Brat
+    b: Brata
+    c: Bratu
+    d: Bratem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-004
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (брата) есть кот.
+    russian_native_text:
+      en: The brother has a cat.
+    polish_marked_prompt: '[Brat] ma kota.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-u-okolo-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Students have books.
+  neutral_prompt: ___ mają książki. (student; liczba mnoga)
+  answer_scope: word
+  options:
+    a: Studenci
+    b: Student
+    c: Studenta
+    d: Studentowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-005
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (студентов) есть книги.
+    russian_native_text:
+      en: Students have books.
+    polish_marked_prompt: '[Studenci] mają książki.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-nouns-genitive-u-okolo-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: A child has a toy.
+  neutral_prompt: ___ ma zabawkę. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Dziecko
+    b: Dziecka
+    c: Dziecku
+    d: Dzieckiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-u-okolo-apk-006
+    russian_file: samples/ru/nouns/genitive-u-okolo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (ребёнка) есть игрушка.
+    russian_native_text:
+      en: A child has a toy.
+    polish_marked_prompt: '[Dziecko] ma zabawkę.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.

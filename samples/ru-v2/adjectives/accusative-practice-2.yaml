@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-accusative-practice-2-apk
+learning_language: ru
+track: adjectives
+case: accusative
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-accusative-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: through a small window
+  neutral_prompt: через ___ (маленький окно)
+  answer_scope: word
+  options:
+    a: маленькое
+    b: маленькую
+    c: маленькюю
+    d: маленьких
+  correct: a
+  source:
+    index: 1
+    prompt: через (маленькое) {окно}
+    base_or_stem: маленькое окно
+    cyrillic_options:
+    - маленькое окно
+    - маленькую
+    - маленькюю
+    - маленьких
+    string_ids:
+      prompt: 9819
+      english: 7532
+      stored_options:
+      - 8828
+      - 9416
+      - 8957
+      - 9165
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: тёмный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: through the dark forest
+  neutral_prompt: через ___ (тёмный лес)
+  answer_scope: word
+  options:
+    a: тёмный
+    b: тёмного
+    c: тёмнего
+    d: тёмную
+  correct: a
+  source:
+    index: 2
+    prompt: через (тёмный) {лес}
+    base_or_stem: тёмный лес
+    cyrillic_options:
+    - тёмный лес
+    - тёмного
+    - тёмнего
+    - тёмную
+    string_ids:
+      prompt: 9820
+      english: 7534
+      stored_options:
+      - 9143
+      - 9420
+      - 8355
+      - 9463
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: about famous people
+  neutral_prompt: про ___ (известный люди)
+  answer_scope: word
+  options:
+    a: известных
+    b: известних
+    c: известнего
+    d: известную
+  correct: a
+  source:
+    index: 3
+    prompt: про (известных) {людей}
+    base_or_stem: известные люди
+    cyrillic_options:
+    - известные люди
+    - известних
+    - известнего
+    - известную
+    string_ids:
+      prompt: 9615
+      english: 6512
+      stored_options:
+      - 8991
+      - 8740
+      - 8631
+      - 8932
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: about good friends
+  neutral_prompt: про ___ (хороший друзья)
+  answer_scope: word
+  options:
+    a: хороших
+    b: хорошых
+    c: хорошех
+    d: хорошив
+  correct: a
+  source:
+    index: 4
+    prompt: про (хороших) {друзей}
+    base_or_stem: хорошие друзья
+    cyrillic_options:
+    - хорошие друзья
+    - хорошых
+    - хорошех
+    - хорошив
+    string_ids:
+      prompt: 9617
+      english: 6515
+      stored_options:
+      - 8572
+      - 9641
+      - 9231
+      - 8741
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красивый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: about a beautiful woman
+  neutral_prompt: про ___ (красивый женщина)
+  answer_scope: word
+  options:
+    a: красивую
+    b: красивюю
+    c: красивий
+    d: красивых
+  correct: a
+  source:
+    index: 5
+    prompt: про (красивую) {женщину}
+    base_or_stem: красивая женщина
+    cyrillic_options:
+    - красивая женщина
+    - красивюю
+    - красивий
+    - красивых
+    string_ids:
+      prompt: 9616
+      english: 6084
+      stored_options:
+      - 9148
+      - 9326
+      - 9322
+      - 8883
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: экзотический
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to go to exotic islands
+  neutral_prompt: поехать на ___ (экзотический острова)
+  answer_scope: word
+  options:
+    a: экзотические
+    b: экзотическую
+    c: экзотических
+    d: экзотическии
+  correct: a
+  source:
+    index: 6
+    prompt: поехать на (экзотические) {острова}
+    base_or_stem: экзотические острова
+    cyrillic_options:
+    - экзотические острова
+    - экзотическую
+    - экзотических
+    - экзотическии
+    string_ids:
+      prompt: 9572
+      english: 6999
+      stored_options:
+      - 9500
+      - 9853
+      - 9852
+      - 9851
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ночной
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to go to a night club
+  neutral_prompt: пойти в ___ (ночной клуб)
+  answer_scope: word
+  options:
+    a: ночной
+    b: ночную
+    c: ночнюю
+    d: ночней
+  correct: a
+  source:
+    index: 7
+    prompt: пойти в (ночной) {клуб}
+    base_or_stem: ночной клуб
+    cyrillic_options:
+    - ночной клуб
+    - ночную
+    - ночнюю
+    - ночней
+    string_ids:
+      prompt: 9574
+      english: 4309
+      stored_options:
+      - 9236
+      - 9486
+      - 9487
+      - 9485
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to go to a new school
+  neutral_prompt: пойти в ___ (новый школа)
+  answer_scope: word
+  options:
+    a: новую
+    b: новюю
+    c: новых
+    d: новый
+  correct: a
+  source:
+    index: 8
+    prompt: пойти в (новую) {школу}
+    base_or_stem: новая школа
+    cyrillic_options:
+    - новая школа
+    - новюю
+    - новых
+    - новый
+    string_ids:
+      prompt: 9471
+      english: 6839
+      stored_options:
+      - 8451
+      - 9484
+      - 8379
+      - 7745
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: важный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to go to an important meeting
+  neutral_prompt: пойти на ___ (важный встреча)
+  answer_scope: word
+  options:
+    a: важную
+    b: важнюю
+    c: важной
+    d: важных
+  correct: a
+  source:
+    index: 9
+    prompt: пойти на (важную) {встречу}
+    base_or_stem: важная встреча
+    cyrillic_options:
+    - важная встреча
+    - важнюю
+    - важной
+    - важных
+    string_ids:
+      prompt: 9575
+      english: 6991
+      stored_options:
+      - 8720
+      - 8753
+      - 7694
+      - 8750
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: далёкий
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to go to a faraway country
+  neutral_prompt: поехать в ___ (далёкий страна)
+  answer_scope: word
+  options:
+    a: далёкую
+    b: далёкюю
+    c: далёкий
+    d: далёкого
+  correct: a
+  source:
+    index: 10
+    prompt: поехать в (далёкую) {страну}
+    base_or_stem: далёкая страна
+    cyrillic_options:
+    - далёкая страна
+    - далёкюю
+    - далёкий
+    - далёкого
+    string_ids:
+      prompt: 9571
+      english: 6800
+      stored_options:
+      - 8970
+      - 8983
+      - 8975
+      - 8933
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to move to a small village
+  neutral_prompt: переехать в ___ (маленький деревня)
+  answer_scope: word
+  options:
+    a: маленькую
+    b: маленький
+    c: маленькюю
+    d: маленьких
+  correct: a
+  source:
+    index: 11
+    prompt: переехать в (маленькую) {деревню}
+    base_or_stem: маленькая деревня
+    cyrillic_options:
+    - маленькая деревня
+    - маленький
+    - маленькюю
+    - маленьких
+    string_ids:
+      prompt: 9415
+      english: 7232
+      stored_options:
+      - 7858
+      - 8679
+      - 8957
+      - 9165
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to move to a big city
+  neutral_prompt: переехать в ___ (большой город)
+  answer_scope: word
+  options:
+    a: большой
+    b: большую
+    c: большого
+    d: больших
+  correct: a
+  source:
+    index: 12
+    prompt: переехать в (большой) {город}
+    base_or_stem: большой город
+    cyrillic_options:
+    - большой город
+    - большую
+    - большого
+    - больших
+    string_ids:
+      prompt: 9530
+      english: 6784
+      stored_options:
+      - 8666
+      - 8675
+      - 8555
+      - 8658
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

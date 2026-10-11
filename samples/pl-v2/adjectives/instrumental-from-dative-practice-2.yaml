@@ -1,0 +1,147 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-instrumental-from-dative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: instrumental
+topic:
+  id: from-dative-practice-2
+  name: from dative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: pierwotny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: according to the initial plan
+  neutral_prompt: zgodnie z ___ (pierwotny plan)
+  answer_scope: word
+  options:
+    a: pierwotnym
+    b: pierwotny
+    c: pierwotnego
+    d: pierwotnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-001
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: согласно (первоначальному) {плану}
+    russian_native_text:
+      en: according to the initial plan
+    polish_marked_prompt: zgodnie z [pierwotnym] {planem}
+    polish_context_lemma: plan
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: jasny
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: according to strict instructions
+  neutral_prompt: zgodnie z ___ (jasny wskazówki)
+  answer_scope: word
+  options:
+    a: jasnymi
+    b: jasny
+    c: jasnego
+    d: jasnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-002
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: согласно (чётким) {указаниям}
+    russian_native_text:
+      en: according to strict instructions
+    polish_marked_prompt: zgodnie z [jasnymi] {wskazówkami}
+    polish_context_lemma: wskazówka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: miejscowy
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: according to a local law
+  neutral_prompt: zgodnie z ___ (miejscowy prawo)
+  answer_scope: word
+  options:
+    a: miejscowym
+    b: miejscowy
+    c: miejscowego
+    d: miejscowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-010
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: согласно (местному) {закону}
+    russian_native_text:
+      en: according to a local law
+    polish_marked_prompt: zgodnie z [miejscowym] {prawem}
+    polish_context_lemma: prawo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-dative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: accodring to a new research
+  neutral_prompt: zgodnie z ___ (nowy badanie)
+  answer_scope: word
+  options:
+    a: nowym
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-012
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: согласно (новому) {исследованию}
+    russian_native_text:
+      en: accodring to a new research
+    polish_marked_prompt: zgodnie z [nowym] {badaniem}
+    polish_context_lemma: badanie
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is dative.

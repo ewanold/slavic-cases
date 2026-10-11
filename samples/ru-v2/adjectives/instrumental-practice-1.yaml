@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-instrumental-practice-1-apk
+learning_language: ru
+track: adjectives
+case: instrumental
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-instrumental-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I write with a blue pen
+  neutral_prompt: я пишу ___ (синий ручка)
+  answer_scope: word
+  options:
+    a: синей
+    b: синяй
+    c: синем
+    d: синим
+  correct: a
+  source:
+    index: 1
+    prompt: я пишу (синей) {ручкой}
+    base_or_stem: синяя ручка
+    cyrillic_options:
+    - синяя ручка
+    - синяй
+    - синем
+    - синим
+    string_ids:
+      prompt: 7607
+      english: 5389
+      stored_options:
+      - 9666
+      - 9704
+      - 9150
+      - 9695
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: острый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to cut with a sharp knife
+  neutral_prompt: резать ___ (острый нож)
+  answer_scope: word
+  options:
+    a: острым
+    b: острим
+    c: острем
+    d: острой
+  correct: a
+  source:
+    index: 2
+    prompt: резать (острым) {ножом}
+    base_or_stem: острый нож
+    cyrillic_options:
+    - острый нож
+    - острим
+    - острем
+    - острой
+    string_ids:
+      prompt: 9647
+      english: 4208
+      stored_options:
+      - 8942
+      - 8548
+      - 7792
+      - 8893
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: mady by a little kid
+  neutral_prompt: сделано ___ (маленький ребёнок)
+  answer_scope: word
+  options:
+    a: маленьким
+    b: маленькым
+    c: маленькой
+    d: маленькем
+  correct: a
+  source:
+    index: 3
+    prompt: сделано (маленьким) {ребёнком}
+    base_or_stem: маленький ребёнок
+    cyrillic_options:
+    - маленький ребёнок
+    - маленькым
+    - маленькой
+    - маленькем
+    string_ids:
+      prompt: 9413
+      english: 867
+      stored_options:
+      - 8812
+      - 8913
+      - 8838
+      - 8497
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чайный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to eat with a tea spoon
+  neutral_prompt: есть ___ (чайный ложка)
+  answer_scope: word
+  options:
+    a: чайной
+    b: чайней
+    c: чайнай
+    d: чайным
+  correct: a
+  source:
+    index: 4
+    prompt: есть (чайной) {ложкой}
+    base_or_stem: чайная ложка
+    cyrillic_options:
+    - чайная ложка
+    - чайней
+    - чайнай
+    - чайным
+    string_ids:
+      prompt: 9144
+      english: 6792
+      stored_options:
+      - 9261
+      - 9809
+      - 8938
+      - 9810
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: written by a famous writer
+  neutral_prompt: написано ___ (известный писатель)
+  answer_scope: word
+  options:
+    a: известным
+    b: известним
+    c: известной
+    d: известней
+  correct: a
+  source:
+    index: 5
+    prompt: написано (известным) {писателем}
+    base_or_stem: известный писатель
+    cyrillic_options:
+    - известный писатель
+    - известним
+    - известной
+    - известней
+    string_ids:
+      prompt: 8146
+      english: 6805
+      stored_options:
+      - 9029
+      - 8694
+      - 8901
+      - 8690
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: талантливый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: painted by a talented artist
+  neutral_prompt: нарисовано ___ (талантливый художник)
+  answer_scope: word
+  options:
+    a: талантливым
+    b: талантливим
+    c: талантливой
+    d: талантливом
+  correct: a
+  source:
+    index: 6
+    prompt: нарисовано (талантливым) {художником}
+    base_or_stem: талантливый художник
+    cyrillic_options:
+    - талантливый художник
+    - талантливим
+    - талантливой
+    - талантливом
+    string_ids:
+      prompt: 9177
+      english: 5254
+      stored_options:
+      - 9258
+      - 7800
+      - 9298
+      - 9306
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: лучший
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: made by the best students
+  neutral_prompt: сделано ___ (лучший студенты)
+  answer_scope: word
+  options:
+    a: лучшими
+    b: лучшеми
+    c: лучшыми
+    d: лучшой
+  correct: a
+  source:
+    index: 7
+    prompt: сделано (лучшими) {студентами}
+    base_or_stem: лучшие студенты
+    cyrillic_options:
+    - лучшие студенты
+    - лучшеми
+    - лучшыми
+    - лучшой
+    string_ids:
+      prompt: 9377
+      english: 7406
+      stored_options:
+      - 9375
+      - 9370
+      - 9382
+      - 9379
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: written by famous poets
+  neutral_prompt: написано ___ (известный поэты)
+  answer_scope: word
+  options:
+    a: известными
+    b: известними
+    c: известней
+    d: известной
+  correct: a
+  source:
+    index: 8
+    prompt: написано (известными) {поэтами}
+    base_or_stem: известные поэты
+    cyrillic_options:
+    - известные поэты
+    - известними
+    - известней
+    - известной
+    string_ids:
+      prompt: 8971
+      english: 6064
+      stored_options:
+      - 8842
+      - 8695
+      - 8690
+      - 8901
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: made by little kids
+  neutral_prompt: сделано ___ (маленький дети)
+  answer_scope: word
+  options:
+    a: маленькими
+    b: маленькеми
+    c: маленькыми
+    d: маленьким
+  correct: a
+  source:
+    index: 9
+    prompt: сделано (маленькими) {детьми}
+    base_or_stem: маленькие дети
+    cyrillic_options:
+    - маленькие дети
+    - маленькеми
+    - маленькыми
+    - маленьким
+    string_ids:
+      prompt: 9675
+      english: 6615
+      stored_options:
+      - 8618
+      - 8498
+      - 8914
+      - 9414
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to become a good doctor
+  neutral_prompt: стать ___ (хороший врач)
+  answer_scope: word
+  options:
+    a: хорошим
+    b: хорошым
+    c: хорошей
+    d: хорошем
+  correct: a
+  source:
+    index: 10
+    prompt: стать (хорошим) {врачом}
+    base_or_stem: хороший врач
+    cyrillic_options:
+    - хороший врач
+    - хорошым
+    - хорошей
+    - хорошем
+    string_ids:
+      prompt: 9769
+      english: 5648
+      stored_options:
+      - 8806
+      - 9630
+      - 8412
+      - 9158
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to become a famous actor
+  neutral_prompt: стать ___ (известный актёр)
+  answer_scope: word
+  options:
+    a: известным
+    b: известной
+    c: известней
+    d: известном
+  correct: a
+  source:
+    index: 11
+    prompt: стать (известным) {актёром}
+    base_or_stem: известный актёр
+    cyrillic_options:
+    - известный актёр
+    - известной
+    - известней
+    - известном
+    string_ids:
+      prompt: 9768
+      english: 5621
+      stored_options:
+      - 9006
+      - 8901
+      - 8690
+      - 8950
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чёрный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I write with a black pen
+  neutral_prompt: я пишу ___ (чёрный ручка)
+  answer_scope: word
+  options:
+    a: чёрной
+    b: чёрней
+    c: чёрном
+    d: чёрным
+  correct: a
+  source:
+    index: 12
+    prompt: я пишу (чёрной) {ручкой}
+    base_or_stem: чёрная ручка
+    cyrillic_options:
+    - чёрная ручка
+    - чёрней
+    - чёрном
+    - чёрным
+    string_ids:
+      prompt: 8094
+      english: 5388
+      stored_options:
+      - 9826
+      - 9827
+      - 9831
+      - 9833
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

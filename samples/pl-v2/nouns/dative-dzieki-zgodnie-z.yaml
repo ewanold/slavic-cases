@@ -1,0 +1,197 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-dative-dzieki-zgodnie-z-adapted
+learning_language: pl
+track: nouns
+case: dative
+topic:
+  id: dzieki-zgodnie-z
+  name: dzieki zgodnie z
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-blagodarya-soglasno-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Thanks to a friend.
+  neutral_prompt: Dzięki ___. (przyjaciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjacielowi
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-001
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: blagodarya-soglasno
+      name: благодаря, согласно
+    russian_prompt: Благодаря (другу).
+    russian_native_text:
+      en: Thanks to a friend.
+    polish_marked_prompt: Dzięki [przyjacielowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: człowiek
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Thanks to people.
+  neutral_prompt: Dzięki ___. (człowiek; liczba mnoga)
+  answer_scope: word
+  options:
+    a: ludziom
+    b: człowiek
+    c: człowieka
+    d: człowiekowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-002
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Благодаря (людям).
+    russian_native_text:
+      en: Thanks to people.
+    polish_marked_prompt: Dzięki [ludziom].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pogoda
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Thanks to the weather.
+  neutral_prompt: Dzięki ___. (pogoda; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pogodzie
+    b: pogoda
+    c: pogody
+    d: pogodę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-003
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Благодаря (погоде).
+    russian_native_text:
+      en: Thanks to the weather.
+    polish_marked_prompt: Dzięki [pogodzie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Thanks to parents.
+  neutral_prompt: Dzięki ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodzicom
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-004
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Благодаря (родителям).
+    russian_native_text:
+      en: Thanks to parents.
+    polish_marked_prompt: Dzięki [rodzicom].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: deszcz
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Thanks to rain.
+  neutral_prompt: Dzięki ___. (deszcz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: deszczowi
+    b: deszcz
+    c: deszczu
+    d: deszczem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-005
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Благодаря (дождю).
+    russian_native_text:
+      en: Thanks to rain.
+    polish_marked_prompt: Dzięki [deszczowi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-dative-blagodarya-soglasno-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szczęście
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Thanks to luck.
+  neutral_prompt: Dzięki ___. (szczęście; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szczęściu
+    b: szczęście
+    c: szczęścia
+    d: szczęściem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-blagodarya-soglasno-apk-006
+    russian_file: samples/ru/nouns/dative-blagodarya-soglasno.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Благодаря (удаче).
+    russian_native_text:
+      en: Thanks to luck.
+    polish_marked_prompt: Dzięki [szczęściu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

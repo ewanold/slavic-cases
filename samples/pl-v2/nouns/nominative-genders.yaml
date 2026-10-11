@@ -1,0 +1,1015 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-genders-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: genders
+  name: genders
+native_languages:
+- en
+instruction:
+  en: Choose the Polish grammatical gender.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-nominative-genders-apk-001
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: pies
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: dog
+  neutral_prompt: 'Rodzaj rzeczownika «pies»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-001
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: genders
+      name: Genders
+    russian_prompt: (собака)
+    russian_native_text:
+      en: dog
+    polish_marked_prompt: '[pies]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-nouns-nominative-genders-apk-002
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: sister
+  neutral_prompt: 'Rodzaj rzeczownika «siostra»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-002
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (сестра)
+    russian_native_text:
+      en: sister
+    polish_marked_prompt: '[siostra]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-003
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: córka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: daughter
+  neutral_prompt: 'Rodzaj rzeczownika «córka»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-003
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (дочь)
+    russian_native_text:
+      en: daughter
+    polish_marked_prompt: '[córka]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-004
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: ciocia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: aunt
+  neutral_prompt: 'Rodzaj rzeczownika «ciocia»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-004
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (тётя)
+    russian_native_text:
+      en: aunt
+    polish_marked_prompt: '[ciocia]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-005
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: samochód
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: car
+  neutral_prompt: 'Rodzaj rzeczownika «samochód»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-005
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (машина)
+    russian_native_text:
+      en: car
+    polish_marked_prompt: '[samochód]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-nouns-nominative-genders-apk-006
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: girlfriend
+  neutral_prompt: 'Rodzaj rzeczownika «przyjaciółka»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-006
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (подруга)
+    russian_native_text:
+      en: girlfriend
+    polish_marked_prompt: '[przyjaciółka]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-007
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: mysz
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: mouse
+  neutral_prompt: 'Rodzaj rzeczownika «mysz»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-007
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (мышь)
+    russian_native_text:
+      en: mouse
+    polish_marked_prompt: '[mysz]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-008
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: noc
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: night
+  neutral_prompt: 'Rodzaj rzeczownika «noc»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-008
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (ночь)
+    russian_native_text:
+      en: night
+    polish_marked_prompt: '[noc]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-009
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: pokój
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: room
+  neutral_prompt: 'Rodzaj rzeczownika «pokój»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-009
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (комната)
+    russian_native_text:
+      en: room
+    polish_marked_prompt: '[pokój]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-nouns-nominative-genders-apk-010
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Rosja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Russia
+  neutral_prompt: 'Rodzaj rzeczownika «Rosja»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-010
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (Россия)
+    russian_native_text:
+      en: Russia
+    polish_marked_prompt: '[Rosja]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-011
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Maria
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Maria
+  neutral_prompt: 'Rodzaj rzeczownika «Maria»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-011
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (Мария)
+    russian_native_text:
+      en: Maria
+    polish_marked_prompt: '[Maria]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-012
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Moskwa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Moscow
+  neutral_prompt: 'Rodzaj rzeczownika «Moskwa»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-012
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (Москва)
+    russian_native_text:
+      en: Moscow
+    polish_marked_prompt: '[Moskwa]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-013
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: dom
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: house
+  neutral_prompt: 'Rodzaj rzeczownika «dom»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-013
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (дом)
+    russian_native_text:
+      en: house
+    polish_marked_prompt: '[dom]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-014
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: dzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: day
+  neutral_prompt: 'Rodzaj rzeczownika «dzień»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-014
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (день)
+    russian_native_text:
+      en: day
+    polish_marked_prompt: '[dzień]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-015
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: godzina
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: hour
+  neutral_prompt: 'Rodzaj rzeczownika «godzina»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-015
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (час)
+    russian_native_text:
+      en: hour
+    polish_marked_prompt: '[godzina]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-nominative-genders-apk-016
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: Iwan
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Ivan
+  neutral_prompt: 'Rodzaj rzeczownika «Iwan»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-016
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (Иван)
+    russian_native_text:
+      en: Ivan
+    polish_marked_prompt: '[Iwan]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-017
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: brother
+  neutral_prompt: 'Rodzaj rzeczownika «brat»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-017
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (брат)
+    russian_native_text:
+      en: brother
+    polish_marked_prompt: '[brat]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-018
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: miasto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: city
+  neutral_prompt: 'Rodzaj rzeczownika «miasto»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-018
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (город)
+    russian_native_text:
+      en: city
+    polish_marked_prompt: '[miasto]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-nominative-genders-apk-019
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: lekcja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: lesson
+  neutral_prompt: 'Rodzaj rzeczownika «lekcja»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj żeński
+    b: rodzaj męski
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-019
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (урок)
+    russian_native_text:
+      en: lesson
+    polish_marked_prompt: '[lekcja]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-nominative-genders-apk-020
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: gość
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: guest
+  neutral_prompt: 'Rodzaj rzeczownika «gość»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-020
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (гость)
+    russian_native_text:
+      en: guest
+    polish_marked_prompt: '[gość]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-021
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: kraj
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: edge
+  neutral_prompt: 'Rodzaj rzeczownika «kraj»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-021
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (край)
+    russian_native_text:
+      en: edge
+    polish_marked_prompt: '[kraj]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-022
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: maj
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: May
+  neutral_prompt: 'Rodzaj rzeczownika «maj»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-022
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (май)
+    russian_native_text:
+      en: May
+    polish_marked_prompt: '[maj]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-023
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: rubel
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: ruble
+  neutral_prompt: 'Rodzaj rzeczownika «rubel»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-023
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (рубль)
+    russian_native_text:
+      en: ruble
+    polish_marked_prompt: '[rubel]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-024
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: lato
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: summer
+  neutral_prompt: 'Rodzaj rzeczownika «lato»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-024
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (лето)
+    russian_native_text:
+      en: summer
+    polish_marked_prompt: '[lato]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-025
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: drzewo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: tree
+  neutral_prompt: 'Rodzaj rzeczownika «drzewo»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-025
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (дерево)
+    russian_native_text:
+      en: tree
+    polish_marked_prompt: '[drzewo]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-026
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: mleko
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: milk
+  neutral_prompt: 'Rodzaj rzeczownika «mleko»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-026
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (молоко)
+    russian_native_text:
+      en: milk
+    polish_marked_prompt: '[mleko]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-027
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: okno
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: window
+  neutral_prompt: 'Rodzaj rzeczownika «okno»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-027
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (окно)
+    russian_native_text:
+      en: window
+    polish_marked_prompt: '[okno]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-028
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: odczucie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: feeling
+  neutral_prompt: 'Rodzaj rzeczownika «odczucie»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-028
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (ощущение)
+    russian_native_text:
+      en: feeling
+    polish_marked_prompt: '[odczucie]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-029
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: ciśnienie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: pressure
+  neutral_prompt: 'Rodzaj rzeczownika «ciśnienie»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-029
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (давление)
+    russian_native_text:
+      en: pressure
+    polish_marked_prompt: '[ciśnienie]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-030
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: niepokój
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: anxiety
+  neutral_prompt: 'Rodzaj rzeczownika «niepokój»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj męski
+    b: rodzaj żeński
+    c: rodzaj nijaki
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-030
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (волнение)
+    russian_native_text:
+      en: anxiety
+    polish_marked_prompt: '[niepokój]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is neuter.
+- id: pl-nouns-nominative-genders-apk-031
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: szczęście
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: happiness
+  neutral_prompt: 'Rodzaj rzeczownika «szczęście»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-031
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (счастье)
+    russian_native_text:
+      en: happiness
+    polish_marked_prompt: '[szczęście]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-032
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: zdrowie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: health
+  neutral_prompt: 'Rodzaj rzeczownika «zdrowie»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-032
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (здоровье)
+    russian_native_text:
+      en: health
+    polish_marked_prompt: '[zdrowie]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-033
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: pole
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: field
+  neutral_prompt: 'Rodzaj rzeczownika «pole»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-033
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (поле)
+    russian_native_text:
+      en: field
+    polish_marked_prompt: '[pole]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-034
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: dzieciństwo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: childhood
+  neutral_prompt: 'Rodzaj rzeczownika «dzieciństwo»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-034
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (детство)
+    russian_native_text:
+      en: childhood
+    polish_marked_prompt: '[dzieciństwo]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-genders-apk-035
+  word_type: noun
+  exercise_type: gender
+  dictionary_form: morze
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: sea
+  neutral_prompt: 'Rodzaj rzeczownika «morze»: ___.'
+  answer_scope: phrase
+  options:
+    a: rodzaj nijaki
+    b: rodzaj męski
+    c: rodzaj żeński
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-genders-apk-035
+    russian_file: samples/ru/nouns/nominative-genders.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (море)
+    russian_native_text:
+      en: sea
+    polish_marked_prompt: '[morze]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

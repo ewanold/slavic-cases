@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-pered-pod-s-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: pered-pod-s
+  name: перед, под, с
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-pered-pod-s-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: здание
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the building.
+  neutral_prompt: Перед ___. (здание)
+  answer_scope: word
+  options:
+    a: зданием
+    b: здания
+    c: зданию
+    d: здании
+  correct: a
+  source:
+    index: 1
+    prompt: Перед (зданием).
+    base_or_stem: здание
+    cyrillic_options:
+    - здание
+    - здания
+    - зданию
+    - здании
+    string_ids:
+      prompt: 8271
+      english: 5413
+      stored_options:
+      - 7671
+      - 8186
+      - 9196
+      - 9191
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: школа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the school.
+  neutral_prompt: Перед ___. (школа)
+  answer_scope: word
+  options:
+    a: школой
+    b: школе
+    c: школы
+    d: школа
+  correct: a
+  source:
+    index: 2
+    prompt: Перед (школой).
+    base_or_stem: школа
+    cyrillic_options:
+    - школа
+    - школе
+    - школы
+    - школа
+    string_ids:
+      prompt: 8275
+      english: 5418
+      stored_options:
+      - 8453
+      - 7808
+      - 8193
+      - 8453
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: экзамен
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Before the exam.
+  neutral_prompt: Перед ___. (экзамен)
+  answer_scope: word
+  options:
+    a: экзаменом
+    b: экзамену
+    c: экзаменов
+    d: экзамены
+  correct: a
+  source:
+    index: 3
+    prompt: Перед (экзаменом).
+    base_or_stem: экзамен
+    cyrillic_options:
+    - экзамен
+    - экзамену
+    - экзаменов
+    - экзамены
+    string_ids:
+      prompt: 8277
+      english: 4734
+      stored_options:
+      - 8278
+      - 9849
+      - 9464
+      - 9850
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: поездка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Before the trip.
+  neutral_prompt: Перед ___. (поездка)
+  answer_scope: word
+  options:
+    a: поездкой
+    b: поездки
+    c: поездке
+    d: поездкам
+  correct: a
+  source:
+    index: 4
+    prompt: Перед (поездкой).
+    base_or_stem: поездка
+    cyrillic_options:
+    - поездка
+    - поездки
+    - поездке
+    - поездкам
+    string_ids:
+      prompt: 8273
+      english: 4735
+      stored_options:
+      - 9426
+      - 9568
+      - 9567
+      - 9438
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: земля
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Under the ground.
+  neutral_prompt: Под ___. (земля)
+  answer_scope: word
+  options:
+    a: землёй
+    b: земли
+    c: земле
+    d: землям
+  correct: a
+  source:
+    index: 5
+    prompt: Под (землёй).
+    base_or_stem: земля
+    cyrillic_options:
+    - земля
+    - земли
+    - земле
+    - землям
+    string_ids:
+      prompt: 8286
+      english: 6109
+      stored_options:
+      - 9210
+      - 9208
+      - 8925
+      - 9211
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: влияние
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Under influence.
+  neutral_prompt: Под ___. (влияние)
+  answer_scope: word
+  options:
+    a: влиянием
+    b: влиянию
+    c: влиянии
+    d: влияние
+  correct: a
+  source:
+    index: 6
+    prompt: Под (влиянием).
+    base_or_stem: влияние
+    cyrillic_options:
+    - влияние
+    - влиянию
+    - влиянии
+    - влияние
+    string_ids:
+      prompt: 8284
+      english: 6108
+      stored_options:
+      - 8285
+      - 8795
+      - 8739
+      - 8285
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: стол
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Under the table.
+  neutral_prompt: Под ___. (стол)
+  answer_scope: word
+  options:
+    a: столом
+    b: столу
+    c: столе
+    d: столам
+  correct: a
+  source:
+    index: 7
+    prompt: Под (столом).
+    base_or_stem: стол
+    cyrillic_options:
+    - стол
+    - столу
+    - столе
+    - столам
+    string_ids:
+      prompt: 8288
+      english: 6111
+      stored_options:
+      - 7814
+      - 9369
+      - 9349
+      - 9776
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: крыша
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Under the roof.
+  neutral_prompt: Под ___. (крыша)
+  answer_scope: word
+  options:
+    a: крышей
+    b: крышой
+    c: крыши
+    d: крышу
+  correct: a
+  source:
+    index: 8
+    prompt: Под (крышей).
+    base_or_stem: крыша
+    cyrillic_options:
+    - крыша
+    - крышой
+    - крыши
+    - крышу
+    string_ids:
+      prompt: 8287
+      english: 6110
+      stored_options:
+      - 9339
+      - 9342
+      - 7985
+      - 9343
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: With friends.
+  neutral_prompt: С ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзьями
+    b: друзьи
+    c: друзьям
+    d: друзью
+  correct: a
+  source:
+    index: 9
+    prompt: С (друзьями).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзьи
+    - друзьям
+    - друзью
+    string_ids:
+      prompt: 8322
+      english: 6176
+      stored_options:
+      - 8161
+      - 7957
+      - 8162
+      - 9141
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: брат
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: With a brother.
+  neutral_prompt: С ___. (брат)
+  answer_scope: word
+  options:
+    a: братом
+    b: брата
+    c: братой
+    d: брате
+  correct: a
+  source:
+    index: 10
+    prompt: С (братом).
+    base_or_stem: брат
+    cyrillic_options:
+    - брат
+    - брата
+    - братой
+    - брате
+    string_ids:
+      prompt: 8319
+      english: 6175
+      stored_options:
+      - 7623
+      - 8375
+      - 8691
+      - 8687
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: грусть
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: With sadness.
+  neutral_prompt: С ___. (грусть)
+  answer_scope: word
+  options:
+    a: грустью
+    b: грустья
+    c: грустьям
+    d: грустьем
+  correct: a
+  source:
+    index: 11
+    prompt: С (грустью).
+    base_or_stem: грусть
+    cyrillic_options:
+    - грусть
+    - грустья
+    - грустьям
+    - грустьем
+    string_ids:
+      prompt: 8320
+      english: 6177
+      stored_options:
+      - 8321
+      - 8955
+      - 8956
+      - 8952
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-pered-pod-s-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: радость
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Gladly.
+  neutral_prompt: С ___. (радость)
+  answer_scope: word
+  options:
+    a: радостью
+    b: радости
+    c: радостям
+    d: радостьем
+  correct: a
+  source:
+    index: 12
+    prompt: С (радостью).
+    base_or_stem: радость
+    cyrillic_options:
+    - радость
+    - радости
+    - радостям
+    - радостьем
+    string_ids:
+      prompt: 8323
+      english: 5331
+      stored_options:
+      - 8324
+      - 9007
+      - 9626
+      - 9625
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

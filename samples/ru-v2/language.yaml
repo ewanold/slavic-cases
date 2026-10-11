@@ -1,0 +1,189 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+learning_language: ru
+name: Russian deep
+native_languages:
+- en
+tracks:
+- nouns
+- adjectives
+cases:
+- id: nominative
+  name: Именительный
+- id: genitive
+  name: Родительный
+- id: dative
+  name: Дательный
+- id: accusative
+  name: Винительный
+- id: instrumental
+  name: Творительный
+- id: prepositional
+  name: Предложный
+names:
+  en: Russian deep
+  de: Russisch vertieft
+  ru: "Русский: углублённый курс"
+  pl: "Rosyjski: kurs rozszerzony"
+topic_names:
+  practice-1:
+    en: practice 1
+    de: Übung 1
+    ru: "Упражнение 1"
+    pl: "Ćwiczenie 1"
+  practice-2:
+    en: practice 2
+    de: Übung 2
+    ru: "Упражнение 2"
+    pl: "Ćwiczenie 2"
+  practice-3:
+    en: practice 3
+    de: Übung 3
+    ru: "Упражнение 3"
+    pl: "Ćwiczenie 3"
+  cherez-za-pro:
+    en: через, за, про
+    de: через, за, про
+    ru: "через, за, про"
+    pl: "через, за, про"
+  direct-object:
+    en: direct object
+    de: Direktes Objekt
+    ru: "Прямое дополнение"
+    pl: "Dopełnienie bliższe"
+  v-na:
+    en: в, на
+    de: в, на
+    ru: "в, на"
+    pl: "в, на"
+  blagodarya-soglasno:
+    en: благодаря, согласно
+    de: благодаря, согласно (dank, gemäß)
+    ru: "благодаря, согласно"
+    pl: "благодаря, согласно"
+  impersonal-constructions:
+    en: impersonal constructions
+    de: Unpersönliche Konstruktionen
+    ru: "Безличные конструкции"
+    pl: "Konstrukcje bezosobowe"
+  k-po:
+    en: к, по
+    de: к, по
+    ru: "к, по"
+    pl: "к, по"
+  receiver:
+    en: receiver
+    de: Empfänger
+    ru: "Получатель"
+    pl: "Odbiorca"
+  2-3-4:
+    en: 2, 3, 4
+    de: Zahlen 2, 3 und 4
+    ru: "Числа 2, 3, 4"
+    pl: "Liczby 2, 3, 4"
+  5-9-0-nadtsat:
+    en: 5-9, 0, -надцать
+    de: Zahlen 5–9, 0 und -надцать
+    ru: "5-9, 0, -надцать"
+    pl: "5-9, 0, -надцать"
+  bez-dlya:
+    en: без, для
+    de: без, для (ohne, für)
+    ru: "без, для"
+    pl: "без, для"
+  do-posle:
+    en: до, после
+    de: до, после (vor, nach)
+    ru: "до, после"
+    pl: "до, после"
+  mnogo-malo:
+    en: много, мало...
+    de: много, мало... (viel, wenig)
+    ru: "много, мало..."
+    pl: "много, мало..."
+  of-something:
+    en: of something
+    de: Zugehörigkeit
+    ru: "Принадлежность"
+    pl: "Przynależność"
+  ot-naprotiv:
+    en: от, напротив
+    de: от, напротив (von, gegenüber)
+    ru: "от, напротив"
+    pl: "от, напротив"
+  ownership:
+    en: ownership
+    de: Besitz
+    ru: "Владение"
+    pl: "Własność"
+  s-so-iz:
+    en: с/со, из
+    de: с/со, из (Herkunft)
+    ru: "с/со, из"
+    pl: "с/со, из"
+  u-okolo:
+    en: у, около
+    de: у, около (bei, nahe)
+    ru: "у, около"
+    pl: "у, около"
+  byt-stanovitsya-yavlyatsya:
+    en: быть, становиться, являться
+    de: быть, становиться, являться (sein, werden)
+    ru: "быть, становиться, являться"
+    pl: "быть, становиться, являться"
+  instrument-passive-by:
+    en: instrument, passive + by
+    de: Werkzeug und Handelnder im Passiv
+    ru: "Орудие и деятель в пассивных конструкциях"
+    pl: "Narzędzie i wykonawca czynności w stronie biernej"
+  interesovatsya-uvlekatsya:
+    en: интересоваться, увлекаться...
+    de: Interessen und Tätigkeiten
+    ru: "интересоваться, увлекаться..."
+    pl: "интересоваться, увлекаться..."
+  parts-of-day-seasons:
+    en: parts of the day, seasons
+    de: Tages- und Jahreszeiten
+    ru: "Время суток и времена года"
+    pl: "Pory dnia i roku"
+  pered-pod-s:
+    en: перед, под, с
+    de: перед, под, с (vor, unter, mit)
+    ru: "перед, под, с"
+    pl: "перед, под, с"
+  za-mezhdu-nad:
+    en: за, между, над
+    de: за, между, над (hinter, zwischen, über)
+    ru: "за, между, над"
+    pl: "за, между, над"
+  genders:
+    en: Genders
+    de: Geschlechter
+    ru: "Роды"
+    pl: "Rodzaje"
+  plural-exceptions:
+    en: Plural exceptions
+    de: Ausnahmen im Plural
+    ru: "Исключения во множественном числе"
+    pl: "Wyjątki w liczbie mnogiej"
+  plural-feminine:
+    en: Plural feminine
+    de: Feminin, Plural
+    ru: "Женский род, множественное число"
+    pl: "Rodzaj żeński, liczba mnoga"
+  plural-masculine:
+    en: Plural masculine
+    de: Maskulin, Plural
+    ru: "Мужской род, множественное число"
+    pl: "Rodzaj męski, liczba mnoga"
+  plural-neuter:
+    en: Plural neuter
+    de: Neutrum, Plural
+    ru: "Средний род, множественное число"
+    pl: "Rodzaj nijaki, liczba mnoga"
+  o-about:
+    en: о (about)
+    de: о (über)
+    ru: "о (о чём-либо)"
+    pl: "о (temat)"

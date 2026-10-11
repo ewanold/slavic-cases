@@ -1,0 +1,178 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-locative-from-dative-do-po-adapted
+learning_language: pl
+track: nouns
+case: locative
+topic:
+  id: from-dative-do-po
+  name: from dative do po
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-k-po-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: droga
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: You are walking the road.
+  neutral_prompt: Idziesz po ___. (droga; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: drodze
+    b: droga
+    c: drogi
+    d: drogę
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-005
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: k-po
+      name: к, по
+    russian_prompt: Ты идешь по (дороге).
+    russian_native_text:
+      en: You are walking the road.
+    polish_marked_prompt: Idziesz po [drodze].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: niebo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: The plane is flying across the sky.
+  neutral_prompt: Samolot leci po ___. (niebo; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: niebie
+    b: niebo
+    c: nieba
+    d: niebu
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-006
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Самолет летит по (небу).
+    russian_native_text:
+      en: The plain is flying in the sky.
+    polish_marked_prompt: Samolot leci po [niebie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is dative.
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-dative-k-po-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: They walk around the city.
+  neutral_prompt: Oni spacerują po ___. (miasto; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mieście
+    b: miasto
+    c: miasta
+    d: miastu
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-007
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Они гуляют по (городу).
+    russian_native_text:
+      en: They walk around the city.
+    polish_marked_prompt: Oni spacerują po [mieście].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is dative.
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-dative-k-po-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: piasek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: He runs in the sand.
+  neutral_prompt: On biega po ___. (piasek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: piasku
+    b: piasek
+    c: piaskowi
+    d: piaskiem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-008
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Он бегает по (песку).
+    russian_native_text:
+      en: He runs in the sand.
+    polish_marked_prompt: On biega po [piasku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: park
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: She walks around the park.
+  neutral_prompt: Ona spaceruje po ___. (park; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: parku
+    b: park
+    c: parkowi
+    d: parkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-009
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Она гуляет по (парку).
+    russian_native_text:
+      en: She walks around the park.
+    polish_marked_prompt: Ona spaceruje po [parku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is dative.

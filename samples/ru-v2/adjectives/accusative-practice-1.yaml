@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-accusative-practice-1-apk
+learning_language: ru
+track: adjectives
+case: accusative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-accusative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старший
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to ask an older sister
+  neutral_prompt: просить ___ (старший сестра)
+  answer_scope: word
+  options:
+    a: старшую
+    b: стуршюю
+    c: старшего
+    d: старшою
+  correct: a
+  source:
+    index: 1
+    prompt: просить (старшую) {сестру}
+    base_or_stem: старшая сестра
+    cyrillic_options:
+    - старшая сестра
+    - стуршюю
+    - старшего
+    - старшою
+    string_ids:
+      prompt: 9622
+      english: 1063
+      stored_options:
+      - 9756
+      - 9786
+      - 8523
+      - 9761
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: документальный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to watch documentaries
+  neutral_prompt: смотреть ___ (документальный фильмы)
+  answer_scope: word
+  options:
+    a: документальные
+    b: документальную
+    c: документальние
+    d: документальный
+  correct: a
+  source:
+    index: 2
+    prompt: смотреть (документальные) {фильмы}
+    base_or_stem: документальные фильмы
+    cyrillic_options:
+    - документальные фильмы
+    - документальную
+    - документальние
+    - документальный
+    string_ids:
+      prompt: 9721
+      english: 4610
+      stored_options:
+      - 9096
+      - 9095
+      - 9094
+      - 9099
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: научный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to read a scientific magazine
+  neutral_prompt: читать ___ (научный журнал)
+  answer_scope: word
+  options:
+    a: научный
+    b: научных
+    c: научний
+    d: научную
+  correct: a
+  source:
+    index: 3
+    prompt: читать (научный) {журнал}
+    base_or_stem: научный журнал
+    cyrillic_options:
+    - научный журнал
+    - научных
+    - научний
+    - научную
+    string_ids:
+      prompt: 9821
+      english: 5653
+      stored_options:
+      - 8466
+      - 8456
+      - 7796
+      - 9447
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: дальний
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to meet far relatives
+  neutral_prompt: встретить ___ (дальний родственники)
+  answer_scope: word
+  options:
+    a: дальних
+    b: дальных
+    c: дальнюю
+    d: дальнов
+  correct: a
+  source:
+    index: 4
+    prompt: встретить (дальних) {родственников}
+    base_or_stem: дальние родственники
+    cyrillic_options:
+    - дальние родственники
+    - дальных
+    - дальнюю
+    - дальнов
+    string_ids:
+      prompt: 8831
+      english: 6742
+      stored_options:
+      - 8931
+      - 8809
+      - 8595
+      - 8966
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красивый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to see a beautiful picture
+  neutral_prompt: видеть ___ (красивый картина)
+  answer_scope: word
+  options:
+    a: красивую
+    b: красивюю
+    c: красивых
+    d: красивое
+  correct: a
+  source:
+    index: 5
+    prompt: видеть (красивую) {картину}
+    base_or_stem: красивая картина
+    cyrillic_options:
+    - красивая картина
+    - красивюю
+    - красивых
+    - красивое
+    string_ids:
+      prompt: 8783
+      english: 5247
+      stored_options:
+      - 9320
+      - 9326
+      - 8883
+      - 9323
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: горький
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to like bitter chocolate
+  neutral_prompt: любить ___ (горький шоколад)
+  answer_scope: word
+  options:
+    a: горький
+    b: горькую
+    c: горькый
+    d: горьких
+  correct: a
+  source:
+    index: 6
+    prompt: 'любить (горький) {шоколад} '
+    base_or_stem: горький шоколад
+    cyrillic_options:
+    - горький шоколад
+    - горькую
+    - горькый
+    - горьких
+    string_ids:
+      prompt: 9392
+      english: 369
+      stored_options:
+      - 8593
+      - 8866
+      - 7628
+      - 8646
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: разный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to like different things
+  neutral_prompt: любить ___ (разный вещи)
+  answer_scope: word
+  options:
+    a: разные
+    b: разных
+    c: разних
+    d: разную
+  correct: a
+  source:
+    index: 7
+    prompt: любить (разные) {вещи}
+    base_or_stem: разные вещи
+    cyrillic_options:
+    - разные вещи
+    - разных
+    - разних
+    - разную
+    string_ids:
+      prompt: 9393
+      english: 7279
+      stored_options:
+      - 9634
+      - 8713
+      - 9629
+      - 9633
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to see blue cars
+  neutral_prompt: видеть ___ (синий машины)
+  answer_scope: word
+  options:
+    a: синие
+    b: синюю
+    c: синих
+    d: синых
+  correct: a
+  source:
+    index: 8
+    prompt: видеть (синие) {машины}
+    base_or_stem: синие машины
+    cyrillic_options:
+    - синие машины
+    - синюю
+    - синих
+    - синых
+    string_ids:
+      prompt: 8784
+      english: 7401
+      stored_options:
+      - 9693
+      - 9703
+      - 9696
+      - 9702
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to meet new students
+  neutral_prompt: встретить ___ (новый студенты)
+  answer_scope: word
+  options:
+    a: новых
+    b: нових
+    c: новыв
+    d: новую
+  correct: a
+  source:
+    index: 9
+    prompt: встретить (новых) {студентов}
+    base_or_stem: новые студенты
+    cyrillic_options:
+    - новые студенты
+    - нових
+    - новыв
+    - новую
+    string_ids:
+      prompt: 8833
+      english: 6014
+      stored_options:
+      - 9476
+      - 9466
+      - 8727
+      - 9472
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: грязный
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: to wash a dirty window
+  neutral_prompt: мыть ___ (грязный окно)
+  answer_scope: word
+  options:
+    a: грязное
+    b: зрязную
+    c: грязный
+    d: грязной
+  correct: a
+  source:
+    index: 10
+    prompt: мыть (грязное) {окно}
+    base_or_stem: грязное окно
+    cyrillic_options:
+    - грязное окно
+    - зрязную
+    - грязный
+    - грязной
+    string_ids:
+      prompt: 9098
+      english: 7453
+      stored_options:
+      - 8958
+      - 9226
+      - 8962
+      - 8961
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: скучный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to read a boring book
+  neutral_prompt: читать ___ (скучный книга)
+  answer_scope: word
+  options:
+    a: скучную
+    b: скучнюю
+    c: скучного
+    d: скучный
+  correct: a
+  source:
+    index: 11
+    prompt: читать (скучную) {книгу}
+    base_or_stem: скучная книга
+    cyrillic_options:
+    - скучная книга
+    - скучнюю
+    - скучного
+    - скучный
+    string_ids:
+      prompt: 9822
+      english: 6462
+      stored_options:
+      - 8508
+      - 9715
+      - 9296
+      - 9711
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-accusative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: интересный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to watch an interesting movie
+  neutral_prompt: смотреть ___ (интересный фильм)
+  answer_scope: word
+  options:
+    a: интересный
+    b: интересного
+    c: интересний
+    d: интересную
+  correct: a
+  source:
+    index: 12
+    prompt: смотреть (интересный) {фильм}
+    base_or_stem: интересный фильм
+    cyrillic_options:
+    - интересный фильм
+    - интересного
+    - интересний
+    - интересную
+    string_ids:
+      prompt: 9722
+      english: 3947
+      stored_options:
+      - 8696
+      - 9156
+      - 7958
+      - 9192
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

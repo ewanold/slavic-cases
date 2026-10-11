@@ -1,0 +1,51 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-quantities-2-3-4-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: quantities-2-3-4
+  name: quantities 2 3 4
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-2-3-4-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: plural
+    gender: neuter
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 4 children.
+  neutral_prompt: Czworo ___. (dziecko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dzieci
+    b: dziecko
+    c: dziecka
+    d: dziecku
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-2-3-4-apk-011
+    russian_file: samples/ru/nouns/genitive-2-3-4.yaml
+    russian_case: genitive
+    russian_topic:
+      id: 2-3-4
+      name: 2, 3, 4
+    russian_prompt: 4 (ребёнка).
+    russian_native_text:
+      en: 4 children.
+    polish_marked_prompt: Czworo [dzieci].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

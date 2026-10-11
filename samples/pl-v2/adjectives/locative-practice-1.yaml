@@ -1,0 +1,382 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-locative-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: locative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-prepositional-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: letni
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: at a summer festival
+  neutral_prompt: na ___ (letni festiwal)
+  answer_scope: word
+  options:
+    a: letnim
+    b: letni
+    c: letniego
+    d: letniemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-001
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: на (летнем) {фестивале}
+    russian_native_text:
+      en: at a summer festival
+    polish_marked_prompt: na [letnim] {festiwalu}
+    polish_context_lemma: festiwal
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: about old buildings
+  neutral_prompt: o ___ (stary budynki)
+  answer_scope: word
+  options:
+    a: starych
+    b: stary
+    c: starego
+    d: staremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-002
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (старых) {зданиях}
+    russian_native_text:
+      en: about old buildings
+    polish_marked_prompt: o [starych] {budynkach}
+    polish_context_lemma: budynek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: błękitny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: in the blue sky
+  neutral_prompt: na ___ (błękitny niebo)
+  answer_scope: word
+  options:
+    a: błękitnym
+    b: błękitny
+    c: błękitnego
+    d: błękitnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-003
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: на (синем) {небе}
+    russian_native_text:
+      en: in the blue sky
+    polish_marked_prompt: na [błękitnym] {niebie}
+    polish_context_lemma: niebo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: about a new project
+  neutral_prompt: o ___ (nowy projekt)
+  answer_scope: word
+  options:
+    a: nowym
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-004
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (новом) {проекте}
+    russian_native_text:
+      en: about a new project
+    polish_marked_prompt: o [nowym] {projekcie}
+    polish_context_lemma: projekt
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: about a good friend
+  neutral_prompt: o ___ (dobry przyjaciel)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-005
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (хорошем) {друге}
+    russian_native_text:
+      en: about a good friend
+    polish_marked_prompt: o [dobrym] {przyjacielu}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to live in small houses
+  neutral_prompt: mieszkać w ___ (mały domy)
+  answer_scope: word
+  options:
+    a: małych
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-006
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: жить в (маленьких) {домах}
+    russian_native_text:
+      en: to live in small houses
+    polish_marked_prompt: mieszkać w [małych] {domach}
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zimny
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to live in cold countries
+  neutral_prompt: mieszkać w ___ (zimny kraje)
+  answer_scope: word
+  options:
+    a: zimnych
+    b: zimny
+    c: zimnego
+    d: zimnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-007
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: жить в (холодных) {странах}
+    russian_native_text:
+      en: to live in cold countries
+    polish_marked_prompt: mieszkać w [zimnych] {krajach}
+    polish_context_lemma: kraj
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ważny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: at the important meeting
+  neutral_prompt: na ___ (ważny spotkanie)
+  answer_scope: word
+  options:
+    a: ważnym
+    b: ważny
+    c: ważnego
+    d: ważnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-008
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: на (важной) {встрече}
+    russian_native_text:
+      en: at the important meeting
+    polish_marked_prompt: na [ważnym] {spotkaniu}
+    polish_context_lemma: spotkanie
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is feminine.
+- id: pl-adjectives-prepositional-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: a woman in a blue dress
+  neutral_prompt: kobieta w ___ (niebieski sukienka)
+  answer_scope: word
+  options:
+    a: niebieskiej
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-009
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: женщина в (синем) {платье}
+    russian_native_text:
+      en: a woman in a blue dress
+    polish_marked_prompt: kobieta w [niebieskiej] {sukience}
+    polish_context_lemma: sukienka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is neuter.
+- id: pl-adjectives-prepositional-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: a ball in a blue box
+  neutral_prompt: piłka w ___ (niebieski pudełko)
+  answer_scope: word
+  options:
+    a: niebieskim
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-010
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: мяч в (синей) {коробке}
+    russian_native_text:
+      en: a ball in a blue box
+    polish_marked_prompt: piłka w [niebieskim] {pudełku}
+    polish_context_lemma: pudełko
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is feminine.
+- id: pl-adjectives-prepositional-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to live in a small town
+  neutral_prompt: mieszkać w ___ (mały miasto)
+  answer_scope: word
+  options:
+    a: małym
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-011
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: жить в (маленьком) {городе}
+    russian_native_text:
+      en: to live in a small town
+    polish_marked_prompt: mieszkać w [małym] {mieście}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-prepositional-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to live in a big city
+  neutral_prompt: mieszkać w ___ (duży miasto)
+  answer_scope: word
+  options:
+    a: dużym
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-1-apk-012
+    russian_file: samples/ru/adjectives/prepositional-practice-1.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: жить в (большом) {городе}
+    russian_native_text:
+      en: to live in a big city
+    polish_marked_prompt: mieszkać w [dużym] {mieście}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.

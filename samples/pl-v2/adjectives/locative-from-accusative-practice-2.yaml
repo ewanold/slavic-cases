@@ -1,0 +1,116 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-locative-from-accusative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: locative
+topic:
+  id: from-accusative-practice-2
+  name: from accusative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-accusative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: about famous people
+  neutral_prompt: o ___ (znany ludzie)
+  answer_scope: word
+  options:
+    a: znanych
+    b: znany
+    c: znanego
+    d: znanemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-003
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: про (известных) {людей}
+    russian_native_text:
+      en: about famous people
+    polish_marked_prompt: o [znanych] {ludziach}
+    polish_context_lemma: człowiek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is accusative.
+- id: pl-adjectives-accusative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: about good friends
+  neutral_prompt: o ___ (dobry przyjaciele)
+  answer_scope: word
+  options:
+    a: dobrych
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-004
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: про (хороших) {друзей}
+    russian_native_text:
+      en: about good friends
+    polish_marked_prompt: o [dobrych] {przyjaciołach}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is accusative.
+- id: pl-adjectives-accusative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: piękny
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: about a beautiful woman
+  neutral_prompt: o ___ (piękny kobieta)
+  answer_scope: word
+  options:
+    a: pięknej
+    b: piękny
+    c: pięknego
+    d: pięknemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-2-apk-005
+    russian_file: samples/ru/adjectives/accusative-practice-2.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: про (красивую) {женщину}
+    russian_native_text:
+      en: about a beautiful woman
+    polish_marked_prompt: o [pięknej] {kobiecie}
+    polish_context_lemma: kobieta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is accusative.

@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-nouns-accusative-starter
+learning_language: de
+track: nouns
+case: accusative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-nouns-accusative-01
+  word_type: noun
+  dictionary_form: Mann
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the man.
+    de: Ich sehe den Mann.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Mann; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: den Mann
+    b: der Mann
+    c: des Mannes
+    d: dem Mann
+  correct: a
+- id: de-nouns-accusative-02
+  word_type: noun
+  dictionary_form: Frau
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the woman.
+    de: Ich besuche die Frau.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Frau; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Frau
+    b: die Frau
+    c: dem Frau
+    d: des Frau
+  correct: b
+- id: de-nouns-accusative-03
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the child.
+    de: Ich sehe das Kind.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: des Kindes
+    b: dem Kind
+    c: das Kind
+    d: den Kind
+  correct: c
+- id: de-nouns-accusative-04
+  word_type: noun
+  dictionary_form: Lehrer
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I ask the male teacher.
+    de: Ich frage den Lehrer.
+  neutral_prompt: Ich frage ___. (bestimmter Artikel; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Lehrer
+    b: des Lehrers
+    c: dem Lehrer
+    d: den Lehrer
+  correct: d
+- id: de-nouns-accusative-05
+  word_type: noun
+  dictionary_form: Ärztin
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the female doctor.
+    de: Ich besuche die Ärztin.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Ärztin
+    b: der Ärztin
+    c: dem Ärztin
+    d: des Ärztin
+  correct: a
+- id: de-nouns-accusative-06
+  word_type: noun
+  dictionary_form: Bruder
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the brother.
+    de: Ich besuche den Bruder.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Bruder; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Bruder
+    b: den Bruder
+    c: des Bruders
+    d: dem Bruder
+  correct: b
+- id: de-nouns-accusative-07
+  word_type: noun
+  dictionary_form: Schwester
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the sister.
+    de: Ich sehe die Schwester.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Schwester; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Schwester
+    b: dem Schwester
+    c: die Schwester
+    d: des Schwester
+  correct: c
+- id: de-nouns-accusative-08
+  word_type: noun
+  dictionary_form: Freund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the male friend.
+    de: Ich besuche den Freund.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Freund
+    b: des Freundes
+    c: dem Freund
+    d: den Freund
+  correct: d
+- id: de-nouns-accusative-09
+  word_type: noun
+  dictionary_form: Student
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the male student.
+    de: Ich sehe den Studenten.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Student; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: den Studenten
+    b: der Student
+    c: des Studenten
+    d: dem Studenten
+  correct: a
+- id: de-nouns-accusative-10
+  word_type: noun
+  dictionary_form: Nachbar
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the male neighbour.
+    de: Ich besuche den Nachbarn.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Nachbar; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Nachbar
+    b: den Nachbarn
+    c: des Nachbarn
+    d: dem Nachbarn
+  correct: b
+- id: de-nouns-accusative-11
+  word_type: noun
+  dictionary_form: Vater
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the father.
+    de: Ich sehe den Vater.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Vater; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Vater
+    b: des Vaters
+    c: den Vater
+    d: dem Vater
+  correct: c
+- id: de-nouns-accusative-12
+  word_type: noun
+  dictionary_form: Mutter
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I visit the mother.
+    de: Ich besuche die Mutter.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; Mutter; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Mutter
+    b: dem Mutter
+    c: des Mutter
+    d: die Mutter
+  correct: d
+- id: de-nouns-accusative-13
+  word_type: noun
+  dictionary_form: Buch
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: noun
+  native_text:
+    en: I read the book.
+    de: Ich lese das Buch.
+  neutral_prompt: Ich lese ___. (bestimmter Artikel; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das Buch
+    b: des Buches
+    c: dem Buch
+    d: den Buch
+  correct: a
+- id: de-nouns-accusative-14
+  word_type: noun
+  dictionary_form: Hund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the dog.
+    de: Ich sehe den Hund.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Hund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Hund
+    b: den Hund
+    c: des Hundes
+    d: dem Hund
+  correct: b
+- id: de-nouns-accusative-15
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: noun
+  native_text:
+    en: I see the children.
+    de: Ich sehe die Kinder.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: der Kinder
+    b: den Kindern
+    c: die Kinder
+    d: dem Kinder
+  correct: c

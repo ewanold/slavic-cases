@@ -1,0 +1,405 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-nominative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: nominative
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-nominative-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: biały
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a white cat
+  neutral_prompt: ___ (biały kot)
+  answer_scope: word
+  options:
+    a: biały
+    b: białego
+    c: białemu
+    d: białym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-001
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: (белая) кошка
+    russian_native_text:
+      en: a white cat
+    polish_marked_prompt: '[biały] {kot}'
+    polish_context_lemma: kot
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-nominative-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: blue jeans
+  neutral_prompt: ___ (niebieski dżinsy)
+  answer_scope: word
+  options:
+    a: niebieskie
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-002
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (синие) джинсы
+    russian_native_text:
+      en: blue jeans
+    polish_marked_prompt: '[niebieskie] {dżinsy}'
+    polish_context_lemma: dżinsy
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: new toys
+  neutral_prompt: ___ (nowy zabawki)
+  answer_scope: word
+  options:
+    a: nowe
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-003
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (новые) игрушки
+    russian_native_text:
+      en: new toys
+    polish_marked_prompt: '[nowe] {zabawki}'
+    polish_context_lemma: zabawka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: angielski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: English language
+  neutral_prompt: ___ (angielski język)
+  answer_scope: word
+  options:
+    a: angielski
+    b: angielskiego
+    c: angielskiemu
+    d: angielskim
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-004
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (английский) язык
+    russian_native_text:
+      en: English language
+    polish_marked_prompt: '[angielski] {język}'
+    polish_context_lemma: język
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czarny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: a black suit
+  neutral_prompt: ___ (czarny garnitur)
+  answer_scope: word
+  options:
+    a: czarny
+    b: czarnego
+    c: czarnemu
+    d: czarnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-005
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (чёрный) костюм
+    russian_native_text:
+      en: a black suit
+    polish_marked_prompt: '[czarny] {garnitur}'
+    polish_context_lemma: garnitur
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: gorący
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: hot tea
+  neutral_prompt: ___ (gorący herbata)
+  answer_scope: word
+  options:
+    a: gorąca
+    b: gorący
+    c: gorącego
+    d: gorącemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-006
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (горячий) чай
+    russian_native_text:
+      en: hot tea
+    polish_marked_prompt: '[gorąca] {herbata}'
+    polish_context_lemma: herbata
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-nominative-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zimny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: cold water
+  neutral_prompt: ___ (zimny woda)
+  answer_scope: word
+  options:
+    a: zimna
+    b: zimny
+    c: zimnego
+    d: zimnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-007
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (холодная) вода
+    russian_native_text:
+      en: cold water
+    polish_marked_prompt: '[zimna] {woda}'
+    polish_context_lemma: woda
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: a good movie
+  neutral_prompt: ___ (dobry film)
+  answer_scope: word
+  options:
+    a: dobry
+    b: dobrego
+    c: dobremu
+    d: dobrym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-008
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (хороший) фильм
+    russian_native_text:
+      en: a good movie
+    polish_marked_prompt: '[dobry] {film}'
+    polish_context_lemma: film
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: interesujący
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: an interesting book
+  neutral_prompt: ___ (interesujący książka)
+  answer_scope: word
+  options:
+    a: interesująca
+    b: interesujący
+    c: interesującego
+    d: interesującemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-009
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (интересная) книга
+    russian_native_text:
+      en: an interesting book
+    polish_marked_prompt: '[interesująca] {książka}'
+    polish_context_lemma: książka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wierny
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a loyal friend
+  neutral_prompt: ___ (wierny przyjaciel)
+  answer_scope: word
+  options:
+    a: wierny
+    b: wiernego
+    c: wiernemu
+    d: wiernym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-010
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (верный) друг
+    russian_native_text:
+      en: a loyal friend
+    polish_marked_prompt: '[wierny] {przyjaciel}'
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: big houses
+  neutral_prompt: ___ (duży domy)
+  answer_scope: word
+  options:
+    a: duże
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-011
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (большие) дома
+    russian_native_text:
+      en: big houses
+    polish_marked_prompt: '[duże] {domy}'
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nudny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: a boring book
+  neutral_prompt: ___ (nudny książka)
+  answer_scope: word
+  options:
+    a: nudna
+    b: nudny
+    c: nudnego
+    d: nudnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-012
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (скучная) книга
+    russian_native_text:
+      en: a boring book
+    polish_marked_prompt: '[nudna] {książka}'
+    polish_context_lemma: książka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-nominative-practice-2-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zimowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: winter day
+  neutral_prompt: ___ (zimowy dzień)
+  answer_scope: word
+  options:
+    a: zimowy
+    b: zimowego
+    c: zimowemu
+    d: zimowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-nominative-practice-2-apk-013
+    russian_file: samples/ru/adjectives/nominative-practice-2.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (зимний) день
+    russian_native_text:
+      en: winter day
+    polish_marked_prompt: '[zimowy] {dzień}'
+    polish_context_lemma: dzień
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

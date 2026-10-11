@@ -1,0 +1,560 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: from a faraway country
+  neutral_prompt: z ___ (daleki kraj)
+  answer_scope: word
+  options:
+    a: dalekiego
+    b: daleki
+    c: dalekiemu
+    d: dalekim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-001
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: из (далёкой) {страны}
+    russian_native_text:
+      en: from a faraway country
+    polish_marked_prompt: z [dalekiego] {kraju}
+    polish_context_lemma: kraj
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: from a good university
+  neutral_prompt: z ___ (dobry uniwersytet)
+  answer_scope: word
+  options:
+    a: dobrego
+    b: dobry
+    c: dobremu
+    d: dobrym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-002
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: из (хорошего) {университета}
+    russian_native_text:
+      en: from a good university
+    polish_marked_prompt: z [dobrego] {uniwersytetu}
+    polish_context_lemma: uniwersytet
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: głęboki
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: out of deep water
+  neutral_prompt: z ___ (głęboki woda)
+  answer_scope: word
+  options:
+    a: głębokiej
+    b: głęboki
+    c: głębokiego
+    d: głębokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-003
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: из (глубокой) {воды}
+    russian_native_text:
+      en: out of deep water
+    polish_marked_prompt: z [głębokiej] {wody}
+    polish_context_lemma: woda
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: from small towns
+  neutral_prompt: z ___ (mały miasta)
+  answer_scope: word
+  options:
+    a: małych
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-004
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: из (маленьких) {городов}
+    russian_native_text:
+      en: from small towns
+    polish_marked_prompt: z [małych] {miast}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: from old houses
+  neutral_prompt: ze ___ (stary domy)
+  answer_scope: word
+  options:
+    a: starych
+    b: stary
+    c: starego
+    d: staremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-005
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: из (старых) {домов}
+    russian_native_text:
+      en: from old houses
+    polish_marked_prompt: ze [starych] {domów}
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to come from a big city
+  neutral_prompt: przyjechać z ___ (duży miasto)
+  answer_scope: word
+  options:
+    a: dużego
+    b: duży
+    c: dużemu
+    d: dużym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-006
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: приехать из (большого) {города}
+    russian_native_text:
+      en: to come from a big city
+    polish_marked_prompt: przyjechać z [dużego] {miasta}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: from a big stage
+  neutral_prompt: z ___ (duży scena)
+  answer_scope: word
+  options:
+    a: dużej
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-007
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: с (большой) {сцены}
+    russian_native_text:
+      en: from a big stage
+    polish_marked_prompt: z [dużej] {sceny}
+    polish_context_lemma: scena
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: from the Far East
+  neutral_prompt: z ___ (daleki Wschód)
+  answer_scope: word
+  options:
+    a: Dalekiego
+    b: Daleki
+    c: Dalekiemu
+    d: Dalekim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-008
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: с (Дальнего) {Востока}
+    russian_native_text:
+      en: from the Far East
+    polish_marked_prompt: z [Dalekiego] {Wschodu}
+    polish_context_lemma: Wschód
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: długi
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to come back from a long walk
+  neutral_prompt: wrócić z ___ (długi spacer)
+  answer_scope: word
+  options:
+    a: długiego
+    b: długi
+    c: długiemu
+    d: długim
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-009
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: вернуться с (долгой) {прогулки}
+    russian_native_text:
+      en: to come back from a long walk
+    polish_marked_prompt: wrócić z [długiego] {spaceru}
+    polish_context_lemma: spacer
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nudny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to leave a boring lesson
+  neutral_prompt: wyjść z ___ (nudny lekcja)
+  answer_scope: word
+  options:
+    a: nudnej
+    b: nudny
+    c: nudnego
+    d: nudnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-010
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: уйти со (скучного) {урока}
+    russian_native_text:
+      en: to leave a boring lesson
+    polish_marked_prompt: wyjść z [nudnej] {lekcji}
+    polish_context_lemma: lekcja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: a view from high floors
+  neutral_prompt: widok z ___ (wysoki piętra)
+  answer_scope: word
+  options:
+    a: wysokich
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-011
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: вид с (высоких) {этажей}
+    russian_native_text:
+      en: a view from high floors
+    polish_marked_prompt: widok z [wysokich] {pięter}
+    polish_context_lemma: piętro
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ważny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to leave an important meeting
+  neutral_prompt: wyjść z ___ (ważny spotkanie)
+  answer_scope: word
+  options:
+    a: ważnego
+    b: ważny
+    c: ważnemu
+    d: ważnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-012
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: уйти с (важной) {встречи}
+    russian_native_text:
+      en: to leave an important meeting
+    polish_marked_prompt: wyjść z [ważnego] {spotkania}
+    polish_context_lemma: spotkanie
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is feminine.
+- id: pl-adjectives-genitive-practice-2-apk-017
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: near the old house
+  neutral_prompt: obok ___ (stary dom)
+  answer_scope: word
+  options:
+    a: starego
+    b: stary
+    c: staremu
+    d: starym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-017
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: около (старого) {дома}
+    russian_native_text:
+      en: near the old house
+    polish_marked_prompt: obok [starego] {domu}
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-018
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: near the blue door
+  neutral_prompt: obok ___ (niebieski drzwi)
+  answer_scope: word
+  options:
+    a: niebieskich
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-018
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: около (синей) {двери}
+    russian_native_text:
+      en: near the blue door
+    polish_marked_prompt: obok [niebieskich] {drzwi}
+    polish_context_lemma: drzwi
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-019
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: główny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: near the main entrance
+  neutral_prompt: obok ___ (główny wejście)
+  answer_scope: word
+  options:
+    a: głównego
+    b: główny
+    c: głównemu
+    d: głównym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-019
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: около (главного) {входа}
+    russian_native_text:
+      en: near the main entrance
+    polish_marked_prompt: obok [głównego] {wejścia}
+    polish_context_lemma: wejście
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-genitive-practice-2-apk-021
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: near the tall buildings
+  neutral_prompt: obok ___ (wysoki budynki)
+  answer_scope: word
+  options:
+    a: wysokich
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-021
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: около (высоких) {зданий}
+    russian_native_text:
+      en: near the tall buildings
+    polish_marked_prompt: obok [wysokich] {budynków}
+    polish_context_lemma: budynek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-023
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: centralny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: near the central station
+  neutral_prompt: obok ___ (centralny stacja)
+  answer_scope: word
+  options:
+    a: centralnej
+    b: centralny
+    c: centralnego
+    d: centralnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-023
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: около (центральной) {станции}
+    russian_native_text:
+      en: near the central station
+    polish_marked_prompt: obok [centralnej] {stacji}
+    polish_context_lemma: stacja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-genitive-practice-2-apk-024
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: At an old friend’s house.
+  neutral_prompt: W domu u ___ . (stary przyjaciel)
+  answer_scope: word
+  options:
+    a: starego
+    b: stary
+    c: staremu
+    d: starym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-024
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Дома у (старого) {друга}.
+    russian_native_text:
+      en: At an old friend’s house.
+    polish_marked_prompt: W domu u [starego] {przyjaciela}.
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

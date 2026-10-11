@@ -1,0 +1,225 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-accusative-w-na-adapted
+learning_language: pl
+track: nouns
+case: accusative
+topic:
+  id: w-na
+  name: w na
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-accusative-v-na-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: spotkanie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: I’m going to a meeting.
+  neutral_prompt: Idę na ___. (spotkanie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: spotkanie
+    b: spotkania
+    c: spotkaniu
+    d: spotkaniem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-007
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: v-na
+      name: в, на
+    russian_prompt: Я иду на (встречу).
+    russian_native_text:
+      en: I’m going to a meeting.
+    polish_marked_prompt: Idę na [spotkanie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: obiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Colleagues go to lunch.
+  neutral_prompt: Koledzy idą na ___. (obiad; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: obiad
+    b: obiadu
+    c: obiadowi
+    d: obiadem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-008
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Коллеги идут на (обед).
+    russian_native_text:
+      en: Colleagues go to lunch.
+    polish_marked_prompt: Koledzy idą na [obiad].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mecz
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Tickets to a football match.
+  neutral_prompt: Bilety na ___ piłki nożnej. (mecz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mecz
+    b: meczu
+    c: meczowi
+    d: meczem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-009
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Билеты на (футбол).
+    russian_native_text:
+      en: Tickets to a football match.
+    polish_marked_prompt: Bilety na [mecz] piłki nożnej.
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: samolot
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Plane tickets.
+  neutral_prompt: Bilet na ___. (samolot; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: samolot
+    b: samolotu
+    c: samolotowi
+    d: samolotem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-010
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Билет на (самолёт).
+    russian_native_text:
+      en: Plane tickets.
+    polish_marked_prompt: Bilet na [samolot].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: koncert
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Tickets to a concert.
+  neutral_prompt: Bilet na ___. (koncert; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: koncert
+    b: koncertu
+    c: koncertowi
+    d: koncertem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-011
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Билет на (концерт).
+    russian_native_text:
+      en: Tickets to a concert.
+    polish_marked_prompt: Bilet na [koncert].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ślub
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Invitation to a wedding.
+  neutral_prompt: Zaproszenie na ___. (ślub; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ślub
+    b: ślubu
+    c: ślubowi
+    d: ślubem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-012
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Приглашение на (свадьбу).
+    russian_native_text:
+      en: Invitation to a wedding.
+    polish_marked_prompt: Zaproszenie na [ślub].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-v-na-apk-014
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wyspa
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: They went to islands.
+  neutral_prompt: Oni latali na ___. (wyspa; liczba mnoga)
+  answer_scope: word
+  options:
+    a: wyspy
+    b: wyspa
+    c: wyspę
+    d: wyspą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-v-na-apk-014
+    russian_file: samples/ru/nouns/accusative-v-na.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Они летали на (острова).
+    russian_native_text:
+      en: They went to islands.
+    polish_marked_prompt: Oni latali na [wyspy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-ownership-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: ownership
+  name: ownership
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-ownership-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: начальник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The boss's office.
+  neutral_prompt: Офис ___. (начальник)
+  answer_scope: word
+  options:
+    a: начальника
+    b: начальником
+    c: начальникя
+    d: начальникой
+  correct: a
+  source:
+    index: 1
+    prompt: Офис (начальника).
+    base_or_stem: начальник
+    cyrillic_options:
+    - начальник
+    - начальником
+    - начальникя
+    - начальникой
+    string_ids:
+      prompt: 8265
+      english: 5949
+      stored_options:
+      - 7734
+      - 8445
+      - 9450
+      - 9449
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Sister’s room.
+  neutral_prompt: Комната ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестре
+    c: сестру
+    d: сестри
+  correct: a
+  source:
+    index: 2
+    prompt: Комната (сестры).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестре
+    - сестру
+    - сестри
+    string_ids:
+      prompt: 8067
+      english: 7936
+      stored_options:
+      - 7784
+      - 7786
+      - 9623
+      - 9686
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A friend’s job.
+  neutral_prompt: Работа ___. (друг)
+  answer_scope: word
+  options:
+    a: друга
+    b: другом
+    c: друге
+    d: другу
+  correct: a
+  source:
+    index: 3
+    prompt: Работа (друга).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - другом
+    - друге
+    - другу
+    string_ids:
+      prompt: 8298
+      english: 7906
+      stored_options:
+      - 7626
+      - 8179
+      - 8026
+      - 7971
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: папа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Father’s book.
+  neutral_prompt: Книга ___. (папа)
+  answer_scope: word
+  options:
+    a: папы
+    b: папе
+    c: папу
+    d: папой
+  correct: a
+  source:
+    index: 4
+    prompt: Книга (папы).
+    base_or_stem: папа
+    cyrillic_options:
+    - папа
+    - папе
+    - папу
+    - папой
+    string_ids:
+      prompt: 8059
+      english: 7914
+      stored_options:
+      - 9514
+      - 9354
+      - 9518
+      - 9470
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: подруга
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: A girlfriend’s car.
+  neutral_prompt: Машина ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруги
+    b: подругой
+    c: подругы
+    d: подругу
+  correct: a
+  source:
+    index: 5
+    prompt: Машина (подруги).
+    base_or_stem: подруга
+    cyrillic_options:
+    - подруга
+    - подругой
+    - подругы
+    - подругу
+    string_ids:
+      prompt: 8121
+      english: 7907
+      stored_options:
+      - 7767
+      - 9138
+      - 9565
+      - 9563
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Parents’ money.
+  neutral_prompt: Деньги ___. (родители)
+  answer_scope: word
+  options:
+    a: родителей
+    b: родителям
+    c: родитель
+    d: родителы
+  correct: a
+  source:
+    index: 6
+    prompt: Деньги (родителей).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родителям
+    - родитель
+    - родителы
+    string_ids:
+      prompt: 8016
+      english: 7932
+      stored_options:
+      - 8668
+      - 7976
+      - 9649
+      - 9638
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: коллега
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A colleague's computer.
+  neutral_prompt: Компьютер ___. (коллега)
+  answer_scope: word
+  options:
+    a: коллеги
+    b: коллегы
+    c: коллегой
+    d: коллегам
+  correct: a
+  source:
+    index: 7
+    prompt: Компьютер (коллеги).
+    base_or_stem: коллега
+    cyrillic_options:
+    - коллега
+    - коллегы
+    - коллегой
+    - коллегам
+    string_ids:
+      prompt: 8069
+      english: 4462
+      stored_options:
+      - 9276
+      - 9283
+      - 9280
+      - 9277
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: A sister’s magazine.
+  neutral_prompt: Журнал ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестрой
+    c: сестру
+    d: сестри
+  correct: a
+  source:
+    index: 8
+    prompt: Журнал (сестры).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестрой
+    - сестру
+    - сестри
+    string_ids:
+      prompt: 8034
+      english: 7909
+      stored_options:
+      - 7784
+      - 8449
+      - 9623
+      - 9686
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Александр
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Alexandr’s house.
+  neutral_prompt: Дом ___. (Александр)
+  answer_scope: word
+  options:
+    a: Александра
+    b: Александру
+    c: Александром
+    d: Александры
+  correct: a
+  source:
+    index: 9
+    prompt: Дом (Александра).
+    base_or_stem: Александр
+    cyrillic_options:
+    - Александр
+    - Александру
+    - Александром
+    - Александры
+    string_ids:
+      prompt: 8018
+      english: 7910
+      stored_options:
+      - 7952
+      - 7956
+      - 7953
+      - 7959
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сосед
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A neighbour’s dog.
+  neutral_prompt: Собака ___. (сосед)
+  answer_scope: word
+  options:
+    a: соседа
+    b: соседи
+    c: соседам
+    d: соседы
+  correct: a
+  source:
+    index: 10
+    prompt: Собака (соседа).
+    base_or_stem: сосед
+    cyrillic_options:
+    - сосед
+    - соседи
+    - соседам
+    - соседы
+    string_ids:
+      prompt: 8339
+      english: 7908
+      stored_options:
+      - 8340
+      - 9743
+      - 9478
+      - 9744
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: бабушка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Grandmother’s glasses.
+  neutral_prompt: Очки ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушки
+    b: бабушке
+    c: бабушкы
+    d: бабушками
+  correct: a
+  source:
+    index: 11
+    prompt: Очки (бабушки).
+    base_or_stem: бабушка
+    cyrillic_options:
+    - бабушка
+    - бабушке
+    - бабушкы
+    - бабушками
+    string_ids:
+      prompt: 8267
+      english: 7915
+      stored_options:
+      - 8516
+      - 8155
+      - 8524
+      - 8517
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ownership-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A child’s toy.
+  neutral_prompt: Игрушка ___. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнка
+    b: ребёнки
+    c: ребёнокя
+    d: ребёнком
+  correct: a
+  source:
+    index: 12
+    prompt: Игрушка (ребёнка).
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребёнки
+    - ребёнокя
+    - ребёнком
+    string_ids:
+      prompt: 8046
+      english: 7905
+      stored_options:
+      - 8813
+      - 9646
+      - 8814
+      - 8063
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

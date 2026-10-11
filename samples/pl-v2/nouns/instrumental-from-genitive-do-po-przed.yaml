@@ -1,0 +1,52 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-from-genitive-do-po-przed-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: from-genitive-do-po-przed
+  name: from genitive do po przed
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-do-posle-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: święto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A day before a holiday.
+  neutral_prompt: Dzień przed ___. (święto; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: świętem
+    b: święto
+    c: święta
+    d: świętu
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-003
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic:
+      id: do-posle
+      name: до, после
+    russian_prompt: День до (праздника).
+    russian_native_text:
+      en: A day before a holiday.
+    polish_marked_prompt: Dzień przed [świętem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is genitive.

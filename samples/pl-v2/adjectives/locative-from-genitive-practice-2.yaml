@@ -1,0 +1,52 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-locative-from-genitive-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: locative
+topic:
+  id: from-genitive-practice-2
+  name: from genitive practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-2-apk-022
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to live near a big road
+  neutral_prompt: mieszkać przy ___ (duży droga)
+  answer_scope: word
+  options:
+    a: dużej
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-022
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic:
+      id: practice-2
+      name: practice 2
+    russian_prompt: жить у (большой) {дороги}
+    russian_native_text:
+      en: to live near a big road
+    polish_marked_prompt: mieszkać przy [dużej] {drodze}
+    polish_context_lemma: droga
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses locative; the Russian source exercise is genitive.

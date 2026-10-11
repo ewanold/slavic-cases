@@ -1,0 +1,369 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-locative-w-na-adapted
+learning_language: pl
+track: nouns
+case: locative
+topic:
+  id: w-na
+  name: w na
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-prepositional-v-na-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Moskwa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I live in Moscow.
+  neutral_prompt: Mieszkam w ___. (Moskwa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Moskwie
+    b: Moskwa
+    c: Moskwy
+    d: Moskwę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-001
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: &id001
+      id: v-na
+      name: в, на
+    russian_prompt: Я живу в (Москве).
+    russian_native_text:
+      en: I live in Moscow.
+    polish_marked_prompt: Mieszkam w [Moskwie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: biuro
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: He works in an office.
+  neutral_prompt: On pracuje w ___. (biuro; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: biurze
+    b: biuro
+    c: biura
+    d: biuru
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-002
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Он работает в (офисе).
+    russian_native_text:
+      en: He works in an office.
+    polish_marked_prompt: On pracuje w [biurze].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pudełko
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Candies in a box.
+  neutral_prompt: Cukierki w ___. (pudełko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pudełku
+    b: pudełko
+    c: pudełka
+    d: pudełkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-003
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Конфеты в (коробке).
+    russian_native_text:
+      en: Candies in a box.
+    polish_marked_prompt: Cukierki w [pudełku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szafa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Clothes in a wardrobe.
+  neutral_prompt: Ubrania w ___. (szafa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szafie
+    b: szafa
+    c: szafy
+    d: szafę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-004
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Одежда в (шкафу).
+    russian_native_text:
+      en: Clothes in a wardrobe.
+    polish_marked_prompt: Ubrania w [szafie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: internet
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: An article in the internet.
+  neutral_prompt: Artykuł w ___. (internet; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: internecie
+    b: internet
+    c: internetu
+    d: internetowi
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-005
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Статья в (интернете).
+    russian_native_text:
+      en: An article in the internet.
+    polish_marked_prompt: Artykuł w [internecie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Rosja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: We live in Russia.
+  neutral_prompt: Mieszkamy w ___. (Rosja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Rosji
+    b: Rosja
+    c: Rosję
+    d: Rosją
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-006
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Мы живём в (России).
+    russian_native_text:
+      en: We live in Russia.
+    polish_marked_prompt: Mieszkamy w [Rosji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: spotkanie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: He is at the meeting.
+  neutral_prompt: On jest na ___. (spotkanie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: spotkaniu
+    b: spotkanie
+    c: spotkania
+    d: spotkaniem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-007
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Он на (встрече).
+    russian_native_text:
+      en: He is at the meeting.
+    polish_marked_prompt: On jest na [spotkaniu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ulica
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: We’re outside.
+  neutral_prompt: Jesteśmy na ___. (ulica; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ulicy
+    b: ulica
+    c: ulicę
+    d: ulicą
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-008
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Мы на (улице).
+    russian_native_text:
+      en: We’re outside.
+    polish_marked_prompt: Jesteśmy na [ulicy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: niebo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Clouds in the sky.
+  neutral_prompt: Chmury na ___. (niebo; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: niebie
+    b: niebo
+    c: nieba
+    d: niebu
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-009
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Облака на (небе).
+    russian_native_text:
+      en: Clouds in the sky.
+    polish_marked_prompt: Chmury na [niebie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kanapa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To sit on the sofa.
+  neutral_prompt: Siedzieć na ___. (kanapa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kanapie
+    b: kanapa
+    c: kanapy
+    d: kanapę
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-010
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Сидеть на (диване).
+    russian_native_text:
+      en: To sit on the sofa.
+    polish_marked_prompt: Siedzieć na [kanapie].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dach
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The bird on the roof.
+  neutral_prompt: Ptak na ___. (dach; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dachu
+    b: dach
+    c: dachowi
+    d: dachem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-011
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Птица на (крыше).
+    russian_native_text:
+      en: The bird on the roof.
+    polish_marked_prompt: Ptak na [dachu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-prepositional-v-na-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: festiwal
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Music at the festival.
+  neutral_prompt: Muzyka na ___. (festiwal; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: festiwalu
+    b: festiwal
+    c: festiwalowi
+    d: festiwalem
+  correct: a
+  source:
+    russian_id: ru-nouns-prepositional-v-na-apk-012
+    russian_file: samples/ru/nouns/prepositional-v-na.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: Музыка на (фестивале).
+    russian_native_text:
+      en: Music at the festival.
+    polish_marked_prompt: Muzyka na [festiwalu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-nominative-plural-neuter-apk
+learning_language: ru
+track: nouns
+case: nominative
+topic:
+  id: plural-neuter
+  name: Plural neuter
+native_languages:
+- en
+instruction:
+  en: Choose the nominative plural form of the noun.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-plural-neuter-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: окно
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: windows
+  neutral_prompt: ___ (окно)
+  answer_scope: word
+  options:
+    a: окна
+    b: окны
+    c: окни
+    d: окня
+  correct: a
+  source:
+    index: 1
+    prompt: (окно)
+    base_or_stem: окно
+    cyrillic_options:
+    - окна
+    - окны
+    - окни
+    - окня
+    string_ids:
+      prompt: 7755
+      english: 1232
+      stored_options:
+      - 7615
+      - 9492
+      - 9271
+      - 9494
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вино
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: wines
+  neutral_prompt: ___ (вино)
+  answer_scope: word
+  options:
+    a: вина
+    b: вины
+    c: вини
+    d: виня
+  correct: a
+  source:
+    index: 2
+    prompt: (вино)
+    base_or_stem: вино
+    cyrillic_options:
+    - вина
+    - вины
+    - вини
+    - виня
+    string_ids:
+      prompt: 7634
+      english: 3572
+      stored_options:
+      - 8788
+      - 8793
+      - 8790
+      - 8794
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: море
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: seas
+  neutral_prompt: ___ (море)
+  answer_scope: word
+  options:
+    a: моря
+    b: мори
+    c: морю
+    d: моры
+  correct: a
+  source:
+    index: 3
+    prompt: (море)
+    base_or_stem: море
+    cyrillic_options:
+    - моря
+    - мори
+    - морю
+    - моры
+    string_ids:
+      prompt: 7726
+      english: 7463
+      stored_options:
+      - 8224
+      - 8863
+      - 9428
+      - 8819
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: здание
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: buildings
+  neutral_prompt: ___ (здание)
+  answer_scope: word
+  options:
+    a: здания
+    b: здании
+    c: зданы
+    d: зданя
+  correct: a
+  source:
+    index: 4
+    prompt: (здание)
+    base_or_stem: здание
+    cyrillic_options:
+    - здания
+    - здании
+    - зданы
+    - зданя
+    string_ids:
+      prompt: 7670
+      english: 6522
+      stored_options:
+      - 8186
+      - 9191
+      - 9197
+      - 9198
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кресло
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: armchairs
+  neutral_prompt: ___ (кресло)
+  answer_scope: word
+  options:
+    a: кресла
+    b: кресли
+    c: креслы
+    d: кресля
+  correct: a
+  source:
+    index: 5
+    prompt: (кресло)
+    base_or_stem: кресло
+    cyrillic_options:
+    - кресла
+    - кресли
+    - креслы
+    - кресля
+    string_ids:
+      prompt: 7695
+      english: 4573
+      stored_options:
+      - 8476
+      - 9331
+      - 9333
+      - 9334
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: поле
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: fields
+  neutral_prompt: ___ (поле)
+  answer_scope: word
+  options:
+    a: поля
+    b: поли
+    c: полы
+    d: полья
+  correct: a
+  source:
+    index: 6
+    prompt: (поле)
+    base_or_stem: поле
+    cyrillic_options:
+    - поля
+    - поли
+    - полы
+    - полья
+    string_ids:
+      prompt: 7770
+      english: 4345
+      stored_options:
+      - 9581
+      - 7999
+      - 9579
+      - 9580
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: яйцо
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: eggs
+  neutral_prompt: ___ (яйцо)
+  answer_scope: word
+  options:
+    a: яйца
+    b: яйцы
+    c: яйця
+    d: яйцыя
+  correct: a
+  source:
+    index: 7
+    prompt: (яйцо)
+    base_or_stem: яйцо
+    cyrillic_options:
+    - яйца
+    - яйцы
+    - яйця
+    - яйцыя
+    string_ids:
+      prompt: 7859
+      english: 6853
+      stored_options:
+      - 9404
+      - 9705
+      - 9036
+      - 9706
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: плечо
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: shoulders
+  neutral_prompt: ___ (плечо)
+  answer_scope: word
+  options:
+    a: плечи
+    b: плечя
+    c: плечья
+    d: плечы
+  correct: a
+  source:
+    index: 8
+    prompt: (плечо)
+    base_or_stem: плечо
+    cyrillic_options:
+    - плечи
+    - плечя
+    - плечья
+    - плечы
+    string_ids:
+      prompt: 7765
+      english: 1264
+      stored_options:
+      - 9551
+      - 9555
+      - 9554
+      - 9553
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сердце
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: hearts
+  neutral_prompt: ___ (сердце)
+  answer_scope: word
+  options:
+    a: сердца
+    b: сердцы
+    c: сердця
+    d: сердцьи
+  correct: a
+  source:
+    index: 9
+    prompt: (сердце)
+    base_or_stem: сердце
+    cyrillic_options:
+    - сердца
+    - сердцы
+    - сердця
+    - сердцьи
+    string_ids:
+      prompt: 7782
+      english: 7334
+      stored_options:
+      - 8504
+      - 9683
+      - 9685
+      - 9684
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: слово
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: words
+  neutral_prompt: ___ (слово)
+  answer_scope: word
+  options:
+    a: слова
+    b: словы
+    c: слови
+    d: словья
+  correct: a
+  source:
+    index: 10
+    prompt: (слово)
+    base_or_stem: слово
+    cyrillic_options:
+    - слова
+    - словы
+    - слови
+    - словья
+    string_ids:
+      prompt: 7801
+      english: 4541
+      stored_options:
+      - 8347
+      - 8847
+      - 8782
+      - 9718
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: место
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: places
+  neutral_prompt: ___ (место)
+  answer_scope: word
+  options:
+    a: места
+    b: месты
+    c: мести
+    d: местья
+  correct: a
+  source:
+    index: 11
+    prompt: (место)
+    base_or_stem: место
+    cyrillic_options:
+    - места
+    - месты
+    - мести
+    - местья
+    string_ids:
+      prompt: 7722
+      english: 4413
+      stored_options:
+      - 9312
+      - 9385
+      - 7605
+      - 9390
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-neuter-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: лицо
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: faces
+  neutral_prompt: ___ (лицо)
+  answer_scope: word
+  options:
+    a: лица
+    b: лицы
+    c: лици
+    d: лицья
+  correct: a
+  source:
+    index: 12
+    prompt: (лицо)
+    base_or_stem: лицо
+    cyrillic_options:
+    - лица
+    - лицы
+    - лици
+    - лицья
+    string_ids:
+      prompt: 7706
+      english: 6884
+      stored_options:
+      - 9346
+      - 9225
+      - 9209
+      - 9332
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

@@ -1,0 +1,211 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-accusative-from-instrumental-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: accusative
+topic:
+  id: from-instrumental-practice-1
+  name: from instrumental practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-instrumental-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: mady by a little kid
+  neutral_prompt: zrobione przez ___ (mały dziecko)
+  answer_scope: word
+  options:
+    a: małe
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-003
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: сделано (маленьким) {ребёнком}
+    russian_native_text:
+      en: mady by a little kid
+    polish_marked_prompt: zrobione przez [małe] {dziecko}
+    polish_context_lemma: dziecko
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-instrumental-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: written by a famous writer
+  neutral_prompt: napisane przez ___ (znany pisarz)
+  answer_scope: word
+  options:
+    a: znanego
+    b: znany
+    c: znanemu
+    d: znanym
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-005
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: написано (известным) {писателем}
+    russian_native_text:
+      en: written by a famous writer
+    polish_marked_prompt: napisane przez [znanego] {pisarza}
+    polish_context_lemma: pisarz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-adjectives-instrumental-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: utalentowany
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: painted by a talented artist
+  neutral_prompt: namalowane przez ___ (utalentowany artysta)
+  answer_scope: word
+  options:
+    a: utalentowanego
+    b: utalentowany
+    c: utalentowanemu
+    d: utalentowanym
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-006
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: нарисовано (талантливым) {художником}
+    russian_native_text:
+      en: painted by a talented artist
+    polish_marked_prompt: namalowane przez [utalentowanego] {artystę}
+    polish_context_lemma: artysta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-adjectives-instrumental-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: najlepszy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: made by the best students
+  neutral_prompt: zrobione przez ___ (najlepszy studenci)
+  answer_scope: word
+  options:
+    a: najlepszych
+    b: najlepszy
+    c: najlepszego
+    d: najlepszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-007
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: сделано (лучшими) {студентами}
+    russian_native_text:
+      en: made by the best students
+    polish_marked_prompt: zrobione przez [najlepszych] {studentów}
+    polish_context_lemma: student
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-adjectives-instrumental-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: written by famous poets
+  neutral_prompt: napisane przez ___ (znany poeci)
+  answer_scope: word
+  options:
+    a: znanych
+    b: znany
+    c: znanego
+    d: znanemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-008
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: написано (известными) {поэтами}
+    russian_native_text:
+      en: written by famous poets
+    polish_marked_prompt: napisane przez [znanych] {poetów}
+    polish_context_lemma: poeta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+- id: pl-adjectives-instrumental-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: plural
+    gender: neuter
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: made by little kids
+  neutral_prompt: zrobione przez ___ (mały dzieci)
+  answer_scope: word
+  options:
+    a: małe
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-009
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: сделано (маленькими) {детьми}
+    russian_native_text:
+      en: made by little kids
+    polish_marked_prompt: zrobione przez [małe] {dzieci}
+    polish_context_lemma: dziecko
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.

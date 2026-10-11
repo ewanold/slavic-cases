@@ -7,6 +7,15 @@ object Practice {
     fun <T> mixed(items: List<T>, seed: Int, size: Int = 15): List<T> = items.shuffled(Random(seed)).take(size)
     fun <T> options(items: List<T>, questionId: String, seed: Int): List<T> =
         items.shuffled(Random(seed xor questionId.hashCode()))
+    fun guessCase(question: Question, cases: List<CaseInfo>): Question {
+        val form = question.choices.first { it.key == question.correctKey }.text
+        return question.copy(
+            instruction = emptyMap(),
+            prompt = question.prompt.replace(Regex("_+")) { form } + "\n→ " + form,
+            choices = cases.map { Choice(it.id, it.name) },
+            correctKey = question.caseId
+        )
+    }
     fun score(correctKeys: List<String>, answers: List<String>): Int =
         correctKeys.zip(answers).count { (correct, answer) -> correct == answer }
 }

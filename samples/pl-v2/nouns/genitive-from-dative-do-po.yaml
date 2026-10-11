@@ -1,0 +1,241 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-from-dative-do-po-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: from-dative-do-po
+  name: from dative do po
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-dative-k-po-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I’m going to the doctor.
+  neutral_prompt: Idę do ___. (lekarz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: lekarza
+    b: lekarz
+    c: lekarzowi
+    d: lekarzem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-001
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: k-po
+      name: к, по
+    russian_prompt: Я иду к (врачу).
+    russian_native_text:
+      en: I’m going to the doctor.
+    polish_marked_prompt: Idę do [lekarza].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: You are going to parents.
+  neutral_prompt: Idziesz do ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodziców
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-002
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Ты идешь к (родителям).
+    russian_native_text:
+      en: You are going to parents.
+    polish_marked_prompt: Idziesz do [rodziców].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: We are going to grandmother.
+  neutral_prompt: Jedziemy do ___. (babcia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: babci
+    b: babcia
+    c: babcię
+    d: babcią
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-003
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Мы едем к (бабушке).
+    russian_native_text:
+      en: We are going to grandmother.
+    polish_marked_prompt: Jedziemy do [babci].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: I’m going to friends.
+  neutral_prompt: Jadę do ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciół
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-004
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я еду к (друзьям).
+    russian_native_text:
+      en: I’m going to friends.
+    polish_marked_prompt: Jadę do [przyjaciół].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I’m going to my girlfriend.
+  neutral_prompt: Idę do ___. (przyjaciółka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przyjaciółki
+    b: przyjaciółka
+    c: przyjaciółkę
+    d: przyjaciółką
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-010
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Я иду к (подруге).
+    russian_native_text:
+      en: I’m going to my girlfriend.
+    polish_marked_prompt: Idę do [przyjaciółki].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sekretarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: She’s going to the secretary.
+  neutral_prompt: Ona idzie do ___. (sekretarz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sekretarza
+    b: sekretarz
+    c: sekretarzowi
+    d: sekretarzem
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-011
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Она идёт к (секретарю).
+    russian_native_text:
+      en: She’s going to the secretary.
+    polish_marked_prompt: Ona idzie do [sekretarza].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-nouns-dative-k-po-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: We’re going to friends.
+  neutral_prompt: Idziemy do ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciół
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-dative-k-po-apk-012
+    russian_file: samples/ru/nouns/dative-k-po.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: Мы идём к (друзьям).
+    russian_native_text:
+      en: We’re going to friends.
+    polish_marked_prompt: Idziemy do [przyjaciół].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.

@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-dative-k-po-apk
+learning_language: ru
+track: nouns
+case: dative
+topic:
+  id: k-po
+  name: к, по
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-dative-k-po-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: врач
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I’m going to the doctor.
+  neutral_prompt: Я иду к ___. (врач)
+  answer_scope: word
+  options:
+    a: врачу
+    b: враче
+    c: врача
+    d: врачём
+  correct: a
+  source:
+    index: 1
+    prompt: Я иду к (врачу).
+    base_or_stem: врач
+    cyrillic_options:
+    - врач
+    - враче
+    - врача
+    - врачём
+    string_ids:
+      prompt: 8423
+      english: 7929
+      stored_options:
+      - 7655
+      - 8802
+      - 7740
+      - 8811
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: You are going to parents.
+  neutral_prompt: Ты идешь к ___. (родители)
+  answer_scope: word
+  options:
+    a: родителям
+    b: родителей
+    c: родители
+    d: родителями
+  correct: a
+  source:
+    index: 2
+    prompt: Ты идешь к (родителям).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родителей
+    - родители
+    - родителями
+    string_ids:
+      prompt: 8363
+      english: 4780
+      stored_options:
+      - 8668
+      - 8017
+      - 8668
+      - 8097
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: бабушка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We are going to grandmother.
+  neutral_prompt: Мы едем к ___. (бабушка)
+  answer_scope: word
+  options:
+    a: бабушке
+    b: бабушку
+    c: бабушка
+    d: бабушкой
+  correct: a
+  source:
+    index: 3
+    prompt: Мы едем к (бабушке).
+    base_or_stem: бабушка
+    cyrillic_options:
+    - бабушка
+    - бабушку
+    - бабушка
+    - бабушкой
+    string_ids:
+      prompt: 8153
+      english: 6156
+      stored_options:
+      - 8516
+      - 8521
+      - 8516
+      - 8520
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I’m going to friends.
+  neutral_prompt: Я еду к ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзьям
+    b: друзья
+    c: друзьями
+    d: друзей
+  correct: a
+  source:
+    index: 4
+    prompt: Я еду к (друзьям).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзья
+    - друзьями
+    - друзей
+    string_ids:
+      prompt: 8421
+      english: 7927
+      stored_options:
+      - 8161
+      - 8161
+      - 8167
+      - 7896
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дорога
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: You are walking the road.
+  neutral_prompt: Ты идешь по ___. (дорога)
+  answer_scope: word
+  options:
+    a: дороге
+    b: дороги
+    c: дорог
+    d: дорогам
+  correct: a
+  source:
+    index: 5
+    prompt: Ты идешь по (дороге).
+    base_or_stem: дорога
+    cyrillic_options:
+    - дорога
+    - дороги
+    - дорог
+    - дорогам
+    string_ids:
+      prompt: 8364
+      english: 5832
+      stored_options:
+      - 8638
+      - 8073
+      - 8072
+      - 8639
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: небо
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The plain is flying in the sky.
+  neutral_prompt: Самолет летит по ___. (небо)
+  answer_scope: word
+  options:
+    a: небу
+    b: небе
+    c: небом
+    d: неба
+  correct: a
+  source:
+    index: 6
+    prompt: Самолет летит по (небу).
+    base_or_stem: небо
+    cyrillic_options:
+    - небо
+    - небе
+    - небом
+    - неба
+    string_ids:
+      prompt: 8326
+      english: 5967
+      stored_options:
+      - 7788
+      - 8214
+      - 7789
+      - 8515
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: город
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: They walk around the city.
+  neutral_prompt: Они гуляют по ___. (город)
+  answer_scope: word
+  options:
+    a: городу
+    b: городам
+    c: городы
+    d: городе
+  correct: a
+  source:
+    index: 7
+    prompt: Они гуляют по (городу).
+    base_or_stem: город
+    cyrillic_options:
+    - город
+    - городам
+    - городы
+    - городе
+    string_ids:
+      prompt: 8256
+      english: 5991
+      stored_options:
+      - 7643
+      - 8124
+      - 8080
+      - 8921
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: песок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He runs in the sand.
+  neutral_prompt: Он бегает по ___. (песок)
+  answer_scope: word
+  options:
+    a: песку
+    b: песка
+    c: пески
+    d: пескам
+  correct: a
+  source:
+    index: 8
+    prompt: Он бегает по (песку).
+    base_or_stem: песок
+    cyrillic_options:
+    - песок
+    - песка
+    - пески
+    - пескам
+    string_ids:
+      prompt: 8226
+      english: 5356
+      stored_options:
+      - 9491
+      - 9435
+      - 9535
+      - 9436
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: парк
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She walks around the park.
+  neutral_prompt: Она гуляет по ___. (парк)
+  answer_scope: word
+  options:
+    a: парку
+    b: парка
+    c: парке
+    d: парк
+  correct: a
+  source:
+    index: 9
+    prompt: Она гуляет по (парку).
+    base_or_stem: парк
+    cyrillic_options:
+    - парк
+    - парка
+    - парке
+    - парк
+    string_ids:
+      prompt: 8244
+      english: 5872
+      stored_options:
+      - 8245
+      - 9453
+      - 9203
+      - 8245
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: подруга
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I’m going to my girlfriend.
+  neutral_prompt: Я иду к ___. (подруга)
+  answer_scope: word
+  options:
+    a: подруге
+    b: подруга
+    c: подругой
+    d: подругами
+  correct: a
+  source:
+    index: 10
+    prompt: Я иду к (подруге).
+    base_or_stem: подруга
+    cyrillic_options:
+    - подруга
+    - подруга
+    - подругой
+    - подругами
+    string_ids:
+      prompt: 8424
+      english: 7928
+      stored_options:
+      - 7767
+      - 7767
+      - 9138
+      - 9136
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: секретарь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She’s going to the secretary.
+  neutral_prompt: Она идёт к ___. (секретарь)
+  answer_scope: word
+  options:
+    a: секретарю
+    b: секретарь
+    c: секретари
+    d: секретарём
+  correct: a
+  source:
+    index: 11
+    prompt: Она идёт к (секретарю).
+    base_or_stem: секретарь
+    cyrillic_options:
+    - секретарь
+    - секретарь
+    - секретари
+    - секретарём
+    string_ids:
+      prompt: 8247
+      english: 7933
+      stored_options:
+      - 8601
+      - 8601
+      - 8482
+      - 9677
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-k-po-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We’re going to friends.
+  neutral_prompt: Мы идём к ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзьям
+    b: друзья
+    c: друзьи
+    d: друзьями
+  correct: a
+  source:
+    index: 12
+    prompt: Мы идём к (друзьям).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзья
+    - друзьи
+    - друзьями
+    string_ids:
+      prompt: 8160
+      english: 7938
+      stored_options:
+      - 8161
+      - 8161
+      - 7957
+      - 8167
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

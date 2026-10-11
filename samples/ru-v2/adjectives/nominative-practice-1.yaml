@@ -1,0 +1,499 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-nominative-practice-1-apk
+learning_language: ru
+track: adjectives
+case: nominative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-nominative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: Red square
+  neutral_prompt: ___ (красный Площадь)
+  answer_scope: word
+  options:
+    a: Красная
+    b: Красняя
+    c: Красное
+    d: Красный
+  correct: a
+  source:
+    index: 1
+    prompt: (Красная) Площадь
+    base_or_stem: Красн()
+    cyrillic_options:
+    - Красн()
+    - Красняя
+    - Красное
+    - Красный
+    string_ids:
+      prompt: 7589
+      english: 4856
+      stored_options:
+      - 8078
+      - 8093
+      - 8084
+      - 8092
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красивый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a beautiful picture
+  neutral_prompt: ___ (красивый картина)
+  answer_scope: word
+  options:
+    a: красивая
+    b: красивый
+    c: красивяя
+    d: красивы
+  correct: a
+  source:
+    index: 2
+    prompt: (красивая) картина
+    base_or_stem: красив()
+    cyrillic_options:
+    - красив()
+    - красивый
+    - красивяя
+    - красивы
+    string_ids:
+      prompt: 7691
+      english: 5248
+      stored_options:
+      - 9319
+      - 9325
+      - 9327
+      - 9324
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: a big window
+  neutral_prompt: ___ (большой окно)
+  answer_scope: word
+  options:
+    a: большое
+    b: большее
+    c: большая
+    d: большие
+  correct: a
+  source:
+    index: 3
+    prompt: (большое) окно
+    base_or_stem: больш()
+    cyrillic_options:
+    - больш()
+    - большее
+    - большая
+    - большие
+    string_ids:
+      prompt: 7619
+      english: 6126
+      stored_options:
+      - 8634
+      - 8649
+      - 8636
+      - 7610
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: летний
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a summer night
+  neutral_prompt: ___ (летний ночь)
+  answer_scope: word
+  options:
+    a: летняя
+    b: летние
+    c: летное
+    d: летный
+  correct: a
+  source:
+    index: 4
+    prompt: (летняя) ночь
+    base_or_stem: летн()
+    cyrillic_options:
+    - летн()
+    - летние
+    - летное
+    - летный
+    string_ids:
+      prompt: 7697
+      english: 693
+      stored_options:
+      - 9361
+      - 9363
+      - 9366
+      - 9367
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: богатый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a rich family
+  neutral_prompt: ___ (богатый семья)
+  answer_scope: word
+  options:
+    a: богатая
+    b: богатый
+    c: богатое
+    d: богатя
+  correct: a
+  source:
+    index: 5
+    prompt: (богатая) семья
+    base_or_stem: богат()
+    cyrillic_options:
+    - богат()
+    - богатый
+    - богатое
+    - богатя
+    string_ids:
+      prompt: 7606
+      english: 6467
+      stored_options:
+      - 8624
+      - 8626
+      - 8625
+      - 8627
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: blue sky
+  neutral_prompt: ___ (синий небо)
+  answer_scope: word
+  options:
+    a: синее
+    b: синяя
+    c: синия
+    d: синий
+  correct: a
+  source:
+    index: 6
+    prompt: (синее) небо
+    base_or_stem: син()
+    cyrillic_options:
+    - син()
+    - синяя
+    - синия
+    - синий
+    string_ids:
+      prompt: 7787
+      english: 6688
+      stored_options:
+      - 9691
+      - 8988
+      - 9697
+      - 9694
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: высокий
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: a tall tree
+  neutral_prompt: ___ (высокий дерево)
+  answer_scope: word
+  options:
+    a: высокое
+    b: высокая
+    c: высокее
+    d: высоке
+  correct: a
+  source:
+    index: 7
+    prompt: (высокое) дерево
+    base_or_stem: высок()
+    cyrillic_options:
+    - высок()
+    - высокая
+    - высокее
+    - высоке
+    string_ids:
+      prompt: 7636
+      english: 6470
+      stored_options:
+      - 8150
+      - 8846
+      - 8849
+      - 8848
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: добрый
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: a kind word
+  neutral_prompt: ___ (добрый слово)
+  answer_scope: word
+  options:
+    a: доброе
+    b: добрая
+    c: добрее
+    d: добрые
+  correct: a
+  source:
+    index: 8
+    prompt: (доброе) слово
+    base_or_stem: добр()
+    cyrillic_options:
+    - добр()
+    - добрая
+    - добрее
+    - добрые
+    string_ids:
+      prompt: 7662
+      english: 4334
+      stored_options:
+      - 9083
+      - 9084
+      - 9085
+      - 9086
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a new house
+  neutral_prompt: ___ (новый дом)
+  answer_scope: word
+  options:
+    a: новый
+    b: новая
+    c: новые
+    d: новое
+  correct: a
+  source:
+    index: 9
+    prompt: (новый) дом
+    base_or_stem: нов()
+    cyrillic_options:
+    - нов()
+    - новая
+    - новые
+    - новое
+    string_ids:
+      prompt: 7744
+      english: 925
+      stored_options:
+      - 8967
+      - 8605
+      - 7742
+      - 9228
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: умный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a smart girl
+  neutral_prompt: ___ (умный девочка)
+  answer_scope: word
+  options:
+    a: умная
+    b: умняя
+    c: умное
+    d: умный
+  correct: a
+  source:
+    index: 10
+    prompt: (умная) девочка
+    base_or_stem: умн()
+    cyrillic_options:
+    - умн()
+    - умняя
+    - умное
+    - умный
+    string_ids:
+      prompt: 7826
+      english: 6468
+      stored_options:
+      - 9245
+      - 9304
+      - 9282
+      - 9301
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: вечерний
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: evening walks
+  neutral_prompt: ___ (вечерний прогулки)
+  answer_scope: word
+  options:
+    a: вечерние
+    b: вечерная
+    c: вечерные
+    d: вечерни
+  correct: a
+  source:
+    index: 11
+    prompt: (вечерние) прогулки
+    base_or_stem: вечерн()
+    cyrillic_options:
+    - вечерн()
+    - вечерная
+    - вечерные
+    - вечерни
+    string_ids:
+      prompt: 7630
+      english: 5205
+      stored_options:
+      - 8776
+      - 8777
+      - 8778
+      - 7632
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: big windows
+  neutral_prompt: ___ (большой окна)
+  answer_scope: word
+  options:
+    a: большие
+    b: большая
+    c: большые
+    d: большее
+  correct: a
+  source:
+    index: 12
+    prompt: (большие) окна
+    base_or_stem: больш()
+    cyrillic_options:
+    - больш()
+    - большая
+    - большые
+    - большее
+    string_ids:
+      prompt: 7614
+      english: 6127
+      stored_options:
+      - 8634
+      - 8636
+      - 8677
+      - 8649
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-1-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: русский
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Russian language
+  neutral_prompt: ___ (русский язык)
+  answer_scope: word
+  options:
+    a: русский
+    b: русскый
+    c: русская
+    d: русски
+  correct: a
+  source:
+    index: 13
+    prompt: (русский) язык
+    base_or_stem: русск()
+    cyrillic_options:
+    - русск()
+    - русскый
+    - русская
+    - русски
+    string_ids:
+      prompt: 7774
+      english: 5826
+      stored_options:
+      - 9655
+      - 9664
+      - 9657
+      - 7775
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

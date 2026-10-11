@@ -1,0 +1,402 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-being-becoming-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: being-becoming
+  name: being becoming
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I will be a doctor.
+  neutral_prompt: Będę ___. (lekarz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: lekarzem
+    b: lekarz
+    c: lekarza
+    d: lekarzowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-001
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: byt-stanovitsya-yavlyatsya
+      name: быть, становиться, являться
+    russian_prompt: Я буду (врачом).
+    russian_native_text:
+      en: I will be a doctor.
+    polish_marked_prompt: Będę [lekarzem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rodzic
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: We will be parents.
+  neutral_prompt: Będziemy ___. (rodzic; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rodzicami
+    b: rodzic
+    c: rodzica
+    d: rodzicowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-002
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Мы будем (родителями).
+    russian_native_text:
+      en: We will be parents.
+    polish_marked_prompt: Będziemy [rodzicami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: aktorka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: She will be an actress.
+  neutral_prompt: Ona będzie ___. (aktorka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: aktorką
+    b: aktorka
+    c: aktorki
+    d: aktorkę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-003
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Она будет (актрисой).
+    russian_native_text:
+      en: She will be an actress.
+    polish_marked_prompt: Ona będzie [aktorką].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: When you were a child.
+  neutral_prompt: Kiedy byłeś ___. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dzieckiem
+    b: dziecko
+    c: dziecka
+    d: dziecku
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-004
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Когда ты был (ребёнком).
+    russian_native_text:
+      en: When you were a child.
+    polish_marked_prompt: Kiedy byłeś [dzieckiem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szef
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I want to be the boss.
+  neutral_prompt: Chcę być ___. (szef; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szefem
+    b: szef
+    c: szefa
+    d: szefowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-005
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я хочу быть (начальником).
+    russian_native_text:
+      en: I want to be the boss.
+    polish_marked_prompt: Chcę być [szefem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pilot
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: I want to become a pilot.
+  neutral_prompt: Chcę zostać ___. (pilot; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pilotem
+    b: pilot
+    c: pilota
+    d: pilotowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-006
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я хочу стать (пилотом).
+    russian_native_text:
+      en: I want to become a pilot.
+    polish_marked_prompt: Chcę zostać [pilotem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: We became friends.
+  neutral_prompt: Staliśmy się ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciółmi
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-007
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Мы стали (друзьями).
+    russian_native_text:
+      en: We became friends.
+    polish_marked_prompt: Staliśmy się [przyjaciółmi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: nauczyciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Do you want to become a teacher?
+  neutral_prompt: Czy chcesz zostać ___? (nauczyciel; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: nauczycielem
+    b: nauczyciel
+    c: nauczyciela
+    d: nauczycielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-008
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Ты хочешь стать (учителем)?.
+    russian_native_text:
+      en: Do you want to become a teacher?
+    polish_marked_prompt: Czy chcesz zostać [nauczycielem]?
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziennikarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: He wants to become a journalist.
+  neutral_prompt: On chce zostać ___. (dziennikarz; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziennikarzem
+    b: dziennikarz
+    c: dziennikarza
+    d: dziennikarzowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-009
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Он хочет стать (журналистом).
+    russian_native_text:
+      en: He wants to become a journalist.
+    polish_marked_prompt: On chce zostać [dziennikarzem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dowód
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: This is not evidence.
+  neutral_prompt: To nie jest ___. (dowód; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dowodem
+    b: dowód
+    c: dowodu
+    d: dowodowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-010
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Это не является (доказательством).
+    russian_native_text:
+      en: It is not an evidence.
+    polish_marked_prompt: To nie jest [dowodem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: podstawa
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: It’s a good basis.
+  neutral_prompt: To jest dobrą ___. (podstawa; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: podstawą
+    b: podstawa
+    c: podstawy
+    d: podstawę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-011
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Это является хорошей (базой).
+    russian_native_text:
+      en: It’s a good basis.
+    polish_marked_prompt: To jest dobrą [podstawą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przykład
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: It’s a good example.
+  neutral_prompt: To jest dobrym ___. (przykład; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: przykładem
+    b: przykład
+    c: przykładu
+    d: przykładowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-012
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Это является хорошим (примером).
+    russian_native_text:
+      en: It’s a good example.
+    polish_marked_prompt: To jest dobrym [przykładem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: I am his sister.
+  neutral_prompt: Jestem jego ___. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: siostrą
+    b: siostra
+    c: siostry
+    d: siostrę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-013
+    russian_file: samples/ru/nouns/instrumental-byt-stanovitsya-yavlyatsya.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я являюсь его (сестрой).
+    russian_native_text:
+      en: I am his sister.
+    polish_marked_prompt: Jestem jego [siostrą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

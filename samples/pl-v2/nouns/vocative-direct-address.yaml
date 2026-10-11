@@ -1,0 +1,298 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+id: pl-nouns-vocative-starter
+learning_language: pl
+track: nouns
+case: vocative
+native_languages:
+- en
+- de
+instruction:
+  en: Use the traditional vocative for direct address, even where colloquial nominative address is possible.
+  de: Verwende für die Anrede den traditionellen Vokativ, auch wenn umgangssprachlich der Nominativ möglich
+    ist.
+contributor: Slavic Cases project (AI-assisted original starter material)
+license: MIT
+sources: Original sentences; grammar references are recorded in AI/LINKS.md.
+review_status: draft
+sentences:
+- id: pl-nouns-vocative-brother
+  word_type: noun
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Brother, please listen to me!
+    de: Bruder, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (brat)
+  answer_scope: word
+  options:
+    a: bracie
+    b: brat
+    c: brata
+    d: bratu
+  correct: a
+- id: pl-nouns-vocative-sister
+  word_type: noun
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Sister, please listen to me!
+    de: Schwester, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (siostra)
+  answer_scope: word
+  options:
+    a: siostra
+    b: siostro
+    c: siostry
+    d: siostrze
+  correct: b
+- id: pl-nouns-vocative-friend-m
+  word_type: noun
+  dictionary_form: przyjaciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Male friend, please listen to me!
+    de: Freund, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (przyjaciel)
+  answer_scope: word
+  options:
+    a: przyjaciel
+    b: przyjaciela
+    c: przyjacielu
+    d: przyjacielowi
+  correct: c
+- id: pl-nouns-vocative-friend-f
+  word_type: noun
+  dictionary_form: przyjaciółka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Female friend, please listen to me!
+    de: Freundin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (przyjaciółka)
+  answer_scope: word
+  options:
+    a: przyjaciółka
+    b: przyjaciółki
+    c: przyjaciółce
+    d: przyjaciółko
+  correct: d
+- id: pl-nouns-vocative-teacher-m
+  word_type: noun
+  dictionary_form: nauczyciel
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Male teacher, please listen to me!
+    de: Lehrer, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nauczyciel)
+  answer_scope: word
+  options:
+    a: nauczycielu
+    b: nauczyciel
+    c: nauczyciela
+    d: nauczycielowi
+  correct: a
+- id: pl-nouns-vocative-teacher-f
+  word_type: noun
+  dictionary_form: nauczycielka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Female teacher, please listen to me!
+    de: Lehrerin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (nauczycielka)
+  answer_scope: word
+  options:
+    a: nauczycielka
+    b: nauczycielko
+    c: nauczycielki
+    d: nauczycielce
+  correct: b
+- id: pl-nouns-vocative-student-m
+  word_type: noun
+  dictionary_form: student
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Male student, please listen to me!
+    de: Student, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (student)
+  answer_scope: word
+  options:
+    a: student
+    b: studenta
+    c: studencie
+    d: studentowi
+  correct: c
+- id: pl-nouns-vocative-student-f
+  word_type: noun
+  dictionary_form: studentka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Female student, please listen to me!
+    de: Studentin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (studentka)
+  answer_scope: word
+  options:
+    a: studentka
+    b: studentki
+    c: studentce
+    d: studentko
+  correct: d
+- id: pl-nouns-vocative-neighbor-m
+  word_type: noun
+  dictionary_form: sąsiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Male neighbor, please listen to me!
+    de: Nachbar, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (sąsiad)
+  answer_scope: word
+  options:
+    a: sąsiedzie
+    b: sąsiad
+    c: sąsiada
+    d: sąsiadowi
+  correct: a
+- id: pl-nouns-vocative-neighbor-f
+  word_type: noun
+  dictionary_form: sąsiadka
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Female neighbor, please listen to me!
+    de: Nachbarin, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (sąsiadka)
+  answer_scope: word
+  options:
+    a: sąsiadka
+    b: sąsiadko
+    c: sąsiadki
+    d: sąsiadce
+  correct: b
+- id: pl-nouns-vocative-doctor
+  word_type: noun
+  dictionary_form: lekarz
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Doctor, please listen to me!
+    de: Arzt, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (lekarz)
+  answer_scope: word
+  options:
+    a: lekarz
+    b: lekarza
+    c: lekarzu
+    d: lekarzowi
+  correct: c
+- id: pl-nouns-vocative-mother
+  word_type: noun
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Mother, please listen to me!
+    de: Mutter, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (mama)
+  answer_scope: word
+  options:
+    a: mama
+    b: mamy
+    c: mamie
+    d: mamo
+  correct: d
+- id: pl-nouns-vocative-father
+  word_type: noun
+  dictionary_form: tata
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Father, please listen to me!
+    de: Vater, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (tata)
+  answer_scope: word
+  options:
+    a: tato
+    b: tata
+    c: taty
+    d: tacie
+  correct: a
+- id: pl-nouns-vocative-grandfather
+  word_type: noun
+  dictionary_form: dziadek
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Grandfather, please listen to me!
+    de: Großvater, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (dziadek)
+  answer_scope: word
+  options:
+    a: dziadek
+    b: dziadku
+    c: dziadka
+    d: dziadkowi
+  correct: b
+- id: pl-nouns-vocative-grandmother
+  word_type: noun
+  dictionary_form: babcia
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: Grandmother, please listen to me!
+    de: Großmutter, bitte hör mir zu!
+  neutral_prompt: ___, proszę, posłuchaj mnie! (babcia)
+  answer_scope: word
+  options:
+    a: babcia
+    b: babci
+    c: babciu
+    d: babcię
+  correct: c
+content_profile: polish-topic-adaptation
+topic:
+  id: direct-address
+  name: Traditional vocative for direct address
+source:
+  project: slavic-cases
+  file: samples/pl/nouns/vocative.yaml
+  snapshot: apk-analysis/polish-source/nouns/vocative.yaml
+  sha256: 40aae08636f84283d3126a994eefd2d19b8478e687c468c8cd4ac18ec6f8e553
+  method: Original Polish source; sentences and translations copied unchanged.

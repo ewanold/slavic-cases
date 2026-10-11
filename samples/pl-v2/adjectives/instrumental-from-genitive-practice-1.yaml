@@ -1,0 +1,53 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-instrumental-from-genitive-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: instrumental
+topic:
+  id: from-genitive-practice-1
+  name: from genitive practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-1-apk-015
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: poranny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: before the morning walk
+  neutral_prompt: przed ___ (poranny spacer)
+  answer_scope: word
+  options:
+    a: porannym
+    b: poranny
+    c: porannego
+    d: porannemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-1-apk-015
+    russian_file: samples/ru/adjectives/genitive-practice-1.yaml
+    russian_case: genitive
+    russian_topic:
+      id: practice-1
+      name: practice 1
+    russian_prompt: до (утренней) {прогулки}
+    russian_native_text:
+      en: before the morning walk
+    polish_marked_prompt: przed [porannym] {spacerem}
+    polish_context_lemma: spacer
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses instrumental; the Russian source exercise is genitive.
+  - The Polish noun is masculine; the source noun is feminine.

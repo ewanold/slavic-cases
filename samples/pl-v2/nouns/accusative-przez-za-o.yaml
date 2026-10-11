@@ -1,0 +1,313 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-accusative-przez-za-o-adapted
+learning_language: pl
+track: nouns
+case: accusative
+topic:
+  id: przez-za-o
+  name: przez za o
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-accusative-cherez-za-pro-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miesiąc
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I will come in a month.
+  neutral_prompt: Przyjadę za ___. (miesiąc; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: miesiąc
+    b: miesiąca
+    c: miesiącowi
+    d: miesiącem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-001
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: cherez-za-pro
+      name: через, за, про
+    russian_prompt: Я приеду через (месяц).
+    russian_native_text:
+      en: I will come in a month.
+    polish_marked_prompt: Przyjadę za [miesiąc].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: minuta
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: She will be here in a minute.
+  neutral_prompt: Ona będzie tutaj za ___. (minuta; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: minutę
+    b: minuta
+    c: minuty
+    d: minutą
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-002
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Она будет через (минуту).
+    russian_native_text:
+      en: She will be here in a minute.
+    polish_marked_prompt: Ona będzie tutaj za [minutę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I finished a book in a day.
+  neutral_prompt: Przeczytałem książkę w jeden ___. (dzień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dzień
+    b: dnia
+    c: dniowi
+    d: dniem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-003
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я прочитал книгу за (день).
+    russian_native_text:
+      en: I finished a book in a day.
+    polish_marked_prompt: Przeczytałem książkę w jeden [dzień].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rok
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We’ve built a house in a year.
+  neutral_prompt: Zbudowaliśmy dom w ___. (rok; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: rok
+    b: roku
+    c: rokowi
+    d: rokiem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-004
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Мы построили дом за (год).
+    russian_native_text:
+      en: We’ve built a house in a year.
+    polish_marked_prompt: Zbudowaliśmy dom w [rok].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: godzina
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: I completed homework in an hour.
+  neutral_prompt: Odrobiłem lekcje w ___. (godzina; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: godzinę
+    b: godzina
+    c: godziny
+    d: godziną
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-007
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я сделал уроки за (час).
+    russian_native_text:
+      en: I completed homework in an hour.
+    polish_marked_prompt: Odrobiłem lekcje w [godzinę].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-accusative-cherez-za-pro-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: He painted a picture in a day.
+  neutral_prompt: On namalował obraz w jeden ___. (dzień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dzień
+    b: dnia
+    c: dniowi
+    d: dniem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-008
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Он нарисовал картину за (день).
+    russian_native_text:
+      en: He painted a picture in a day.
+    polish_marked_prompt: On namalował obraz w jeden [dzień].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: tydzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I have a vacation in a week.
+  neutral_prompt: Mam urlop za ___. (tydzień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: tydzień
+    b: tygodnia
+    c: tygodniowi
+    d: tygodniem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-009
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: У меня отпуск через (неделю).
+    russian_native_text:
+      en: I have a vacation in a week.
+    polish_marked_prompt: Mam urlop za [tydzień].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rok
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: We finish university in a year.
+  neutral_prompt: Kończymy uniwersytet za ___. (rok; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: rok
+    b: roku
+    c: rokowi
+    d: rokiem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-010
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Мы заканчиваем университет через (год).
+    russian_native_text:
+      en: We finish university in a year.
+    polish_marked_prompt: Kończymy uniwersytet za [rok].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: internet
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I buy things on the internet.
+  neutral_prompt: Kupuję rzeczy przez ___. (internet; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: internet
+    b: internetu
+    c: internetowi
+    d: internetem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-011
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Я покупаю вещи через (интернет).
+    russian_native_text:
+      en: I buy things on the internet.
+    polish_marked_prompt: Kupuję rzeczy przez [internet].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-accusative-cherez-za-pro-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: okno
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: He can see me through a window.
+  neutral_prompt: On widzi mnie przez ___. (okno; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: okno
+    b: okna
+    c: oknu
+    d: oknem
+  correct: a
+  source:
+    russian_id: ru-nouns-accusative-cherez-za-pro-apk-012
+    russian_file: samples/ru/nouns/accusative-cherez-za-pro.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: Он видит меня через (окно).
+    russian_native_text:
+      en: He can see me through a window.
+    polish_marked_prompt: On widzi mnie przez [okno].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

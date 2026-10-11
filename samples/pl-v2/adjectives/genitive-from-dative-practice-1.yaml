@@ -1,0 +1,240 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-genitive-from-dative-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: genitive
+topic:
+  id: from-dative-practice-1
+  name: from dative practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: to call a new student
+  neutral_prompt: dzwonić do ___ (nowy uczeń)
+  answer_scope: word
+  options:
+    a: nowego
+    b: nowy
+    c: nowemu
+    d: nowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-001
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: звонить (новому) {ученику}
+    russian_native_text:
+      en: to call a new student
+    polish_marked_prompt: dzwonić do [nowego] {ucznia}
+    polish_context_lemma: uczeń
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: to call a good friend
+  neutral_prompt: zadzwonić do ___ (dobry przyjaciółka)
+  answer_scope: word
+  options:
+    a: dobrej
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-002
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: позвонить (хорошей) {подруге}
+    russian_native_text:
+      en: to call a good friend
+    polish_marked_prompt: zadzwonić do [dobrej] {przyjaciółki}
+    polish_context_lemma: przyjaciółka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czarny
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: water for a black cat
+  neutral_prompt: woda dla ___ (czarny kot)
+  answer_scope: word
+  options:
+    a: czarnego
+    b: czarny
+    c: czarnemu
+    d: czarnym
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-003
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: вода для (чёрной) {кошки}
+    russian_native_text:
+      en: water for a black cat
+    polish_marked_prompt: woda dla [czarnego] {kota}
+    polish_context_lemma: kot
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-dative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: food for a little kitten
+  neutral_prompt: jedzenie dla ___ (mały kotek)
+  answer_scope: word
+  options:
+    a: małego
+    b: mały
+    c: małemu
+    d: małym
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-005
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: еда для (маленького) {котёнка}
+    russian_native_text:
+      en: food for a little kitten
+    polish_marked_prompt: jedzenie dla [małego] {kotka}
+    polish_context_lemma: kotek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: amerykański
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: a present for american scientists
+  neutral_prompt: prezent dla ___ (amerykański naukowcy)
+  answer_scope: word
+  options:
+    a: amerykańskich
+    b: amerykański
+    c: amerykańskiego
+    d: amerykańskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-010
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: подарок (американским) {учёным}
+    russian_native_text:
+      en: a present for american scientists
+    polish_marked_prompt: prezent dla [amerykańskich] {naukowców}
+    polish_context_lemma: naukowiec
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: kanadyjski
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a book for a chinese student
+  neutral_prompt: książka dla ___ (kanadyjski student)
+  answer_scope: word
+  options:
+    a: kanadyjskiego
+    b: kanadyjski
+    c: kanadyjskiemu
+    d: kanadyjskim
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-011
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: книга для (канадского) {студента}
+    russian_native_text:
+      en: a book for a chinese student
+    polish_marked_prompt: książka dla [kanadyjskiego] {studenta}
+    polish_context_lemma: student
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a letter to an old friend
+  neutral_prompt: list do ___ (stary przyjaciel)
+  answer_scope: word
+  options:
+    a: starego
+    b: stary
+    c: staremu
+    d: starym
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-1-apk-012
+    russian_file: samples/ru/adjectives/dative-practice-1.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: письмо (старому) {другу}
+    russian_native_text:
+      en: a letter to an old friend
+    polish_marked_prompt: list do [starego] {przyjaciela}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses genitive; the Russian source exercise is dative.

@@ -1,0 +1,199 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-instrumental-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: instrumental
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-instrumental-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I write with a blue pen
+  neutral_prompt: piszę ___ (niebieski długopis)
+  answer_scope: word
+  options:
+    a: niebieskim
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-001
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: я пишу (синей) {ручкой}
+    russian_native_text:
+      en: I write with a blue pen
+    polish_marked_prompt: piszę [niebieskim] {długopisem}
+    polish_context_lemma: długopis
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-instrumental-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ostry
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to cut with a sharp knife
+  neutral_prompt: kroić ___ (ostry nóż)
+  answer_scope: word
+  options:
+    a: ostrym
+    b: ostry
+    c: ostrego
+    d: ostremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-002
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: резать (острым) {ножом}
+    russian_native_text:
+      en: to cut with a sharp knife
+    polish_marked_prompt: kroić [ostrym] {nożem}
+    polish_context_lemma: nóż
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: herbaciany
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to eat with a tea spoon
+  neutral_prompt: jeść ___ (herbaciany łyżeczka)
+  answer_scope: word
+  options:
+    a: herbacianą
+    b: herbaciany
+    c: herbacianego
+    d: herbacianemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-004
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: есть (чайной) {ложкой}
+    russian_native_text:
+      en: to eat with a tea spoon
+    polish_marked_prompt: jeść [herbacianą] {łyżeczką}
+    polish_context_lemma: łyżeczka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: to become a good doctor
+  neutral_prompt: zostać ___ (dobry lekarz)
+  answer_scope: word
+  options:
+    a: dobrym
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-010
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: стать (хорошим) {врачом}
+    russian_native_text:
+      en: to become a good doctor
+    polish_marked_prompt: zostać [dobrym] {lekarzem}
+    polish_context_lemma: lekarz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: to become a famous actor
+  neutral_prompt: zostać ___ (znany aktor)
+  answer_scope: word
+  options:
+    a: znanym
+    b: znany
+    c: znanego
+    d: znanemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-011
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: стать (известным) {актёром}
+    russian_native_text:
+      en: to become a famous actor
+    polish_marked_prompt: zostać [znanym] {aktorem}
+    polish_context_lemma: aktor
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czarny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I write with a black pen
+  neutral_prompt: piszę ___ (czarny długopis)
+  answer_scope: word
+  options:
+    a: czarnym
+    b: czarny
+    c: czarnego
+    d: czarnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-1-apk-012
+    russian_file: samples/ru/adjectives/instrumental-practice-1.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: я пишу (чёрной) {ручкой}
+    russian_native_text:
+      en: I write with a black pen
+    polish_marked_prompt: piszę [czarnym] {długopisem}
+    polish_context_lemma: długopis
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.

@@ -18,7 +18,11 @@ def package(root, output):
         language = validation.read(manifest)
         sets = [validation.read(p) for track in language["tracks"]
                 for p in sorted((manifest.parent / track).glob("*.yaml"))]
-        packs.append({**language, "samples": sets})
+        for sample in sets:
+            if sample.get("content_profile") == "apk-topic-import" and not sample.get("contributor"):
+                sample["contributor"] = "Unknown original author; APK source metadata preserved"
+        packs.append({**language, "pack_id": manifest.parent.name,
+                      "name": language["name"], "samples": sets})
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps({"schema_version": 1, "languages": packs}, ensure_ascii=False,
                                  sort_keys=True, indent=2) + "\n", encoding="utf-8")

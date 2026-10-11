@@ -1,0 +1,374 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-za-miedzy-nad-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: za-miedzy-nad
+  name: za miedzy nad
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Behind the house.
+  neutral_prompt: Za ___. (dom; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: domem
+    b: dom
+    c: domu
+    d: domowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-001
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: za-mezhdu-nad
+      name: за, между, над
+    russian_prompt: За (домом).
+    russian_native_text:
+      en: Behind the house.
+    polish_marked_prompt: Za [domem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzewo
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Behind the tree.
+  neutral_prompt: Za ___. (drzewo; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: drzewem
+    b: drzewo
+    c: drzewa
+    d: drzewu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-002
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: За (деревом).
+    russian_native_text:
+      en: Behind the tree.
+    polish_marked_prompt: Za [drzewem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ściana
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Behind the wall.
+  neutral_prompt: Za ___. (ściana; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ścianą
+    b: ściana
+    c: ściany
+    d: ścianę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-003
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: За (стеной).
+    russian_native_text:
+      en: Behind the wall.
+    polish_marked_prompt: Za [ścianą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: okno
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Out of the window.
+  neutral_prompt: Za ___. (okno; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: oknem
+    b: okno
+    c: okna
+    d: oknu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-004
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: За (окном).
+    russian_native_text:
+      en: Out of the window.
+    polish_marked_prompt: Za [oknem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Between the houses.
+  neutral_prompt: Między ___. (dom; liczba mnoga)
+  answer_scope: word
+  options:
+    a: domami
+    b: dom
+    c: domu
+    d: domowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-005
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Между (домами).
+    russian_native_text:
+      en: Between the houses.
+    polish_marked_prompt: Między [domami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drzewo
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Between the trees.
+  neutral_prompt: Między ___. (drzewo; liczba mnoga)
+  answer_scope: word
+  options:
+    a: drzewami
+    b: drzewo
+    c: drzewa
+    d: drzewu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-006
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Между (деревьями).
+    russian_native_text:
+      en: Between the trees.
+    polish_marked_prompt: Między [drzewami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Between the cities.
+  neutral_prompt: Między ___. (miasto; liczba mnoga)
+  answer_scope: word
+  options:
+    a: miastami
+    b: miasto
+    c: miasta
+    d: miastu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-007
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Между (городами).
+    russian_native_text:
+      en: Between the cities.
+    polish_marked_prompt: Między [miastami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: stacja
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Between stations.
+  neutral_prompt: Między ___. (stacja; liczba mnoga)
+  answer_scope: word
+  options:
+    a: stacjami
+    b: stacja
+    c: stacji
+    d: stację
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-008
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Между (станциями).
+    russian_native_text:
+      en: Between stations.
+    polish_marked_prompt: Między [stacjami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ziemia
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Above the ground.
+  neutral_prompt: Nad ___. (ziemia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ziemią
+    b: ziemia
+    c: ziemi
+    d: ziemię
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-009
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Над (землёй).
+    russian_native_text:
+      en: Above the ground.
+    polish_marked_prompt: Nad [ziemią].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dach
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Above the roof.
+  neutral_prompt: Nad ___. (dach; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dachem
+    b: dach
+    c: dachu
+    d: dachowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-010
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Над (крышей).
+    russian_native_text:
+      en: Above the roof.
+    polish_marked_prompt: Nad [dachem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: woda
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Above the water.
+  neutral_prompt: Nad ___. (woda; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wodą
+    b: woda
+    c: wody
+    d: wodę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-011
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Над (водой).
+    russian_native_text:
+      en: Above the water.
+    polish_marked_prompt: Nad [wodą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-za-mezhdu-nad-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Above the houses.
+  neutral_prompt: Nad ___. (dom; liczba mnoga)
+  answer_scope: word
+  options:
+    a: domami
+    b: dom
+    c: domu
+    d: domowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-za-mezhdu-nad-apk-012
+    russian_file: samples/ru/nouns/instrumental-za-mezhdu-nad.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Над (домами).
+    russian_native_text:
+      en: Above the houses.
+    polish_marked_prompt: Nad [domami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

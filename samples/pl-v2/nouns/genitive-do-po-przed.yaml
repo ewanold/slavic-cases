@@ -1,0 +1,195 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-do-po-przed-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: do-po-przed
+  name: do po przed
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-do-posle-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: obiad
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Time till lunch.
+  neutral_prompt: Czas do ___. (obiad; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: obiadu
+    b: obiad
+    c: obiadowi
+    d: obiadem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-001
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: do-posle
+      name: до, после
+    russian_prompt: Время до (Обеда).
+    russian_native_text:
+      en: Time till lunch.
+    polish_marked_prompt: Czas do [obiadu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-do-posle-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: praca
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: The way to work.
+  neutral_prompt: Droga do ___. (praca; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pracy
+    b: praca
+    c: pracę
+    d: pracą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-002
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Дорога до (Работы).
+    russian_native_text:
+      en: The way to work.
+    polish_marked_prompt: Droga do [pracy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-do-posle-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The way to the house.
+  neutral_prompt: Droga do ___. (dom; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: domu
+    b: dom
+    c: domowi
+    d: domem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-004
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Дорога до (дома).
+    russian_native_text:
+      en: The way to the house.
+    polish_marked_prompt: Droga do [domu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-do-posle-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wykład
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: An hour before a lecture.
+  neutral_prompt: Godzina do ___. (wykład; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wykładu
+    b: wykład
+    c: wykładowi
+    d: wykładem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-005
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Час до (лекции).
+    russian_native_text:
+      en: An hour before a lecture.
+    polish_marked_prompt: Godzina do [wykładu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-do-posle-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: początek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: A minute before the beginning.
+  neutral_prompt: Minuta do ___. (początek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: początku
+    b: początek
+    c: początkowi
+    d: początkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-006
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Минута до (начала).
+    russian_native_text:
+      en: A minute before the beginning.
+    polish_marked_prompt: Minuta do [początku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-do-posle-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: zachód
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Time before sunset.
+  neutral_prompt: Czas do ___ słońca. (zachód; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: zachodu
+    b: zachód
+    c: zachodowi
+    d: zachodem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-do-posle-apk-007
+    russian_file: samples/ru/nouns/genitive-do-posle.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Время до (заката).
+    russian_native_text:
+      en: Time before sunset.
+    polish_marked_prompt: Czas do [zachodu] słońca.
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

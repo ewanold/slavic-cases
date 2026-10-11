@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-adjectives-nominative-starter
+learning_language: de
+track: adjectives
+case: nominative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-adjectives-nominative-01
+  word_type: adjective
+  dictionary_form: gut
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: The good male friend comes.
+    de: Der gute Freund kommt.
+  neutral_prompt: ___ kommt. (bestimmter Artikel; gut; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der gute Freund
+    b: des guten Freundes
+    c: dem guten Freund
+    d: den guten Freund
+  correct: a
+- id: de-adjectives-nominative-02
+  word_type: adjective
+  dictionary_form: freundlich
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: The friendly female neighbour greets me.
+    de: Die freundliche Nachbarin grüßt mich.
+  neutral_prompt: ___ grüßt mich. (bestimmter Artikel; freundlich; Nachbarin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der freundlichen Nachbarin
+    b: die freundliche Nachbarin
+    c: dem freundlichen Nachbarin
+    d: des freundlichen Nachbarin
+  correct: b
+- id: de-adjectives-nominative-03
+  word_type: adjective
+  dictionary_form: klein
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: The small child plays.
+    de: Das kleine Kind spielt.
+  neutral_prompt: ___ spielt. (bestimmter Artikel; klein; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: des kleinen Kindes
+    b: dem kleinen Kind
+    c: das kleine Kind
+    d: dem kleine Kind
+  correct: c
+- id: de-adjectives-nominative-04
+  word_type: adjective
+  dictionary_form: neu
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: The new books lie here.
+    de: Die neuen Bücher liegen hier.
+  neutral_prompt: ___ liegen hier. (bestimmter Artikel; neu; Buch; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: der neuen Bücher
+    b: den neuen Büchern
+    c: den neuen Bücher
+    d: die neuen Bücher
+  correct: d
+- id: de-adjectives-nominative-05
+  word_type: adjective
+  dictionary_form: jung
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: A young male teacher comes.
+    de: Ein junger Lehrer kommt.
+  neutral_prompt: ___ kommt. (unbestimmter Artikel; jung; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: ein junger Lehrer
+    b: eines jungen Lehrers
+    c: einem jungen Lehrer
+    d: einen jungen Lehrer
+  correct: a
+- id: de-adjectives-nominative-06
+  word_type: adjective
+  dictionary_form: erfahren
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: An experienced female doctor helps me.
+    de: Eine erfahrene Ärztin hilft mir.
+  neutral_prompt: ___ hilft mir. (unbestimmter Artikel; erfahren; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: einer erfahrenen Ärztin
+    b: eine erfahrene Ärztin
+    c: einem erfahrenen Ärztin
+    d: eines erfahrenen Ärztin
+  correct: b
+- id: de-adjectives-nominative-07
+  word_type: adjective
+  dictionary_form: schön
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: mixed
+  native_text:
+    en: A beautiful house stands here.
+    de: Ein schönes Haus steht hier.
+  neutral_prompt: ___ steht hier. (unbestimmter Artikel; schön; Haus; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: eines schönen Hauses
+    b: einem schönen Haus
+    c: ein schönes Haus
+    d: einem schönes Haus
+  correct: c
+- id: de-adjectives-nominative-08
+  word_type: adjective
+  dictionary_form: frisch
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: Fresh tea is on the table.
+    de: Frischer Tee steht auf dem Tisch.
+  neutral_prompt: ___ steht auf dem Tisch. (ohne Artikel; frisch; Tee; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: frischen Tees
+    b: frischem Tee
+    c: frischen Tee
+    d: frischer Tee
+  correct: d
+- id: de-adjectives-nominative-09
+  word_type: adjective
+  dictionary_form: warm
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: Warm soup is ready.
+    de: Warme Suppe steht bereit.
+  neutral_prompt: ___ steht bereit. (ohne Artikel; warm; Suppe; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: warme Suppe
+    b: warmer Suppe
+    c: warmen Suppe
+    d: warmes Suppe
+  correct: a
+- id: de-adjectives-nominative-10
+  word_type: adjective
+  dictionary_form: kalt
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: Cold water is refreshing.
+    de: Kaltes Wasser ist erfrischend.
+  neutral_prompt: ___ ist erfrischend. (ohne Artikel; kalt; Wasser; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: kalten Wassers
+    b: kaltes Wasser
+    c: kaltem Wasser
+    d: kaltem Wassers
+  correct: b
+- id: de-adjectives-nominative-11
+  word_type: cardinal_numeral
+  dictionary_form: ein
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: One book lies here.
+    de: Ein Buch liegt hier.
+  neutral_prompt: ___ liegt hier. (ein; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: eines Buches
+    b: einem Buch
+    c: ein Buch
+    d: einen Buch
+  correct: c
+- id: de-adjectives-nominative-12
+  word_type: cardinal_numeral
+  dictionary_form: zwei
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: numeral
+  native_text:
+    en: Two children play.
+    de: Zwei Kinder spielen.
+  neutral_prompt: ___ spielen. (zwei; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: zweier Kinder
+    b: zwei Kindern
+    c: zweien Kinder
+    d: zwei Kinder
+  correct: d
+- id: de-adjectives-nominative-13
+  word_type: cardinal_numeral
+  dictionary_form: fünf
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: The five books lie here.
+    de: Die fünf Bücher liegen hier.
+  neutral_prompt: ___ liegen hier. (fünf; Buch; bestimmter Artikel; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die fünf Bücher
+    b: der fünf Bücher
+    c: den fünf Büchern
+    d: den fünf Bücher
+  correct: a
+- id: de-adjectives-nominative-14
+  word_type: ordinal_numeral
+  dictionary_form: erst
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: The first train arrives.
+    de: Der erste Zug kommt.
+  neutral_prompt: ___ kommt. (bestimmter Artikel; erst; Zug; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des ersten Zuges
+    b: der erste Zug
+    c: dem ersten Zug
+    d: den ersten Zug
+  correct: b
+- id: de-adjectives-nominative-15
+  word_type: ordinal_numeral
+  dictionary_form: zweit
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: The second lesson begins.
+    de: Die zweite Lektion beginnt.
+  neutral_prompt: ___ beginnt. (bestimmter Artikel; zweit; Lektion; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der zweiten Lektion
+    b: dem zweiten Lektion
+    c: die zweite Lektion
+    d: des zweiten Lektion
+  correct: c

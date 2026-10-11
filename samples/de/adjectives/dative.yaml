@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-adjectives-dative-starter
+learning_language: de
+track: adjectives
+case: dative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-adjectives-dative-01
+  word_type: adjective
+  dictionary_form: gut
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I help the good male friend.
+    de: Ich helfe dem guten Freund.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; gut; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: dem guten Freund
+    b: der gute Freund
+    c: des guten Freundes
+    d: den guten Freund
+  correct: a
+- id: de-adjectives-dative-02
+  word_type: adjective
+  dictionary_form: freundlich
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I thank the friendly female neighbour.
+    de: Ich danke der freundlichen Nachbarin.
+  neutral_prompt: Ich danke ___. (bestimmter Artikel; freundlich; Nachbarin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die freundliche Nachbarin
+    b: der freundlichen Nachbarin
+    c: dem freundlichen Nachbarin
+    d: des freundlichen Nachbarin
+  correct: b
+- id: de-adjectives-dative-03
+  word_type: adjective
+  dictionary_form: klein
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I help the small child.
+    de: Ich helfe dem kleinen Kind.
+  neutral_prompt: Ich helfe ___. (bestimmter Artikel; klein; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das kleine Kind
+    b: des kleinen Kindes
+    c: dem kleinen Kind
+    d: dem kleine Kind
+  correct: c
+- id: de-adjectives-dative-04
+  word_type: adjective
+  dictionary_form: neu
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I work with the new books.
+    de: Ich arbeite mit den neuen Büchern.
+  neutral_prompt: Ich arbeite mit ___. (bestimmter Artikel; neu; Buch; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die neuen Bücher
+    b: der neuen Bücher
+    c: den neuen Bücher
+    d: den neuen Büchern
+  correct: d
+- id: de-adjectives-dative-05
+  word_type: adjective
+  dictionary_form: jung
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: I help a young male teacher.
+    de: Ich helfe einem jungen Lehrer.
+  neutral_prompt: Ich helfe ___. (unbestimmter Artikel; jung; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: einem jungen Lehrer
+    b: ein junger Lehrer
+    c: eines jungen Lehrers
+    d: einen jungen Lehrer
+  correct: a
+- id: de-adjectives-dative-06
+  word_type: adjective
+  dictionary_form: erfahren
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: I thank an experienced female doctor.
+    de: Ich danke einer erfahrenen Ärztin.
+  neutral_prompt: Ich danke ___. (unbestimmter Artikel; erfahren; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: eine erfahrene Ärztin
+    b: einer erfahrenen Ärztin
+    c: einem erfahrenen Ärztin
+    d: eines erfahrenen Ärztin
+  correct: b
+- id: de-adjectives-dative-07
+  word_type: adjective
+  dictionary_form: schön
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: mixed
+  native_text:
+    en: I live in a beautiful house.
+    de: Ich wohne in einem schönen Haus.
+  neutral_prompt: Ich wohne in ___. (unbestimmter Artikel; schön; Haus; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: ein schönes Haus
+    b: eines schönen Hauses
+    c: einem schönen Haus
+    d: einem schönes Haus
+  correct: c
+- id: de-adjectives-dative-08
+  word_type: adjective
+  dictionary_form: frisch
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I begin with fresh tea.
+    de: Ich beginne mit frischem Tee.
+  neutral_prompt: Ich beginne mit ___. (ohne Artikel; frisch; Tee; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: frischer Tee
+    b: frischen Tees
+    c: frischen Tee
+    d: frischem Tee
+  correct: d
+- id: de-adjectives-dative-09
+  word_type: adjective
+  dictionary_form: warm
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I begin with warm soup.
+    de: Ich beginne mit warmer Suppe.
+  neutral_prompt: Ich beginne mit ___. (ohne Artikel; warm; Suppe; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: warmer Suppe
+    b: warme Suppe
+    c: warmen Suppe
+    d: warmes Suppe
+  correct: a
+- id: de-adjectives-dative-10
+  word_type: adjective
+  dictionary_form: kalt
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I wash with cold water.
+    de: Ich wasche mich mit kaltem Wasser.
+  neutral_prompt: Ich wasche mich mit ___. (ohne Artikel; kalt; Wasser; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: kaltes Wasser
+    b: kaltem Wasser
+    c: kalten Wassers
+    d: kaltem Wassers
+  correct: b
+- id: de-adjectives-dative-11
+  word_type: cardinal_numeral
+  dictionary_form: ein
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: I work with one book.
+    de: Ich arbeite mit einem Buch.
+  neutral_prompt: Ich arbeite mit ___. (ein; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: ein Buch
+    b: eines Buches
+    c: einem Buch
+    d: einen Buch
+  correct: c
+- id: de-adjectives-dative-12
+  word_type: cardinal_numeral
+  dictionary_form: zwei
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: numeral
+  native_text:
+    en: I play with two children.
+    de: Ich spiele mit zwei Kindern.
+  neutral_prompt: Ich spiele mit ___. (zwei; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: zwei Kinder
+    b: zweier Kinder
+    c: zweien Kinder
+    d: zwei Kindern
+  correct: d
+- id: de-adjectives-dative-13
+  word_type: cardinal_numeral
+  dictionary_form: fünf
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: I work with the five books.
+    de: Ich arbeite mit den fünf Büchern.
+  neutral_prompt: Ich arbeite mit ___. (fünf; Buch; bestimmter Artikel; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: den fünf Büchern
+    b: die fünf Bücher
+    c: der fünf Bücher
+    d: den fünf Bücher
+  correct: a
+- id: de-adjectives-dative-14
+  word_type: ordinal_numeral
+  dictionary_form: erst
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I travel on the first train.
+    de: Ich fahre mit dem ersten Zug.
+  neutral_prompt: Ich fahre mit ___. (bestimmter Artikel; erst; Zug; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der erste Zug
+    b: dem ersten Zug
+    c: des ersten Zuges
+    d: den ersten Zug
+  correct: b
+- id: de-adjectives-dative-15
+  word_type: ordinal_numeral
+  dictionary_form: zweit
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I begin with the second lesson.
+    de: Ich beginne mit der zweiten Lektion.
+  neutral_prompt: Ich beginne mit ___. (bestimmter Artikel; zweit; Lektion; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die zweite Lektion
+    b: dem zweiten Lektion
+    c: der zweiten Lektion
+    d: des zweiten Lektion
+  correct: c

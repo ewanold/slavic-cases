@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-mnogo-malo-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: mnogo-malo
+  name: много, мало...
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-mnogo-malo-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: яблоко
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A lot of apples.
+  neutral_prompt: Много ___. (яблоко)
+  answer_scope: word
+  options:
+    a: яблок
+    b: яблоки
+    c: яблоков
+    d: яблока
+  correct: a
+  source:
+    index: 1
+    prompt: Много (яблок).
+    base_or_stem: яблоко
+    cyrillic_options:
+    - яблоко
+    - яблоки
+    - яблоков
+    - яблока
+    string_ids:
+      prompt: 8139
+      english: 4479
+      stored_options:
+      - 8574
+      - 8552
+      - 8575
+      - 8503
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: люди
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Many people.
+  neutral_prompt: Много ___. (люди)
+  answer_scope: word
+  options:
+    a: людей
+    b: люди
+    c: людя
+    d: людем
+  correct: a
+  source:
+    index: 2
+    prompt: Много (людей).
+    base_or_stem: люди
+    cyrillic_options:
+    - люди
+    - люди
+    - людя
+    - людем
+    string_ids:
+      prompt: 8135
+      english: 5546
+      stored_options:
+      - 8992
+      - 8992
+      - 7708
+      - 9397
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: деньги
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A lot of money.
+  neutral_prompt: Много ___. (деньги)
+  answer_scope: word
+  options:
+    a: денег
+    b: деньгам
+    c: деньги
+    d: деньгой
+  correct: a
+  source:
+    index: 3
+    prompt: Много (денег).
+    base_or_stem: деньги
+    cyrillic_options:
+    - деньги
+    - деньгам
+    - деньги
+    - деньгой
+    string_ids:
+      prompt: 8133
+      english: 4480
+      stored_options:
+      - 8253
+      - 7674
+      - 8253
+      - 9021
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сахар
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A lot of sugar.
+  neutral_prompt: Много ___. (сахар)
+  answer_scope: word
+  options:
+    a: сахара
+    b: сахар
+    c: сахару
+    d: сахары
+  correct: a
+  source:
+    index: 4
+    prompt: Много (сахара).
+    base_or_stem: сахар
+    cyrillic_options:
+    - сахар
+    - сахар
+    - сахару
+    - сахары
+    string_ids:
+      prompt: 8137
+      english: 4481
+      stored_options:
+      - 8138
+      - 8138
+      - 9650
+      - 9673
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Several days.
+  neutral_prompt: Несколько ___. (день)
+  answer_scope: word
+  options:
+    a: дней
+    b: днями
+    c: дню
+    d: дня
+  correct: a
+  source:
+    index: 5
+    prompt: Несколько (дней).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - днями
+    - дню
+    - дня
+    string_ids:
+      prompt: 8209
+      english: 5858
+      stored_options:
+      - 7659
+      - 9072
+      - 9069
+      - 9070
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: раз
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Several times.
+  neutral_prompt: Несколько ___. (раз)
+  answer_scope: word
+  options:
+    a: раз
+    b: раза
+    c: разом
+    d: разы
+  correct: a
+  source:
+    index: 6
+    prompt: Несколько (раз).
+    base_or_stem: раз
+    cyrillic_options:
+    - раз
+    - раза
+    - разом
+    - разы
+    string_ids:
+      prompt: 8211
+      english: 5862
+      stored_options:
+      - 8015
+      - 9080
+      - 9635
+      - 9636
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вещь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Several things.
+  neutral_prompt: Несколько ___. (вещь)
+  answer_scope: word
+  options:
+    a: вещей
+    b: вещам
+    c: вещи
+    d: веща
+  correct: a
+  source:
+    index: 7
+    prompt: Несколько (вещей).
+    base_or_stem: вещь
+    cyrillic_options:
+    - вещь
+    - вещам
+    - вещи
+    - веща
+    string_ids:
+      prompt: 8208
+      english: 5860
+      stored_options:
+      - 8779
+      - 8495
+      - 8432
+      - 8494
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: книга
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Several books.
+  neutral_prompt: Несколько ___. (книга)
+  answer_scope: word
+  options:
+    a: книг
+    b: книга
+    c: книги
+    d: книгой
+  correct: a
+  source:
+    index: 8
+    prompt: Несколько (книг).
+    base_or_stem: книга
+    cyrillic_options:
+    - книга
+    - книга
+    - книги
+    - книгой
+    string_ids:
+      prompt: 8210
+      english: 5482
+      stored_options:
+      - 7683
+      - 7683
+      - 7872
+      - 9274
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: время
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Little time.
+  neutral_prompt: Мало ___. (время)
+  answer_scope: word
+  options:
+    a: времени
+    b: временем
+    c: время
+    d: време
+  correct: a
+  source:
+    index: 9
+    prompt: Мало (времени).
+    base_or_stem: время
+    cyrillic_options:
+    - время
+    - временем
+    - время
+    - време
+    string_ids:
+      prompt: 8103
+      english: 5520
+      stored_options:
+      - 8820
+      - 8815
+      - 8820
+      - 8104
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: еда
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Little food.
+  neutral_prompt: Мало ___. (еда)
+  answer_scope: word
+  options:
+    a: еды
+    b: еде
+    c: еду
+    d: еда
+  correct: a
+  source:
+    index: 10
+    prompt: Мало (еды).
+    base_or_stem: еда
+    cyrillic_options:
+    - еда
+    - еде
+    - еду
+    - еда
+    string_ids:
+      prompt: 8106
+      english: 5512
+      stored_options:
+      - 7987
+      - 8154
+      - 8317
+      - 7987
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: город
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Few cities.
+  neutral_prompt: Мало ___. (город)
+  answer_scope: word
+  options:
+    a: городов
+    b: города
+    c: городе
+    d: городу
+  correct: a
+  source:
+    index: 11
+    prompt: Мало (городов).
+    base_or_stem: город
+    cyrillic_options:
+    - город
+    - города
+    - городе
+    - городу
+    string_ids:
+      prompt: 8105
+      english: 5265
+      stored_options:
+      - 7643
+      - 8050
+      - 8921
+      - 8257
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-mnogo-malo-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: хлеб
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Little bread.
+  neutral_prompt: Мало ___. (хлеб)
+  answer_scope: word
+  options:
+    a: хлеба
+    b: хлебы
+    c: хлеб
+    d: хлебе
+  correct: a
+  source:
+    index: 12
+    prompt: Мало (хлеба).
+    base_or_stem: хлеб
+    cyrillic_options:
+    - хлеб
+    - хлебы
+    - хлеб
+    - хлебе
+    string_ids:
+      prompt: 8107
+      english: 5507
+      stored_options:
+      - 8108
+      - 8566
+      - 8108
+      - 7833
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

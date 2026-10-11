@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-za-mezhdu-nad-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: za-mezhdu-nad
+  name: за, между, над
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дом
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Behind the house.
+  neutral_prompt: За ___. (дом)
+  answer_scope: word
+  options:
+    a: домом
+    b: домы
+    c: доме
+    d: дому
+  correct: a
+  source:
+    index: 1
+    prompt: За (домом).
+    base_or_stem: дом
+    cyrillic_options:
+    - дом
+    - домы
+    - доме
+    - дому
+    string_ids:
+      prompt: 8037
+      english: 4736
+      stored_options:
+      - 7611
+      - 9116
+      - 7746
+      - 9113
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дерево
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: Behind the tree.
+  neutral_prompt: За ___. (дерево)
+  answer_scope: word
+  options:
+    a: деревом
+    b: деревы
+    c: дереве
+    d: дереву
+  correct: a
+  source:
+    index: 2
+    prompt: За (деревом).
+    base_or_stem: дерево
+    cyrillic_options:
+    - дерево
+    - деревы
+    - дереве
+    - дереву
+    string_ids:
+      prompt: 8035
+      english: 4737
+      stored_options:
+      - 7637
+      - 8845
+      - 8754
+      - 9026
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: стена
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Behind the wall.
+  neutral_prompt: За ___. (стена)
+  answer_scope: word
+  options:
+    a: стеной
+    b: стены
+    c: стене
+    d: стену
+  correct: a
+  source:
+    index: 3
+    prompt: За (стеной).
+    base_or_stem: стена
+    cyrillic_options:
+    - стена
+    - стены
+    - стене
+    - стену
+    string_ids:
+      prompt: 8040
+      english: 4738
+      stored_options:
+      - 9176
+      - 9774
+      - 9451
+      - 9772
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: окно
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: Out of the window.
+  neutral_prompt: За ___. (окно)
+  answer_scope: word
+  options:
+    a: окном
+    b: окне
+    c: окну
+    d: окной
+  correct: a
+  source:
+    index: 4
+    prompt: За (окном).
+    base_or_stem: окно
+    cyrillic_options:
+    - окно
+    - окне
+    - окну
+    - окной
+    string_ids:
+      prompt: 8039
+      english: 5667
+      stored_options:
+      - 7620
+      - 8007
+      - 8774
+      - 7621
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дома
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Between the houses.
+  neutral_prompt: Между ___. (дома)
+  answer_scope: word
+  options:
+    a: домами
+    b: домам
+    c: домы
+    d: доме
+  correct: a
+  source:
+    index: 5
+    prompt: Между (домами).
+    base_or_stem: дома
+    cyrillic_options:
+    - дома
+    - домам
+    - домы
+    - доме
+    string_ids:
+      prompt: 8127
+      english: 4743
+      stored_options:
+      - 7612
+      - 8128
+      - 9116
+      - 7746
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: деревья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Between the trees.
+  neutral_prompt: Между ___. (деревья)
+  answer_scope: word
+  options:
+    a: деревьями
+    b: дереву
+    c: деревья
+    d: деревьи
+  correct: a
+  source:
+    index: 6
+    prompt: Между (деревьями).
+    base_or_stem: деревья
+    cyrillic_options:
+    - деревья
+    - дереву
+    - деревья
+    - деревьи
+    string_ids:
+      prompt: 8125
+      english: 4744
+      stored_options:
+      - 8126
+      - 9026
+      - 8126
+      - 9028
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: города
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Between the cities.
+  neutral_prompt: Между ___. (города)
+  answer_scope: word
+  options:
+    a: городами
+    b: городу
+    c: городы
+    d: города
+  correct: a
+  source:
+    index: 7
+    prompt: Между (городами).
+    base_or_stem: города
+    cyrillic_options:
+    - города
+    - городу
+    - городы
+    - города
+    string_ids:
+      prompt: 8123
+      english: 4741
+      stored_options:
+      - 8050
+      - 8257
+      - 8080
+      - 8050
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: станции
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Between stations.
+  neutral_prompt: Между ___. (станции)
+  answer_scope: word
+  options:
+    a: станциями
+    b: станции
+    c: станцию
+    d: станцы
+  correct: a
+  source:
+    index: 8
+    prompt: Между (станциями).
+    base_or_stem: станции
+    cyrillic_options:
+    - станции
+    - станции
+    - станцию
+    - станцы
+    string_ids:
+      prompt: 8130
+      english: 4739
+      stored_options:
+      - 8611
+      - 8611
+      - 9313
+      - 9748
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: земля
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Above the ground.
+  neutral_prompt: Над ___. (земля)
+  answer_scope: word
+  options:
+    a: землёй
+    b: земли
+    c: землём
+    d: земле
+  correct: a
+  source:
+    index: 9
+    prompt: Над (землёй).
+    base_or_stem: земля
+    cyrillic_options:
+    - земля
+    - земли
+    - землём
+    - земле
+    string_ids:
+      prompt: 8174
+      english: 4521
+      stored_options:
+      - 9210
+      - 9208
+      - 9213
+      - 8925
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: крыша
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Above the roof.
+  neutral_prompt: Над ___. (крыша)
+  answer_scope: word
+  options:
+    a: крышей
+    b: крыши
+    c: крыша
+    d: крыше
+  correct: a
+  source:
+    index: 10
+    prompt: Над (крышей).
+    base_or_stem: крыша
+    cyrillic_options:
+    - крыша
+    - крыши
+    - крыша
+    - крыше
+    string_ids:
+      prompt: 8175
+      english: 4525
+      stored_options:
+      - 9339
+      - 7985
+      - 9339
+      - 8176
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: вода
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Above the water.
+  neutral_prompt: Над ___. (вода)
+  answer_scope: word
+  options:
+    a: водой
+    b: воде
+    c: воду
+    d: воды
+  correct: a
+  source:
+    index: 11
+    prompt: Над (водой).
+    base_or_stem: вода
+    cyrillic_options:
+    - вода
+    - воде
+    - воду
+    - воды
+    string_ids:
+      prompt: 8172
+      english: 4526
+      stored_options:
+      - 7841
+      - 8726
+      - 8589
+      - 7836
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-za-mezhdu-nad-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дома
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Above the houses.
+  neutral_prompt: Над ___. (дома)
+  answer_scope: word
+  options:
+    a: домами
+    b: домы
+    c: доме
+    d: дому
+  correct: a
+  source:
+    index: 12
+    prompt: Над (домами).
+    base_or_stem: дома
+    cyrillic_options:
+    - дома
+    - домы
+    - доме
+    - дому
+    string_ids:
+      prompt: 8173
+      english: 4522
+      stored_options:
+      - 7612
+      - 9116
+      - 7746
+      - 9113
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

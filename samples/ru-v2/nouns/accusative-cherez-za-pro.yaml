@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-accusative-cherez-za-pro-apk
+learning_language: ru
+track: nouns
+case: accusative
+topic:
+  id: cherez-za-pro
+  name: через, за, про
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-accusative-cherez-za-pro-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: месяц
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I will come in a month.
+  neutral_prompt: Я приеду через ___. (месяц)
+  answer_scope: word
+  options:
+    a: месяц
+    b: месяца
+    c: месяцем
+    d: месяцу
+  correct: a
+  source:
+    index: 1
+    prompt: Я приеду через (месяц).
+    base_or_stem: месяц
+    cyrillic_options:
+    - месяц
+    - месяца
+    - месяцем
+    - месяцу
+    string_ids:
+      prompt: 8435
+      english: 5385
+      stored_options:
+      - 8436
+      - 8480
+      - 9398
+      - 8043
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: минута
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She will be here in a minute.
+  neutral_prompt: Она будет через ___. (минута)
+  answer_scope: word
+  options:
+    a: минуту
+    b: минут
+    c: минуте
+    d: минуты
+  correct: a
+  source:
+    index: 2
+    prompt: Она будет через (минуту).
+    base_or_stem: минута
+    cyrillic_options:
+    - минута
+    - минут
+    - минуте
+    - минуты
+    string_ids:
+      prompt: 8243
+      english: 5541
+      stored_options:
+      - 8734
+      - 7862
+      - 8518
+      - 7865
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: I finished a book in a day.
+  neutral_prompt: Я прочитал книгу за ___. (день)
+  answer_scope: word
+  options:
+    a: день
+    b: дня
+    c: дню
+    d: днем
+  correct: a
+  source:
+    index: 3
+    prompt: Я прочитал книгу за (день).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - дня
+    - дню
+    - днем
+    string_ids:
+      prompt: 8438
+      english: 5372
+      stored_options:
+      - 7659
+      - 9070
+      - 9069
+      - 8648
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: год
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We’ve built a house in a year.
+  neutral_prompt: Мы построили дом за ___. (год)
+  answer_scope: word
+  options:
+    a: год
+    b: года
+    c: годе
+    d: году
+  correct: a
+  source:
+    index: 4
+    prompt: Мы построили дом за (год).
+    base_or_stem: год
+    cyrillic_options:
+    - год
+    - года
+    - годе
+    - году
+    string_ids:
+      prompt: 8165
+      english: 7941
+      stored_options:
+      - 7968
+      - 7969
+      - 7974
+      - 8918
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: выставка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I haven’t heard about an exhibition.
+  neutral_prompt: Я не слышал про ___. (выставка)
+  answer_scope: word
+  options:
+    a: выставку
+    b: выставки
+    c: выставкой
+    d: выставке
+  correct: a
+  source:
+    index: 5
+    prompt: Я не слышал про (выставку).
+    base_or_stem: выставка
+    cyrillic_options:
+    - выставка
+    - выставки
+    - выставкой
+    - выставке
+    string_ids:
+      prompt: 8430
+      english: 7919
+      stored_options:
+      - 8874
+      - 8878
+      - 8882
+      - 8877
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: поездка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He’s talking about a trip.
+  neutral_prompt: Он говорит про ___. (поездка)
+  answer_scope: word
+  options:
+    a: поездку
+    b: поездке
+    c: поездкой
+    d: поездкам
+  correct: a
+  source:
+    index: 6
+    prompt: Он говорит про (поездку).
+    base_or_stem: поездка
+    cyrillic_options:
+    - поездка
+    - поездке
+    - поездкой
+    - поездкам
+    string_ids:
+      prompt: 8227
+      english: 7917
+      stored_options:
+      - 9426
+      - 9567
+      - 8274
+      - 9438
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: час
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: I completed homework in an hour.
+  neutral_prompt: Я сделал уроки за ___. (час)
+  answer_scope: word
+  options:
+    a: час
+    b: часом
+    c: часа
+    d: часы
+  correct: a
+  source:
+    index: 7
+    prompt: Я сделал уроки за (час).
+    base_or_stem: час
+    cyrillic_options:
+    - час
+    - часом
+    - часа
+    - часы
+    string_ids:
+      prompt: 7849
+      english: 5370
+      stored_options:
+      - 7738
+      - 9813
+      - 7869
+      - 9792
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: день
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: He painted a picture in a day.
+  neutral_prompt: Он нарисовал картину за ___. (день)
+  answer_scope: word
+  options:
+    a: день
+    b: дня
+    c: днём
+    d: денью
+  correct: a
+  source:
+    index: 8
+    prompt: Он нарисовал картину за (день).
+    base_or_stem: день
+    cyrillic_options:
+    - день
+    - дня
+    - днём
+    - денью
+    string_ids:
+      prompt: 7657
+      english: 5354
+      stored_options:
+      - 7659
+      - 9070
+      - 8406
+      - 9025
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: неделя
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I have a vacation in a week.
+  neutral_prompt: У меня отпуск через ___. (неделя)
+  answer_scope: word
+  options:
+    a: неделю
+    b: недели
+    c: неделей
+    d: недель
+  correct: a
+  source:
+    index: 9
+    prompt: У меня отпуск через (неделю).
+    base_or_stem: неделя
+    cyrillic_options:
+    - неделя
+    - недели
+    - неделей
+    - недель
+    string_ids:
+      prompt: 8384
+      english: 5376
+      stored_options:
+      - 9458
+      - 9456
+      - 9455
+      - 9457
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: год
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We finish university in a year.
+  neutral_prompt: Мы заканчиваем университет через ___. (год)
+  answer_scope: word
+  options:
+    a: год
+    b: году
+    c: годе
+    d: года
+  correct: a
+  source:
+    index: 10
+    prompt: Мы заканчиваем университет через (год).
+    base_or_stem: год
+    cyrillic_options:
+    - год
+    - году
+    - годе
+    - года
+    string_ids:
+      prompt: 8158
+      english: 6158
+      stored_options:
+      - 7968
+      - 8918
+      - 7974
+      - 7969
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: интернет
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I buy things on the internet.
+  neutral_prompt: Я покупаю вещи через ___. (интернет)
+  answer_scope: word
+  options:
+    a: интернет
+    b: интернета
+    c: интернету
+    d: интернеты
+  correct: a
+  source:
+    index: 11
+    prompt: Я покупаю вещи через (интернет).
+    base_or_stem: интернет
+    cyrillic_options:
+    - интернет
+    - интернета
+    - интернету
+    - интернеты
+    string_ids:
+      prompt: 8431
+      english: 5369
+      stored_options:
+      - 8352
+      - 7799
+      - 9244
+      - 9247
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-cherez-za-pro-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: окно
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: He can see me through a window.
+  neutral_prompt: Он видит меня через ___. (окно)
+  answer_scope: word
+  options:
+    a: окно
+    b: окне
+    c: окна
+    d: оком
+  correct: a
+  source:
+    index: 12
+    prompt: Он видит меня через (окно).
+    base_or_stem: окно
+    cyrillic_options:
+    - окно
+    - окне
+    - окна
+    - оком
+    string_ids:
+      prompt: 7754
+      english: 5348
+      stored_options:
+      - 7620
+      - 8007
+      - 7615
+      - 8708
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

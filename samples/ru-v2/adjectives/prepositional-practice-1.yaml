@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-prepositional-practice-1-apk
+learning_language: ru
+track: adjectives
+case: prepositional
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-prepositional-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: летний
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: at a summer festival
+  neutral_prompt: на ___ (летний фестиваль)
+  answer_scope: word
+  options:
+    a: летнем
+    b: летним
+    c: летном
+    d: летней
+  correct: a
+  source:
+    index: 1
+    prompt: на (летнем) {фестивале}
+    base_or_stem: летний фестиваль
+    cyrillic_options:
+    - летний фестиваль
+    - летним
+    - летном
+    - летней
+    string_ids:
+      prompt: 8544
+      english: 936
+      stored_options:
+      - 9364
+      - 9234
+      - 8804
+      - 9362
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: about old buildings
+  neutral_prompt: о ___ (старый здания)
+  answer_scope: word
+  options:
+    a: старых
+    b: старих
+    c: старех
+    d: старым
+  correct: a
+  source:
+    index: 2
+    prompt: о (старых) {зданиях}
+    base_or_stem: старые здания
+    cyrillic_options:
+    - старые здания
+    - старих
+    - старех
+    - старым
+    string_ids:
+      prompt: 9146
+      english: 6521
+      stored_options:
+      - 9764
+      - 9754
+      - 9753
+      - 9765
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: in the blue sky
+  neutral_prompt: на ___ (синий небо)
+  answer_scope: word
+  options:
+    a: синем
+    b: симим
+    c: синих
+    d: сином
+  correct: a
+  source:
+    index: 3
+    prompt: на (синем) {небе}
+    base_or_stem: синее небо
+    cyrillic_options:
+    - синее небо
+    - симим
+    - синих
+    - сином
+    string_ids:
+      prompt: 8789
+      english: 6687
+      stored_options:
+      - 8623
+      - 9690
+      - 9696
+      - 9699
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: about a new project
+  neutral_prompt: о ___ (новый проект)
+  answer_scope: word
+  options:
+    a: новом
+    b: новем
+    c: новым
+    d: новых
+  correct: a
+  source:
+    index: 4
+    prompt: о (новом) {проекте}
+    base_or_stem: новый проект
+    cyrillic_options:
+    - новый проект
+    - новем
+    - новым
+    - новых
+    string_ids:
+      prompt: 8660
+      english: 6505
+      stored_options:
+      - 9419
+      - 8662
+      - 9483
+      - 8379
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: about a good friend
+  neutral_prompt: о ___ (хороший друг)
+  answer_scope: word
+  options:
+    a: хорошем
+    b: хорошом
+    c: хорошим
+    d: хорошой
+  correct: a
+  source:
+    index: 5
+    prompt: о (хорошем) {друге}
+    base_or_stem: хороший друг
+    cyrillic_options:
+    - хороший друг
+    - хорошом
+    - хорошим
+    - хорошой
+    string_ids:
+      prompt: 9157
+      english: 5462
+      stored_options:
+      - 8457
+      - 8960
+      - 8414
+      - 9153
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to live in small houses
+  neutral_prompt: жить в ___ (маленький дома)
+  answer_scope: word
+  options:
+    a: маленьких
+    b: маленькых
+    c: маленькой
+    d: маленькех
+  correct: a
+  source:
+    index: 6
+    prompt: жить в (маленьких) {домах}
+    base_or_stem: маленькие дома
+    cyrillic_options:
+    - маленькие дома
+    - маленькых
+    - маленькой
+    - маленькех
+    string_ids:
+      prompt: 9163
+      english: 4368
+      stored_options:
+      - 8652
+      - 8953
+      - 8838
+      - 8571
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: холодный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to live in cold countries
+  neutral_prompt: жить в ___ (холодный страны)
+  answer_scope: word
+  options:
+    a: холодных
+    b: 'холодних '
+    c: холодный
+    d: холодной
+  correct: a
+  source:
+    index: 7
+    prompt: жить в (холодных) {странах}
+    base_or_stem: холодные страны
+    cyrillic_options:
+    - холодные страны
+    - 'холодних '
+    - холодный
+    - холодной
+    string_ids:
+      prompt: 9167
+      english: 6496
+      stored_options:
+      - 8982
+      - 8810
+      - 9033
+      - 8534
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: важный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: at the important meeting
+  neutral_prompt: на ___ (важный встреча)
+  answer_scope: word
+  options:
+    a: важной
+    b: важней
+    c: важнай
+    d: важном
+  correct: a
+  source:
+    index: 8
+    prompt: на (важной) {встрече}
+    base_or_stem: важная встреча
+    cyrillic_options:
+    - важная встреча
+    - важней
+    - важнай
+    - важном
+    string_ids:
+      prompt: 7693
+      english: 367
+      stored_options:
+      - 8720
+      - 8738
+      - 8732
+      - 8743
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: a woman in a blue dress
+  neutral_prompt: женщина в ___ (синий платье)
+  answer_scope: word
+  options:
+    a: синем
+    b: синым
+    c: сином
+    d: синей
+  correct: a
+  source:
+    index: 9
+    prompt: женщина в (синем) {платье}
+    base_or_stem: синее платье
+    cyrillic_options:
+    - синее платье
+    - синым
+    - сином
+    - синей
+    string_ids:
+      prompt: 9149
+      english: 6475
+      stored_options:
+      - 9692
+      - 9701
+      - 9699
+      - 8822
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a ball in a blue box
+  neutral_prompt: мяч в ___ (синий коробка)
+  answer_scope: word
+  options:
+    a: синей
+    b: синий
+    c: синой
+    d: синяй
+  correct: a
+  source:
+    index: 10
+    prompt: мяч в (синей) {коробке}
+    base_or_stem: синяя коробка
+    cyrillic_options:
+    - синяя коробка
+    - синий
+    - синой
+    - синяй
+    string_ids:
+      prompt: 8821
+      english: 1090
+      stored_options:
+      - 8470
+      - 9694
+      - 9698
+      - 9704
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to live in a small town
+  neutral_prompt: жить в ___ (маленький город)
+  answer_scope: word
+  options:
+    a: маленьком
+    b: маленькой
+    c: маленькый
+    d: маленькам
+  correct: a
+  source:
+    index: 11
+    prompt: жить в (маленьком) {городе}
+    base_or_stem: маленький город
+    cyrillic_options:
+    - маленький город
+    - маленькой
+    - маленькый
+    - маленькам
+    string_ids:
+      prompt: 9166
+      english: 5912
+      stored_options:
+      - 8680
+      - 8838
+      - 8907
+      - 9411
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to live in a big city
+  neutral_prompt: жить в ___ (большой город)
+  answer_scope: word
+  options:
+    a: большом
+    b: большем
+    c: большим
+    d: большай
+  correct: a
+  source:
+    index: 12
+    prompt: жить в (большом) {городе}
+    base_or_stem: большой город
+    cyrillic_options:
+    - большой город
+    - большем
+    - большим
+    - большай
+    string_ids:
+      prompt: 8920
+      english: 5454
+      stored_options:
+      - 8666
+      - 8651
+      - 8527
+      - 8635
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-instrumental-practice-2-apk
+learning_language: ru
+track: adjectives
+case: instrumental
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-instrumental-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: between good friends
+  neutral_prompt: между ___ (хороший друзья)
+  answer_scope: word
+  options:
+    a: хорошими
+    b: хорошеми
+    c: хорошыми
+    d: хорошей
+  correct: a
+  source:
+    index: 1
+    prompt: между (хорошими) {друзьями}
+    base_or_stem: хорошие друзья
+    cyrillic_options:
+    - хорошие друзья
+    - хорошеми
+    - хорошыми
+    - хорошей
+    string_ids:
+      prompt: 7847
+      english: 3912
+      stored_options:
+      - 8572
+      - 9207
+      - 9631
+      - 8412
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: высокий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: between tall buildings
+  neutral_prompt: между ___ (высокий здания)
+  answer_scope: word
+  options:
+    a: высокими
+    b: высокыми
+    c: высокой
+    d: высокеми
+  correct: a
+  source:
+    index: 2
+    prompt: между (высокими) {зданиями}
+    base_or_stem: высокие здания
+    cyrillic_options:
+    - высокие здания
+    - высокыми
+    - высокой
+    - высокеми
+    string_ids:
+      prompt: 7747
+      english: 6517
+      stored_options:
+      - 8857
+      - 8869
+      - 8867
+      - 8851
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: behind a new school
+  neutral_prompt: а ___ (новый школа)
+  answer_scope: word
+  options:
+    a: новой
+    b: новей
+    c: новым
+    d: новай
+  correct: a
+  source:
+    index: 3
+    prompt: а (новой) {школой}
+    base_or_stem: 'новая школа '
+    cyrillic_options:
+    - 'новая школа '
+    - новей
+    - новым
+    - новай
+    string_ids:
+      prompt: 8454
+      english: 1125
+      stored_options:
+      - 8452
+      - 9465
+      - 9483
+      - 8083
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: behing a big house
+  neutral_prompt: за ___ (большой дом)
+  answer_scope: word
+  options:
+    a: большим
+    b: большым
+    c: большом
+    d: большем
+  correct: a
+  source:
+    index: 4
+    prompt: за (большим) {домом}
+    base_or_stem: большой дом
+    cyrillic_options:
+    - большой дом
+    - большым
+    - большом
+    - большем
+    string_ids:
+      prompt: 8526
+      english: 4110
+      stored_options:
+      - 8669
+      - 8678
+      - 8672
+      - 8651
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: цветной
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to draw with color pencils
+  neutral_prompt: рисовать ___ (цветной карандаши)
+  answer_scope: word
+  options:
+    a: цветными
+    b: цветними
+    c: цветной
+    d: цветным
+  correct: a
+  source:
+    index: 5
+    prompt: рисовать (цветными) {карандашами}
+    base_or_stem: цветные карандаши
+    cyrillic_options:
+    - цветные карандаши
+    - цветними
+    - цветной
+    - цветным
+    string_ids:
+      prompt: 8770
+      english: 6763
+      stored_options:
+      - 9254
+      - 9802
+      - 9803
+      - 8771
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: любимый
+  features:
+    number: singular
+    gender: neuter
+    animacy: null
+  native_text:
+    en: to do one's favourite thing
+  neutral_prompt: заниматься ___ (любимый дело)
+  answer_scope: word
+  options:
+    a: любимым
+    b: любимим
+    c: любимой
+    d: любимем
+  correct: a
+  source:
+    index: 6
+    prompt: заниматься (любимым) {делом}
+    base_or_stem: любимое дело
+    cyrillic_options:
+    - любимое дело
+    - любимим
+    - любимой
+    - любимем
+    string_ids:
+      prompt: 9187
+      english: 374
+      stored_options:
+      - 9010
+      - 9389
+      - 9391
+      - 9384
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: русский
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to study Russian language
+  neutral_prompt: заниматься ___ (русский язык)
+  answer_scope: word
+  options:
+    a: русским
+    b: русскым
+    c: русской
+    d: русскем
+  correct: a
+  source:
+    index: 7
+    prompt: заниматься (русским) {языком}
+    base_or_stem: русский язык
+    cyrillic_options:
+    - русский язык
+    - русскым
+    - русской
+    - русскем
+    string_ids:
+      prompt: 9188
+      english: 7236
+      stored_options:
+      - 9273
+      - 9665
+      - 9663
+      - 9658
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: современный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to be into modern dancing
+  neutral_prompt: увлекаться ___ (современный танцы)
+  answer_scope: word
+  options:
+    a: современными
+    b: современними
+    c: современных
+    d: современной
+  correct: a
+  source:
+    index: 8
+    prompt: увлекаться (современными) {танцами}
+    base_or_stem: современные танцы
+    cyrillic_options:
+    - современные танцы
+    - современними
+    - современных
+    - современной
+    string_ids:
+      prompt: 8844
+      english: 4235
+      stored_options:
+      - 9728
+      - 9726
+      - 9730
+      - 9727
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: всемирный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to be into world history
+  neutral_prompt: увлекаться ___ (всемирный история)
+  answer_scope: word
+  options:
+    a: всемироной
+    b: всемирней
+    c: всемирный
+    d: всемирным
+  correct: a
+  source:
+    index: 9
+    prompt: увлекаться (всемироной) {историей}
+    base_or_stem: всемирная история
+    cyrillic_options:
+    - всемирная история
+    - всемирней
+    - всемирный
+    - всемирным
+    string_ids:
+      prompt: 7640
+      english: 5425
+      stored_options:
+      - 8823
+      - 8825
+      - 8826
+      - 8827
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: низкий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to speak in a low voice
+  neutral_prompt: говорить ___ (низкий голос)
+  answer_scope: word
+  options:
+    a: низким
+    b: низкем
+    c: низких
+    d: низкой
+  correct: a
+  source:
+    index: 10
+    prompt: говорить (низким) {голосом}
+    base_or_stem: низкий голос
+    cyrillic_options:
+    - низкий голос
+    - низкем
+    - низких
+    - низкой
+    string_ids:
+      prompt: 8916
+      english: 5790
+      stored_options:
+      - 8791
+      - 8546
+      - 9152
+      - 9068
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: высокий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to sing in a high voice
+  neutral_prompt: петь ___ (высокий голос)
+  answer_scope: word
+  options:
+    a: высоким
+    b: высокем
+    c: высокой
+    d: высокым
+  correct: a
+  source:
+    index: 11
+    prompt: петь (высоким) {голосом}
+    base_or_stem: высокий голос
+    cyrillic_options:
+    - высокий голос
+    - высокем
+    - высокой
+    - высокым
+    string_ids:
+      prompt: 9536
+      english: 6606
+      stored_options:
+      - 8861
+      - 8850
+      - 8867
+      - 8868
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-instrumental-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: красный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to draw with a red pencil
+  neutral_prompt: рисовать ___ (красный карандаш)
+  answer_scope: word
+  options:
+    a: красным
+    b: красним
+    c: красной
+    d: красными
+  correct: a
+  source:
+    index: 12
+    prompt: рисовать (красным) {карандашом}
+    base_or_stem: красный карандаш
+    cyrillic_options:
+    - красный карандаш
+    - красним
+    - красной
+    - красными
+    string_ids:
+      prompt: 8864
+      english: 4051
+      stored_options:
+      - 8714
+      - 9232
+      - 9330
+      - 9246
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

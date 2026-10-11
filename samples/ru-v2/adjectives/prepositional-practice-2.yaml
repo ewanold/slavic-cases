@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-prepositional-practice-2-apk
+learning_language: ru
+track: adjectives
+case: prepositional
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-prepositional-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: холодный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: about cold winter
+  neutral_prompt: о ___ (холодный зима)
+  answer_scope: word
+  options:
+    a: холодной
+    b: холодней
+    c: холодняй
+    d: холоднем
+  correct: a
+  source:
+    index: 1
+    prompt: о (холодной) {зиме}
+    base_or_stem: холодная зима
+    cyrillic_options:
+    - холодная зима
+    - холодней
+    - холодняй
+    - холоднем
+    string_ids:
+      prompt: 8533
+      english: 6507
+      stored_options:
+      - 8854
+      - 8873
+      - 9035
+      - 8647
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ранний
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: about early spring
+  neutral_prompt: о ___ (ранний весна)
+  answer_scope: word
+  options:
+    a: ранней
+    b: ранний
+    c: ранный
+    d: ранной
+  correct: a
+  source:
+    index: 2
+    prompt: о (ранней) {весне}
+    base_or_stem: ранняя весна
+    cyrillic_options:
+    - ранняя весна
+    - ранний
+    - ранный
+    - ранной
+    string_ids:
+      prompt: 8935
+      english: 6509
+      stored_options:
+      - 9445
+      - 9639
+      - 9643
+      - 9642
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: далёкий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: about faraway countries
+  neutral_prompt: о ___ (далёкий страны)
+  answer_scope: word
+  options:
+    a: далёких
+    b: далёкых
+    c: далёким
+    d: далёкех
+  correct: a
+  source:
+    index: 3
+    prompt: о (далёких) {странах}
+    base_or_stem: далёкие страны
+    cyrillic_options:
+    - далёкие страны
+    - далёкых
+    - далёким
+    - далёкех
+    string_ids:
+      prompt: 8621
+      english: 6513
+      stored_options:
+      - 8974
+      - 8980
+      - 8976
+      - 8972
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: русский
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: about Russian language
+  neutral_prompt: о ___ (русский язык)
+  answer_scope: word
+  options:
+    a: русском
+    b: русскам
+    c: русскым
+    d: русской
+  correct: a
+  source:
+    index: 4
+    prompt: о (русском) {языке}
+    base_or_stem: русский язык
+    cyrillic_options:
+    - русский язык
+    - русскам
+    - русскым
+    - русской
+    string_ids:
+      prompt: 8904
+      english: 4710
+      stored_options:
+      - 9273
+      - 9656
+      - 9665
+      - 9663
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: about famous people
+  neutral_prompt: об ___ (известный люди)
+  answer_scope: word
+  options:
+    a: известных
+    b: известних
+    c: известный
+    d: известним
+  correct: a
+  source:
+    index: 5
+    prompt: об (известных) {людях}
+    base_or_stem: известные люди
+    cyrillic_options:
+    - известные люди
+    - известних
+    - известный
+    - известним
+    string_ids:
+      prompt: 8876
+      english: 6512
+      stored_options:
+      - 8991
+      - 8740
+      - 9005
+      - 8694
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: in good relations
+  neutral_prompt: в ___ (хороший отношения)
+  answer_scope: word
+  options:
+    a: хороших
+    b: хорошых
+    c: хорошой
+    d: хорошех
+  correct: a
+  source:
+    index: 6
+    prompt: в (хороших) {отношениях}
+    base_or_stem: хорошие отношения
+    cyrillic_options:
+    - хорошие отношения
+    - хорошых
+    - хорошой
+    - хорошех
+    string_ids:
+      prompt: 8716
+      english: 7346
+      stored_options:
+      - 8954
+      - 9641
+      - 9153
+      - 9231
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: глубокий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: in deep snow
+  neutral_prompt: в ___ (глубокий снег)
+  answer_scope: word
+  options:
+    a: глубоком
+    b: глубокем
+    c: глуокам
+    d: глубокой
+  correct: a
+  source:
+    index: 7
+    prompt: в (глубоком) {снегу}
+    base_or_stem: глубокий снег
+    cyrillic_options:
+    - глубокий снег
+    - глубокем
+    - глуокам
+    - глубокой
+    string_ids:
+      prompt: 8707
+      english: 6567
+      stored_options:
+      - 8890
+      - 8906
+      - 8912
+      - 8910
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чистый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: in clear water
+  neutral_prompt: в ___ (чистый вода)
+  answer_scope: word
+  options:
+    a: чистой
+    b: чистей
+    c: чистом
+    d: чистых
+  correct: a
+  source:
+    index: 8
+    prompt: в (чистой) {воде}
+    base_or_stem: чистая вода
+    cyrillic_options:
+    - чистая вода
+    - чистей
+    - чистом
+    - чистых
+    string_ids:
+      prompt: 8725
+      english: 785
+      stored_options:
+      - 8808
+      - 9129
+      - 9552
+      - 9024
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: семейный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: at a family dinner
+  neutral_prompt: на ___ (семейный ужин)
+  answer_scope: word
+  options:
+    a: семейном
+    b: семейным
+    c: семейной
+    d: семейнем
+  correct: a
+  source:
+    index: 9
+    prompt: на (семейном) {ужине}
+    base_or_stem: семейный ужин
+    cyrillic_options:
+    - семейный ужин
+    - семейным
+    - семейной
+    - семейнем
+    string_ids:
+      prompt: 8729
+      english: 6641
+      stored_options:
+      - 9680
+      - 9682
+      - 9679
+      - 9678
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: деловой
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: at a business lunch
+  neutral_prompt: на ___ (деловой обед)
+  answer_scope: word
+  options:
+    a: деловом
+    b: деловей
+    c: деловая
+    d: деловым
+  correct: a
+  source:
+    index: 10
+    prompt: на (деловом) {обеде}
+    base_or_stem: деловой обед
+    cyrillic_options:
+    - деловой обед
+    - деловей
+    - деловая
+    - деловым
+    string_ids:
+      prompt: 7982
+      english: 4760
+      stored_options:
+      - 9013
+      - 9012
+      - 9011
+      - 9016
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: белый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: in white dresses
+  neutral_prompt: в ___ (белый платья)
+  answer_scope: word
+  options:
+    a: белых
+    b: белих
+    c: белех
+    d: белом
+  correct: a
+  source:
+    index: 11
+    prompt: в (белых) {платьях}
+    base_or_stem: белые платья
+    cyrillic_options:
+    - белые платья
+    - белих
+    - белех
+    - белом
+    string_ids:
+      prompt: 8005
+      english: 7347
+      stored_options:
+      - 8573
+      - 8567
+      - 8565
+      - 8570
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-prepositional-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: разный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: in different cities
+  neutral_prompt: в ___ (разный города)
+  answer_scope: word
+  options:
+    a: разных
+    b: разних
+    c: разнем
+    d: разной
+  correct: a
+  source:
+    index: 12
+    prompt: в (разных) {городах}
+    base_or_stem: разные города
+    cyrillic_options:
+    - разные города
+    - разних
+    - разнем
+    - разной
+    string_ids:
+      prompt: 8712
+      english: 6870
+      stored_options:
+      - 8968
+      - 9629
+      - 9628
+      - 9632
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

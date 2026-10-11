@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-bez-dlya-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: bez-dlya
+  name: без, для
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-bez-dlya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: молоко
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: Coffee without milk.
+  neutral_prompt: Кофе без ___. (молоко)
+  answer_scope: word
+  options:
+    a: молока
+    b: молоке
+    c: молоком
+    d: молоку
+  correct: a
+  source:
+    index: 1
+    prompt: Кофе без (молока).
+    base_or_stem: молоко
+    cyrillic_options:
+    - молоко
+    - молоке
+    - молоком
+    - молоку
+    string_ids:
+      prompt: 8076
+      english: 4843
+      stored_options:
+      - 7725
+      - 9423
+      - 7700
+      - 7617
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: машины
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A road without cars.
+  neutral_prompt: Дорога без ___. (машины)
+  answer_scope: word
+  options:
+    a: машин
+    b: машиной
+    c: машинам
+    d: машинами
+  correct: a
+  source:
+    index: 2
+    prompt: Дорога без (машин).
+    base_or_stem: машины
+    cyrillic_options:
+    - машины
+    - машиной
+    - машинам
+    - машинами
+    string_ids:
+      prompt: 8021
+      english: 4493
+      stored_options:
+      - 8558
+      - 9294
+      - 9278
+      - 9279
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: мама
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A present for mother.
+  neutral_prompt: Подарок для ___. (мама)
+  answer_scope: word
+  options:
+    a: мамы
+    b: мамой
+    c: маме
+    d: мами
+  correct: a
+  source:
+    index: 3
+    prompt: Подарок для (мамы).
+    base_or_stem: мама
+    cyrillic_options:
+    - мама
+    - мамой
+    - маме
+    - мами
+    string_ids:
+      prompt: 8289
+      english: 4488
+      stored_options:
+      - 7717
+      - 8856
+      - 7719
+      - 8129
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребенок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Toys for a child.
+  neutral_prompt: Игрушки для ___. (ребенок)
+  answer_scope: word
+  options:
+    a: ребенка
+    b: ребенку
+    c: ребенком
+    d: ребенке
+  correct: a
+  source:
+    index: 4
+    prompt: Игрушки для (ребенка).
+    base_or_stem: ребенок
+    cyrillic_options:
+    - ребенок
+    - ребенку
+    - ребенком
+    - ребенке
+    string_ids:
+      prompt: 8047
+      english: 6049
+      stored_options:
+      - 9498
+      - 9607
+      - 9292
+      - 8510
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сахар
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Tea without sugar.
+  neutral_prompt: Чай без ___. (сахар)
+  answer_scope: word
+  options:
+    a: сахара
+    b: сахары
+    c: сахаром
+    d: сахаре
+  correct: a
+  source:
+    index: 5
+    prompt: Чай без (сахара).
+    base_or_stem: сахар
+    cyrillic_options:
+    - сахар
+    - сахары
+    - сахаром
+    - сахаре
+    string_ids:
+      prompt: 8395
+      english: 5674
+      stored_options:
+      - 8138
+      - 9673
+      - 9672
+      - 9497
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: окно
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: A room without a window.
+  neutral_prompt: Комната без ___. (окно)
+  answer_scope: word
+  options:
+    a: окна
+    b: окне
+    c: окнам
+    d: окну
+  correct: a
+  source:
+    index: 6
+    prompt: Комната без (окна).
+    base_or_stem: окно
+    cyrillic_options:
+    - окно
+    - окне
+    - окнам
+    - окну
+    string_ids:
+      prompt: 8068
+      english: 4495
+      stored_options:
+      - 7620
+      - 8007
+      - 7616
+      - 8774
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: работа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A day without work.
+  neutral_prompt: День без ___. (работа)
+  answer_scope: word
+  options:
+    a: работы
+    b: работу
+    c: Работой
+    d: работе
+  correct: a
+  source:
+    index: 7
+    prompt: День без (работы).
+    base_or_stem: работа
+    cyrillic_options:
+    - работа
+    - работу
+    - Работой
+    - работе
+    string_ids:
+      prompt: 8012
+      english: 4466
+      stored_options:
+      - 8235
+      - 8745
+      - 8299
+      - 8506
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: соль
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Salad without salt.
+  neutral_prompt: Салат без ___. (соль)
+  answer_scope: word
+  options:
+    a: соли
+    b: соле
+    c: солем
+    d: соля
+  correct: a
+  source:
+    index: 8
+    prompt: Салат без (соли).
+    base_or_stem: соль
+    cyrillic_options:
+    - соль
+    - соле
+    - солем
+    - соля
+    string_ids:
+      prompt: 8325
+      english: 5835
+      stored_options:
+      - 9741
+      - 9734
+      - 9735
+      - 9742
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: A book for sister.
+  neutral_prompt: Книга для ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестры
+    b: сестре
+    c: сестрой
+    d: стестру
+  correct: a
+  source:
+    index: 9
+    prompt: Книга для (сестры).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестре
+    - сестрой
+    - стестру
+    string_ids:
+      prompt: 8060
+      english: 4456
+      stored_options:
+      - 7784
+      - 7786
+      - 8449
+      - 9652
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дети
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A movie for kids.
+  neutral_prompt: Фильм для ___. (дети)
+  answer_scope: word
+  options:
+    a: детей
+    b: детю
+    c: детям
+    d: дете
+  correct: a
+  source:
+    index: 10
+    prompt: Фильм для (детей).
+    base_or_stem: дети
+    cyrillic_options:
+    - дети
+    - детю
+    - детям
+    - дете
+    string_ids:
+      prompt: 8389
+      english: 4487
+      stored_options:
+      - 8619
+      - 9041
+      - 8114
+      - 8390
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A surprise for friends.
+  neutral_prompt: Сюрприз для ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзей
+    b: друзьы
+    c: друзьи
+    d: друзьям
+  correct: a
+  source:
+    index: 11
+    prompt: Сюрприз для (друзей).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзьы
+    - друзьи
+    - друзьям
+    string_ids:
+      prompt: 8358
+      english: 4500
+      stored_options:
+      - 8161
+      - 9140
+      - 7957
+      - 8162
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-bez-dlya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кошка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Food for the cat.
+  neutral_prompt: Еда для ___. (кошка)
+  answer_scope: word
+  options:
+    a: кошки
+    b: кошке
+    c: кошкы
+    d: кошку
+  correct: a
+  source:
+    index: 12
+    prompt: Еда для (кошки).
+    base_or_stem: кошка
+    cyrillic_options:
+    - кошка
+    - кошке
+    - кошкы
+    - кошку
+    string_ids:
+      prompt: 8029
+      english: 5281
+      stored_options:
+      - 7603
+      - 9316
+      - 9318
+      - 7855
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

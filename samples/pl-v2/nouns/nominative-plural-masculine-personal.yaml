@@ -1,0 +1,203 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-plural-masculine-personal-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: plural-masculine-personal
+  name: plural masculine personal
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-nominative-plural-masculine-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pisarz
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: writers
+  neutral_prompt: ___ (pisarz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pisarze
+    b: pisarz
+    c: pisarza
+    d: pisarzowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-007
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic:
+      id: plural-masculine
+      name: Plural masculine
+    russian_prompt: (писатель)
+    russian_native_text:
+      en: writers
+    polish_marked_prompt: '[pisarze]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: nauczyciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: teachers
+  neutral_prompt: ___ (nauczyciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: nauczyciele
+    b: nauczyciel
+    c: nauczyciela
+    d: nauczycielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-008
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: plural-exceptions
+      name: Plural exceptions
+    russian_prompt: (учитель)
+    russian_native_text:
+      en: teachers
+    polish_marked_prompt: '[nauczyciele]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: brat
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: brothers
+  neutral_prompt: ___ (brat; liczba mnoga)
+  answer_scope: word
+  options:
+    a: bracia
+    b: brat
+    c: brata
+    d: bratu
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-010
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (брат)
+    russian_native_text:
+      en: brothers
+    polish_marked_prompt: '[bracia]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: friends
+  neutral_prompt: ___ (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciele
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-011
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (друг)
+    russian_native_text:
+      en: friends
+    polish_marked_prompt: '[przyjaciele]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: syn
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: sons
+  neutral_prompt: ___ (syn; liczba mnoga)
+  answer_scope: word
+  options:
+    a: synowie
+    b: syn
+    c: syna
+    d: synowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-012
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (сын)
+    russian_native_text:
+      en: sons
+    polish_marked_prompt: '[synowie]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mąż
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: husbands
+  neutral_prompt: ___ (mąż; liczba mnoga)
+  answer_scope: word
+  options:
+    a: mężowie
+    b: mąż
+    c: męża
+    d: mężowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-013
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (муж)
+    russian_native_text:
+      en: husbands
+    polish_marked_prompt: '[mężowie]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

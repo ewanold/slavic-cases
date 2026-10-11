@@ -1,0 +1,386 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-quantities-5-and-more-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: quantities-5-and-more
+  name: quantities 5 and more
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dolar
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 5 dollars.
+  neutral_prompt: Pięć ___. (dolar; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dolarów
+    b: dolar
+    c: dolara
+    d: dolarowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-001
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: 5-9-0-nadtsat
+      name: 5-9, 0, -надцать
+    russian_prompt: 5 (долларов).
+    russian_native_text:
+      en: 5 dollars.
+    polish_marked_prompt: Pięć [dolarów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: część
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 5 parts.
+  neutral_prompt: Pięć ___. (część; liczba mnoga)
+  answer_scope: word
+  options:
+    a: części
+    b: część
+    c: częścią
+    d: częściom
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-002
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 5 (частей).
+    russian_native_text:
+      en: 5 parts.
+    polish_marked_prompt: Pięć [części].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kot
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 7 cats.
+  neutral_prompt: Siedem ___. (kot; liczba mnoga)
+  answer_scope: word
+  options:
+    a: kotów
+    b: kot
+    c: kota
+    d: kotu
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-003
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 7 (кошек).
+    russian_native_text:
+      en: 7 cats.
+    polish_marked_prompt: Siedem [kotów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: minuta
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 5 minutes.
+  neutral_prompt: Pięć ___. (minuta; liczba mnoga)
+  answer_scope: word
+  options:
+    a: minut
+    b: minuta
+    c: minuty
+    d: minutę
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-004
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 5 (минут).
+    russian_native_text:
+      en: 5 minutes.
+    polish_marked_prompt: Pięć [minut].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: godzina
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Eight hours.
+  neutral_prompt: Osiem ___. (godzina; liczba mnoga)
+  answer_scope: word
+  options:
+    a: godzin
+    b: godzina
+    c: godziny
+    d: godzinę
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-005
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 8 (часов).
+    russian_native_text:
+      en: 8 o’clock/6 hours.
+    polish_marked_prompt: Osiem [godzin].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 6 days.
+  neutral_prompt: Sześć ___. (dzień; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dni
+    b: dzień
+    c: dnia
+    d: dniowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-006
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 6 (дней).
+    russian_native_text:
+      en: 6 days.
+    polish_marked_prompt: Sześć [dni].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rubel
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 9 rubles.
+  neutral_prompt: Dziewięć ___. (rubel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rubli
+    b: rubel
+    c: rubla
+    d: rublowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-007
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 9 (рублей).
+    russian_native_text:
+      en: 9 rubles.
+    polish_marked_prompt: Dziewięć [rubli].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ołówek
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 8 pencils.
+  neutral_prompt: Osiem ___. (ołówek; liczba mnoga)
+  answer_scope: word
+  options:
+    a: ołówków
+    b: ołówek
+    c: ołówka
+    d: ołówkowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-008
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 8 (карандашей).
+    russian_native_text:
+      en: 8 pencils.
+    polish_marked_prompt: Osiem [ołówków].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: 7 friends.
+  neutral_prompt: Siedmiu ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciół
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-009
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 7 (друзей).
+    russian_native_text:
+      en: 7 friends.
+    polish_marked_prompt: Siedmiu [przyjaciół].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: minuta
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 15 minutes.
+  neutral_prompt: Piętnaście ___. (minuta; liczba mnoga)
+  answer_scope: word
+  options:
+    a: minut
+    b: minuta
+    c: minuty
+    d: minutę
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-010
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 15 (минут).
+    russian_native_text:
+      en: 15 minutes.
+    polish_marked_prompt: Piętnaście [minut].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: student
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: 20 students.
+  neutral_prompt: Dwudziestu ___. (student; liczba mnoga)
+  answer_scope: word
+  options:
+    a: studentów
+    b: student
+    c: studenta
+    d: studentowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-011
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 20 (студентов).
+    russian_native_text:
+      en: 20 students.
+    polish_marked_prompt: Dwudziestu [studentów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-5-9-0-nadtsat-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lekcja
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: 30 lessons.
+  neutral_prompt: Trzydzieści ___. (lekcja; liczba mnoga)
+  answer_scope: word
+  options:
+    a: lekcji
+    b: lekcja
+    c: lekcję
+    d: lekcją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-5-9-0-nadtsat-apk-012
+    russian_file: samples/ru/nouns/genitive-5-9-0-nadtsat.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: 30 (уроков).
+    russian_native_text:
+      en: 30 lessons.
+    polish_marked_prompt: Trzydzieści [lekcji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.

@@ -1,7 +1,7 @@
 # Original starter material; linguistic review is pending.
 schema_version: 1
 learning_language: pl
-name: Polski
+name: Polish simple
 native_languages:
 - en
 - de
@@ -23,3 +23,8 @@ cases:
   name: Miejscownik
 - id: vocative
   name: Wołacz
+names:
+  en: Polish simple
+  de: Polnisch einfach
+  ru: "Польский: базовый курс"
+  pl: "Polski: kurs podstawowy"

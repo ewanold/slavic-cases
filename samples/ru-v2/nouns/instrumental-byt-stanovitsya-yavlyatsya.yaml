@@ -1,0 +1,501 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: byt-stanovitsya-yavlyatsya
+  name: быть, становиться, являться
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: врач
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I will be a doctor.
+  neutral_prompt: Я буду ___. (врач)
+  answer_scope: word
+  options:
+    a: врачом
+    b: враче
+    c: врачи
+    d: врач
+  correct: a
+  source:
+    index: 1
+    prompt: Я буду (врачом).
+    base_or_stem: врач
+    cyrillic_options:
+    - врач
+    - враче
+    - врачи
+    - врач
+    string_ids:
+      prompt: 8416
+      english: 5384
+      stored_options:
+      - 7655
+      - 8802
+      - 8807
+      - 7655
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We will be parents.
+  neutral_prompt: Мы будем ___. (родители)
+  answer_scope: word
+  options:
+    a: родителями
+    b: родители
+    c: родителей
+    d: родитель
+  correct: a
+  source:
+    index: 2
+    prompt: Мы будем (родителями).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родители
+    - родителей
+    - родитель
+    string_ids:
+      prompt: 8152
+      english: 6167
+      stored_options:
+      - 8668
+      - 8668
+      - 8017
+      - 9649
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: актриса
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She will be an actress.
+  neutral_prompt: Она будет ___. (актриса)
+  answer_scope: word
+  options:
+    a: актрисой
+    b: актрисе
+    c: актриса
+    d: актрисы
+  correct: a
+  source:
+    index: 3
+    prompt: Она будет (актрисой).
+    base_or_stem: актриса
+    cyrillic_options:
+    - актриса
+    - актрисе
+    - актриса
+    - актрисы
+    string_ids:
+      prompt: 8242
+      english: 5876
+      stored_options:
+      - 8477
+      - 8481
+      - 8477
+      - 8485
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: When you were a child.
+  neutral_prompt: Когда ты был ___. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнком
+    b: ребёнка
+    c: ребёнки
+    d: ребёнка
+  correct: a
+  source:
+    index: 4
+    prompt: Когда ты был (ребёнком).
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребёнка
+    - ребёнки
+    - ребёнка
+    string_ids:
+      prompt: 8062
+      english: 6171
+      stored_options:
+      - 8813
+      - 7886
+      - 9646
+      - 7886
+  review_notes:
+  - Source contains duplicate answer choices; preserved for review.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: начальник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I want to be the boss.
+  neutral_prompt: Я хочу быть ___. (начальник)
+  answer_scope: word
+  options:
+    a: начальником
+    b: начальника
+    c: начальнику
+    d: начальникой
+  correct: a
+  source:
+    index: 5
+    prompt: Я хочу быть (начальником).
+    base_or_stem: начальник
+    cyrillic_options:
+    - начальник
+    - начальника
+    - начальнику
+    - начальникой
+    string_ids:
+      prompt: 8444
+      english: 5382
+      stored_options:
+      - 7734
+      - 8266
+      - 7735
+      - 9449
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: пилот
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I want to become a pilot.
+  neutral_prompt: Я хочу стать ___. (пилот)
+  answer_scope: word
+  options:
+    a: пилотом
+    b: пилота
+    c: пилоту
+    d: пилот
+  correct: a
+  source:
+    index: 6
+    prompt: Я хочу стать (пилотом).
+    base_or_stem: пилот
+    cyrillic_options:
+    - пилот
+    - пилота
+    - пилоту
+    - пилот
+    string_ids:
+      prompt: 8446
+      english: 5383
+      stored_options:
+      - 8447
+      - 9538
+      - 9540
+      - 8447
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We became friends.
+  neutral_prompt: Мы стали ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзьями
+    b: друзьи
+    c: друзьям
+    d: друзья
+  correct: a
+  source:
+    index: 7
+    prompt: Мы стали (друзьями).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзьи
+    - друзьям
+    - друзья
+    string_ids:
+      prompt: 8166
+      english: 6157
+      stored_options:
+      - 8161
+      - 7957
+      - 8162
+      - 8161
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: учитель
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Do you want to become a teacher?
+  neutral_prompt: Ты хочешь стать ___?. (учитель)
+  answer_scope: word
+  options:
+    a: учителем
+    b: учителя
+    c: учителю
+    d: учители
+  correct: a
+  source:
+    index: 8
+    prompt: Ты хочешь стать (учителем)?.
+    base_or_stem: учитель
+    cyrillic_options:
+    - учитель
+    - учителя
+    - учителю
+    - учители
+    string_ids:
+      prompt: 8373
+      english: 5143
+      stored_options:
+      - 7839
+      - 8045
+      - 9388
+      - 9739
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: журналист
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He wants to become a journalist.
+  neutral_prompt: Он хочет стать ___. (журналист)
+  answer_scope: word
+  options:
+    a: журналистом
+    b: журналиста
+    c: журналисту
+    d: журналисте
+  correct: a
+  source:
+    index: 9
+    prompt: Он хочет стать (журналистом).
+    base_or_stem: журналист
+    cyrillic_options:
+    - журналист
+    - журналиста
+    - журналисту
+    - журналисте
+    string_ids:
+      prompt: 8238
+      english: 5357
+      stored_options:
+      - 8240
+      - 9172
+      - 9178
+      - 9175
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: доказательство
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It is not an evidence.
+  neutral_prompt: Это не является ___. (доказательство)
+  answer_scope: word
+  options:
+    a: доказательством
+    b: доказательства
+    c: доказательству
+    d: доказательстве
+  correct: a
+  source:
+    index: 10
+    prompt: Это не является (доказательством).
+    base_or_stem: доказательство
+    cyrillic_options:
+    - доказательство
+    - доказательства
+    - доказательству
+    - доказательстве
+    string_ids:
+      prompt: 8409
+      english: 5459
+      stored_options:
+      - 8410
+      - 8731
+      - 9091
+      - 8756
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: база
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It’s a good basis.
+  neutral_prompt: Это является хорошей ___. (база)
+  answer_scope: word
+  options:
+    a: базой
+    b: базе
+    c: базу
+    d: базе
+  correct: a
+  source:
+    index: 11
+    prompt: Это является хорошей (базой).
+    base_or_stem: база
+    cyrillic_options:
+    - база
+    - базе
+    - базу
+    - базе
+    string_ids:
+      prompt: 8411
+      english: 7920
+      stored_options:
+      - 8525
+      - 8528
+      - 8531
+      - 8528
+  review_notes:
+  - Source contains duplicate answer choices; preserved for review.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: пример
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: It’s a good example.
+  neutral_prompt: Это является хорошим ___. (пример)
+  answer_scope: word
+  options:
+    a: примером
+    b: примере
+    c: примеру
+    d: примеры
+  correct: a
+  source:
+    index: 12
+    prompt: Это является хорошим (примером).
+    base_or_stem: пример
+    cyrillic_options:
+    - пример
+    - примере
+    - примеру
+    - примеры
+    string_ids:
+      prompt: 8413
+      english: 7921
+      stored_options:
+      - 8415
+      - 9606
+      - 8586
+      - 9609
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I am his sister.
+  neutral_prompt: Я являюсь его ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестрой
+    b: сестре
+    c: сестру
+    d: сестрам
+  correct: a
+  source:
+    index: 13
+    prompt: Я являюсь его (сестрой).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестре
+    - сестру
+    - сестрам
+    string_ids:
+      prompt: 8448
+      english: 5366
+      stored_options:
+      - 7784
+      - 7786
+      - 9623
+      - 9400
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

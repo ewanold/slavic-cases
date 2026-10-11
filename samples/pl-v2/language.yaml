@@ -1,0 +1,292 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+learning_language: pl
+name: Polish deep
+native_languages:
+- en
+tracks:
+- nouns
+- adjectives
+cases:
+- id: nominative
+  name: Mianownik
+- id: genitive
+  name: Dopełniacz
+- id: dative
+  name: Celownik
+- id: accusative
+  name: Biernik
+- id: instrumental
+  name: Narzędnik
+- id: locative
+  name: Miejscownik
+- id: vocative
+  name: Wołacz
+translation_notes: English in all sets; original vocative sets also retain German.
+names:
+  en: Polish deep
+  de: Polnisch vertieft
+  ru: "Польский: углублённый курс"
+  pl: "Polski: kurs rozszerzony"
+topic_names:
+  from-dative-practice-2:
+    en: from dative practice 2
+    de: 'Aus dem Dativ: Übung 2'
+    ru: "Из дательного падежа: Упражнение 2"
+    pl: "Z celownika: Ćwiczenie 2"
+  from-instrumental-practice-1:
+    en: from instrumental practice 1
+    de: 'Aus dem Instrumental: Übung 1'
+    ru: "Из творительного падежа: Упражнение 1"
+    pl: "Z narzędnika: Ćwiczenie 1"
+  practice-1:
+    en: practice 1
+    de: Übung 1
+    ru: "Упражнение 1"
+    pl: "Ćwiczenie 1"
+  practice-2:
+    en: practice 2
+    de: Übung 2
+    ru: "Упражнение 2"
+    pl: "Ćwiczenie 2"
+  from-accusative-practice-2:
+    en: from accusative practice 2
+    de: 'Aus dem Akkusativ: Übung 2'
+    ru: "Из винительного падежа: Упражнение 2"
+    pl: "Z biernika: Ćwiczenie 2"
+  from-dative-practice-1:
+    en: from dative practice 1
+    de: 'Aus dem Dativ: Übung 1'
+    ru: "Из дательного падежа: Упражнение 1"
+    pl: "Z celownika: Ćwiczenie 1"
+  practice-3:
+    en: practice 3
+    de: Übung 3
+    ru: "Упражнение 3"
+    pl: "Ćwiczenie 3"
+  from-genitive-practice-1:
+    en: from genitive practice 1
+    de: 'Aus dem Genitiv: Übung 1'
+    ru: "Из родительного падежа: Упражнение 1"
+    pl: "Z dopełniacza: Ćwiczenie 1"
+  from-genitive-practice-2:
+    en: from genitive practice 2
+    de: 'Aus dem Genitiv: Übung 2'
+    ru: "Из родительного падежа: Упражнение 2"
+    pl: "Z dopełniacza: Ćwiczenie 2"
+  from-genitive-practice-3:
+    en: from genitive practice 3
+    de: 'Aus dem Genitiv: Übung 3'
+    ru: "Из родительного падежа: Упражнение 3"
+    pl: "Z dopełniacza: Ćwiczenie 3"
+  direct-address:
+    en: Traditional vocative for direct address
+    de: Traditioneller Vokativ für die Anrede
+    ru: "Традиционный звательный падеж при обращении"
+    pl: "Tradycyjny wołacz w bezpośrednim zwrocie"
+  direct-object:
+    en: direct object
+    de: Direktes Objekt
+    ru: "Прямое дополнение"
+    pl: "Dopełnienie bliższe"
+  from-instrumental-instrument-or-passive-agent:
+    en: from instrumental instrument or passive agent
+    de: 'Aus dem Instrumental: Werkzeug und Handelnder im Passiv'
+    ru: "Из творительного падежа: Орудие или деятель в пассивных конструкциях"
+    pl: "Z narzędnika: Narzędzie lub wykonawca czynności w stronie biernej"
+  from-instrumental-parts-of-day-seasons:
+    en: from instrumental parts of day seasons
+    de: 'Aus dem Instrumental: Tages- und Jahreszeiten'
+    ru: "Из творительного падежа: Время суток и времена года"
+    pl: "Z narzędnika: Pory dnia i roku"
+  przez-za-o:
+    en: przez za o
+    de: przez, za, o
+    ru: "przez, za, o"
+    pl: "przez, za, o"
+  w-na:
+    en: w na
+    de: w, na
+    ru: "w, na"
+    pl: "w, na"
+  dzieki-zgodnie-z:
+    en: dzieki zgodnie z
+    de: dzięki, zgodnie z (dank, gemäß)
+    ru: "dzięki, zgodnie z"
+    pl: "dzięki, zgodnie z"
+  impersonal-constructions:
+    en: impersonal constructions
+    de: Unpersönliche Konstruktionen
+    ru: "Безличные конструкции"
+    pl: "Konstrukcje bezosobowe"
+  receiver:
+    en: receiver
+    de: Empfänger
+    ru: "Получатель"
+    pl: "Odbiorca"
+  bez-dla:
+    en: bez dla
+    de: bez, dla (ohne, für)
+    ru: "bez, dla"
+    pl: "bez, dla"
+  do-po-przed:
+    en: do po przed
+    de: do, po, przed
+    ru: "do, po, przed"
+    pl: "do, po, przed"
+  from-accusative-w-na:
+    en: from accusative w na
+    de: 'Aus dem Akkusativ: w, na'
+    ru: "Из винительного падежа: w, na"
+    pl: "Z biernika: w, na"
+  from-dative-do-po:
+    en: from dative do po
+    de: 'Aus dem Dativ: do, po'
+    ru: "Из дательного падежа: do, po"
+    pl: "Z celownika: do, po"
+  from-dative-receiver:
+    en: from dative receiver
+    de: 'Aus dem Dativ: Empfänger'
+    ru: "Из дательного падежа: Получатель"
+    pl: "Z celownika: Odbiorca"
+  from-instrumental-interests-and-activities:
+    en: from instrumental interests and activities
+    de: 'Aus dem Instrumental: Interessen und Tätigkeiten'
+    ru: "Из творительного падежа: Интересы и занятия"
+    pl: "Z narzędnika: Zainteresowania i zajęcia"
+  many-few:
+    en: many few
+    de: Viel und wenig
+    ru: "Много, мало"
+    pl: "Dużo, mało"
+  od-naprzeciwko:
+    en: od naprzeciwko
+    de: od, naprzeciwko (von, gegenüber)
+    ru: "od, naprzeciwko"
+    pl: "od, naprzeciwko"
+  of-something:
+    en: of something
+    de: Zugehörigkeit
+    ru: "Принадлежность"
+    pl: "Przynależność"
+  ownership:
+    en: ownership
+    de: Besitz
+    ru: "Владение"
+    pl: "Własność"
+  possession-near:
+    en: possession near
+    de: Besitz und Nähe
+    ru: "Принадлежность и близость"
+    pl: "Posiadanie i bliskość"
+  quantities-2-3-4:
+    en: quantities 2 3 4
+    de: Zahlen 2, 3 und 4
+    ru: "Числа 2, 3, 4"
+    pl: "Liczby 2, 3, 4"
+  quantities-5-and-more:
+    en: quantities 5 and more
+    de: Zahlen ab 5
+    ru: "Числа от 5"
+    pl: "Liczby od 5"
+  z-origin:
+    en: z origin
+    de: z (Herkunft)
+    ru: "z (происхождение)"
+    pl: "z (pochodzenie)"
+  being-becoming:
+    en: being becoming
+    de: Sein und Werden
+    ru: "Быть и становиться"
+    pl: "Być i stawać się"
+  from-dative-dzieki-zgodnie-z:
+    en: from dative dzieki zgodnie z
+    de: 'Aus dem Dativ: dzięki, zgodnie z (dank, gemäß)'
+    ru: "Из дательного падежа: dzięki, zgodnie z"
+    pl: "Z celownika: dzięki, zgodnie z"
+  from-genitive-do-po-przed:
+    en: from genitive do po przed
+    de: 'Aus dem Genitiv: do, po, przed'
+    ru: "Из родительного падежа: do, po, przed"
+    pl: "Z dopełniacza: do, po, przed"
+  instrument-or-passive-agent:
+    en: instrument or passive agent
+    de: Werkzeug und Handelnder im Passiv
+    ru: "Орудие или деятель в пассивных конструкциях"
+    pl: "Narzędzie lub wykonawca czynności w stronie biernej"
+  interests-and-activities:
+    en: interests and activities
+    de: Interessen und Tätigkeiten
+    ru: "Интересы и занятия"
+    pl: "Zainteresowania i zajęcia"
+  parts-of-day-seasons:
+    en: parts of day seasons
+    de: Tages- und Jahreszeiten
+    ru: "Время суток и времена года"
+    pl: "Pory dnia i roku"
+  przed-pod-z:
+    en: przed pod z
+    de: przed, pod, z
+    ru: "przed, pod, z"
+    pl: "przed, pod, z"
+  za-miedzy-nad:
+    en: za miedzy nad
+    de: za, między, nad
+    ru: "za, między, nad"
+    pl: "za, między, nad"
+  from-accusative-przez-za-o:
+    en: from accusative przez za o
+    de: 'Aus dem Akkusativ: przez, za, o'
+    ru: "Из винительного падежа: przez, za, o"
+    pl: "Z biernika: przez, za, o"
+  o-about:
+    en: o about
+    de: o (über)
+    ru: "o (о чём-либо)"
+    pl: "o (temat)"
+  from-dative-impersonal-constructions:
+    en: from dative impersonal constructions
+    de: 'Aus dem Dativ: Unpersönliche Konstruktionen'
+    ru: "Из дательного падежа: Безличные конструкции"
+    pl: "Z celownika: Konstrukcje bezosobowe"
+  from-genitive-possession-near:
+    en: from genitive possession near
+    de: 'Aus dem Genitiv: Besitz und Nähe'
+    ru: "Из родительного падежа: Принадлежность и близость"
+    pl: "Z dopełniacza: Posiadanie i bliskość"
+  from-genitive-quantities-2-3-4:
+    en: from genitive quantities 2 3 4
+    de: 'Aus dem Genitiv: Zahlen 2, 3 und 4'
+    ru: "Из родительного падежа: Числа 2, 3, 4"
+    pl: "Z dopełniacza: Liczby 2, 3, 4"
+  genders:
+    en: genders
+    de: Geschlechter
+    ru: "Роды"
+    pl: "Rodzaje"
+  plural-feminine:
+    en: plural feminine
+    de: Feminin, Plural
+    ru: "Женский род, множественное число"
+    pl: "Rodzaj żeński, liczba mnoga"
+  plural-masculine-nonpersonal:
+    en: plural masculine nonpersonal
+    de: Maskulin, nicht personenbezogener Plural
+    ru: "Мужской род, неличные формы множественного числа"
+    pl: "Rodzaj męski nieosobowy, liczba mnoga"
+  plural-masculine-personal:
+    en: plural masculine personal
+    de: Maskulin, personenbezogener Plural
+    ru: "Мужской род, личные формы множественного числа"
+    pl: "Rodzaj męskoosobowy, liczba mnoga"
+  plural-neuter:
+    en: plural neuter
+    de: Neutrum, Plural
+    ru: "Средний род, множественное число"
+    pl: "Rodzaj nijaki, liczba mnoga"
+  plural-only:
+    en: plural only
+    de: Nur im Plural
+    ru: "Только множественное число"
+    pl: "Tylko liczba mnoga"

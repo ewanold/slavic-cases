@@ -1,0 +1,376 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-locative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: locative
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-prepositional-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zimny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: about cold winter
+  neutral_prompt: o ___ (zimny zima)
+  answer_scope: word
+  options:
+    a: zimnej
+    b: zimny
+    c: zimnego
+    d: zimnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-001
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: о (холодной) {зиме}
+    russian_native_text:
+      en: about cold winter
+    polish_marked_prompt: o [zimnej] {zimie}
+    polish_context_lemma: zima
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wczesny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: about early spring
+  neutral_prompt: o ___ (wczesny wiosna)
+  answer_scope: word
+  options:
+    a: wczesnej
+    b: wczesny
+    c: wczesnego
+    d: wczesnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-002
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (ранней) {весне}
+    russian_native_text:
+      en: about early spring
+    polish_marked_prompt: o [wczesnej] {wiośnie}
+    polish_context_lemma: wiosna
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: about faraway countries
+  neutral_prompt: o ___ (daleki kraje)
+  answer_scope: word
+  options:
+    a: dalekich
+    b: daleki
+    c: dalekiego
+    d: dalekiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-003
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (далёких) {странах}
+    russian_native_text:
+      en: about faraway countries
+    polish_marked_prompt: o [dalekich] {krajach}
+    polish_context_lemma: kraj
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: rosyjski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: about Russian language
+  neutral_prompt: o ___ (rosyjski język)
+  answer_scope: word
+  options:
+    a: rosyjskim
+    b: rosyjski
+    c: rosyjskiego
+    d: rosyjskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-004
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: о (русском) {языке}
+    russian_native_text:
+      en: about Russian language
+    polish_marked_prompt: o [rosyjskim] {języku}
+    polish_context_lemma: język
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: znany
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: about famous people
+  neutral_prompt: o ___ (znany ludzie)
+  answer_scope: word
+  options:
+    a: znanych
+    b: znany
+    c: znanego
+    d: znanemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-005
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: об (известных) {людях}
+    russian_native_text:
+      en: about famous people
+    polish_marked_prompt: o [znanych] {ludziach}
+    polish_context_lemma: człowiek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: in good relations
+  neutral_prompt: w ___ (dobry relacje)
+  answer_scope: word
+  options:
+    a: dobrych
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-006
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: в (хороших) {отношениях}
+    russian_native_text:
+      en: in good relations
+    polish_marked_prompt: w [dobrych] {relacjach}
+    polish_context_lemma: relacja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: głęboki
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: in deep snow
+  neutral_prompt: w ___ (głęboki śnieg)
+  answer_scope: word
+  options:
+    a: głębokim
+    b: głęboki
+    c: głębokiego
+    d: głębokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-007
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: в (глубоком) {снегу}
+    russian_native_text:
+      en: in deep snow
+    polish_marked_prompt: w [głębokim] {śniegu}
+    polish_context_lemma: śnieg
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czysty
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: in clear water
+  neutral_prompt: w ___ (czysty woda)
+  answer_scope: word
+  options:
+    a: czystej
+    b: czysty
+    c: czystego
+    d: czystemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-008
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: в (чистой) {воде}
+    russian_native_text:
+      en: in clear water
+    polish_marked_prompt: w [czystej] {wodzie}
+    polish_context_lemma: woda
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: rodzinny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: at a family dinner
+  neutral_prompt: na ___ (rodzinny kolacja)
+  answer_scope: word
+  options:
+    a: rodzinnej
+    b: rodzinny
+    c: rodzinnego
+    d: rodzinnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-009
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: на (семейном) {ужине}
+    russian_native_text:
+      en: at a family dinner
+    polish_marked_prompt: na [rodzinnej] {kolacji}
+    polish_context_lemma: kolacja
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-prepositional-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: biznesowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: at a business lunch
+  neutral_prompt: na ___ (biznesowy obiad)
+  answer_scope: word
+  options:
+    a: biznesowym
+    b: biznesowy
+    c: biznesowego
+    d: biznesowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-010
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: на (деловом) {обеде}
+    russian_native_text:
+      en: at a business lunch
+    polish_marked_prompt: na [biznesowym] {obiedzie}
+    polish_context_lemma: obiad
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: biały
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: in white dresses
+  neutral_prompt: w ___ (biały sukienki)
+  answer_scope: word
+  options:
+    a: białych
+    b: biały
+    c: białego
+    d: białemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-011
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: в (белых) {платьях}
+    russian_native_text:
+      en: in white dresses
+    polish_marked_prompt: w [białych] {sukienkach}
+    polish_context_lemma: sukienka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-prepositional-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: różny
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: in different cities
+  neutral_prompt: w ___ (różny miasta)
+  answer_scope: word
+  options:
+    a: różnych
+    b: różny
+    c: różnego
+    d: różnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-prepositional-practice-2-apk-012
+    russian_file: samples/ru/adjectives/prepositional-practice-2.yaml
+    russian_case: prepositional
+    russian_topic: *id001
+    russian_prompt: в (разных) {городах}
+    russian_native_text:
+      en: in different cities
+    polish_marked_prompt: w [różnych] {miastach}
+    polish_context_lemma: miasto
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

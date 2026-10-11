@@ -1,0 +1,380 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-accusative-practice-1-adapted
+learning_language: pl
+track: adjectives
+case: accusative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-accusative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: starszy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: to ask an older sister
+  neutral_prompt: prosić ___ (starszy siostra)
+  answer_scope: word
+  options:
+    a: starszą
+    b: starszy
+    c: starszego
+    d: starszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-001
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: &id001
+      id: practice-1
+      name: practice 1
+    russian_prompt: просить (старшую) {сестру}
+    russian_native_text:
+      en: to ask an older sister
+    polish_marked_prompt: prosić [starszą] {siostrę}
+    polish_context_lemma: siostra
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dokumentalny
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to watch documentaries
+  neutral_prompt: oglądać ___ (dokumentalny filmy)
+  answer_scope: word
+  options:
+    a: dokumentalne
+    b: dokumentalny
+    c: dokumentalnego
+    d: dokumentalnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-002
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: смотреть (документальные) {фильмы}
+    russian_native_text:
+      en: to watch documentaries
+    polish_marked_prompt: oglądać [dokumentalne] {filmy}
+    polish_context_lemma: film
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: naukowy
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to read a scientific magazine
+  neutral_prompt: czytać ___ (naukowy czasopismo)
+  answer_scope: word
+  options:
+    a: naukowe
+    b: naukowy
+    c: naukowego
+    d: naukowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-003
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: читать (научный) {журнал}
+    russian_native_text:
+      en: to read a scientific magazine
+    polish_marked_prompt: czytać [naukowe] {czasopismo}
+    polish_context_lemma: czasopismo
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-adjectives-accusative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: daleki
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: to meet far relatives
+  neutral_prompt: spotkać ___ (daleki krewni)
+  answer_scope: word
+  options:
+    a: dalekich
+    b: daleki
+    c: dalekiego
+    d: dalekiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-004
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: встретить (дальних) {родственников}
+    russian_native_text:
+      en: to meet far relatives
+    polish_marked_prompt: spotkać [dalekich] {krewnych}
+    polish_context_lemma: krewny
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: piękny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to see a beautiful picture
+  neutral_prompt: widzieć ___ (piękny obraz)
+  answer_scope: word
+  options:
+    a: piękny
+    b: pięknego
+    c: pięknemu
+    d: pięknym
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-005
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: видеть (красивую) {картину}
+    russian_native_text:
+      en: to see a beautiful picture
+    polish_marked_prompt: widzieć [piękny] {obraz}
+    polish_context_lemma: obraz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-adjectives-accusative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: gorzki
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to like bitter chocolate
+  neutral_prompt: lubić ___ (gorzki czekolada)
+  answer_scope: word
+  options:
+    a: gorzką
+    b: gorzki
+    c: gorzkiego
+    d: gorzkiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-006
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: 'любить (горький) {шоколад} '
+    russian_native_text:
+      en: to like bitter chocolate
+    polish_marked_prompt: lubić [gorzką] {czekoladę}
+    polish_context_lemma: czekolada
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-adjectives-accusative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: różny
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to like different things
+  neutral_prompt: lubić ___ (różny rzeczy)
+  answer_scope: word
+  options:
+    a: różne
+    b: różny
+    c: różnego
+    d: różnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-007
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: любить (разные) {вещи}
+    russian_native_text:
+      en: to like different things
+    polish_marked_prompt: lubić [różne] {rzeczy}
+    polish_context_lemma: rzecz
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niebieski
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to see blue cars
+  neutral_prompt: widzieć ___ (niebieski samochody)
+  answer_scope: word
+  options:
+    a: niebieskie
+    b: niebieski
+    c: niebieskiego
+    d: niebieskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-008
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: видеть (синие) {машины}
+    russian_native_text:
+      en: to see blue cars
+    polish_marked_prompt: widzieć [niebieskie] {samochody}
+    polish_context_lemma: samochód
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: to meet new students
+  neutral_prompt: spotkać ___ (nowy studenci)
+  answer_scope: word
+  options:
+    a: nowych
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-009
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: встретить (новых) {студентов}
+    russian_native_text:
+      en: to meet new students
+    polish_marked_prompt: spotkać [nowych] {studentów}
+    polish_context_lemma: student
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: brudny
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to wash a dirty window
+  neutral_prompt: myć ___ (brudny okno)
+  answer_scope: word
+  options:
+    a: brudne
+    b: brudny
+    c: brudnego
+    d: brudnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-010
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: мыть (грязное) {окно}
+    russian_native_text:
+      en: to wash a dirty window
+    polish_marked_prompt: myć [brudne] {okno}
+    polish_context_lemma: okno
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nudny
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to read a boring book
+  neutral_prompt: czytać ___ (nudny książka)
+  answer_scope: word
+  options:
+    a: nudną
+    b: nudny
+    c: nudnego
+    d: nudnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-011
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: читать (скучную) {книгу}
+    russian_native_text:
+      en: to read a boring book
+    polish_marked_prompt: czytać [nudną] {książkę}
+    polish_context_lemma: książka
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-accusative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: interesujący
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to watch an interesting movie
+  neutral_prompt: oglądać ___ (interesujący film)
+  answer_scope: word
+  options:
+    a: interesujący
+    b: interesującego
+    c: interesującemu
+    d: interesującym
+  correct: a
+  source:
+    russian_id: ru-adjectives-accusative-practice-1-apk-012
+    russian_file: samples/ru/adjectives/accusative-practice-1.yaml
+    russian_case: accusative
+    russian_topic: *id001
+    russian_prompt: смотреть (интересный) {фильм}
+    russian_native_text:
+      en: to watch an interesting movie
+    polish_marked_prompt: oglądać [interesujący] {film}
+    polish_context_lemma: film
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

@@ -1,0 +1,372 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-bez-dla-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: bez-dla
+  name: bez dla
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-bez-dlya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mleko
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Coffee without milk.
+  neutral_prompt: Kawa bez ___. (mleko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mleka
+    b: mleko
+    c: mleku
+    d: mlekiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-001
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: bez-dlya
+      name: без, для
+    russian_prompt: Кофе без (молока).
+    russian_native_text:
+      en: Coffee without milk.
+    polish_marked_prompt: Kawa bez [mleka].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: samochód
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: A road without cars.
+  neutral_prompt: Droga bez ___. (samochód; liczba mnoga)
+  answer_scope: word
+  options:
+    a: samochodów
+    b: samochód
+    c: samochodu
+    d: samochodowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-002
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Дорога без (машин).
+    russian_native_text:
+      en: A road without cars.
+    polish_marked_prompt: Droga bez [samochodów].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: mama
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A present for mother.
+  neutral_prompt: Prezent dla ___. (mama; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: mamy
+    b: mama
+    c: mamę
+    d: mamą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-003
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Подарок для (мамы).
+    russian_native_text:
+      en: A present for mother.
+    polish_marked_prompt: Prezent dla [mamy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: Toys for a child.
+  neutral_prompt: Zabawki dla ___. (dziecko; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dziecka
+    b: dziecko
+    c: dziecku
+    d: dzieckiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-004
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Игрушки для (ребенка).
+    russian_native_text:
+      en: Toys for a child.
+    polish_marked_prompt: Zabawki dla [dziecka].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: cukier
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Tea without sugar.
+  neutral_prompt: Herbata bez ___. (cukier; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: cukru
+    b: cukier
+    c: cukrowi
+    d: cukrem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-005
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Чай без (сахара).
+    russian_native_text:
+      en: Tea without sugar.
+    polish_marked_prompt: Herbata bez [cukru].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: okno
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A room without a window.
+  neutral_prompt: Pokój bez ___. (okno; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: okna
+    b: okno
+    c: oknu
+    d: oknem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-006
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Комната без (окна).
+    russian_native_text:
+      en: A room without a window.
+    polish_marked_prompt: Pokój bez [okna].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: praca
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A day without work.
+  neutral_prompt: Dzień bez ___. (praca; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: pracy
+    b: praca
+    c: pracę
+    d: pracą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-007
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: День без (работы).
+    russian_native_text:
+      en: A day without work.
+    polish_marked_prompt: Dzień bez [pracy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: sól
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Salad without salt.
+  neutral_prompt: Sałatka bez ___. (sól; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: soli
+    b: sól
+    c: solą
+    d: solach
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-008
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Салат без (соли).
+    russian_native_text:
+      en: Salad without salt.
+    polish_marked_prompt: Sałatka bez [soli].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: siostra
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: A book for sister.
+  neutral_prompt: Książka dla ___. (siostra; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: siostry
+    b: siostra
+    c: siostrę
+    d: siostrą
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-009
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Книга для (сестры).
+    russian_native_text:
+      en: A book for sister.
+    polish_marked_prompt: Książka dla [siostry].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dziecko
+  features:
+    number: plural
+    gender: neuter
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: A movie for kids.
+  neutral_prompt: Film dla ___. (dziecko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dzieci
+    b: dziecko
+    c: dziecka
+    d: dziecku
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-010
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Фильм для (детей).
+    russian_native_text:
+      en: A movie for kids.
+    polish_marked_prompt: Film dla [dzieci].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: A surprise for friends.
+  neutral_prompt: Niespodzianka dla ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciół
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-011
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Сюрприз для (друзей).
+    russian_native_text:
+      en: A surprise for friends.
+    polish_marked_prompt: Niespodzianka dla [przyjaciół].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-bez-dlya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kot
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: Food for the cat.
+  neutral_prompt: Jedzenie dla ___. (kot; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: kota
+    b: kot
+    c: kotu
+    d: kotem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-bez-dlya-apk-012
+    russian_file: samples/ru/nouns/genitive-bez-dlya.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Еда для (кошки).
+    russian_native_text:
+      en: Food for the cat.
+    polish_marked_prompt: Jedzenie dla [kota].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

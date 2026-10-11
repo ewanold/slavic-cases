@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-dative-blagodarya-soglasno-apk
+learning_language: ru
+track: nouns
+case: dative
+topic:
+  id: blagodarya-soglasno
+  name: благодаря, согласно
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-dative-blagodarya-soglasno-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to a friend.
+  neutral_prompt: Благодаря ___. (друг)
+  answer_scope: word
+  options:
+    a: другу
+    b: друга
+    c: друге
+    d: другой
+  correct: a
+  source:
+    index: 1
+    prompt: Благодаря (другу).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - друга
+    - друге
+    - другой
+    string_ids:
+      prompt: 7970
+      english: 5925
+      stored_options:
+      - 7626
+      - 7768
+      - 8026
+      - 9139
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: люди
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to people.
+  neutral_prompt: Благодаря ___. (люди)
+  answer_scope: word
+  options:
+    a: людям
+    b: людей
+    c: людю
+    d: людяй
+  correct: a
+  source:
+    index: 2
+    prompt: Благодаря (людям).
+    base_or_stem: люди
+    cyrillic_options:
+    - люди
+    - людей
+    - людю
+    - людяй
+    string_ids:
+      prompt: 7972
+      english: 5932
+      stored_options:
+      - 8992
+      - 8136
+      - 9402
+      - 9403
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: погода
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to the weather.
+  neutral_prompt: Благодаря ___. (погода)
+  answer_scope: word
+  options:
+    a: погоде
+    b: погоду
+    c: погода
+    d: погодам
+  correct: a
+  source:
+    index: 3
+    prompt: Благодаря (погоде).
+    base_or_stem: погода
+    cyrillic_options:
+    - погода
+    - погоду
+    - погода
+    - погодам
+    string_ids:
+      prompt: 7973
+      english: 5933
+      stored_options:
+      - 8201
+      - 8917
+      - 8201
+      - 8202
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to parents.
+  neutral_prompt: Благодаря ___. (родители)
+  answer_scope: word
+  options:
+    a: родителям
+    b: родителей
+    c: родитель
+    d: родители
+  correct: a
+  source:
+    index: 4
+    prompt: Благодаря (родителям).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родителей
+    - родитель
+    - родители
+    string_ids:
+      prompt: 7975
+      english: 5931
+      stored_options:
+      - 8668
+      - 8017
+      - 9649
+      - 8668
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дождь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to rain.
+  neutral_prompt: Благодаря ___. (дождь)
+  answer_scope: word
+  options:
+    a: дождю
+    b: дождя
+    c: дожди
+    d: дождем
+  correct: a
+  source:
+    index: 5
+    prompt: Благодаря (дождю).
+    base_or_stem: дождь
+    cyrillic_options:
+    - дождь
+    - дождя
+    - дожди
+    - дождем
+    string_ids:
+      prompt: 7967
+      english: 5758
+      stored_options:
+      - 7753
+      - 9090
+      - 9044
+      - 9087
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: удача
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Thanks to luck.
+  neutral_prompt: Благодаря ___. (удача)
+  answer_scope: word
+  options:
+    a: удаче
+    b: удачи
+    c: удачей
+    d: удач
+  correct: a
+  source:
+    index: 6
+    prompt: Благодаря (удаче).
+    base_or_stem: удача
+    cyrillic_options:
+    - удача
+    - удачи
+    - удачей
+    - удач
+    string_ids:
+      prompt: 7977
+      english: 5926
+      stored_options:
+      - 8886
+      - 9023
+      - 9001
+      - 7978
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: закон
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the law.
+  neutral_prompt: Согласно ___. (закон)
+  answer_scope: word
+  options:
+    a: закону
+    b: законе
+    c: закона
+    d: законой
+  correct: a
+  source:
+    index: 7
+    prompt: Согласно (закону).
+    base_or_stem: закон
+    cyrillic_options:
+    - закон
+    - законе
+    - закона
+    - законой
+    string_ids:
+      prompt: 8343
+      english: 4537
+      stored_options:
+      - 8344
+      - 9053
+      - 8539
+      - 9186
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: документ
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the document.
+  neutral_prompt: Согласно ___. (документ)
+  answer_scope: word
+  options:
+    a: документу
+    b: документа
+    c: документ
+    d: документе
+  correct: a
+  source:
+    index: 8
+    prompt: Согласно (документу).
+    base_or_stem: документ
+    cyrillic_options:
+    - документ
+    - документа
+    - документ
+    - документе
+    string_ids:
+      prompt: 8341
+      english: 4535
+      stored_options:
+      - 8342
+      - 9093
+      - 8342
+      - 9100
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: фильм
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the film.
+  neutral_prompt: Согласно ___. (фильм)
+  answer_scope: word
+  options:
+    a: фильму
+    b: фильма
+    c: фильме
+    d: фильм
+  correct: a
+  source:
+    index: 9
+    prompt: Согласно (фильму).
+    base_or_stem: фильм
+    cyrillic_options:
+    - фильм
+    - фильма
+    - фильме
+    - фильм
+    string_ids:
+      prompt: 8349
+      english: 4536
+      stored_options:
+      - 7845
+      - 8198
+      - 7846
+      - 7845
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: слова
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the words.
+  neutral_prompt: Согласно ___. (слова)
+  answer_scope: word
+  options:
+    a: словам
+    b: слове
+    c: словами
+    d: словой
+  correct: a
+  source:
+    index: 10
+    prompt: Согласно (словам).
+    base_or_stem: слова
+    cyrillic_options:
+    - слова
+    - слове
+    - словами
+    - словой
+    string_ids:
+      prompt: 8346
+      english: 4540
+      stored_options:
+      - 8347
+      - 8761
+      - 9717
+      - 7663
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: легенда
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the legend.
+  neutral_prompt: Согласно ___. (легенда)
+  answer_scope: word
+  options:
+    a: легенде
+    b: легенда
+    c: легендой
+    d: легенды
+  correct: a
+  source:
+    index: 11
+    prompt: Согласно (легенде).
+    base_or_stem: легенда
+    cyrillic_options:
+    - легенда
+    - легенда
+    - легендой
+    - легенды
+    string_ids:
+      prompt: 8345
+      english: 4538
+      stored_options:
+      - 8926
+      - 8926
+      - 9348
+      - 9350
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-blagodarya-soglasno-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: теория
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: According to the theory.
+  neutral_prompt: Согласно ___. (теория)
+  answer_scope: word
+  options:
+    a: теории
+    b: теория
+    c: теорией
+    d: теорию
+  correct: a
+  source:
+    index: 12
+    prompt: Согласно (теории).
+    base_or_stem: теория
+    cyrillic_options:
+    - теория
+    - теория
+    - теорией
+    - теорию
+    string_ids:
+      prompt: 8348
+      english: 4539
+      stored_options:
+      - 9184
+      - 9184
+      - 8688
+      - 9101
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

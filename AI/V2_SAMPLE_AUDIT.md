@@ -1,0 +1,740 @@
+# Version 2 sample audit
+
+These are content revisions using YAML schema 1. Local draft previews only; unspecified licenses do not establish redistribution permission.
+
+## pl-v2
+
+- accusative / adjectives / from dative practice 2: 1
+- accusative / adjectives / from instrumental practice 1: 6
+- accusative / adjectives / practice 1: 12
+- accusative / adjectives / practice 2: 4
+- dative / adjectives / practice 1: 5
+- genitive / adjectives / from accusative practice 2: 5
+- genitive / adjectives / from dative practice 1: 7
+- genitive / adjectives / from dative practice 2: 3
+- genitive / adjectives / practice 1: 17
+- genitive / adjectives / practice 2: 18
+- genitive / adjectives / practice 3: 24
+- instrumental / adjectives / from dative practice 2: 4
+- instrumental / adjectives / from genitive practice 1: 1
+- instrumental / adjectives / from genitive practice 2: 1
+- instrumental / adjectives / practice 1: 6
+- instrumental / adjectives / practice 2: 12
+- locative / adjectives / from accusative practice 2: 3
+- locative / adjectives / from dative practice 2: 1
+- locative / adjectives / from genitive practice 1: 6
+- locative / adjectives / from genitive practice 2: 1
+- locative / adjectives / practice 1: 12
+- locative / adjectives / practice 2: 12
+- nominative / adjectives / from dative practice 2: 3
+- nominative / adjectives / from genitive practice 2: 4
+- nominative / adjectives / from genitive practice 3: 1
+- nominative / adjectives / practice 1: 13
+- nominative / adjectives / practice 2: 13
+- vocative / adjectives / Traditional vocative for direct address: 15
+- accusative / nouns / direct object: 12
+- accusative / nouns / from instrumental instrument or passive agent: 7
+- accusative / nouns / from instrumental parts of day seasons: 2
+- accusative / nouns / przez za o: 10
+- accusative / nouns / w na: 7
+- dative / nouns / dzieki zgodnie z: 6
+- dative / nouns / impersonal constructions: 8
+- dative / nouns / receiver: 10
+- genitive / nouns / bez dla: 12
+- genitive / nouns / do po przed: 6
+- genitive / nouns / from accusative w na: 7
+- genitive / nouns / from dative do po: 7
+- genitive / nouns / from dative receiver: 3
+- genitive / nouns / from instrumental interests and activities: 1
+- genitive / nouns / many few: 12
+- genitive / nouns / od naprzeciwko: 12
+- genitive / nouns / of something: 12
+- genitive / nouns / ownership: 12
+- genitive / nouns / possession near: 8
+- genitive / nouns / quantities 2 3 4: 1
+- genitive / nouns / quantities 5 and more: 12
+- genitive / nouns / z origin: 12
+- instrumental / nouns / being becoming: 13
+- instrumental / nouns / from dative dzieki zgodnie z: 6
+- instrumental / nouns / from genitive do po przed: 1
+- instrumental / nouns / instrument or passive agent: 6
+- instrumental / nouns / interests and activities: 11
+- instrumental / nouns / parts of day seasons: 10
+- instrumental / nouns / przed pod z: 12
+- instrumental / nouns / za miedzy nad: 12
+- locative / nouns / from accusative przez za o: 2
+- locative / nouns / from dative do po: 5
+- locative / nouns / from genitive do po przed: 5
+- locative / nouns / o about: 12
+- locative / nouns / w na: 12
+- nominative / nouns / from dative impersonal constructions: 4
+- nominative / nouns / from genitive possession near: 4
+- nominative / nouns / from genitive quantities 2 3 4: 11
+- nominative / nouns / genders: 35
+- nominative / nouns / plural feminine: 15
+- nominative / nouns / plural masculine nonpersonal: 15
+- nominative / nouns / plural masculine personal: 6
+- nominative / nouns / plural neuter: 19
+- nominative / nouns / plural only: 1
+- vocative / nouns / Traditional vocative for direct address: 15
+
+Totals: {'adjectives': 210, 'nouns': 411}.
+
+Source issues retained for review:
+
+- pl-adjectives-genitive-practice-2-apk-018: unknown grammatical feature
+- pl-adjectives-genitive-practice-3-apk-009: unknown grammatical feature
+- pl-adjectives-genitive-practice-3-apk-017: unknown grammatical feature
+- pl-adjectives-nominative-practice-2-apk-002: unknown grammatical feature
+- pl-nouns-accusative-direct-object-apk-012: unknown grammatical feature
+- pl-nouns-accusative-v-na-apk-005: unknown grammatical feature
+- pl-nouns-genitive-of-something-apk-011: unknown grammatical feature
+- pl-nouns-genitive-u-okolo-apk-009: unknown grammatical feature
+- pl-nouns-genitive-s-so-iz-apk-001: unknown grammatical feature
+- pl-nouns-nominative-plural-feminine-apk-006: unknown grammatical feature
+
+## ru-v2
+
+- accusative / adjectives / practice 1: 12
+- accusative / adjectives / practice 2: 12
+- dative / adjectives / practice 1: 12
+- dative / adjectives / practice 2: 12
+- genitive / adjectives / practice 1: 24
+- genitive / adjectives / practice 2: 24
+- genitive / adjectives / practice 3: 25
+- instrumental / adjectives / practice 1: 12
+- instrumental / adjectives / practice 2: 12
+- nominative / adjectives / practice 1: 13
+- nominative / adjectives / practice 2: 13
+- prepositional / adjectives / practice 1: 12
+- prepositional / adjectives / practice 2: 12
+- accusative / nouns / через, за, про: 12
+- accusative / nouns / direct object: 12
+- accusative / nouns / в, на: 14
+- dative / nouns / благодаря, согласно: 12
+- dative / nouns / impersonal constructions: 12
+- dative / nouns / к, по: 12
+- dative / nouns / receiver: 13
+- genitive / nouns / 2, 3, 4: 12
+- genitive / nouns / 5-9, 0, -надцать: 12
+- genitive / nouns / без, для: 12
+- genitive / nouns / до, после: 12
+- genitive / nouns / много, мало...: 12
+- genitive / nouns / of something: 12
+- genitive / nouns / от, напротив: 12
+- genitive / nouns / ownership: 12
+- genitive / nouns / с/со, из: 12
+- genitive / nouns / у, около: 12
+- instrumental / nouns / быть, становиться, являться: 13
+- instrumental / nouns / instrument, passive + by: 13
+- instrumental / nouns / интересоваться, увлекаться...: 12
+- instrumental / nouns / parts of the day, seasons: 12
+- instrumental / nouns / перед, под, с: 12
+- instrumental / nouns / за, между, над: 12
+- nominative / nouns / Genders: 35
+- nominative / nouns / Plural exceptions: 20
+- nominative / nouns / Plural feminine: 12
+- nominative / nouns / Plural masculine: 12
+- nominative / nouns / Plural neuter: 12
+- prepositional / nouns / о (about): 12
+- prepositional / nouns / в, на: 12
+
+Totals: {'adjectives': 195, 'nouns': 396}.
+
+Source issues retained for review:
+
+- ru-adjectives-accusative-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-accusative-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-accusative-practice-2-apk-012: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-003: duplicate option text
+- ru-adjectives-dative-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-dative-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-dative-practice-2-apk-012: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-013: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-014: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-015: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-016: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-017: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-018: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-019: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-020: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-021: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-022: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-023: unknown grammatical feature
+- ru-adjectives-genitive-practice-1-apk-024: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-012: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-013: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-014: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-015: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-016: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-017: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-018: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-019: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-020: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-021: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-022: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-023: unknown grammatical feature
+- ru-adjectives-genitive-practice-2-apk-024: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-001: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-002: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-003: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-004: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-005: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-006: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-007: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-008: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-009: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-010: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-011: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-012: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-013: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-014: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-015: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-016: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-017: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-018: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-019: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-020: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-021: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-022: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-023: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-024: unknown grammatical feature
+- ru-adjectives-genitive-practice-3-apk-025: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-instrumental-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-instrumental-practice-2-apk-012: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-nominative-practice-1-apk-013: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-012: unknown grammatical feature
+- ru-adjectives-nominative-practice-2-apk-013: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-001: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-002: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-003: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-004: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-005: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-006: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-007: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-008: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-009: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-010: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-011: unknown grammatical feature
+- ru-adjectives-prepositional-practice-1-apk-012: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-001: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-002: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-003: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-004: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-005: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-006: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-007: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-008: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-009: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-010: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-011: unknown grammatical feature
+- ru-adjectives-prepositional-practice-2-apk-012: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-001: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-002: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-003: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-004: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-005: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-006: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-007: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-008: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-009: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-010: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-011: unknown grammatical feature
+- ru-nouns-accusative-cherez-za-pro-apk-012: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-001: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-002: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-003: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-004: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-005: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-006: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-007: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-008: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-009: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-010: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-011: unknown grammatical feature
+- ru-nouns-accusative-direct-object-apk-012: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-001: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-002: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-003: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-004: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-005: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-006: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-007: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-008: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-009: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-010: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-011: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-012: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-013: unknown grammatical feature
+- ru-nouns-accusative-v-na-apk-014: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-001: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-002: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-003: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-004: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-005: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-006: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-007: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-008: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-009: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-010: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-011: unknown grammatical feature
+- ru-nouns-dative-blagodarya-soglasno-apk-012: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-001: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-002: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-003: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-004: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-005: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-006: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-007: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-008: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-009: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-010: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-011: unknown grammatical feature
+- ru-nouns-dative-impersonal-constructions-apk-012: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-001: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-002: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-003: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-004: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-005: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-006: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-007: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-008: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-009: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-010: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-011: unknown grammatical feature
+- ru-nouns-dative-k-po-apk-012: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-001: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-002: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-003: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-004: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-005: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-006: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-007: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-008: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-009: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-010: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-011: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-012: unknown grammatical feature
+- ru-nouns-dative-receiver-apk-013: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-001: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-002: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-003: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-004: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-005: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-006: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-007: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-008: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-009: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-010: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-011: unknown grammatical feature
+- ru-nouns-genitive-2-3-4-apk-012: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-001: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-002: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-003: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-004: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-005: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-006: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-007: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-008: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-009: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-010: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-011: unknown grammatical feature
+- ru-nouns-genitive-5-9-0-nadtsat-apk-012: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-001: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-002: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-003: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-004: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-005: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-006: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-007: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-008: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-009: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-010: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-011: unknown grammatical feature
+- ru-nouns-genitive-bez-dlya-apk-012: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-001: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-002: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-003: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-004: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-005: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-006: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-007: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-008: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-009: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-010: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-011: unknown grammatical feature
+- ru-nouns-genitive-do-posle-apk-012: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-001: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-002: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-003: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-004: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-005: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-006: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-007: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-008: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-009: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-010: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-011: unknown grammatical feature
+- ru-nouns-genitive-mnogo-malo-apk-012: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-001: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-002: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-003: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-004: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-005: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-006: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-007: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-008: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-009: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-010: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-011: unknown grammatical feature
+- ru-nouns-genitive-of-something-apk-012: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-001: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-002: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-003: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-004: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-005: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-006: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-007: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-008: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-009: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-010: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-011: unknown grammatical feature
+- ru-nouns-genitive-ot-naprotiv-apk-012: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-001: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-002: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-003: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-004: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-005: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-006: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-007: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-008: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-009: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-010: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-011: unknown grammatical feature
+- ru-nouns-genitive-ownership-apk-012: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-001: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-002: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-003: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-004: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-005: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-006: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-007: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-008: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-009: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-010: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-011: unknown grammatical feature
+- ru-nouns-genitive-s-so-iz-apk-012: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-001: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-002: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-003: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-004: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-005: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-006: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-007: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-008: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-009: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-010: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-011: unknown grammatical feature
+- ru-nouns-genitive-u-okolo-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-004: duplicate option text
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-011: duplicate option text
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-byt-stanovitsya-yavlyatsya-apk-013: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-instrument-passive-by-apk-013: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-parts-of-day-seasons-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-pered-pod-s-apk-012: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-001: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-002: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-003: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-004: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-005: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-006: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-007: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-008: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-009: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-010: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-011: unknown grammatical feature
+- ru-nouns-instrumental-za-mezhdu-nad-apk-012: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-001: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-002: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-003: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-004: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-005: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-006: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-007: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-008: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-009: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-010: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-011: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-012: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-013: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-014: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-015: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-016: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-017: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-018: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-019: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-020: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-021: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-022: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-023: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-024: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-025: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-026: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-027: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-028: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-029: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-030: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-031: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-032: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-033: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-034: unknown grammatical feature
+- ru-nouns-nominative-genders-apk-035: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-001: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-002: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-003: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-004: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-005: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-006: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-007: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-008: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-009: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-010: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-011: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-012: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-013: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-014: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-015: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-016: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-017: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-018: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-019: unknown grammatical feature
+- ru-nouns-nominative-plural-exceptions-apk-020: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-001: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-002: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-003: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-004: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-005: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-006: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-007: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-008: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-009: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-010: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-011: unknown grammatical feature
+- ru-nouns-nominative-plural-feminine-apk-012: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-001: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-002: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-003: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-004: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-005: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-006: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-007: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-008: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-009: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-010: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-011: unknown grammatical feature
+- ru-nouns-nominative-plural-masculine-apk-012: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-001: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-002: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-003: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-004: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-005: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-006: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-007: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-008: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-009: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-010: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-011: unknown grammatical feature
+- ru-nouns-nominative-plural-neuter-apk-012: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-001: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-002: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-003: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-004: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-005: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-006: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-007: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-008: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-009: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-010: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-011: unknown grammatical feature
+- ru-nouns-prepositional-o-about-apk-012: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-001: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-002: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-003: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-004: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-005: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-006: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-007: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-008: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-009: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-010: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-011: unknown grammatical feature
+- ru-nouns-prepositional-v-na-apk-012: unknown grammatical feature
+

@@ -1,0 +1,499 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-nominative-practice-2-apk
+learning_language: ru
+track: adjectives
+case: nominative
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-nominative-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: белый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a white cat
+  neutral_prompt: ___ (белый кошка)
+  answer_scope: word
+  options:
+    a: белая
+    b: беляя
+    c: белый
+    d: белое
+  correct: a
+  source:
+    index: 1
+    prompt: (белая) кошка
+    base_or_stem: бел()
+    cyrillic_options:
+    - бел()
+    - беляя
+    - белый
+    - белое
+    string_ids:
+      prompt: 7602
+      english: 4759
+      stored_options:
+      - 8564
+      - 8578
+      - 8577
+      - 8569
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: blue jeans
+  neutral_prompt: ___ (синий джинсы)
+  answer_scope: word
+  options:
+    a: синие
+    b: синые
+    c: синяя
+    d: синий
+  correct: a
+  source:
+    index: 2
+    prompt: (синие) джинсы
+    base_or_stem: син()
+    cyrillic_options:
+    - син()
+    - синые
+    - синяя
+    - синий
+    string_ids:
+      prompt: 7794
+      english: 6503
+      stored_options:
+      - 9691
+      - 9700
+      - 8988
+      - 9694
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: new toys
+  neutral_prompt: ___ (новый игрушки)
+  answer_scope: word
+  options:
+    a: новые
+    b: нови
+    c: новый
+    d: новое
+  correct: a
+  source:
+    index: 3
+    prompt: (новые) игрушки
+    base_or_stem: нов()
+    cyrillic_options:
+    - нов()
+    - нови
+    - новый
+    - новое
+    string_ids:
+      prompt: 7741
+      english: 6598
+      stored_options:
+      - 8967
+      - 8705
+      - 7745
+      - 9228
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: английский
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: English language
+  neutral_prompt: ___ (английский язык)
+  answer_scope: word
+  options:
+    a: английский
+    b: английскый
+    c: английски
+    d: английская
+  correct: a
+  source:
+    index: 4
+    prompt: (английский) язык
+    base_or_stem: английск()
+    cyrillic_options:
+    - английск()
+    - английскый
+    - английски
+    - английская
+    string_ids:
+      prompt: 7597
+      english: 5168
+      stored_options:
+      - 8500
+      - 8462
+      - 7598
+      - 8502
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чёрный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a black suit
+  neutral_prompt: ___ (чёрный костюм)
+  answer_scope: word
+  options:
+    a: чёрный
+    b: чёрное
+    c: чёрные
+    d: чёрны
+  correct: a
+  source:
+    index: 5
+    prompt: (чёрный) костюм
+    base_or_stem: чёрн()
+    cyrillic_options:
+    - чёрн()
+    - чёрное
+    - чёрные
+    - чёрны
+    string_ids:
+      prompt: 7856
+      english: 3951
+      stored_options:
+      - 9823
+      - 9829
+      - 9832
+      - 7857
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: горячий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: hot tea
+  neutral_prompt: ___ (горячий чай)
+  answer_scope: word
+  options:
+    a: горячий
+    b: горячая
+    c: горячяя
+    d: горячый
+  correct: a
+  source:
+    index: 6
+    prompt: (горячий) чай
+    base_or_stem: горяч()
+    cyrillic_options:
+    - горяч()
+    - горячая
+    - горячяя
+    - горячый
+    string_ids:
+      prompt: 7644
+      english: 3699
+      stored_options:
+      - 8924
+      - 8928
+      - 8530
+      - 8945
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: холодный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: cold water
+  neutral_prompt: ___ (холодный вода)
+  answer_scope: word
+  options:
+    a: холодная
+    b: холодное
+    c: холодные
+    d: холодняя
+  correct: a
+  source:
+    index: 7
+    prompt: (холодная) вода
+    base_or_stem: холодн()
+    cyrillic_options:
+    - холодн()
+    - холодное
+    - холодные
+    - холодняя
+    string_ids:
+      prompt: 7840
+      english: 934
+      stored_options:
+      - 8751
+      - 8973
+      - 8981
+      - 9052
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a good movie
+  neutral_prompt: ___ (хороший фильм)
+  answer_scope: word
+  options:
+    a: хороший
+    b: хорошая
+    c: хорошый
+    d: хорошей
+  correct: a
+  source:
+    index: 8
+    prompt: (хороший) фильм
+    base_or_stem: хорош()
+    cyrillic_options:
+    - хорош()
+    - хорошая
+    - хорошый
+    - хорошей
+    string_ids:
+      prompt: 7843
+      english: 3980
+      stored_options:
+      - 9107
+      - 9134
+      - 9595
+      - 8412
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: интересный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: an interesting book
+  neutral_prompt: ___ (интересный книга)
+  answer_scope: word
+  options:
+    a: интересная
+    b: интересняя
+    c: интересное
+    d: интересна
+  correct: a
+  source:
+    index: 9
+    prompt: (интересная) книга
+    base_or_stem: интересн()
+    cyrillic_options:
+    - интересн()
+    - интересняя
+    - интересное
+    - интересна
+    string_ids:
+      prompt: 7680
+      english: 5466
+      stored_options:
+      - 9043
+      - 8993
+      - 9182
+      - 7681
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: верный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a loyal friend
+  neutral_prompt: ___ (верный друг)
+  answer_scope: word
+  options:
+    a: верный
+    b: верний
+    c: верны
+    d: верная
+  correct: a
+  source:
+    index: 10
+    prompt: (верный) друг
+    base_or_stem: верн()
+    cyrillic_options:
+    - верн()
+    - верний
+    - верны
+    - верная
+    string_ids:
+      prompt: 7624
+      english: 4227
+      stored_options:
+      - 8755
+      - 8760
+      - 7625
+      - 8757
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: больной
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: big houses
+  neutral_prompt: ___ (больной дома)
+  answer_scope: word
+  options:
+    a: большие
+    b: большые
+    c: больши
+    d: большы
+  correct: a
+  source:
+    index: 11
+    prompt: (большие) дома
+    base_or_stem: боль()
+    cyrillic_options:
+    - боль()
+    - большые
+    - больши
+    - большы
+    string_ids:
+      prompt: 7608
+      english: 4111
+      stored_options:
+      - 8629
+      - 8677
+      - 7609
+      - 8676
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: скучный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: a boring book
+  neutral_prompt: ___ (скучный книга)
+  answer_scope: word
+  options:
+    a: скучная
+    b: скучняя
+    c: скучное
+    d: скучный
+  correct: a
+  source:
+    index: 12
+    prompt: (скучная) книга
+    base_or_stem: скучн()
+    cyrillic_options:
+    - скучн()
+    - скучняя
+    - скучное
+    - скучный
+    string_ids:
+      prompt: 7797
+      english: 6463
+      stored_options:
+      - 9707
+      - 9716
+      - 9709
+      - 9711
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-nominative-practice-2-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: зимний
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: winter day
+  neutral_prompt: ___ (зимний день)
+  answer_scope: word
+  options:
+    a: зимний
+    b: зимняя
+    c: зимнее
+    d: зимная
+  correct: a
+  source:
+    index: 13
+    prompt: (зимний) день
+    base_or_stem: зимн()
+    cyrillic_options:
+    - зимн()
+    - зимняя
+    - зимнее
+    - зимная
+    string_ids:
+      prompt: 7673
+      english: 6508
+      stored_options:
+      - 9215
+      - 9218
+      - 9217
+      - 9216
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

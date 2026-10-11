@@ -105,3 +105,52 @@ Existing host PyYAML 6.0.1 was used without installing anything. Optional Linux
 Python 3.12 setup is in scripts/install-content-tools.sh with hash-pinned wheels.
 The exporter scripts/create-starter-samples.py documents the original authoring
 paradigms and refuses overwrites; contributed YAML is authoritative after export.
+
+### Topic-based content revisions
+
+Folders ru-v2/pl-v2 are separate selectable packs, still using schema_version: 1.
+Their manifests use content_profile apk-topic-import / polish-topic-adaptation;
+each set declares topic: {id: stable-topic-id, name: readable-title}. These
+profiles allow nonempty variable-sized lessons and three or four keyed choices.
+IDs are unique within a pack (legacy Polish vocative IDs are reused between packs).
+Additional native translations are accepted beyond the manifest's required locales.
+Gender exercises use exercise_type: gender and features.gender for submenu grouping.
+Other lessons use the authored topic without guessing preposition subgroups.
+Legacy starter profiles retain the 15-question/four-distinct-choice requirements.
+Imported duplicate answer text is preserved and reported by
+scripts/audit-topic-samples.py, not approved for publication. Release validation
+also rejects unspecified/unknown redistribution licenses.
+
+German starter material is in samples/de (four cases, 15 items per track/case).
+Use answer_scope: phrase for complete article/adjective/noun answers. Features
+include noun gender/number and adjective declension pattern. Native translations
+may match the learning language in YAML, but the UI hides that translation to
+avoid answer disclosure. Grammar/source/review guidance: samples/de/README.md.
+
+APK import attribution: content_profile apk-topic-import may omit contributor if
+all questions retain nonempty source metadata and the sample declares sources and
+license. Packaging records "Unknown original author; APK source metadata preserved"
+explicitly. Original/simple and Polish adaptation sets still require a contributor.
+This does not grant redistribution permission or bypass draft/release checks.
+
+## Interface labels in language manifests
+
+Keep stable pack IDs and original `name` fallback. Optional `names` supplies GUI
+translations, separate from `native_languages` (sentence translations):
+
+```yaml
+names:
+  en: Russian deep
+  de: Russisch vertieft
+topic_names:
+  genders:
+    en: Genders
+    de: Geschlechter
+```
+
+`topic_names` maps the authored topic ID to GUI-language labels and belongs in
+language.yaml, so questions/source metadata need not be rewritten for localization.
+Current manifests provide English/German labels for every topic. The validator
+checks nonempty English/German values when these optional mappings are present;
+older packs fall back to their original names. Prepositions/examples in the target
+language can remain untranslated within otherwise localized labels.

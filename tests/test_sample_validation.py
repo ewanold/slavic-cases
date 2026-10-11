@@ -18,6 +18,8 @@ class ContentValidation(unittest.TestCase):
         self.addCleanup(self.directory.cleanup)
         self.root=Path(self.directory.name)/'samples'
         shutil.copytree(PROJECT/'samples',self.root)
+        for folder in self.root.glob('*-v2'):
+            shutil.rmtree(folder)
         self.path=self.root/'ru/nouns/dative.yaml'
         self.data=yaml.safe_load(self.path.read_text(encoding='utf-8'))
 
@@ -29,10 +31,10 @@ class ContentValidation(unittest.TestCase):
 
     def test_complete_draft_set_is_usable_for_implementation(self):
         totals,subtypes,statuses=validate(self.root)
-        self.assertEqual(sum(totals.values()),390)
-        self.assertEqual(set(totals),{('ru','nouns'),('ru','adjectives'),('pl','nouns'),('pl','adjectives')})
+        self.assertEqual(sum(totals.values()),510)
+        self.assertEqual(set(totals),{('ru','nouns'),('ru','adjectives'),('pl','nouns'),('pl','adjectives'),('de','nouns'),('de','adjectives')})
         self.assertTrue(subtypes[('ru','cardinal_numeral')] and subtypes[('pl','ordinal_numeral')])
-        self.assertEqual(statuses['draft'],390)
+        self.assertEqual(statuses['draft'],510)
 
     def test_duplicate_option_after_unicode_and_case_normalization(self):
         self.reject(lambda d:d['sentences'][0]['options'].update(b=d['sentences'][0]['options']['a'].upper()),'duplicate answer text')

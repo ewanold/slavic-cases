@@ -1,0 +1,379 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-many-few-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: many-few
+  name: many few
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-mnogo-malo-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: jabłko
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: A lot of apples.
+  neutral_prompt: Dużo ___. (jabłko; liczba mnoga)
+  answer_scope: word
+  options:
+    a: jabłek
+    b: jabłko
+    c: jabłka
+    d: jabłku
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-001
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: mnogo-malo
+      name: много, мало...
+    russian_prompt: Много (яблок).
+    russian_native_text:
+      en: A lot of apples.
+    polish_marked_prompt: Dużo [jabłek].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: człowiek
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: Many people.
+  neutral_prompt: Wielu ___. (człowiek; liczba mnoga)
+  answer_scope: word
+  options:
+    a: ludzi
+    b: człowiek
+    c: człowieka
+    d: człowiekowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-002
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Много (людей).
+    russian_native_text:
+      en: Many people.
+    polish_marked_prompt: Wielu [ludzi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pieniądz
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: A lot of money.
+  neutral_prompt: Dużo ___. (pieniądz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pieniędzy
+    b: pieniądz
+    c: pieniądza
+    d: pieniądzowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-003
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Много (денег).
+    russian_native_text:
+      en: A lot of money.
+    polish_marked_prompt: Dużo [pieniędzy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: cukier
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: A lot of sugar.
+  neutral_prompt: Dużo ___. (cukier; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: cukru
+    b: cukier
+    c: cukrowi
+    d: cukrem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-004
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Много (сахара).
+    russian_native_text:
+      en: A lot of sugar.
+    polish_marked_prompt: Dużo [cukru].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Several days.
+  neutral_prompt: Kilka ___. (dzień; liczba mnoga)
+  answer_scope: word
+  options:
+    a: dni
+    b: dzień
+    c: dnia
+    d: dniowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-005
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Несколько (дней).
+    russian_native_text:
+      en: Several days.
+    polish_marked_prompt: Kilka [dni].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: raz
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Several times.
+  neutral_prompt: Kilka ___. (raz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: razy
+    b: raz
+    c: razu
+    d: razowi
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-006
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Несколько (раз).
+    russian_native_text:
+      en: Several times.
+    polish_marked_prompt: Kilka [razy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rzecz
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Several things.
+  neutral_prompt: Kilka ___. (rzecz; liczba mnoga)
+  answer_scope: word
+  options:
+    a: rzeczy
+    b: rzecz
+    c: rzeczą
+    d: rzeczom
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-007
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Несколько (вещей).
+    russian_native_text:
+      en: Several things.
+    polish_marked_prompt: Kilka [rzeczy].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: książka
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Several books.
+  neutral_prompt: Kilka ___. (książka; liczba mnoga)
+  answer_scope: word
+  options:
+    a: książek
+    b: książka
+    c: książki
+    d: książkę
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-008
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Несколько (книг).
+    russian_native_text:
+      en: Several books.
+    polish_marked_prompt: Kilka [książek].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: czas
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Little time.
+  neutral_prompt: Mało ___. (czas; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: czasu
+    b: czas
+    c: czasowi
+    d: czasem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-009
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Мало (времени).
+    russian_native_text:
+      en: Little time.
+    polish_marked_prompt: Mało [czasu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: jedzenie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: Little food.
+  neutral_prompt: Mało ___. (jedzenie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: jedzenia
+    b: jedzenie
+    c: jedzeniu
+    d: jedzeniem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-010
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Мало (еды).
+    russian_native_text:
+      en: Little food.
+    polish_marked_prompt: Mało [jedzenia].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-mnogo-malo-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: miasto
+  features:
+    number: plural
+    gender: neuter
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: Few cities.
+  neutral_prompt: Mało ___. (miasto; liczba mnoga)
+  answer_scope: word
+  options:
+    a: miast
+    b: miasto
+    c: miasta
+    d: miastu
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-011
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Мало (городов).
+    russian_native_text:
+      en: Few cities.
+    polish_marked_prompt: Mało [miast].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is neuter; the source noun is masculine.
+- id: pl-nouns-genitive-mnogo-malo-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: chleb
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Little bread.
+  neutral_prompt: Mało ___. (chleb; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: chleba
+    b: chleb
+    c: chlebowi
+    d: chlebem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-mnogo-malo-apk-012
+    russian_file: samples/ru/nouns/genitive-mnogo-malo.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Мало (хлеба).
+    russian_native_text:
+      en: Little bread.
+    polish_marked_prompt: Mało [chleba].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

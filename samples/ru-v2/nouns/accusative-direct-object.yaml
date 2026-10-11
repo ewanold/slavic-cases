@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-accusative-direct-object-apk
+learning_language: ru
+track: nouns
+case: accusative
+topic:
+  id: direct-object
+  name: direct object
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-accusative-direct-object-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: книга
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He reads a book.
+  neutral_prompt: Он читает ___. (книга)
+  answer_scope: word
+  options:
+    a: книгу
+    b: книге
+    c: книга
+    d: книг
+  correct: a
+  source:
+    index: 1
+    prompt: Он читает (книгу).
+    base_or_stem: книга
+    cyrillic_options:
+    - книга
+    - книге
+    - книга
+    - книг
+    string_ids:
+      prompt: 8241
+      english: 5355
+      stored_options:
+      - 7683
+      - 9272
+      - 7683
+      - 7682
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: история
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I know history well.
+  neutral_prompt: Я хорошо знаю ___. (история)
+  answer_scope: word
+  options:
+    a: историю
+    b: история
+    c: истории
+    d: историей
+  correct: a
+  source:
+    index: 2
+    prompt: Я хорошо знаю (историю).
+    base_or_stem: история
+    cyrillic_options:
+    - история
+    - история
+    - истории
+    - историей
+    string_ids:
+      prompt: 8442
+      english: 5378
+      stored_options:
+      - 8824
+      - 8824
+      - 9249
+      - 8428
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: здание
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We see a building.
+  neutral_prompt: Мы видим ___. (здание)
+  answer_scope: word
+  options:
+    a: здание
+    b: зданию
+    c: здания
+    d: зданий
+  correct: a
+  source:
+    index: 3
+    prompt: Мы видим (здание).
+    base_or_stem: здание
+    cyrillic_options:
+    - здание
+    - зданию
+    - здания
+    - зданий
+    string_ids:
+      prompt: 7669
+      english: 6163
+      stored_options:
+      - 7671
+      - 9196
+      - 8186
+      - 9195
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: шоколад
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: You like chocolate.
+  neutral_prompt: Ты любишь ___. (шоколад)
+  answer_scope: word
+  options:
+    a: шоколад
+    b: шоколада
+    c: шоколаду
+    d: шоколады
+  correct: a
+  source:
+    index: 4
+    prompt: Ты любишь (шоколад).
+    base_or_stem: шоколад
+    cyrillic_options:
+    - шоколад
+    - шоколада
+    - шоколаду
+    - шоколады
+    string_ids:
+      prompt: 8368
+      english: 6204
+      stored_options:
+      - 8369
+      - 8594
+      - 9841
+      - 9842
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: деньги
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: They take money.
+  neutral_prompt: Они берут ___. (деньги)
+  answer_scope: word
+  options:
+    a: деньги
+    b: денег
+    c: деньгу
+    d: деньгами
+  correct: a
+  source:
+    index: 5
+    prompt: Они берут (деньги).
+    base_or_stem: деньги
+    cyrillic_options:
+    - деньги
+    - денег
+    - деньгу
+    - деньгами
+    string_ids:
+      prompt: 8252
+      english: 5990
+      stored_options:
+      - 8253
+      - 8134
+      - 9022
+      - 7675
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: молоко
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: I bought milk.
+  neutral_prompt: Я купил ___. (молоко)
+  answer_scope: word
+  options:
+    a: молоко
+    b: молока
+    c: молоком
+    d: молоку
+  correct: a
+  source:
+    index: 6
+    prompt: Я купил (молоко).
+    base_or_stem: молоко
+    cyrillic_options:
+    - молоко
+    - молока
+    - молоком
+    - молоку
+    string_ids:
+      prompt: 7723
+      english: 5367
+      stored_options:
+      - 7725
+      - 8077
+      - 7700
+      - 7617
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: совет
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He gives advice.
+  neutral_prompt: Он дает ___. (совет)
+  answer_scope: word
+  options:
+    a: совет
+    b: совету
+    c: совета
+    d: советом
+  correct: a
+  source:
+    index: 7
+    prompt: Он дает (совет).
+    base_or_stem: совет
+    cyrillic_options:
+    - совет
+    - совету
+    - совета
+    - советом
+    string_ids:
+      prompt: 8228
+      english: 5350
+      stored_options:
+      - 8229
+      - 9724
+      - 8511
+      - 9723
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: музыка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I like music.
+  neutral_prompt: Я люблю ___. (музыка)
+  answer_scope: word
+  options:
+    a: музыку
+    b: музыки
+    c: музык
+    d: музыке
+  correct: a
+  source:
+    index: 8
+    prompt: Я люблю (музыку).
+    base_or_stem: музыка
+    cyrillic_options:
+    - музыка
+    - музыки
+    - музык
+    - музыке
+    string_ids:
+      prompt: 8429
+      english: 5379
+      stored_options:
+      - 9251
+      - 9430
+      - 8251
+      - 9374
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: картины
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: They see pictures.
+  neutral_prompt: Они видят ___. (картины)
+  answer_scope: word
+  options:
+    a: картины
+    b: картиной
+    c: картин
+    d: картином
+  correct: a
+  source:
+    index: 9
+    prompt: Они видят (картины).
+    base_or_stem: картины
+    cyrillic_options:
+    - картины
+    - картиной
+    - картин
+    - картином
+    string_ids:
+      prompt: 8254
+      english: 5989
+      stored_options:
+      - 8255
+      - 9260
+      - 7692
+      - 9263
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: продукты
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: You buy groceries.
+  neutral_prompt: Ты покупаешь ___. (продукты)
+  answer_scope: word
+  options:
+    a: продукты
+    b: продукт
+    c: продуктом
+    d: продукта
+  correct: a
+  source:
+    index: 10
+    prompt: Ты покупаешь (продукты).
+    base_or_stem: продукты
+    cyrillic_options:
+    - продукты
+    - продукт
+    - продуктом
+    - продукта
+    string_ids:
+      prompt: 8370
+      english: 6200
+      stored_options:
+      - 8372
+      - 8371
+      - 9621
+      - 8501
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кошка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A girl feeds a cat.
+  neutral_prompt: Девочка кормит ___. (кошка)
+  answer_scope: word
+  options:
+    a: кошку
+    b: кошки
+    c: кошке
+    d: кошка
+  correct: a
+  source:
+    index: 11
+    prompt: Девочка кормит (кошку).
+    base_or_stem: кошка
+    cyrillic_options:
+    - кошка
+    - кошки
+    - кошке
+    - кошка
+    string_ids:
+      prompt: 8011
+      english: 4474
+      stored_options:
+      - 7603
+      - 7884
+      - 9316
+      - 7603
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-accusative-direct-object-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дверь
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Father opens the door.
+  neutral_prompt: Папа открывает ___. (дверь)
+  answer_scope: word
+  options:
+    a: дверь
+    b: двери
+    c: дверю
+    d: дверью
+  correct: a
+  source:
+    index: 12
+    prompt: Папа открывает (дверь).
+    base_or_stem: дверь
+    cyrillic_options:
+    - дверь
+    - двери
+    - дверю
+    - дверью
+    string_ids:
+      prompt: 8270
+      english: 5261
+      stored_options:
+      - 7653
+      - 8220
+      - 8996
+      - 8994
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

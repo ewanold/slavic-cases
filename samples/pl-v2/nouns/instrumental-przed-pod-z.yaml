@@ -1,0 +1,370 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-przed-pod-z-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: przed-pod-z
+  name: przed pod z
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-pered-pod-s-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: budynek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: In front of the building.
+  neutral_prompt: Przed ___. (budynek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: budynkiem
+    b: budynek
+    c: budynku
+    d: budynkowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-001
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: pered-pod-s
+      name: перед, под, с
+    russian_prompt: Перед (зданием).
+    russian_native_text:
+      en: In front of the building.
+    polish_marked_prompt: Przed [budynkiem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szkoła
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: In front of the school.
+  neutral_prompt: Przed ___. (szkoła; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szkołą
+    b: szkoła
+    c: szkoły
+    d: szkołę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-002
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Перед (школой).
+    russian_native_text:
+      en: In front of the school.
+    polish_marked_prompt: Przed [szkołą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: egzamin
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Before the exam.
+  neutral_prompt: Przed ___. (egzamin; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: egzaminem
+    b: egzamin
+    c: egzaminu
+    d: egzaminowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-003
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Перед (экзаменом).
+    russian_native_text:
+      en: Before the exam.
+    polish_marked_prompt: Przed [egzaminem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: podróż
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Before the trip.
+  neutral_prompt: Przed ___. (podróż; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: podróżą
+    b: podróż
+    c: podróży
+    d: podróżom
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-004
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Перед (поездкой).
+    russian_native_text:
+      en: Before the trip.
+    polish_marked_prompt: Przed [podróżą].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ziemia
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Under the ground.
+  neutral_prompt: Pod ___. (ziemia; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ziemią
+    b: ziemia
+    c: ziemi
+    d: ziemię
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-005
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Под (землёй).
+    russian_native_text:
+      en: Under the ground.
+    polish_marked_prompt: Pod [ziemią].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wpływ
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Under influence.
+  neutral_prompt: Pod ___. (wpływ; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wpływem
+    b: wpływ
+    c: wpływu
+    d: wpływowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-006
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Под (влиянием).
+    russian_native_text:
+      en: Under influence.
+    polish_marked_prompt: Pod [wpływem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: stół
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Under the table.
+  neutral_prompt: Pod ___. (stół; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: stołem
+    b: stół
+    c: stołu
+    d: stołowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-007
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Под (столом).
+    russian_native_text:
+      en: Under the table.
+    polish_marked_prompt: Pod [stołem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dach
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Under the roof.
+  neutral_prompt: Pod ___. (dach; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dachem
+    b: dach
+    c: dachu
+    d: dachowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-008
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Под (крышей).
+    russian_native_text:
+      en: Under the roof.
+    polish_marked_prompt: Pod [dachem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: przyjaciel
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: With friends.
+  neutral_prompt: Z ___. (przyjaciel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: przyjaciółmi
+    b: przyjaciel
+    c: przyjaciela
+    d: przyjacielowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-009
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: С (друзьями).
+    russian_native_text:
+      en: With friends.
+    polish_marked_prompt: Z [przyjaciółmi].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: brat
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: With a brother.
+  neutral_prompt: Z ___. (brat; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: bratem
+    b: brat
+    c: brata
+    d: bratu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-010
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: С (братом).
+    russian_native_text:
+      en: With a brother.
+    polish_marked_prompt: Z [bratem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: smutek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: With sadness.
+  neutral_prompt: Ze ___. (smutek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: smutkiem
+    b: smutek
+    c: smutku
+    d: smutkowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-011
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: С (грустью).
+    russian_native_text:
+      en: With sadness.
+    polish_marked_prompt: Ze [smutkiem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-pered-pod-s-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: radość
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Gladly.
+  neutral_prompt: Z ___. (radość; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: radością
+    b: radość
+    c: radości
+    d: radościom
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-pered-pod-s-apk-012
+    russian_file: samples/ru/nouns/instrumental-pered-pod-s.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: С (радостью).
+    russian_native_text:
+      en: Gladly.
+    polish_marked_prompt: Z [radością].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

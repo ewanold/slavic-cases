@@ -1,0 +1,499 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-dative-receiver-apk
+learning_language: ru
+track: nouns
+case: dative
+topic:
+  id: receiver
+  name: receiver
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-dative-receiver-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He gives a phone to a fiend.
+  neutral_prompt: Он дает телефон ___. (друг)
+  answer_scope: word
+  options:
+    a: другу
+    b: друге
+    c: другом
+    d: друга
+  correct: a
+  source:
+    index: 1
+    prompt: Он дает телефон (другу).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - друге
+    - другом
+    - друга
+    string_ids:
+      prompt: 8230
+      english: 5349
+      stored_options:
+      - 7626
+      - 8026
+      - 8179
+      - 7768
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: мама
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I help mother.
+  neutral_prompt: Я помогаю ___. (мама)
+  answer_scope: word
+  options:
+    a: маме
+    b: маму
+    c: мама
+    d: мамы
+  correct: a
+  source:
+    index: 2
+    prompt: Я помогаю (маме).
+    base_or_stem: мама
+    cyrillic_options:
+    - мама
+    - маму
+    - мама
+    - мамы
+    string_ids:
+      prompt: 8433
+      english: 5377
+      stored_options:
+      - 7717
+      - 9017
+      - 7717
+      - 8290
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: коллега
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: You phone the colleague.
+  neutral_prompt: Ты звонишь ___. (коллега)
+  answer_scope: word
+  options:
+    a: коллеге
+    b: коллеги
+    c: коллегой
+    d: коллегу
+  correct: a
+  source:
+    index: 3
+    prompt: Ты звонишь (коллеге).
+    base_or_stem: коллега
+    cyrillic_options:
+    - коллега
+    - коллеги
+    - коллегой
+    - коллегу
+    string_ids:
+      prompt: 8362
+      english: 6206
+      stored_options:
+      - 9276
+      - 8070
+      - 9280
+      - 9281
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ребёнок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Mother allows to a child.
+  neutral_prompt: Мама разрешает ___. (ребёнок)
+  answer_scope: word
+  options:
+    a: ребёнку
+    b: ребенка
+    c: ребенок
+    d: ребёнки
+  correct: a
+  source:
+    index: 4
+    prompt: Мама разрешает (ребёнку).
+    base_or_stem: ребёнок
+    cyrillic_options:
+    - ребёнок
+    - ребенка
+    - ребенок
+    - ребёнки
+    string_ids:
+      prompt: 8115
+      english: 5598
+      stored_options:
+      - 8813
+      - 8048
+      - 9498
+      - 9646
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: начальник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I bring papers to a boss.
+  neutral_prompt: Я приношу документы ___. (начальник)
+  answer_scope: word
+  options:
+    a: начальнику
+    b: начальника
+    c: начальником
+    d: начальник
+  correct: a
+  source:
+    index: 5
+    prompt: Я приношу документы (начальнику).
+    base_or_stem: начальник
+    cyrillic_options:
+    - начальник
+    - начальника
+    - начальником
+    - начальник
+    string_ids:
+      prompt: 8437
+      english: 5368
+      stored_options:
+      - 7734
+      - 8266
+      - 8445
+      - 7734
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: родители
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She phones the parents.
+  neutral_prompt: Она звонит ___. (родители)
+  answer_scope: word
+  options:
+    a: родителям
+    b: родители
+    c: родитель
+    d: родителей
+  correct: a
+  source:
+    index: 6
+    prompt: Она звонит (родителям).
+    base_or_stem: родители
+    cyrillic_options:
+    - родители
+    - родители
+    - родитель
+    - родителей
+    string_ids:
+      prompt: 8246
+      english: 5870
+      stored_options:
+      - 8668
+      - 8668
+      - 9649
+      - 8017
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: студент
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Give the book to the student.
+  neutral_prompt: Дай книгу ___. (студент)
+  answer_scope: word
+  options:
+    a: студенту
+    b: студента
+    c: студент
+    d: студенты
+  correct: a
+  source:
+    index: 7
+    prompt: Дай книгу (студенту).
+    base_or_stem: студент
+    cyrillic_options:
+    - студент
+    - студента
+    - студент
+    - студенты
+    string_ids:
+      prompt: 8001
+      english: 5330
+      stored_options:
+      - 7816
+      - 8331
+      - 7816
+      - 9376
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сестра
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: I give a magazine to the sister.
+  neutral_prompt: Я даю журнал ___. (сестра)
+  answer_scope: word
+  options:
+    a: сестре
+    b: сестру
+    c: сестры
+    d: сестрами
+  correct: a
+  source:
+    index: 8
+    prompt: Я даю журнал (сестре).
+    base_or_stem: сестра
+    cyrillic_options:
+    - сестра
+    - сестру
+    - сестры
+    - сестрами
+    string_ids:
+      prompt: 8420
+      english: 5373
+      stored_options:
+      - 7784
+      - 9623
+      - 7867
+      - 9401
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друзья
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We help friends.
+  neutral_prompt: Мы помогаем ___. (друзья)
+  answer_scope: word
+  options:
+    a: друзьям
+    b: друзьи
+    c: друзья
+    d: друзей
+  correct: a
+  source:
+    index: 9
+    prompt: Мы помогаем (друзьям).
+    base_or_stem: друзья
+    cyrillic_options:
+    - друзья
+    - друзьи
+    - друзья
+    - друзей
+    string_ids:
+      prompt: 8164
+      english: 6159
+      stored_options:
+      - 8161
+      - 7957
+      - 8161
+      - 7896
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сын
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Father tells to the son.
+  neutral_prompt: Папа говорит ___. (сын)
+  answer_scope: word
+  options:
+    a: сыну
+    b: сына
+    c: сыном
+    d: сын
+  correct: a
+  source:
+    index: 10
+    prompt: Папа говорит (сыну).
+    base_or_stem: сын
+    cyrillic_options:
+    - сын
+    - сына
+    - сыном
+    - сын
+    string_ids:
+      prompt: 8269
+      english: 5262
+      stored_options:
+      - 7822
+      - 7795
+      - 9267
+      - 7822
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дети
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Mother sings to children.
+  neutral_prompt: Мама поёт ___. (дети)
+  answer_scope: word
+  options:
+    a: детям
+    b: дети
+    c: детей
+    d: детями
+  correct: a
+  source:
+    index: 11
+    prompt: Мама поёт (детям).
+    base_or_stem: дети
+    cyrillic_options:
+    - дети
+    - дети
+    - детей
+    - детями
+    string_ids:
+      prompt: 8113
+      english: 5599
+      stored_options:
+      - 8619
+      - 8619
+      - 8391
+      - 9042
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: брат
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: I give a present to the brother.
+  neutral_prompt: Я дарю подарок ___. (брат)
+  answer_scope: word
+  options:
+    a: брату
+    b: брата
+    c: браты
+    d: братам
+  correct: a
+  source:
+    index: 12
+    prompt: Я дарю подарок (брату).
+    base_or_stem: брат
+    cyrillic_options:
+    - брат
+    - брата
+    - браты
+    - братам
+    string_ids:
+      prompt: 8417
+      english: 5374
+      stored_options:
+      - 7623
+      - 8375
+      - 8692
+      - 8089
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-dative-receiver-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: девушка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He’s writing to a girlfriend.
+  neutral_prompt: Он пишет ___. (девушка)
+  answer_scope: word
+  options:
+    a: девушке
+    b: девушки
+    c: девушка
+    d: девушкой
+  correct: a
+  source:
+    index: 13
+    prompt: Он пишет (девушке).
+    base_or_stem: девушка
+    cyrillic_options:
+    - девушка
+    - девушки
+    - девушка
+    - девушкой
+    string_ids:
+      prompt: 8233
+      english: 7918
+      stored_options:
+      - 9002
+      - 9004
+      - 9002
+      - 9008
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

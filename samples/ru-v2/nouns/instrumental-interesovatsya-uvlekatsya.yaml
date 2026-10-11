@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk
+learning_language: ru
+track: nouns
+case: instrumental
+topic:
+  id: interesovatsya-uvlekatsya
+  name: интересоваться, увлекаться...
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: история
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I’m into history.
+  neutral_prompt: Я интересуюсь ___. (история)
+  answer_scope: word
+  options:
+    a: историей
+    b: историю
+    c: история
+    d: истории
+  correct: a
+  source:
+    index: 1
+    prompt: Я интересуюсь (историей).
+    base_or_stem: история
+    cyrillic_options:
+    - история
+    - историю
+    - история
+    - истории
+    string_ids:
+      prompt: 8427
+      english: 7931
+      stored_options:
+      - 8824
+      - 8443
+      - 8824
+      - 9249
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: политика
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Are you into politics?
+  neutral_prompt: Ты интересуешься ___?. (политика)
+  answer_scope: word
+  options:
+    a: политикой
+    b: политике
+    c: политики
+    d: политика
+  correct: a
+  source:
+    index: 2
+    prompt: Ты интересуешься (политикой)?.
+    base_or_stem: политика
+    cyrillic_options:
+    - политика
+    - политике
+    - политики
+    - политика
+    string_ids:
+      prompt: 8366
+      english: 433
+      stored_options:
+      - 9576
+      - 8000
+      - 9578
+      - 9576
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: биология
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: He’s into biology.
+  neutral_prompt: Он интересуется ___. (биология)
+  answer_scope: word
+  options:
+    a: биологией
+    b: биологию
+    c: биология
+    d: биологии
+  correct: a
+  source:
+    index: 3
+    prompt: Он интересуется (биологией).
+    base_or_stem: биология
+    cyrillic_options:
+    - биология
+    - биологию
+    - биология
+    - биологии
+    string_ids:
+      prompt: 8231
+      english: 7916
+      stored_options:
+      - 8583
+      - 8581
+      - 8583
+      - 8579
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: архитектура
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She’s into architecture.
+  neutral_prompt: Она интересуется ___. (архитектура)
+  answer_scope: word
+  options:
+    a: архитектурой
+    b: архитектуре
+    c: архитектура
+    d: архитектуры
+  correct: a
+  source:
+    index: 4
+    prompt: Она интересуется (архитектурой).
+    base_or_stem: архитектура
+    cyrillic_options:
+    - архитектура
+    - архитектуре
+    - архитектура
+    - архитектуры
+    string_ids:
+      prompt: 8248
+      english: 7934
+      stored_options:
+      - 8505
+      - 8509
+      - 8505
+      - 8512
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: рисование
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I’m into drawing.
+  neutral_prompt: Я увлекаюсь ___. (рисование)
+  answer_scope: word
+  options:
+    a: рисованием
+    b: рисованию
+    c: рисования
+    d: рисований
+  correct: a
+  source:
+    index: 5
+    prompt: Я увлекаюсь (рисованием).
+    base_or_stem: рисование
+    cyrillic_options:
+    - рисование
+    - рисованию
+    - рисования
+    - рисований
+    string_ids:
+      prompt: 8440
+      english: 7930
+      stored_options:
+      - 8441
+      - 7702
+      - 8641
+      - 9127
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: музыка
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She’s into music.
+  neutral_prompt: Она увлекается ___. (музыка)
+  answer_scope: word
+  options:
+    a: музыкой
+    b: музыке
+    c: музыка
+    d: музыки
+  correct: a
+  source:
+    index: 6
+    prompt: Она увлекается (музыкой).
+    base_or_stem: музыка
+    cyrillic_options:
+    - музыка
+    - музыке
+    - музыка
+    - музыки
+    string_ids:
+      prompt: 8250
+      english: 7935
+      stored_options:
+      - 9251
+      - 9374
+      - 9251
+      - 9430
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: спорт
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: They are into sports.
+  neutral_prompt: Они увлекаются ___. (спорт)
+  answer_scope: word
+  options:
+    a: спортом
+    b: спорта
+    c: спорте
+    d: спорту
+  correct: a
+  source:
+    index: 7
+    prompt: Они увлекаются (спортом).
+    base_or_stem: спорт
+    cyrillic_options:
+    - спорт
+    - спорта
+    - спорте
+    - спорту
+    string_ids:
+      prompt: 8262
+      english: 5988
+      stored_options:
+      - 7761
+      - 9257
+      - 9745
+      - 9746
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: хоккей
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We’re keen on hockey.
+  neutral_prompt: Мы увлекаемся ___. (хоккей)
+  answer_scope: word
+  options:
+    a: хоккеем
+    b: хоккею
+    c: хоккеей
+    d: хоккей
+  correct: a
+  source:
+    index: 8
+    prompt: Мы увлекаемся (хоккеем).
+    base_or_stem: хоккей
+    cyrillic_options:
+    - хоккей
+    - хоккею
+    - хоккеей
+    - хоккей
+    string_ids:
+      prompt: 8168
+      english: 7939
+      stored_options:
+      - 8609
+      - 8684
+      - 8568
+      - 8609
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: спорт
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: I do sports.
+  neutral_prompt: Я занимаюсь ___. (спорт)
+  answer_scope: word
+  options:
+    a: спортом
+    b: спорты
+    c: спорте
+    d: спорту
+  correct: a
+  source:
+    index: 9
+    prompt: Я занимаюсь (спортом).
+    base_or_stem: спорт
+    cyrillic_options:
+    - спорт
+    - спорты
+    - спорте
+    - спорту
+    string_ids:
+      prompt: 8422
+      english: 5371
+      stored_options:
+      - 7761
+      - 9522
+      - 9745
+      - 9746
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: балет
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: She does ballet.
+  neutral_prompt: Ты занимаешься ___. (балет)
+  answer_scope: word
+  options:
+    a: балетом
+    b: балеты
+    c: балете
+    d: балетой
+  correct: a
+  source:
+    index: 10
+    prompt: Ты занимаешься (балетом).
+    base_or_stem: балет
+    cyrillic_options:
+    - балет
+    - балеты
+    - балете
+    - балетой
+    string_ids:
+      prompt: 8360
+      english: 5868
+      stored_options:
+      - 8361
+      - 8542
+      - 8535
+      - 8541
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: танцы
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: We take dance classes.
+  neutral_prompt: Мы занимаемся ___. (танцы)
+  answer_scope: word
+  options:
+    a: танцами
+    b: танцы
+    c: танцей
+    d: танцу
+  correct: a
+  source:
+    index: 11
+    prompt: Мы занимаемся (танцами).
+    base_or_stem: танцы
+    cyrillic_options:
+    - танцы
+    - танцы
+    - танцей
+    - танцу
+    string_ids:
+      prompt: 8159
+      english: 6165
+      stored_options:
+      - 9729
+      - 9729
+      - 9539
+      - 9387
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-instrumental-interesovatsya-uvlekatsya-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: язык
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: They study Russian language.
+  neutral_prompt: Они занимаются русским ___. (язык)
+  answer_scope: word
+  options:
+    a: языком
+    b: языку
+    c: языке
+    d: языки
+  correct: a
+  source:
+    index: 12
+    prompt: Они занимаются русским (языком).
+    base_or_stem: язык
+    cyrillic_options:
+    - язык
+    - языку
+    - языке
+    - языки
+    string_ids:
+      prompt: 8258
+      english: 5825
+      stored_options:
+      - 7599
+      - 7776
+      - 8905
+      - 7600
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

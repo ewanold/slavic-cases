@@ -1,0 +1,311 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-parts-of-day-seasons-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: parts-of-day-seasons
+  name: parts of day seasons
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lato
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: It’s hot in summer.
+  neutral_prompt: ___ jest gorąco. (lato; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Latem
+    b: Lato
+    c: Lata
+    d: Latu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-001
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: parts-of-day-seasons
+      name: parts of the day, seasons
+    russian_prompt: (летом) жарко.
+    russian_native_text:
+      en: It’s hot in summer.
+    polish_marked_prompt: '[Latem] jest gorąco.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: jesień
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: It rains in autumn.
+  neutral_prompt: ___ pada deszcz. (jesień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Jesienią
+    b: Jesień
+    c: Jesieni
+    d: Jesieniom
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-002
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: (осенью) идёт дождь.
+    russian_native_text:
+      en: It rains in autumn.
+    polish_marked_prompt: '[Jesienią] pada deszcz.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lato
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: I will come in the summer.
+  neutral_prompt: Przyjadę ___. (lato; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: latem
+    b: lato
+    c: lata
+    d: latu
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-003
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Я приеду (летом).
+    russian_native_text:
+      en: I will come in the summer.
+    polish_marked_prompt: Przyjadę [latem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: zima
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: It’s cold in winter.
+  neutral_prompt: ___ jest zimno. (zima; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Zimą
+    b: Zima
+    c: Zimy
+    d: Zimę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-004
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: (зимой) холодно.
+    russian_native_text:
+      en: It’s cold in winter.
+    polish_marked_prompt: '[Zimą] jest zimno.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wiosna
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: It’s warm in spring.
+  neutral_prompt: ___ jest ciepło. (wiosna; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Wiosną
+    b: Wiosna
+    c: Wiosny
+    d: Wiosnę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-005
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: (весной) тепло.
+    russian_native_text:
+      en: It’s warm in spring.
+    polish_marked_prompt: '[Wiosną] jest ciepło.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ranek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Early in the morning.
+  neutral_prompt: Wczesnym ___. (ranek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: rankiem
+    b: ranek
+    c: ranka
+    d: rankowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-006
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Рано (утром).
+    russian_native_text:
+      en: Early in the morning.
+    polish_marked_prompt: Wczesnym [rankiem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wieczór
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: He works in the evening.
+  neutral_prompt: On pracuje ___. (wieczór; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wieczorem
+    b: wieczór
+    c: wieczoru
+    d: wieczorowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-009
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Он работает (вечером).
+    russian_native_text:
+      en: He works in the evening.
+    polish_marked_prompt: On pracuje [wieczorem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: wieczór
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: What are you doing in the evening?
+  neutral_prompt: Co robisz ___? (wieczór; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: wieczorem
+    b: wieczór
+    c: wieczoru
+    d: wieczorowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-010
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Что ты делаешь (вечером)?.
+    russian_native_text:
+      en: What are you doing in the evening?
+    polish_marked_prompt: Co robisz [wieczorem]?
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: noc
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: It was raining at night.
+  neutral_prompt: ___ padał deszcz. (noc; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Nocą
+    b: Noc
+    c: Nocy
+    d: Nocom
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-011
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: (ночью) шёл дождь.
+    russian_native_text:
+      en: It was raining at night.
+    polish_marked_prompt: '[Nocą] padał deszcz.'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: noc
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Where were you at night?
+  neutral_prompt: Gdzie byłeś ___? (noc; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: nocą
+    b: noc
+    c: nocy
+    d: nocom
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-012
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Где ты был (ночью)?.
+    russian_native_text:
+      en: Where were you at night?
+    polish_marked_prompt: Gdzie byłeś [nocą]?
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

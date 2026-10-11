@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-of-something-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: of-something
+  name: of something
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-of-something-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дорога
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The end of the road.
+  neutral_prompt: Конец ___. (дорога)
+  answer_scope: word
+  options:
+    a: дороги
+    b: дорогой
+    c: дороге
+    d: дорог
+  correct: a
+  source:
+    index: 1
+    prompt: Конец (дороги).
+    base_or_stem: дорога
+    cyrillic_options:
+    - дорога
+    - дорогой
+    - дороге
+    - дорог
+    string_ids:
+      prompt: 8071
+      english: 5958
+      stored_options:
+      - 8638
+      - 8557
+      - 8365
+      - 8072
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дом
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: The roof of the house.
+  neutral_prompt: Крыша ___. (дом)
+  answer_scope: word
+  options:
+    a: дома
+    b: доме
+    c: домом
+    d: домя
+  correct: a
+  source:
+    index: 2
+    prompt: Крыша (дома).
+    base_or_stem: дом
+    cyrillic_options:
+    - дом
+    - доме
+    - домом
+    - домя
+    string_ids:
+      prompt: 8095
+      english: 5970
+      stored_options:
+      - 7611
+      - 7746
+      - 8038
+      - 9119
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: город
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: A map of the city.
+  neutral_prompt: Карта ___. (город)
+  answer_scope: word
+  options:
+    a: города
+    b: городу
+    c: городом
+    d: городе
+  correct: a
+  source:
+    index: 3
+    prompt: Карта (города).
+    base_or_stem: город
+    cyrillic_options:
+    - город
+    - городу
+    - городом
+    - городе
+    string_ids:
+      prompt: 8049
+      english: 728
+      stored_options:
+      - 7643
+      - 8257
+      - 8681
+      - 8921
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: кофе
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A cup of coffee.
+  neutral_prompt: Чашка ___. (кофе)
+  answer_scope: word
+  options:
+    a: кофе
+    b: кофем
+    c: кофя
+    d: кофю
+  correct: a
+  source:
+    index: 4
+    prompt: Чашка (кофе).
+    base_or_stem: кофе
+    cyrillic_options:
+    - кофе
+    - кофем
+    - кофя
+    - кофю
+    string_ids:
+      prompt: 8397
+      english: 4463
+      stored_options:
+      - 8398
+      - 9311
+      - 9315
+      - 9314
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: книга
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The end of the book.
+  neutral_prompt: Конец ___. (книга)
+  answer_scope: word
+  options:
+    a: книги
+    b: книгой
+    c: книгы
+    d: книгами
+  correct: a
+  source:
+    index: 5
+    prompt: Конец (книги).
+    base_or_stem: книга
+    cyrillic_options:
+    - книга
+    - книгой
+    - книгы
+    - книгами
+    string_ids:
+      prompt: 8074
+      english: 5957
+      stored_options:
+      - 7683
+      - 9274
+      - 9275
+      - 7798
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: компьютер
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The screen of the computer.
+  neutral_prompt: Экран ___. (компьютер)
+  answer_scope: word
+  options:
+    a: компьютера
+    b: компютерам
+    c: компьютеря
+    d: компьютеры
+  correct: a
+  source:
+    index: 6
+    prompt: Экран (компьютера).
+    base_or_stem: компьютер
+    cyrillic_options:
+    - компьютер
+    - компютерам
+    - компьютеря
+    - компьютеры
+    string_ids:
+      prompt: 8407
+      english: 5971
+      stored_options:
+      - 7688
+      - 9293
+      - 9290
+      - 9285
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: фильм
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The beginning of the movie.
+  neutral_prompt: Начало ___. (фильм)
+  answer_scope: word
+  options:
+    a: фильма
+    b: фильму
+    c: фильмом
+    d: фильмы
+  correct: a
+  source:
+    index: 7
+    prompt: Начало (фильма).
+    base_or_stem: фильм
+    cyrillic_options:
+    - фильм
+    - фильму
+    - фильмом
+    - фильмы
+    string_ids:
+      prompt: 8197
+      english: 5672
+      stored_options:
+      - 7845
+      - 8350
+      - 8697
+      - 9097
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: солнце
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The light of the Sun.
+  neutral_prompt: Свет ___. (солнце)
+  answer_scope: word
+  options:
+    a: солнца
+    b: солнцю
+    c: солнцу
+    d: солнцем
+  correct: a
+  source:
+    index: 8
+    prompt: Свет (солнца).
+    base_or_stem: солнце
+    cyrillic_options:
+    - солнце
+    - солнцю
+    - солнцу
+    - солнцем
+    string_ids:
+      prompt: 8328
+      english: 5962
+      stored_options:
+      - 9736
+      - 9740
+      - 9738
+      - 9737
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: подарок
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The price of the present.
+  neutral_prompt: Цена ___. (подарок)
+  answer_scope: word
+  options:
+    a: подарка
+    b: подарокя
+    c: подарке
+    d: подарки
+  correct: a
+  source:
+    index: 9
+    prompt: Цена (подарка).
+    base_or_stem: подарок
+    cyrillic_options:
+    - подарок
+    - подарокя
+    - подарке
+    - подарки
+    string_ids:
+      prompt: 8394
+      english: 5968
+      stored_options:
+      - 8418
+      - 9562
+      - 9559
+      - 9560
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: школа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The corner of the school.
+  neutral_prompt: Угол ___. (школа)
+  answer_scope: word
+  options:
+    a: школы
+    b: школой
+    c: школи
+    d: школе
+  correct: a
+  source:
+    index: 10
+    prompt: Угол (школы).
+    base_or_stem: школа
+    cyrillic_options:
+    - школа
+    - школой
+    - школи
+    - школе
+    string_ids:
+      prompt: 8385
+      english: 5953
+      stored_options:
+      - 8453
+      - 8276
+      - 9840
+      - 7808
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: каникулы
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: The beginning of holidays.
+  neutral_prompt: Начало ___. (каникулы)
+  answer_scope: word
+  options:
+    a: каникул
+    b: каникулов
+    c: каникулы
+    d: каникула
+  correct: a
+  source:
+    index: 11
+    prompt: Начало (каникул).
+    base_or_stem: каникулы
+    cyrillic_options:
+    - каникулы
+    - каникулов
+    - каникулы
+    - каникула
+    string_ids:
+      prompt: 8196
+      english: 5945
+      stored_options:
+      - 9057
+      - 8711
+      - 9057
+      - 8472
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-of-something-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: молоко
+  features:
+    number: null
+    gender: neuter
+    animacy: null
+  native_text:
+    en: A box of milk.
+  neutral_prompt: Пакет ___. (молоко)
+  answer_scope: word
+  options:
+    a: молока
+    b: молоку
+    c: молокой
+    d: молоке
+  correct: a
+  source:
+    index: 12
+    prompt: Пакет (молока).
+    base_or_stem: молоко
+    cyrillic_options:
+    - молоко
+    - молоку
+    - молокой
+    - молоке
+    string_ids:
+      prompt: 8268
+      english: 4458
+      stored_options:
+      - 7725
+      - 7617
+      - 9425
+      - 9423
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

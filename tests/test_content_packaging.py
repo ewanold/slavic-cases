@@ -6,6 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import sys
+import shutil
 
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,14 +18,18 @@ class ContentPackagingTest(unittest.TestCase):
     def test_authoritative_content_is_packaged_without_loss(self):
         with tempfile.TemporaryDirectory() as directory:
             first, second = Path(directory) / "first.json", Path(directory) / "second.json"
-            packaging.package(ROOT / "samples", first)
-            packaging.package(ROOT / "samples", second)
+            root = Path(directory) / "samples"
+            shutil.copytree(ROOT / "samples", root)
+            for folder in root.glob("*-v2"):
+                shutil.rmtree(folder)
+            packaging.package(root, first)
+            packaging.package(root, second)
             self.assertEqual(first.read_bytes(), second.read_bytes())
             asset = json.loads(first.read_text())
-            self.assertEqual({"ru", "pl"}, {p["learning_language"] for p in asset["languages"]})
+            self.assertEqual({"ru", "pl", "de"}, {p["learning_language"] for p in asset["languages"]})
             questions = [q for p in asset["languages"] for s in p["samples"] for q in s["sentences"]]
-            self.assertEqual(390, len(questions))
-            self.assertEqual(390, len({q["id"] for q in questions}))
+            self.assertEqual(510, len(questions))
+            self.assertEqual(510, len({q["id"] for q in questions}))
             for question in questions:
                 self.assertIn(question["correct"], question["options"])
                 self.assertEqual({"en", "de"}, set(question["native_text"]))

@@ -1,0 +1,53 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-nominative-from-genitive-practice-3-adapted
+learning_language: pl
+track: adjectives
+case: nominative
+topic:
+  id: from-genitive-practice-3
+  name: from genitive practice 3
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-3-apk-022
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dentystyczny
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: the dental office
+  neutral_prompt: ___ (dentystyczny gabinet)
+  answer_scope: word
+  options:
+    a: dentystyczny
+    b: dentystycznego
+    c: dentystycznemu
+    d: dentystycznym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-3-apk-022
+    russian_file: samples/ru/adjectives/genitive-practice-3.yaml
+    russian_case: genitive
+    russian_topic:
+      id: practice-3
+      name: practice 3
+    russian_prompt: кабинет (зубного) {врача}
+    russian_native_text:
+      en: a dentist's office
+    polish_marked_prompt: '{gabinet} [dentystyczny]'
+    polish_context_lemma: gabinet
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+  - English was clarified to match the Polish wording; the original is retained in source.

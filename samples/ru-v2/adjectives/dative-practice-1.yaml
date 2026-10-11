@@ -1,0 +1,463 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-dative-practice-1-apk
+learning_language: ru
+track: adjectives
+case: dative
+topic:
+  id: practice-1
+  name: practice 1
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-dative-practice-1-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: to call a new student
+  neutral_prompt: звонить ___ (новый ученик)
+  answer_scope: word
+  options:
+    a: новому
+    b: нового
+    c: новему
+    d: новой
+  correct: a
+  source:
+    index: 1
+    prompt: звонить (новому) {ученику}
+    base_or_stem: новый ученик
+    cyrillic_options:
+    - новый ученик
+    - нового
+    - новему
+    - новой
+    string_ids:
+      prompt: 9189
+      english: 3953
+      stored_options:
+      - 9479
+      - 9469
+      - 8663
+      - 8455
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: хороший
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: to call a good friend
+  neutral_prompt: позвонить ___ (хороший подруга)
+  answer_scope: word
+  options:
+    a: хорошей
+    b: хороший
+    c: хорошой
+    d: хороших
+  correct: a
+  source:
+    index: 2
+    prompt: позвонить (хорошей) {подруге}
+    base_or_stem: хорошая подруга
+    cyrillic_options:
+    - хорошая подруга
+    - хороший
+    - хорошой
+    - хороших
+    string_ids:
+      prompt: 9573
+      english: 5665
+      stored_options:
+      - 9135
+      - 7844
+      - 9153
+      - 8717
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: чёрный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: water for a black cat
+  neutral_prompt: вода для ___ (чёрный кошка)
+  answer_scope: word
+  options:
+    a: чёрной
+    b: 'чёрной '
+    c: чёрнюю
+    d: чёрного
+  correct: a
+  source:
+    index: 3
+    prompt: вода для (чёрной) {кошки}
+    base_or_stem: чёрная кошка
+    cyrillic_options:
+    - чёрная кошка
+    - 'чёрной '
+    - чёрнюю
+    - чёрного
+    string_ids:
+      prompt: 7842
+      english: 935
+      stored_options:
+      - 9824
+      - 9830
+      - 9834
+      - 9828
+  review_notes:
+  - Source contains duplicate answer choices; preserved for review.
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to tell the new workers.
+  neutral_prompt: сказать ___. (новый работники)
+  answer_scope: word
+  options:
+    a: новым
+    b: новим
+    c: новых
+    d: новой
+  correct: a
+  source:
+    index: 4
+    prompt: сказать (новым) {работникам}.
+    base_or_stem: новые работники
+    cyrillic_options:
+    - новые работники
+    - новим
+    - новых
+    - новой
+    string_ids:
+      prompt: 9482
+      english: 4635
+      stored_options:
+      - 9475
+      - 8829
+      - 8379
+      - 8455
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: маленький
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: food for a little kitten
+  neutral_prompt: еда для ___ (маленький котёнок)
+  answer_scope: word
+  options:
+    a: маленького
+    b: маленькой
+    c: маленькего
+    d: маленькево
+  correct: a
+  source:
+    index: 5
+    prompt: еда для (маленького) {котёнка}
+    base_or_stem: маленький котёнок
+    cyrillic_options:
+    - маленький котёнок
+    - маленькой
+    - маленькего
+    - маленькево
+    string_ids:
+      prompt: 9015
+      english: 4215
+      stored_options:
+      - 8773
+      - 8838
+      - 8053
+      - 7954
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: незнакомый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to sing to strangers
+  neutral_prompt: петь ___ (незнакомый люди)
+  answer_scope: word
+  options:
+    a: незнакомым
+    b: незнакомых
+    c: незнакомим
+    d: незнакомый
+  correct: a
+  source:
+    index: 6
+    prompt: петь (незнакомым) {людям}
+    base_or_stem: незнакомые люди
+    cyrillic_options:
+    - незнакомые люди
+    - незнакомых
+    - незнакомим
+    - незнакомый
+    string_ids:
+      prompt: 9537
+      english: 3772
+      stored_options:
+      - 9459
+      - 9461
+      - 9417
+      - 9460
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: близкий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: to complain to close friends
+  neutral_prompt: жаловаться ___ (близкий друзья)
+  answer_scope: word
+  options:
+    a: близким
+    b: близкем
+    c: близких
+    d: близкым
+  correct: a
+  source:
+    index: 7
+    prompt: жаловаться (близким) {друзьям}
+    base_or_stem: близкие друзья
+    cyrillic_options:
+    - близкие друзья
+    - близкем
+    - близких
+    - близкым
+    string_ids:
+      prompt: 8616
+      english: 353
+      stored_options:
+      - 8602
+      - 8597
+      - 8608
+      - 8617
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старший
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: the older sister is cold
+  neutral_prompt: ___ холодно (старший сестра)
+  answer_scope: word
+  options:
+    a: старшей
+    b: старший
+    c: старших
+    d: старшов
+  correct: a
+  source:
+    index: 8
+    prompt: (старшей) {сестре} холодно
+    base_or_stem: старшая сестра
+    cyrillic_options:
+    - старшая сестра
+    - старший
+    - старших
+    - старшов
+    string_ids:
+      prompt: 7810
+      english: 933
+      stored_options:
+      - 9756
+      - 8685
+      - 9760
+      - 8749
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: русский
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: russian tourists are bored
+  neutral_prompt: ___ скучно (русский туристы)
+  answer_scope: word
+  options:
+    a: русским
+    b: русскым
+    c: русских
+    d: русскам
+  correct: a
+  source:
+    index: 9
+    prompt: (русским) {туристам} скучно
+    base_or_stem: русские туристы
+    cyrillic_options:
+    - русские туристы
+    - русскым
+    - русских
+    - русскам
+    string_ids:
+      prompt: 7777
+      english: 4290
+      stored_options:
+      - 9659
+      - 9665
+      - 9661
+      - 9656
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: американский
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: a present for american scientists
+  neutral_prompt: подарок ___ (американский учёные)
+  answer_scope: word
+  options:
+    a: американским
+    b: американскым
+    c: американской
+    d: американского
+  correct: a
+  source:
+    index: 10
+    prompt: подарок (американским) {учёным}
+    base_or_stem: американские учёные
+    cyrillic_options:
+    - американские учёные
+    - американскым
+    - американской
+    - американского
+    string_ids:
+      prompt: 9125
+      english: 1280
+      stored_options:
+      - 8490
+      - 8496
+      - 8493
+      - 8090
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: канадский
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a book for a chinese student
+  neutral_prompt: книга для ___ (канадский студент)
+  answer_scope: word
+  options:
+    a: канадского
+    b: канадском
+    c: канадсково
+    d: канадской
+  correct: a
+  source:
+    index: 11
+    prompt: книга для (канадского) {студента}
+    base_or_stem: канадский студент
+    cyrillic_options:
+    - канадский студент
+    - канадском
+    - канадсково
+    - канадской
+    string_ids:
+      prompt: 7684
+      english: 4207
+      stored_options:
+      - 7828
+      - 9252
+      - 8875
+      - 9105
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-dative-practice-1-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a letter to an old friend
+  neutral_prompt: письмо ___ (старый друг)
+  answer_scope: word
+  options:
+    a: старому
+    b: старого
+    c: старома
+    d: старой
+  correct: a
+  source:
+    index: 12
+    prompt: письмо (старому) {другу}
+    base_or_stem: старый друг
+    cyrillic_options:
+    - старый друг
+    - старого
+    - старома
+    - старой
+    string_ids:
+      prompt: 9545
+      english: 3926
+      stored_options:
+      - 8835
+      - 8020
+      - 9406
+      - 7806
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

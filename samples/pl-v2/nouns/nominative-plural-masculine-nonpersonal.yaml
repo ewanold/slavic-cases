@@ -1,0 +1,483 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-nominative-plural-masculine-nonpersonal-adapted
+learning_language: pl
+track: nouns
+case: nominative
+topic:
+  id: plural-masculine-nonpersonal
+  name: plural masculine nonpersonal
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-nominative-plural-masculine-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: komputer
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: computers
+  neutral_prompt: ___ (komputer; liczba mnoga)
+  answer_scope: word
+  options:
+    a: komputery
+    b: komputer
+    c: komputera
+    d: komputerowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-001
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: &id001
+      id: plural-masculine
+      name: Plural masculine
+    russian_prompt: (компьютер)
+    russian_native_text:
+      en: computers
+    polish_marked_prompt: '[komputery]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: banan
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: bananas
+  neutral_prompt: ___ (banan; liczba mnoga)
+  answer_scope: word
+  options:
+    a: banany
+    b: banan
+    c: banana
+    d: bananowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-002
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (банан)
+    russian_native_text:
+      en: bananas
+    polish_marked_prompt: '[banany]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: stół
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: tables
+  neutral_prompt: ___ (stół; liczba mnoga)
+  answer_scope: word
+  options:
+    a: stoły
+    b: stół
+    c: stołu
+    d: stołowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-003
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (стол)
+    russian_native_text:
+      en: tables
+    polish_marked_prompt: '[stoły]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: kot
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: cats
+  neutral_prompt: ___ (kot; liczba mnoga)
+  answer_scope: word
+  options:
+    a: koty
+    b: kot
+    c: kota
+    d: kotu
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-005
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (кот)
+    russian_native_text:
+      en: cats
+    polish_marked_prompt: '[koty]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: hotel
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: hotels
+  neutral_prompt: ___ (hotel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: hotele
+    b: hotel
+    c: hotelu
+    d: hotelowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-008
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (отель)
+    russian_native_text:
+      en: hotels
+    polish_marked_prompt: '[hotele]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: rubel
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: rubles
+  neutral_prompt: ___ (rubel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: ruble
+    b: rubel
+    c: rubla
+    d: rublowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-009
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (рубль)
+    russian_native_text:
+      en: rubles
+    polish_marked_prompt: '[ruble]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-masculine-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: tramwaj
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: trams
+  neutral_prompt: ___ (tramwaj; liczba mnoga)
+  answer_scope: word
+  options:
+    a: tramwaje
+    b: tramwaj
+    c: tramwaju
+    d: tramwajowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-masculine-apk-012
+    russian_file: samples/ru/nouns/nominative-plural-masculine.yaml
+    russian_case: nominative
+    russian_topic: *id001
+    russian_prompt: (трамвай)
+    russian_native_text:
+      en: trams
+    polish_marked_prompt: '[tramwaje]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-feminine-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: artykuł
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: articles
+  neutral_prompt: ___ (artykuł; liczba mnoga)
+  answer_scope: word
+  options:
+    a: artykuły
+    b: artykuł
+    c: artykułu
+    d: artykułowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-feminine-apk-005
+    russian_file: samples/ru/nouns/nominative-plural-feminine.yaml
+    russian_case: nominative
+    russian_topic:
+      id: plural-feminine
+      name: Plural feminine
+    russian_prompt: (статья)
+    russian_native_text:
+      en: articles
+    polish_marked_prompt: '[artykuły]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is feminine.
+- id: pl-nouns-nominative-plural-neuter-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: budynek
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: buildings
+  neutral_prompt: ___ (budynek; liczba mnoga)
+  answer_scope: word
+  options:
+    a: budynki
+    b: budynek
+    c: budynku
+    d: budynkowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-004
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: &id002
+      id: plural-neuter
+      name: Plural neuter
+    russian_prompt: (здание)
+    russian_native_text:
+      en: buildings
+    polish_marked_prompt: '[budynki]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is neuter.
+- id: pl-nouns-nominative-plural-neuter-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: fotel
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: armchairs
+  neutral_prompt: ___ (fotel; liczba mnoga)
+  answer_scope: word
+  options:
+    a: fotele
+    b: fotel
+    c: fotela
+    d: fotelowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-neuter-apk-005
+    russian_file: samples/ru/nouns/nominative-plural-neuter.yaml
+    russian_case: nominative
+    russian_topic: *id002
+    russian_prompt: (кресло)
+    russian_native_text:
+      en: armchairs
+    polish_marked_prompt: '[fotele]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is masculine; the source noun is neuter.
+- id: pl-nouns-nominative-plural-exceptions-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: numer
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: numbers
+  neutral_prompt: ___ (numer; liczba mnoga)
+  answer_scope: word
+  options:
+    a: numery
+    b: numer
+    c: numeru
+    d: numerowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-002
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: &id003
+      id: plural-exceptions
+      name: Plural exceptions
+    russian_prompt: (номер)
+    russian_native_text:
+      en: numbers
+    polish_marked_prompt: '[numery]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dom
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: houses
+  neutral_prompt: ___ (dom; liczba mnoga)
+  answer_scope: word
+  options:
+    a: domy
+    b: dom
+    c: domu
+    d: domowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-003
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (дом)
+    russian_native_text:
+      en: houses
+    polish_marked_prompt: '[domy]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: pociąg
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: trains
+  neutral_prompt: ___ (pociąg; liczba mnoga)
+  answer_scope: word
+  options:
+    a: pociągi
+    b: pociąg
+    c: pociągu
+    d: pociągowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-004
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (поезд)
+    russian_native_text:
+      en: trains
+    polish_marked_prompt: '[pociągi]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: adres
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: addresses
+  neutral_prompt: ___ (adres; liczba mnoga)
+  answer_scope: word
+  options:
+    a: adresy
+    b: adres
+    c: adresu
+    d: adresowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-005
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (адрес)
+    russian_native_text:
+      en: addresses
+    polish_marked_prompt: '[adresy]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-nominative-plural-exceptions-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: paszport
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: passports
+  neutral_prompt: ___ (paszport; liczba mnoga)
+  answer_scope: word
+  options:
+    a: paszporty
+    b: paszport
+    c: paszportu
+    d: paszportowi
+  correct: a
+  source:
+    russian_id: ru-nouns-nominative-plural-exceptions-apk-007
+    russian_file: samples/ru/nouns/nominative-plural-exceptions.yaml
+    russian_case: nominative
+    russian_topic: *id003
+    russian_prompt: (паспорт)
+    russian_native_text:
+      en: passports
+    polish_marked_prompt: '[paszporty]'
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

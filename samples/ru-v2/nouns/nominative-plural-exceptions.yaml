@@ -1,0 +1,758 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-nominative-plural-exceptions-apk
+learning_language: ru
+track: nouns
+case: nominative
+topic:
+  id: plural-exceptions
+  name: Plural exceptions
+native_languages:
+- en
+instruction:
+  en: Choose the nominative plural form of the noun.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-nominative-plural-exceptions-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: глаз
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: eyes
+  neutral_prompt: ___ (глаз)
+  answer_scope: word
+  options:
+    a: глаза
+    b: глазы
+    c: глази
+    d: глазьи
+  correct: a
+  source:
+    index: 1
+    prompt: (глаз)
+    base_or_stem: глаз
+    cyrillic_options:
+    - глаза
+    - глазы
+    - глази
+    - глазьи
+    string_ids:
+      prompt: 7641
+      english: 690
+      stored_options:
+      - 8458
+      - 8899
+      - 8896
+      - 8900
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: номер
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: numbers
+  neutral_prompt: ___ (номер)
+  answer_scope: word
+  options:
+    a: номера
+    b: номеры
+    c: номерья
+    d: номери
+  correct: a
+  source:
+    index: 2
+    prompt: (номер)
+    base_or_stem: номер
+    cyrillic_options:
+    - номера
+    - номеры
+    - номерья
+    - номери
+    string_ids:
+      prompt: 7749
+      english: 4659
+      stored_options:
+      - 8744
+      - 8951
+      - 9264
+      - 8769
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дом
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: houses
+  neutral_prompt: ___ (дом)
+  answer_scope: word
+  options:
+    a: дома
+    b: домы
+    c: домья
+    d: доми
+  correct: a
+  source:
+    index: 3
+    prompt: (дом)
+    base_or_stem: дом
+    cyrillic_options:
+    - дома
+    - домы
+    - домья
+    - доми
+    string_ids:
+      prompt: 7664
+      english: 4524
+      stored_options:
+      - 7612
+      - 9116
+      - 9118
+      - 8670
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: поезд
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: trains
+  neutral_prompt: ___ (поезд)
+  answer_scope: word
+  options:
+    a: поезда
+    b: поезды
+    c: поезди
+    d: поездья
+  correct: a
+  source:
+    index: 4
+    prompt: (поезд)
+    base_or_stem: поезд
+    cyrillic_options:
+    - поезда
+    - поезды
+    - поезди
+    - поездья
+    string_ids:
+      prompt: 7769
+      english: 6590
+      stored_options:
+      - 9190
+      - 9569
+      - 9566
+      - 9570
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: адрес
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: addresses
+  neutral_prompt: ___ (адрес)
+  answer_scope: word
+  options:
+    a: адреса
+    b: адресы
+    c: адреси
+    d: адресьи
+  correct: a
+  source:
+    index: 5
+    prompt: (адрес)
+    base_or_stem: адрес
+    cyrillic_options:
+    - адреса
+    - адресы
+    - адреси
+    - адресьи
+    string_ids:
+      prompt: 7596
+      english: 6560
+      stored_options:
+      - 8460
+      - 8468
+      - 8464
+      - 8473
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: город
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: cities
+  neutral_prompt: ___ (город)
+  answer_scope: word
+  options:
+    a: города
+    b: городы
+    c: городи
+    d: городя
+  correct: a
+  source:
+    index: 6
+    prompt: (город)
+    base_or_stem: город
+    cyrillic_options:
+    - города
+    - городы
+    - городи
+    - городя
+    string_ids:
+      prompt: 7642
+      english: 4742
+      stored_options:
+      - 8050
+      - 8080
+      - 8667
+      - 8091
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: паспорт
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: passports
+  neutral_prompt: ___ (паспорт)
+  answer_scope: word
+  options:
+    a: паспорта
+    b: паспорты
+    c: паспорти
+    d: паспортя
+  correct: a
+  source:
+    index: 7
+    prompt: (паспорт)
+    base_or_stem: паспорт
+    cyrillic_options:
+    - паспорта
+    - паспорты
+    - паспорти
+    - паспортя
+    string_ids:
+      prompt: 7760
+      english: 7447
+      stored_options:
+      - 9256
+      - 9521
+      - 9520
+      - 9523
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: учитель
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: teachers
+  neutral_prompt: ___ (учитель)
+  answer_scope: word
+  options:
+    a: учителя
+    b: учители
+    c: учителы
+    d: учителья
+  correct: a
+  source:
+    index: 8
+    prompt: (учитель)
+    base_or_stem: учитель
+    cyrillic_options:
+    - учителя
+    - учители
+    - учителы
+    - учителья
+    string_ids:
+      prompt: 7838
+      english: 3700
+      stored_options:
+      - 8045
+      - 9739
+      - 9747
+      - 9773
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: стул
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: chairs
+  neutral_prompt: ___ (стул)
+  answer_scope: word
+  options:
+    a: стулья
+    b: стульи
+    c: стуля
+    d: стули
+  correct: a
+  source:
+    index: 9
+    prompt: (стул)
+    base_or_stem: стул
+    cyrillic_options:
+    - стулья
+    - стульи
+    - стуля
+    - стули
+    string_ids:
+      prompt: 7818
+      english: 4574
+      stored_options:
+      - 9784
+      - 9783
+      - 9785
+      - 9781
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: брат
+  features:
+    number: plural
+    gender: masculine
+    animacy: null
+  native_text:
+    en: brothers
+  neutral_prompt: ___ (брат)
+  answer_scope: word
+  options:
+    a: братья
+    b: братя
+    c: брати
+    d: братьи
+  correct: a
+  source:
+    index: 10
+    prompt: (брат)
+    base_or_stem: брат
+    cyrillic_options:
+    - братья
+    - братя
+    - брати
+    - братьи
+    string_ids:
+      prompt: 7622
+      english: 6692
+      stored_options:
+      - 8698
+      - 8699
+      - 8689
+      - 8693
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: friends
+  neutral_prompt: ___ (друг)
+  answer_scope: word
+  options:
+    a: друзья
+    b: други
+    c: друзьи
+    d: друзя
+  correct: a
+  source:
+    index: 11
+    prompt: (друг)
+    base_or_stem: друг
+    cyrillic_options:
+    - друзья
+    - други
+    - друзьи
+    - друзя
+    string_ids:
+      prompt: 7666
+      english: 4077
+      stored_options:
+      - 8161
+      - 8122
+      - 7957
+      - 9142
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: сын
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: sons
+  neutral_prompt: ___ (сын)
+  answer_scope: word
+  options:
+    a: сыновья
+    b: сыни
+    c: сынья
+    d: сыня
+  correct: a
+  source:
+    index: 12
+    prompt: (сын)
+    base_or_stem: сын
+    cyrillic_options:
+    - сыновья
+    - сыни
+    - сынья
+    - сыня
+    string_ids:
+      prompt: 7821
+      english: 826
+      stored_options:
+      - 8486
+      - 8469
+      - 9793
+      - 9794
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-013
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: муж
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: husbands
+  neutral_prompt: ___ (муж)
+  answer_scope: word
+  options:
+    a: мужья
+    b: мужьи
+    c: мужя
+    d: мужа
+  correct: a
+  source:
+    index: 13
+    prompt: (муж)
+    base_or_stem: муж
+    cyrillic_options:
+    - мужья
+    - мужьи
+    - мужя
+    - мужа
+    string_ids:
+      prompt: 7728
+      english: 7341
+      stored_options:
+      - 9114
+      - 8674
+      - 9201
+      - 8615
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-014
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дерево
+  features:
+    number: plural
+    gender: neuter
+    animacy: null
+  native_text:
+    en: trees
+  neutral_prompt: ___ (дерево)
+  answer_scope: word
+  options:
+    a: деревья
+    b: деревя
+    c: дереви
+    d: деревьи
+  correct: a
+  source:
+    index: 14
+    prompt: (дерево)
+    base_or_stem: дерево
+    cyrillic_options:
+    - деревья
+    - деревя
+    - дереви
+    - деревьи
+    string_ids:
+      prompt: 7660
+      english: 4745
+      stored_options:
+      - 8126
+      - 9031
+      - 8780
+      - 9028
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-015
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: крыло
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: wings
+  neutral_prompt: ___ (крыло)
+  answer_scope: word
+  options:
+    a: крылья
+    b: крыли
+    c: крыля
+    d: крыльи
+  correct: a
+  source:
+    index: 15
+    prompt: (крыло)
+    base_or_stem: крыло
+    cyrillic_options:
+    - крылья
+    - крыли
+    - крыля
+    - крыльи
+    string_ids:
+      prompt: 7696
+      english: 7586
+      stored_options:
+      - 9337
+      - 9335
+      - 9338
+      - 9336
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-016
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: перо
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: feather
+  neutral_prompt: ___ (перо)
+  answer_scope: word
+  options:
+    a: перья
+    b: пери
+    c: перьи
+    d: перя
+  correct: a
+  source:
+    index: 16
+    prompt: (перо)
+    base_or_stem: перо
+    cyrillic_options:
+    - перья
+    - пери
+    - перьи
+    - перя
+    string_ids:
+      prompt: 7762
+      english: 6866
+      stored_options:
+      - 9533
+      - 9531
+      - 9532
+      - 9534
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-017
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: имя
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: names
+  neutral_prompt: ___ (имя)
+  answer_scope: word
+  options:
+    a: имена
+    b: имены
+    c: имени
+    d: именья
+  correct: a
+  source:
+    index: 17
+    prompt: (имя)
+    base_or_stem: имя
+    cyrillic_options:
+    - имена
+    - имены
+    - имени
+    - именья
+    string_ids:
+      prompt: 7679
+      english: 10300
+      stored_options:
+      - 8977
+      - 9233
+      - 9067
+      - 9235
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-018
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: племя
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: tribe
+  neutral_prompt: ___ (племя)
+  answer_scope: word
+  options:
+    a: племена
+    b: племи
+    c: племья
+    d: племьи
+  correct: a
+  source:
+    index: 18
+    prompt: (племя)
+    base_or_stem: племя
+    cyrillic_options:
+    - племена
+    - племи
+    - племья
+    - племьи
+    string_ids:
+      prompt: 7764
+      english: 3761
+      stored_options:
+      - 9443
+      - 9548
+      - 9550
+      - 9549
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-019
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: мать
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: mothers
+  neutral_prompt: ___ (мать)
+  answer_scope: word
+  options:
+    a: матери
+    b: матеря
+    c: матерья
+    d: матерьи
+  correct: a
+  source:
+    index: 19
+    prompt: (мать)
+    base_or_stem: мать
+    cyrillic_options:
+    - матери
+    - матеря
+    - матерья
+    - матерьи
+    string_ids:
+      prompt: 7720
+      english: 7422
+      stored_options:
+      - 8640
+      - 9242
+      - 9214
+      - 9212
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-nominative-plural-exceptions-apk-020
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: дочь
+  features:
+    number: plural
+    gender: feminine
+    animacy: null
+  native_text:
+    en: daughters
+  neutral_prompt: ___ (дочь)
+  answer_scope: word
+  options:
+    a: дочери
+    b: дочи
+    c: дочья
+    d: дочьи
+  correct: a
+  source:
+    index: 20
+    prompt: (дочь)
+    base_or_stem: дочь
+    cyrillic_options:
+    - дочери
+    - дочи
+    - дочья
+    - дочьи
+    string_ids:
+      prompt: 7665
+      english: 4145
+      stored_options:
+      - 9126
+      - 9128
+      - 9132
+      - 9130
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

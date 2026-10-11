@@ -1,0 +1,115 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-nominative-from-dative-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: nominative
+topic:
+  id: from-dative-practice-2
+  name: from dative practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-dative-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: stary
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: an old school needs a renovation
+  neutral_prompt: ___ wymaga remontu (stary szkoła)
+  answer_scope: word
+  options:
+    a: stara
+    b: stary
+    c: starego
+    d: staremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-003
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: (старой) {школе} нужен ремонт
+    russian_native_text:
+      en: an old school needs a renovation
+    polish_marked_prompt: '[stara] {szkoła} wymaga remontu'
+    polish_context_lemma: szkoła
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: a new participant needs support
+  neutral_prompt: ___ potrzebuje wsparcia (nowy uczestnik)
+  answer_scope: word
+  options:
+    a: nowy
+    b: nowego
+    c: nowemu
+    d: nowym
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-004
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (новому) {участнику} нужна поддержка
+    russian_native_text:
+      en: a new participant needs support
+    polish_marked_prompt: '[nowy] {uczestnik} potrzebuje wsparcia'
+    polish_context_lemma: uczestnik
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.
+- id: pl-adjectives-dative-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: zmęczony
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: tired tourists need some rest
+  neutral_prompt: ___ potrzebują odpoczynku (zmęczony turyści)
+  answer_scope: word
+  options:
+    a: zmęczeni
+    b: zmęczony
+    c: zmęczonego
+    d: zmęczonemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-dative-practice-2-apk-005
+    russian_file: samples/ru/adjectives/dative-practice-2.yaml
+    russian_case: dative
+    russian_topic: *id001
+    russian_prompt: (усталым) {туристам} нужен отдых
+    russian_native_text:
+      en: tired tourists need some rest
+    polish_marked_prompt: '[zmęczeni] {turyści} potrzebują odpoczynku'
+    polish_context_lemma: turysta
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is dative.

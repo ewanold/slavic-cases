@@ -1,0 +1,377 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-instrumental-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: instrumental
+topic:
+  id: practice-2
+  name: practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-instrumental-practice-2-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: dobry
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: between good friends
+  neutral_prompt: między ___ (dobry przyjaciele)
+  answer_scope: word
+  options:
+    a: dobrymi
+    b: dobry
+    c: dobrego
+    d: dobremu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-001
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: между (хорошими) {друзьями}
+    russian_native_text:
+      en: between good friends
+    polish_marked_prompt: między [dobrymi] {przyjaciółmi}
+    polish_context_lemma: przyjaciel
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: between tall buildings
+  neutral_prompt: między ___ (wysoki budynki)
+  answer_scope: word
+  options:
+    a: wysokimi
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-002
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: между (высокими) {зданиями}
+    russian_native_text:
+      en: between tall buildings
+    polish_marked_prompt: między [wysokimi] {budynkami}
+    polish_context_lemma: budynek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: behind a new school
+  neutral_prompt: za ___ (nowy szkoła)
+  answer_scope: word
+  options:
+    a: nową
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-003
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: а (новой) {школой}
+    russian_native_text:
+      en: behind a new school
+    polish_marked_prompt: za [nową] {szkołą}
+    polish_context_lemma: szkoła
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: duży
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: behing a big house
+  neutral_prompt: za ___ (duży dom)
+  answer_scope: word
+  options:
+    a: dużym
+    b: duży
+    c: dużego
+    d: dużemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-004
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: за (большим) {домом}
+    russian_native_text:
+      en: behing a big house
+    polish_marked_prompt: za [dużym] {domem}
+    polish_context_lemma: dom
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: kolorowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to draw with color pencils
+  neutral_prompt: rysować ___ (kolorowy ołówki)
+  answer_scope: word
+  options:
+    a: kolorowymi
+    b: kolorowy
+    c: kolorowego
+    d: kolorowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-005
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: рисовать (цветными) {карандашами}
+    russian_native_text:
+      en: to draw with color pencils
+    polish_marked_prompt: rysować [kolorowymi] {ołówkami}
+    polish_context_lemma: ołówek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: ulubiony
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: to do one's favourite thing
+  neutral_prompt: zajmować się ___ (ulubiony zajęcie)
+  answer_scope: word
+  options:
+    a: ulubionym
+    b: ulubiony
+    c: ulubionego
+    d: ulubionemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-006
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: заниматься (любимым) {делом}
+    russian_native_text:
+      en: to do one's favourite thing
+    polish_marked_prompt: zajmować się [ulubionym] {zajęciem}
+    polish_context_lemma: zajęcie
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: rosyjski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to study Russian language
+  neutral_prompt: zajmować się ___ (rosyjski język)
+  answer_scope: word
+  options:
+    a: rosyjskim
+    b: rosyjski
+    c: rosyjskiego
+    d: rosyjskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-007
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: заниматься (русским) {языком}
+    russian_native_text:
+      en: to study Russian language
+    polish_marked_prompt: zajmować się [rosyjskim] {językiem}
+    polish_context_lemma: język
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowoczesny
+  features:
+    number: plural
+    gender: masculine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: to be interested in modern dance
+  neutral_prompt: interesować się ___ (nowoczesny tańce)
+  answer_scope: word
+  options:
+    a: nowoczesnymi
+    b: nowoczesny
+    c: nowoczesnego
+    d: nowoczesnemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-008
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: увлекаться (современными) {танцами}
+    russian_native_text:
+      en: to be into modern dancing
+    polish_marked_prompt: interesować się [nowoczesnymi] {tańcami}
+    polish_context_lemma: taniec
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-adjectives-instrumental-practice-2-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: światowy
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: to be interested in world history
+  neutral_prompt: interesować się ___ (światowy historia)
+  answer_scope: word
+  options:
+    a: światową
+    b: światowy
+    c: światowego
+    d: światowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-009
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: увлекаться (всемироной) {историей}
+    russian_native_text:
+      en: to be into world history
+    polish_marked_prompt: interesować się [światową] {historią}
+    polish_context_lemma: historia
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-adjectives-instrumental-practice-2-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: niski
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to speak in a low voice
+  neutral_prompt: mówić ___ (niski głos)
+  answer_scope: word
+  options:
+    a: niskim
+    b: niski
+    c: niskiego
+    d: niskiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-010
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: говорить (низким) {голосом}
+    russian_native_text:
+      en: to speak in a low voice
+    polish_marked_prompt: mówić [niskim] {głosem}
+    polish_context_lemma: głos
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: wysoki
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to sing in a high voice
+  neutral_prompt: śpiewać ___ (wysoki głos)
+  answer_scope: word
+  options:
+    a: wysokim
+    b: wysoki
+    c: wysokiego
+    d: wysokiemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-011
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: петь (высоким) {голосом}
+    russian_native_text:
+      en: to sing in a high voice
+    polish_marked_prompt: śpiewać [wysokim] {głosem}
+    polish_context_lemma: głos
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-adjectives-instrumental-practice-2-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: czerwony
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: to draw with a red pencil
+  neutral_prompt: rysować ___ (czerwony ołówek)
+  answer_scope: word
+  options:
+    a: czerwonym
+    b: czerwony
+    c: czerwonego
+    d: czerwonemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-instrumental-practice-2-apk-012
+    russian_file: samples/ru/adjectives/instrumental-practice-2.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: рисовать (красным) {карандашом}
+    russian_native_text:
+      en: to draw with a red pencil
+    polish_marked_prompt: rysować [czerwonym] {ołówkiem}
+    polish_context_lemma: ołówek
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

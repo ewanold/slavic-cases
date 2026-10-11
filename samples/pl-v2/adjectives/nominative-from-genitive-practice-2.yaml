@@ -1,0 +1,148 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-adjectives-nominative-from-genitive-practice-2-adapted
+learning_language: pl
+track: adjectives
+case: nominative
+topic:
+  id: from-genitive-practice-2
+  name: from genitive practice 2
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-adjectives-genitive-practice-2-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: młodszy
+  features:
+    number: singular
+    gender: feminine
+    animacy: animate
+  native_text:
+    en: The little sister has a birthday.
+  neutral_prompt: ___ ma urodziny (młodszy siostra)
+  answer_scope: word
+  options:
+    a: młodsza
+    b: młodszy
+    c: młodszego
+    d: młodszemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-013
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: practice-2
+      name: practice 2
+    russian_prompt: у (младшей) {сестры} день рождения
+    russian_native_text:
+      en: The little sister has a birthday.
+    polish_marked_prompt: '[młodsza] {siostra} ma urodziny'
+    polish_context_lemma: siostra
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-2-apk-014
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: starszy
+  features:
+    number: singular
+    gender: masculine
+    animacy: animate
+  native_text:
+    en: The big brother has a cat.
+  neutral_prompt: ___ ma kota (starszy brat)
+  answer_scope: word
+  options:
+    a: starszy
+    b: starszego
+    c: starszemu
+    d: starszym
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-014
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: у (старшего) {брата} есть кошка.
+    russian_native_text:
+      en: The big brother has a cat.
+    polish_marked_prompt: '[starszy] {brat} ma kota'
+    polish_context_lemma: brat
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-2-apk-015
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: nowy
+  features:
+    number: plural
+    gender: masculine
+    animacy: animate
+    plural_gender: masculine-personal
+  native_text:
+    en: New students have books.
+  neutral_prompt: ___ mają książki (nowy studenci)
+  answer_scope: word
+  options:
+    a: nowi
+    b: nowy
+    c: nowego
+    d: nowemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-015
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (новых) {студентов} есть книги.
+    russian_native_text:
+      en: New students have books.
+    polish_marked_prompt: '[nowi] {studenci} mają książki'
+    polish_context_lemma: student
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+- id: pl-adjectives-genitive-practice-2-apk-016
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: mały
+  features:
+    number: singular
+    gender: neuter
+    animacy: animate
+  native_text:
+    en: A little child has a book.
+  neutral_prompt: ___ ma książkę (mały dziecko)
+  answer_scope: word
+  options:
+    a: małe
+    b: mały
+    c: małego
+    d: małemu
+  correct: a
+  source:
+    russian_id: ru-adjectives-genitive-practice-2-apk-016
+    russian_file: samples/ru/adjectives/genitive-practice-2.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: У (маленького) {ребёнка} есть книга.
+    russian_native_text:
+      en: A little kid has a toy.
+    polish_marked_prompt: '[małe] {dziecko} ma książkę'
+    polish_context_lemma: dziecko
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses nominative; the Russian source exercise is genitive.
+  - The Polish noun is neuter; the source noun is masculine.
+  - English was clarified to match the Polish wording; the original is retained in source.

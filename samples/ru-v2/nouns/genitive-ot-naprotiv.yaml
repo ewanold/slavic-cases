@@ -1,0 +1,462 @@
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-nouns-genitive-ot-naprotiv-apk
+learning_language: ru
+track: nouns
+case: genitive
+topic:
+  id: ot-naprotiv
+  name: от, напротив
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-nouns-genitive-ot-naprotiv-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: друг
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A letter from a friend.
+  neutral_prompt: Письмо от ___. (друг)
+  answer_scope: word
+  options:
+    a: друга
+    b: друге
+    c: другу
+    d: другом
+  correct: a
+  source:
+    index: 1
+    prompt: Письмо от (друга).
+    base_or_stem: друг
+    cyrillic_options:
+    - друг
+    - друге
+    - другу
+    - другом
+    string_ids:
+      prompt: 8283
+      english: 4478
+      stored_options:
+      - 7626
+      - 8026
+      - 7971
+      - 8179
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ученики
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: A present from students.
+  neutral_prompt: Подарок от ___. (ученики)
+  answer_scope: word
+  options:
+    a: учеников
+    b: ученикы
+    c: учеником
+    d: ученикам
+  correct: a
+  source:
+    index: 2
+    prompt: Подарок от (учеников).
+    base_or_stem: ученики
+    cyrillic_options:
+    - ученики
+    - ученикы
+    - учеником
+    - ученикам
+    string_ids:
+      prompt: 8292
+      english: 4490
+      stored_options:
+      - 8402
+      - 9725
+      - 8334
+      - 9481
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Мария
+  features:
+    number: null
+    gender: feminine
+    animacy: null
+  native_text:
+    en: A letter from Maria.
+  neutral_prompt: Письмо от ___. (Мария)
+  answer_scope: word
+  options:
+    a: Марии
+    b: Марие
+    c: Марию
+    d: Марией
+  correct: a
+  source:
+    index: 3
+    prompt: Письмо от (Марии).
+    base_or_stem: Мария
+    cyrillic_options:
+    - Мария
+    - Марие
+    - Марию
+    - Марией
+    string_ids:
+      prompt: 8282
+      english: 4476
+      stored_options:
+      - 7591
+      - 8117
+      - 8119
+      - 8118
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: город
+  features:
+    number: null
+    gender: masculine
+    animacy: null
+  native_text:
+    en: Not far from the city.
+  neutral_prompt: Недалеко от ___. (город)
+  answer_scope: word
+  options:
+    a: города
+    b: городе
+    c: городу
+    d: городом
+  correct: a
+  source:
+    index: 4
+    prompt: Недалеко от (города).
+    base_or_stem: город
+    cyrillic_options:
+    - город
+    - городе
+    - городу
+    - городом
+    string_ids:
+      prompt: 8204
+      english: 5639
+      stored_options:
+      - 7643
+      - 8921
+      - 8257
+      - 8681
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: пляж
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Not far from the beach.
+  neutral_prompt: Недалеко от ___. (пляж)
+  answer_scope: word
+  options:
+    a: пляжа
+    b: пляжи
+    c: пляжой
+    d: пляжу
+  correct: a
+  source:
+    index: 5
+    prompt: Недалеко от (пляжа).
+    base_or_stem: пляж
+    cyrillic_options:
+    - пляж
+    - пляжи
+    - пляжой
+    - пляжу
+    string_ids:
+      prompt: 8205
+      english: 5638
+      stored_options:
+      - 8206
+      - 9159
+      - 9556
+      - 9174
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: почта
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: Not far from the post office.
+  neutral_prompt: Недалеко от ___. (почта)
+  answer_scope: word
+  options:
+    a: почты
+    b: почте
+    c: почтой
+    d: почту
+  correct: a
+  source:
+    index: 6
+    prompt: Недалеко от (почты).
+    base_or_stem: почта
+    cyrillic_options:
+    - почта
+    - почте
+    - почтой
+    - почту
+    string_ids:
+      prompt: 8207
+      english: 5640
+      stored_options:
+      - 9386
+      - 9596
+      - 9597
+      - 9598
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: магазин
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the shop.
+  neutral_prompt: Напротив ___. (магазин)
+  answer_scope: word
+  options:
+    a: магазина
+    b: магазину
+    c: магазине
+    d: магазиной
+  correct: a
+  source:
+    index: 7
+    prompt: Напротив (магазина).
+    base_or_stem: магазин
+    cyrillic_options:
+    - магазин
+    - магазину
+    - магазине
+    - магазиной
+    string_ids:
+      prompt: 8187
+      english: 5419
+      stored_options:
+      - 8188
+      - 9039
+      - 8702
+      - 7613
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: здание
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the building.
+  neutral_prompt: Напротив ___. (здание)
+  answer_scope: word
+  options:
+    a: здания
+    b: зданию
+    c: зданием
+    d: зданий
+  correct: a
+  source:
+    index: 8
+    prompt: Напротив (здания).
+    base_or_stem: здание
+    cyrillic_options:
+    - здание
+    - зданию
+    - зданием
+    - зданий
+    string_ids:
+      prompt: 8185
+      english: 5413
+      stored_options:
+      - 7671
+      - 9196
+      - 8272
+      - 9195
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: школа
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the school.
+  neutral_prompt: Напротив ___. (школа)
+  answer_scope: word
+  options:
+    a: школы
+    b: школе
+    c: школу
+    d: школам
+  correct: a
+  source:
+    index: 9
+    prompt: Напротив (школы).
+    base_or_stem: школа
+    cyrillic_options:
+    - школа
+    - школе
+    - школу
+    - школам
+    string_ids:
+      prompt: 8192
+      english: 5418
+      stored_options:
+      - 8453
+      - 7808
+      - 8304
+      - 9751
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: выход
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the exit.
+  neutral_prompt: Напротив ___. (выход)
+  answer_scope: word
+  options:
+    a: выхода
+    b: выходу
+    c: выходой
+    d: выходы
+  correct: a
+  source:
+    index: 10
+    prompt: Напротив (выхода).
+    base_or_stem: выход
+    cyrillic_options:
+    - выход
+    - выходу
+    - выходой
+    - выходы
+    string_ids:
+      prompt: 8183
+      english: 5415
+      stored_options:
+      - 8184
+      - 8885
+      - 8884
+      - 8888
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: больница
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the hospital.
+  neutral_prompt: Напротив ___. (больница)
+  answer_scope: word
+  options:
+    a: больницы
+    b: больницам
+    c: больниця
+    d: больници
+  correct: a
+  source:
+    index: 11
+    prompt: Напротив (больницы).
+    base_or_stem: больница
+    cyrillic_options:
+    - больница
+    - больницам
+    - больниця
+    - больници
+    string_ids:
+      prompt: 8182
+      english: 5416
+      stored_options:
+      - 8488
+      - 8489
+      - 8633
+      - 8630
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-nouns-genitive-ot-naprotiv-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: памятник
+  features:
+    number: null
+    gender: null
+    animacy: null
+  native_text:
+    en: In front of the monument.
+  neutral_prompt: Напротив ___. (памятник)
+  answer_scope: word
+  options:
+    a: памятника
+    b: памятнику
+    c: памятники
+    d: памятникю
+  correct: a
+  source:
+    index: 12
+    prompt: Напротив (памятника).
+    base_or_stem: памятник
+    cyrillic_options:
+    - памятник
+    - памятнику
+    - памятники
+    - памятникю
+    string_ids:
+      prompt: 8190
+      english: 5417
+      stored_options:
+      - 8191
+      - 9515
+      - 7677
+      - 9517
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

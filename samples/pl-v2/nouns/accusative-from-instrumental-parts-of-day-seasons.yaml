@@ -1,0 +1,85 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-accusative-from-instrumental-parts-of-day-seasons-adapted
+learning_language: pl
+track: nouns
+case: accusative
+topic:
+  id: from-instrumental-parts-of-day-seasons
+  name: from instrumental parts of day seasons
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: I sleep during the day.
+  neutral_prompt: Śpię w ___. (dzień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dzień
+    b: dnia
+    c: dniowi
+    d: dniem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-007
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: parts-of-day-seasons
+      name: parts of the day, seasons
+    russian_prompt: Я сплю (днём).
+    russian_native_text:
+      en: I sleep in the afternoon.
+    polish_marked_prompt: Śpię w [dzień].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+  - English was clarified to match the Polish wording; the original is retained in source.
+- id: pl-nouns-instrumental-parts-of-day-seasons-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dzień
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: What are you doing during the day tomorrow?
+  neutral_prompt: Co robisz jutro w ___? (dzień; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dzień
+    b: dnia
+    c: dniowi
+    d: dniem
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-parts-of-day-seasons-apk-008
+    russian_file: samples/ru/nouns/instrumental-parts-of-day-seasons.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Что ты делаешь завтра (днём).
+    russian_native_text:
+      en: What are you doing tomorrow afternoon?
+    polish_marked_prompt: Co robisz jutro w [dzień]?
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - Polish uses accusative; the Russian source exercise is instrumental.
+  - English was clarified to match the Polish wording; the original is retained in source.

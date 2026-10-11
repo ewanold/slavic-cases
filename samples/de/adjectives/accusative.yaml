@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-adjectives-accusative-starter
+learning_language: de
+track: adjectives
+case: accusative
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-adjectives-accusative-01
+  word_type: adjective
+  dictionary_form: gut
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I see the good male friend.
+    de: Ich sehe den guten Freund.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; gut; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: den guten Freund
+    b: der gute Freund
+    c: des guten Freundes
+    d: dem guten Freund
+  correct: a
+- id: de-adjectives-accusative-02
+  word_type: adjective
+  dictionary_form: freundlich
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I visit the friendly female neighbour.
+    de: Ich besuche die freundliche Nachbarin.
+  neutral_prompt: Ich besuche ___. (bestimmter Artikel; freundlich; Nachbarin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der freundlichen Nachbarin
+    b: die freundliche Nachbarin
+    c: dem freundlichen Nachbarin
+    d: des freundlichen Nachbarin
+  correct: b
+- id: de-adjectives-accusative-03
+  word_type: adjective
+  dictionary_form: klein
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: weak
+  native_text:
+    en: I see the small child.
+    de: Ich sehe das kleine Kind.
+  neutral_prompt: Ich sehe ___. (bestimmter Artikel; klein; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: des kleinen Kindes
+    b: dem kleinen Kind
+    c: das kleine Kind
+    d: dem kleine Kind
+  correct: c
+- id: de-adjectives-accusative-04
+  word_type: adjective
+  dictionary_form: neu
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I read the new books.
+    de: Ich lese die neuen Bücher.
+  neutral_prompt: Ich lese ___. (bestimmter Artikel; neu; Buch; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: der neuen Bücher
+    b: den neuen Büchern
+    c: den neuen Bücher
+    d: die neuen Bücher
+  correct: d
+- id: de-adjectives-accusative-05
+  word_type: adjective
+  dictionary_form: jung
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: I see a young male teacher.
+    de: Ich sehe einen jungen Lehrer.
+  neutral_prompt: Ich sehe ___. (unbestimmter Artikel; jung; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: einen jungen Lehrer
+    b: ein junger Lehrer
+    c: eines jungen Lehrers
+    d: einem jungen Lehrer
+  correct: a
+- id: de-adjectives-accusative-06
+  word_type: adjective
+  dictionary_form: erfahren
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: mixed
+  native_text:
+    en: I visit an experienced female doctor.
+    de: Ich besuche eine erfahrene Ärztin.
+  neutral_prompt: Ich besuche ___. (unbestimmter Artikel; erfahren; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: einer erfahrenen Ärztin
+    b: eine erfahrene Ärztin
+    c: einem erfahrenen Ärztin
+    d: eines erfahrenen Ärztin
+  correct: b
+- id: de-adjectives-accusative-07
+  word_type: adjective
+  dictionary_form: schön
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: mixed
+  native_text:
+    en: I see a beautiful house.
+    de: Ich sehe ein schönes Haus.
+  neutral_prompt: Ich sehe ___. (unbestimmter Artikel; schön; Haus; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: eines schönen Hauses
+    b: einem schönen Haus
+    c: ein schönes Haus
+    d: einem schönes Haus
+  correct: c
+- id: de-adjectives-accusative-08
+  word_type: adjective
+  dictionary_form: frisch
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I drink fresh tea.
+    de: Ich trinke frischen Tee.
+  neutral_prompt: Ich trinke ___. (ohne Artikel; frisch; Tee; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: frischer Tee
+    b: frischen Tees
+    c: frischem Tee
+    d: frischen Tee
+  correct: d
+- id: de-adjectives-accusative-09
+  word_type: adjective
+  dictionary_form: warm
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I eat warm soup.
+    de: Ich esse warme Suppe.
+  neutral_prompt: Ich esse ___. (ohne Artikel; warm; Suppe; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: warme Suppe
+    b: warmer Suppe
+    c: warmen Suppe
+    d: warmes Suppe
+  correct: a
+- id: de-adjectives-accusative-10
+  word_type: adjective
+  dictionary_form: kalt
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: strong
+  native_text:
+    en: I drink cold water.
+    de: Ich trinke kaltes Wasser.
+  neutral_prompt: Ich trinke ___. (ohne Artikel; kalt; Wasser; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: kalten Wassers
+    b: kaltes Wasser
+    c: kaltem Wasser
+    d: kaltem Wassers
+  correct: b
+- id: de-adjectives-accusative-11
+  word_type: cardinal_numeral
+  dictionary_form: ein
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: I read one book.
+    de: Ich lese ein Buch.
+  neutral_prompt: Ich lese ___. (ein; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: eines Buches
+    b: einem Buch
+    c: ein Buch
+    d: einen Buch
+  correct: c
+- id: de-adjectives-accusative-12
+  word_type: cardinal_numeral
+  dictionary_form: zwei
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: numeral
+  native_text:
+    en: I see two children.
+    de: Ich sehe zwei Kinder.
+  neutral_prompt: Ich sehe ___. (zwei; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: zweier Kinder
+    b: zwei Kindern
+    c: zweien Kinder
+    d: zwei Kinder
+  correct: d
+- id: de-adjectives-accusative-13
+  word_type: cardinal_numeral
+  dictionary_form: fünf
+  features:
+    gender: neuter
+    number: plural
+    animacy: inanimate
+    declension: numeral
+  native_text:
+    en: I read the five books.
+    de: Ich lese die fünf Bücher.
+  neutral_prompt: Ich lese ___. (fünf; Buch; bestimmter Artikel; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die fünf Bücher
+    b: der fünf Bücher
+    c: den fünf Büchern
+    d: den fünf Bücher
+  correct: a
+- id: de-adjectives-accusative-14
+  word_type: ordinal_numeral
+  dictionary_form: erst
+  features:
+    gender: masculine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I take the first train.
+    de: Ich nehme den ersten Zug.
+  neutral_prompt: Ich nehme ___. (bestimmter Artikel; erst; Zug; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der erste Zug
+    b: den ersten Zug
+    c: des ersten Zuges
+    d: dem ersten Zug
+  correct: b
+- id: de-adjectives-accusative-15
+  word_type: ordinal_numeral
+  dictionary_form: zweit
+  features:
+    gender: feminine
+    number: singular
+    animacy: inanimate
+    declension: weak
+  native_text:
+    en: I repeat the second lesson.
+    de: Ich wiederhole die zweite Lektion.
+  neutral_prompt: Ich wiederhole ___. (bestimmter Artikel; zweit; Lektion; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der zweiten Lektion
+    b: dem zweiten Lektion
+    c: die zweite Lektion
+    d: des zweiten Lektion
+  correct: c

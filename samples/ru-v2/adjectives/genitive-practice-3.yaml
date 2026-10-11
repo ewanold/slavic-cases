@@ -1,0 +1,944 @@
+
+# Draft APK import; original topic sizes and choices are preserved.
+schema_version: 1
+content_profile: apk-topic-import
+id: ru-adjectives-genitive-practice-3-apk
+learning_language: ru
+track: adjectives
+case: genitive
+topic:
+  id: practice-3
+  name: practice 3
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the sentence and the selected case.
+license: unspecified
+sources: Original APK exercise data; see source metadata and apk-analysis/exercise-data.hasm.
+review_status: draft
+sentences:
+- id: ru-adjectives-genitive-practice-3-apk-001
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: a present from new collegues
+  neutral_prompt: подарок от ___ (новый коллеги)
+  answer_scope: word
+  options:
+    a: новых
+    b: нових
+    c: новех
+    d: вовыв
+  correct: a
+  source:
+    index: 1
+    prompt: подарок от (новых) {коллег}
+    base_or_stem: новые коллеги
+    cyrillic_options:
+    - новые коллеги
+    - нових
+    - новех
+    - вовыв
+    string_ids:
+      prompt: 9561
+      english: 3825
+      stored_options:
+      - 9474
+      - 9466
+      - 8959
+      - 8004
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-002
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: дальний
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a call from a far relative
+  neutral_prompt: звонок от ___ (дальний родственник)
+  answer_scope: word
+  options:
+    a: дальнего
+    b: дальниго
+    c: дальнево
+    d: дальной
+  correct: a
+  source:
+    index: 2
+    prompt: звонок от (дальнего) {родственника}
+    base_or_stem: дальний родственник
+    cyrillic_options:
+    - дальний родственник
+    - дальниго
+    - дальнево
+    - дальной
+    string_ids:
+      prompt: 8963
+      english: 4190
+      stored_options:
+      - 8599
+      - 8927
+      - 8903
+      - 8969
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-003
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: большой
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: not far from a big city
+  neutral_prompt: недалеко от ___ (большой город)
+  answer_scope: word
+  options:
+    a: большого
+    b: большего
+    c: большово
+    d: большой
+  correct: a
+  source:
+    index: 3
+    prompt: недалеко от (большого) {города}
+    base_or_stem: большой город
+    cyrillic_options:
+    - большой город
+    - большего
+    - большово
+    - большой
+    string_ids:
+      prompt: 8008
+      english: 7441
+      stored_options:
+      - 8666
+      - 8645
+      - 8659
+      - 8665
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-004
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: высокий
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: not far from tall buildings
+  neutral_prompt: недалеко от ___ (высокий здания)
+  answer_scope: word
+  options:
+    a: высоких
+    b: высокых
+    c: высокой
+    d: высокого
+  correct: a
+  source:
+    index: 4
+    prompt: недалеко от (высоких) {зданий}
+    base_or_stem: высокие здания
+    cyrillic_options:
+    - высокие здания
+    - высокых
+    - высокой
+    - высокого
+    string_ids:
+      prompt: 9194
+      english: 7443
+      stored_options:
+      - 8857
+      - 8872
+      - 8867
+      - 8865
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-005
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: зелёный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: not far from a green park
+  neutral_prompt: недалеко от ___ (зелёный парк)
+  answer_scope: word
+  options:
+    a: зелёного
+    b: зелёной
+    c: зелёных
+    d: зелёнего
+  correct: a
+  source:
+    index: 5
+    prompt: недалеко от (зелёного) {парка}
+    base_or_stem: зелёный парк
+    cyrillic_options:
+    - зелёный парк
+    - зелёной
+    - зелёных
+    - зелёнего
+    string_ids:
+      prompt: 9452
+      english: 7442
+      stored_options:
+      - 9202
+      - 9199
+      - 9206
+      - 8529
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-006
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: продуктовый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: in front of a grocery store
+  neutral_prompt: напротив ___ (продуктовый магазин)
+  answer_scope: word
+  options:
+    a: продуктового
+    b: продуктовего
+    c: продоктовой
+    d: продуктовово
+  correct: a
+  source:
+    index: 6
+    prompt: напротив (продуктового) {магазина}
+    base_or_stem: продуктовый магазин
+    cyrillic_options:
+    - продуктовый магазин
+    - продуктовего
+    - продоктовой
+    - продуктовово
+    string_ids:
+      prompt: 9321
+      english: 6760
+      stored_options:
+      - 8701
+      - 9504
+      - 9620
+      - 9506
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-007
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: in front of the new school
+  neutral_prompt: напротив ___ (новый школа)
+  answer_scope: word
+  options:
+    a: новой
+    b: новай
+    c: нового
+    d: новово
+  correct: a
+  source:
+    index: 7
+    prompt: напротив (новой) {школы}
+    base_or_stem: новая школа
+    cyrillic_options:
+    - новая школа
+    - новай
+    - нового
+    - новово
+    string_ids:
+      prompt: 8978
+      english: 7345
+      stored_options:
+      - 8451
+      - 8083
+      - 9469
+      - 8892
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-008
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: главный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: in front of the main entrance
+  neutral_prompt: напротив ___ (главный вход)
+  answer_scope: word
+  options:
+    a: главного
+    b: главново
+    c: главнего
+    d: главной
+  correct: a
+  source:
+    index: 8
+    prompt: напротив (главного) {входа}
+    base_or_stem: главный вход
+    cyrillic_options:
+    - главный вход
+    - главново
+    - главнего
+    - главной
+    string_ids:
+      prompt: 9442
+      english: 7344
+      stored_options:
+      - 8836
+      - 8891
+      - 7627
+      - 8895
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-009
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: синий
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: in front of the blue door
+  neutral_prompt: напротив ___ (синий дверь)
+  answer_scope: word
+  options:
+    a: синей
+    b: синой
+    c: синяй
+    d: синых
+  correct: a
+  source:
+    index: 9
+    prompt: напротив (синей) {двери}
+    base_or_stem: синяя дверь
+    cyrillic_options:
+    - синяя дверь
+    - синой
+    - синяй
+    - синых
+    string_ids:
+      prompt: 9444
+      english: 6097
+      stored_options:
+      - 8989
+      - 9698
+      - 9704
+      - 9702
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-010
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: известный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: in front of a famous monument
+  neutral_prompt: напротив ___ (известный памятник)
+  answer_scope: word
+  options:
+    a: известного
+    b: известной
+    c: известново
+    d: известней
+  correct: a
+  source:
+    index: 10
+    prompt: напротив (известного) {памятника}
+    base_or_stem: известный памятник
+    cyrillic_options:
+    - известный памятник
+    - известной
+    - известново
+    - известней
+    string_ids:
+      prompt: 8540
+      english: 6461
+      stored_options:
+      - 7676
+      - 8901
+      - 8879
+      - 8690
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-011
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: деревянный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: in front of wooden houses
+  neutral_prompt: напротив ___ (деревянный дома)
+  answer_scope: word
+  options:
+    a: деревянных
+    b: деревянних
+    c: деревянной
+    d: деревяннех
+  correct: a
+  source:
+    index: 11
+    prompt: напротив (деревянных) {домов}
+    base_or_stem: деревянные дома
+    cyrillic_options:
+    - деревянные дома
+    - деревянних
+    - деревянной
+    - деревяннех
+    string_ids:
+      prompt: 8102
+      english: 608
+      stored_options:
+      - 9038
+      - 9034
+      - 9037
+      - 9032
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-012
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старый
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: in front of an old hospital
+  neutral_prompt: напротив ___ (старый больница)
+  answer_scope: word
+  options:
+    a: старой
+    b: старей
+    c: старай
+    d: сторов
+  correct: a
+  source:
+    index: 12
+    prompt: напротив (старой) {больницы}
+    base_or_stem: старая больница
+    cyrillic_options:
+    - старая больница
+    - старей
+    - старай
+    - сторов
+    string_ids:
+      prompt: 9446
+      english: 3505
+      stored_options:
+      - 8487
+      - 9752
+      - 9749
+      - 8764
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-013
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: близкий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a letter from a close friend
+  neutral_prompt: письмо от ___ (близкий друг)
+  answer_scope: word
+  options:
+    a: близкого
+    b: близово
+    c: близкево
+    d: близкего
+  correct: a
+  source:
+    index: 13
+    prompt: письмо от (близкого) {друга}
+    base_or_stem: близкий друг
+    cyrillic_options:
+    - близкий друг
+    - близово
+    - близкево
+    - близкего
+    string_ids:
+      prompt: 9547
+      english: 4341
+      stored_options:
+      - 8603
+      - 8620
+      - 8588
+      - 8592
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-014
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: скучный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: the end of a boring movie
+  neutral_prompt: конец ___ (скучный фильм)
+  answer_scope: word
+  options:
+    a: скучного
+    b: скучново
+    c: скучной
+    d: скучнай
+  correct: a
+  source:
+    index: 14
+    prompt: конец (скучного) {фильма}
+    base_or_stem: скучный фильм
+    cyrillic_options:
+    - скучный фильм
+    - скучново
+    - скучной
+    - скучнай
+    string_ids:
+      prompt: 9295
+      english: 6656
+      stored_options:
+      - 9714
+      - 7779
+      - 9710
+      - 9708
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-015
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: длинный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: the end of a long road
+  neutral_prompt: конец ___ (длинный дорога)
+  answer_scope: word
+  options:
+    a: длинной
+    b: длинней
+    c: длинного
+    d: длинных
+  correct: a
+  source:
+    index: 15
+    prompt: конец (длинной) {дороги}
+    base_or_stem: длинная дорога
+    cyrillic_options:
+    - длинная дорога
+    - длинней
+    - длинного
+    - длинных
+    string_ids:
+      prompt: 9054
+      english: 4425
+      stored_options:
+      - 9047
+      - 9050
+      - 8922
+      - 9060
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-016
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: интересный
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: the beginning of an interesting story
+  neutral_prompt: начало ___ (интересный история)
+  answer_scope: word
+  options:
+    a: интересной
+    b: интересней
+    c: интереснай
+    d: интересного
+  correct: a
+  source:
+    index: 16
+    prompt: начало (интересной) {истории}
+    base_or_stem: интересная история
+    cyrillic_options:
+    - интересная история
+    - интересней
+    - интереснай
+    - интересного
+    string_ids:
+      prompt: 9248
+      english: 988
+      stored_options:
+      - 8671
+      - 9131
+      - 9073
+      - 9156
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-017
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: длинный
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: the beginning of long holidays
+  neutral_prompt: начало ___ (длинный каникулы)
+  answer_scope: word
+  options:
+    a: длинных
+    b: длиннех
+    c: длинной
+    d: длинного
+  correct: a
+  source:
+    index: 17
+    prompt: начало (длинных) {каникул}
+    base_or_stem: длинные каникулы
+    cyrillic_options:
+    - длинные каникулы
+    - длиннех
+    - длинной
+    - длинного
+    string_ids:
+      prompt: 9059
+      english: 1067
+      stored_options:
+      - 9056
+      - 9051
+      - 9055
+      - 8922
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-018
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: достойный
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: the price of a decent present
+  neutral_prompt: цена ___ (достойный подарок)
+  answer_scope: word
+  options:
+    a: достойного
+    b: достойнова
+    c: достойной
+    d: достойнего
+  correct: a
+  source:
+    index: 18
+    prompt: цена (достойного) {подарка}
+    base_or_stem: достойный подарок
+    cyrillic_options:
+    - достойный подарок
+    - достойнова
+    - достойной
+    - достойнего
+    string_ids:
+      prompt: 9804
+      english: 7333
+      stored_options:
+      - 9124
+      - 8450
+      - 9123
+      - 8939
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-019
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: горячий
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a cup of hot tea
+  neutral_prompt: чашка ___ (горячий чай)
+  answer_scope: word
+  options:
+    a: горячего
+    b: горячиго
+    c: горячево
+    d: горячей
+  correct: a
+  source:
+    index: 19
+    prompt: чашка (горячего) {чая}
+    base_or_stem: горячий чай
+    cyrillic_options:
+    - горячий чай
+    - горячиго
+    - горячево
+    - горячей
+    string_ids:
+      prompt: 9816
+      english: 3698
+      stored_options:
+      - 8937
+      - 8923
+      - 8934
+      - 7835
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-020
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: новый
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a new neighbour's dog
+  neutral_prompt: собака ___ (новый сосед)
+  answer_scope: word
+  options:
+    a: нового
+    b: новой
+    c: новего
+    d: новово
+  correct: a
+  source:
+    index: 20
+    prompt: собака (нового) {соседа}
+    base_or_stem: новый сосед
+    cyrillic_options:
+    - новый сосед
+    - новой
+    - новего
+    - новово
+    string_ids:
+      prompt: 9468
+      english: 4183
+      stored_options:
+      - 9477
+      - 8455
+      - 8797
+      - 8892
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-021
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: старший
+  features:
+    number: singular
+    gender: feminine
+    animacy: null
+  native_text:
+    en: big sister's room
+  neutral_prompt: комната ___ (старший сестра)
+  answer_scope: word
+  options:
+    a: старшей
+    b: старшай
+    c: старшем
+    d: старших
+  correct: a
+  source:
+    index: 21
+    prompt: комната (старшей) {сестры}
+    base_or_stem: старшая сестра
+    cyrillic_options:
+    - старшая сестра
+    - старшай
+    - старшем
+    - старших
+    string_ids:
+      prompt: 9253
+      english: 6524
+      stored_options:
+      - 9756
+      - 9755
+      - 9758
+      - 9760
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-022
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: зубной
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: a dentist's office
+  neutral_prompt: кабинет ___ (зубной врач)
+  answer_scope: word
+  options:
+    a: зубного
+    b: зубново
+    c: зубнево
+    d: зубнего
+  correct: a
+  source:
+    index: 22
+    prompt: кабинет (зубного) {врача}
+    base_or_stem: зубной врач
+    cyrillic_options:
+    - зубной врач
+    - зубново
+    - зубнево
+    - зубнего
+    string_ids:
+      prompt: 7739
+      english: 4328
+      stored_options:
+      - 8801
+      - 9227
+      - 8532
+      - 8948
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-023
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: младший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: little brother's toy
+  neutral_prompt: игрушка ___ (младший брат)
+  answer_scope: word
+  options:
+    a: младшего
+    b: младшева
+    c: младшыго
+    d: младшиго
+  correct: a
+  source:
+    index: 23
+    prompt: игрушка (младшего) {брата}
+    base_or_stem: младший брат
+    cyrillic_options:
+    - младший брат
+    - младшева
+    - младшыго
+    - младшиго
+    string_ids:
+      prompt: 7633
+      english: 6746
+      stored_options:
+      - 8088
+      - 8737
+      - 8547
+      - 7791
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-024
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: счастливый
+  features:
+    number: plural
+    gender: null
+    animacy: null
+  native_text:
+    en: habits of happy people
+  neutral_prompt: привычки ___ (счастливый люди)
+  answer_scope: word
+  options:
+    a: счастливых
+    b: счастлывех
+    c: счастливей
+    d: счастливой
+  correct: a
+  source:
+    index: 24
+    prompt: привычки (счастливых) {людей}
+    base_or_stem: счастливые люди
+    cyrillic_options:
+    - счастливые люди
+    - счастлывех
+    - счастливей
+    - счастливой
+    string_ids:
+      prompt: 9604
+      english: 7325
+      stored_options:
+      - 9790
+      - 9791
+      - 9788
+      - 9789
+  review_notes:
+  - Null grammatical features are not established by the source and require review.
+- id: ru-adjectives-genitive-practice-3-apk-025
+  word_type: adjective
+  exercise_type: inflection
+  dictionary_form: лучший
+  features:
+    number: singular
+    gender: masculine
+    animacy: null
+  native_text:
+    en: best friend's car
+  neutral_prompt: машина ___ (лучший друг)
+  answer_scope: word
+  options:
+    a: лучшего
+    b: лучшева
+    c: лучшой
+    d: лучшыго
+  correct: a
+  source:
+    index: 25
+    prompt: машина (лучшего) {друга}
+    base_or_stem: лучший друг
+    cyrillic_options:
+    - лучший друг
+    - лучшева
+    - лучшой
+    - лучшыго
+    string_ids:
+      prompt: 9049
+      english: 6682
+      stored_options:
+      - 8894
+      - 8719
+      - 9379
+      - 9380
+  review_notes:
+  - Null grammatical features are not established by the source and require review.

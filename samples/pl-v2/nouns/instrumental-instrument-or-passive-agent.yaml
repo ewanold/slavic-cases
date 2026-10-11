@@ -1,0 +1,196 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-instrumental-instrument-or-passive-agent-adapted
+learning_language: pl
+track: nouns
+case: instrumental
+topic:
+  id: instrument-or-passive-agent
+  name: instrument or passive agent
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-instrumental-instrument-passive-by-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: długopis
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: To write with a pen.
+  neutral_prompt: Pisać ___. (długopis; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: długopisem
+    b: długopis
+    c: długopisu
+    d: długopisowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-001
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: &id001
+      id: instrument-passive-by
+      name: instrument, passive + by
+    russian_prompt: Писать (ручкой).
+    russian_native_text:
+      en: To write with a pen.
+    polish_marked_prompt: Pisać [długopisem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: ołówek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: To draw with a pencil.
+  neutral_prompt: Rysować ___. (ołówek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: ołówkiem
+    b: ołówek
+    c: ołówka
+    d: ołówkowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-002
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Рисовать (карандашом).
+    russian_native_text:
+      en: To draw with a pencil.
+    polish_marked_prompt: Rysować [ołówkiem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: nóż
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: To cut with a knife.
+  neutral_prompt: Kroić ___. (nóż; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: nożem
+    b: nóż
+    c: noża
+    d: nożowi
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-003
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Резать (ножом).
+    russian_native_text:
+      en: To cut with a knife.
+    polish_marked_prompt: Kroić [nożem].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: farba
+  features:
+    number: plural
+    gender: feminine
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: To paint with colors.
+  neutral_prompt: Malować ___. (farba; liczba mnoga)
+  answer_scope: word
+  options:
+    a: farbami
+    b: farba
+    c: farby
+    d: farbę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-004
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Рисовать (красками).
+    russian_native_text:
+      en: To paint with colors.
+    polish_marked_prompt: Malować [farbami].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: szczotka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To clean with a brush.
+  neutral_prompt: Czyścić ___. (szczotka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: szczotką
+    b: szczotka
+    c: szczotki
+    d: szczotkę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-005
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Чистить (щёткой).
+    russian_native_text:
+      en: To clean with a brush.
+    polish_marked_prompt: Czyścić [szczotką].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-instrumental-instrument-passive-by-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: łyżka
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To eat with a spoon.
+  neutral_prompt: Jeść ___. (łyżka; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: łyżką
+    b: łyżka
+    c: łyżki
+    d: łyżkę
+  correct: a
+  source:
+    russian_id: ru-nouns-instrumental-instrument-passive-by-apk-006
+    russian_file: samples/ru/nouns/instrumental-instrument-passive-by.yaml
+    russian_case: instrumental
+    russian_topic: *id001
+    russian_prompt: Есть (ложкой).
+    russian_native_text:
+      en: To eat with a spoon.
+    polish_marked_prompt: Jeść [łyżką].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

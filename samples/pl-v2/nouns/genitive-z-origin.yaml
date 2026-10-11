@@ -1,0 +1,372 @@
+# Draft Polish learning material; linguistic review is pending.
+schema_version: 1
+content_profile: polish-topic-adaptation
+id: pl-nouns-genitive-z-origin-adapted
+learning_language: pl
+track: nouns
+case: genitive
+topic:
+  id: z-origin
+  name: z origin
+native_languages:
+- en
+instruction:
+  en: Choose the form that fits the Polish sentence and the selected case.
+contributor: Polish adaptations authored with AI assistance
+license: unspecified
+sources: Adapted from Russian APK exercises; provenance and original English are retained per question.
+review_status: draft
+sentences:
+- id: pl-nouns-genitive-s-so-iz-apk-001
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Chiny
+  features:
+    number: plural
+    gender: null
+    animacy: inanimate
+    plural_gender: non-masculine-personal
+  native_text:
+    en: A souvenir from China.
+  neutral_prompt: Pamiątka z ___. (Chiny; liczba mnoga)
+  answer_scope: word
+  options:
+    a: Chin
+    b: Chiny
+    c: Chinom
+    d: Chinami
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-001
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: &id001
+      id: s-so-iz
+      name: с/со, из
+    russian_prompt: Сувенир из (Китая).
+    russian_native_text:
+      en: A souvenir from China.
+    polish_marked_prompt: Pamiątka z [Chin].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-002
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: budynek
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: Way out of the building.
+  neutral_prompt: Wyjście z ___. (budynek; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: budynku
+    b: budynek
+    c: budynkowi
+    d: budynkiem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-002
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Выход из (Здания).
+    russian_native_text:
+      en: Way out of the building.
+    polish_marked_prompt: Wyjście z [budynku].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-003
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: Rosja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: A present from Russia.
+  neutral_prompt: Prezent z ___. (Rosja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: Rosji
+    b: Rosja
+    c: Rosję
+    d: Rosją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-003
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Подарок из (России).
+    russian_native_text:
+      en: A present from Russia.
+    polish_marked_prompt: Prezent z [Rosji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-004
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: restauracja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: Food from the restaurant.
+  neutral_prompt: Jedzenie z ___. (restauracja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: restauracji
+    b: restauracja
+    c: restaurację
+    d: restauracją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-004
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Еда из (ресторана).
+    russian_native_text:
+      en: Food from the restaurant.
+    polish_marked_prompt: Jedzenie z [restauracji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-005
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: drewno
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A table made of wood.
+  neutral_prompt: Stół z ___. (drewno; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: drewna
+    b: drewno
+    c: drewnu
+    d: drewnem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-005
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Стол из (дерева).
+    russian_native_text:
+      en: A table made of wood.
+    polish_marked_prompt: Stół z [drewna].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-006
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: złoto
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A ring made of gold.
+  neutral_prompt: Pierścionek ze ___. (złoto; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: złota
+    b: złoto
+    c: złotu
+    d: złotem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-006
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Кольцо из (золота).
+    russian_native_text:
+      en: A ring made of gold.
+    polish_marked_prompt: Pierścionek ze [złota].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-007
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: spotkanie
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: To come back from a meeting.
+  neutral_prompt: Wrócić ze ___. (spotkanie; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: spotkania
+    b: spotkanie
+    c: spotkaniu
+    d: spotkaniem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-007
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Вернуться со (встречи).
+    russian_native_text:
+      en: To come back from a meeting.
+    polish_marked_prompt: Wrócić ze [spotkania].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-008
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: scena
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To sing from a stage.
+  neutral_prompt: Śpiewać ze ___. (scena; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: sceny
+    b: scena
+    c: scenę
+    d: sceną
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-008
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Петь со (сцены).
+    russian_native_text:
+      en: To sing from a stage.
+    polish_marked_prompt: Śpiewać ze [sceny].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-009
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: południe
+  features:
+    number: singular
+    gender: neuter
+    animacy: inanimate
+  native_text:
+    en: A souvenir from the South.
+  neutral_prompt: Pamiątka z ___. (południe; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: południa
+    b: południe
+    c: południu
+    d: południem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-009
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Сувенир с (юга).
+    russian_native_text:
+      en: A souvenir from the South.
+    polish_marked_prompt: Pamiątka z [południa].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-010
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: spacer
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: To come back from a walk.
+  neutral_prompt: Wrócić ze ___. (spacer; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: spaceru
+    b: spacer
+    c: spacerowi
+    d: spacerem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-010
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Прийти с (прогулки).
+    russian_native_text:
+      en: To come back from a walk.
+    polish_marked_prompt: Wrócić ze [spaceru].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+- id: pl-nouns-genitive-s-so-iz-apk-011
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: lekcja
+  features:
+    number: singular
+    gender: feminine
+    animacy: inanimate
+  native_text:
+    en: To leave a lesson.
+  neutral_prompt: Wyjść z ___. (lekcja; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: lekcji
+    b: lekcja
+    c: lekcję
+    d: lekcją
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-011
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Уйти с (урока).
+    russian_native_text:
+      en: To leave a lesson.
+    polish_marked_prompt: Wyjść z [lekcji].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.
+  review_notes:
+  - The Polish noun is feminine; the source noun is masculine.
+- id: pl-nouns-genitive-s-so-iz-apk-012
+  word_type: noun
+  exercise_type: inflection
+  dictionary_form: dach
+  features:
+    number: singular
+    gender: masculine
+    animacy: inanimate
+  native_text:
+    en: The view from the roof.
+  neutral_prompt: Widok z ___. (dach; liczba pojedyncza)
+  answer_scope: word
+  options:
+    a: dachu
+    b: dach
+    c: dachowi
+    d: dachem
+  correct: a
+  source:
+    russian_id: ru-nouns-genitive-s-so-iz-apk-012
+    russian_file: samples/ru/nouns/genitive-s-so-iz.yaml
+    russian_case: genitive
+    russian_topic: *id001
+    russian_prompt: Вид с (крыши).
+    russian_native_text:
+      en: The view from the roof.
+    polish_marked_prompt: Widok z [dachu].
+    polish_context_lemma: null
+    adaptation: Authored Polish equivalent; Polish case and choices rebuilt.

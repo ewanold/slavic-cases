@@ -1,0 +1,306 @@
+# Original German starter material; linguistic review pending.
+schema_version: 1
+id: de-nouns-genitive-starter
+learning_language: de
+track: nouns
+case: genitive
+native_languages:
+- en
+- de
+instruction:
+  en: Choose the complete noun phrase that fits the sentence and case. The cue specifies the article, gender and
+    number.
+  de: Wähle die vollständige Wortgruppe passend zum Satz und Fall. Die Hinweise geben Artikel, Geschlecht und Zahl
+    an.
+contributor: Learn Grammatical Cases project (AI-assisted original material)
+license: MIT
+sources: 'Original AI-assisted sentences, MIT; grammar checked against IDS grammis: https://grammis.ids-mannheim.de/progr@mm/6915
+  ; https://grammis.ids-mannheim.de/fragen/28 ; https://grammis.ids-mannheim.de/progr@mm/6751 ; https://grammis.ids-mannheim.de/progr@mm/6752
+  . No source exercises copied.'
+review_status: draft
+sentences:
+- id: de-nouns-genitive-01
+  word_type: noun
+  dictionary_form: Mann
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the man’s bag.
+    de: Das ist die Tasche des Mannes.
+  neutral_prompt: Das ist die Tasche ___. (bestimmter Artikel; Mann; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Mannes
+    b: der Mann
+    c: dem Mann
+    d: den Mann
+  correct: a
+- id: de-nouns-genitive-02
+  word_type: noun
+  dictionary_form: Frau
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the woman’s bag.
+    de: Das ist die Tasche der Frau.
+  neutral_prompt: Das ist die Tasche ___. (bestimmter Artikel; Frau; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Frau
+    b: der Frau
+    c: dem Frau
+    d: des Frau
+  correct: b
+- id: de-nouns-genitive-03
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the child’s toy.
+    de: Das ist das Spielzeug des Kindes.
+  neutral_prompt: Das ist das Spielzeug ___. (bestimmter Artikel; Kind; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: das Kind
+    b: dem Kind
+    c: des Kindes
+    d: den Kind
+  correct: c
+- id: de-nouns-genitive-04
+  word_type: noun
+  dictionary_form: Lehrer
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the male teacher’s book.
+    de: Das ist das Buch des Lehrers.
+  neutral_prompt: Das ist das Buch ___. (bestimmter Artikel; Lehrer; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Lehrer
+    b: dem Lehrer
+    c: den Lehrer
+    d: des Lehrers
+  correct: d
+- id: de-nouns-genitive-05
+  word_type: noun
+  dictionary_form: Ärztin
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the female doctor’s practice.
+    de: Das ist die Praxis der Ärztin.
+  neutral_prompt: Das ist die Praxis ___. (bestimmter Artikel; Ärztin; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Ärztin
+    b: die Ärztin
+    c: dem Ärztin
+    d: des Ärztin
+  correct: a
+- id: de-nouns-genitive-06
+  word_type: noun
+  dictionary_form: Bruder
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the brother’s bicycle.
+    de: Das ist das Fahrrad des Bruders.
+  neutral_prompt: Das ist das Fahrrad ___. (bestimmter Artikel; Bruder; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Bruder
+    b: des Bruders
+    c: dem Bruder
+    d: den Bruder
+  correct: b
+- id: de-nouns-genitive-07
+  word_type: noun
+  dictionary_form: Schwester
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the sister’s jacket.
+    de: Das ist die Jacke der Schwester.
+  neutral_prompt: Das ist die Jacke ___. (bestimmter Artikel; Schwester; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Schwester
+    b: dem Schwester
+    c: der Schwester
+    d: des Schwester
+  correct: c
+- id: de-nouns-genitive-08
+  word_type: noun
+  dictionary_form: Freund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the male friend’s apartment.
+    de: Das ist die Wohnung des Freundes.
+  neutral_prompt: Das ist die Wohnung ___. (bestimmter Artikel; Freund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Freund
+    b: dem Freund
+    c: den Freund
+    d: des Freundes
+  correct: d
+- id: de-nouns-genitive-09
+  word_type: noun
+  dictionary_form: Student
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the male student’s notebook.
+    de: Das ist das Heft des Studenten.
+  neutral_prompt: Das ist das Heft ___. (bestimmter Artikel; Student; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: des Studenten
+    b: der Student
+    c: dem Studenten
+    d: den Studenten
+  correct: a
+- id: de-nouns-genitive-10
+  word_type: noun
+  dictionary_form: Nachbar
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the male neighbour’s garden.
+    de: Das ist der Garten des Nachbarn.
+  neutral_prompt: Das ist der Garten ___. (bestimmter Artikel; Nachbar; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Nachbar
+    b: des Nachbarn
+    c: dem Nachbarn
+    d: den Nachbarn
+  correct: b
+- id: de-nouns-genitive-11
+  word_type: noun
+  dictionary_form: Vater
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the father’s car.
+    de: Das ist das Auto des Vaters.
+  neutral_prompt: Das ist das Auto ___. (bestimmter Artikel; Vater; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Vater
+    b: dem Vater
+    c: des Vaters
+    d: den Vater
+  correct: c
+- id: de-nouns-genitive-12
+  word_type: noun
+  dictionary_form: Mutter
+  features:
+    gender: feminine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the mother’s bag.
+    de: Das ist die Tasche der Mutter.
+  neutral_prompt: Das ist die Tasche ___. (bestimmter Artikel; Mutter; feminin; Singular)
+  answer_scope: phrase
+  options:
+    a: die Mutter
+    b: dem Mutter
+    c: des Mutter
+    d: der Mutter
+  correct: d
+- id: de-nouns-genitive-13
+  word_type: noun
+  dictionary_form: Buch
+  features:
+    gender: neuter
+    number: singular
+    animacy: inanimate
+    declension: noun
+  native_text:
+    en: This is the title of the book.
+    de: Das ist der Titel des Buches.
+  neutral_prompt: Das ist der Titel ___. (bestimmter Artikel; Buch; neutrum; Singular)
+  answer_scope: phrase
+  options:
+    a: des Buches
+    b: das Buch
+    c: dem Buch
+    d: den Buch
+  correct: a
+- id: de-nouns-genitive-14
+  word_type: noun
+  dictionary_form: Hund
+  features:
+    gender: masculine
+    number: singular
+    animacy: animate
+    declension: noun
+  native_text:
+    en: This is the dog’s name.
+    de: Das ist der Name des Hundes.
+  neutral_prompt: Das ist der Name ___. (bestimmter Artikel; Hund; maskulin; Singular)
+  answer_scope: phrase
+  options:
+    a: der Hund
+    b: des Hundes
+    c: dem Hund
+    d: den Hund
+  correct: b
+- id: de-nouns-genitive-15
+  word_type: noun
+  dictionary_form: Kind
+  features:
+    gender: neuter
+    number: plural
+    animacy: animate
+    declension: noun
+  native_text:
+    en: These are the children’s toys.
+    de: Das sind die Spielsachen der Kinder.
+  neutral_prompt: Das sind die Spielsachen ___. (bestimmter Artikel; Kind; neutrum; Plural)
+  answer_scope: phrase
+  options:
+    a: die Kinder
+    b: den Kindern
+    c: der Kinder
+    d: dem Kinder
+  correct: c
