@@ -21,7 +21,7 @@ testing. The project uses the [MIT license](LICENSE).
 
 | Main menu | Russian genitive topics |
 | --- | --- |
-| <img src="screenshots/main-screen.jpg" alt="Main menu with Russian cases, mixed practice and guess the case" width="280"> | <img src="screenshots/russina-genetive.jpg" alt="Russian deep genitive topics, including prepositions, quantities and ownership" width="280"> |
+| <img src="screenshots/main-screen.jpg" alt="Main menu with Russian cases, mixed practice and guess the case" width="280"> | <img src="screenshots/russian-genetive.jpg" alt="Russian deep genitive topics, including prepositions, quantities and ownership" width="280"> |
 
 | German genitive practice | Guess the case |
 | --- | --- |
