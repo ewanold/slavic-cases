@@ -242,8 +242,9 @@ command when the Android project is created.
 ## Resume the current chat
 
 From the repository run `bash run-codex.sh` (or `./run-codex.sh`).
-It changes to the repository directory and runs:
-`codex resume 01a125a2-e082-7913-92e6-699493f09cca`.
+It changes to the repository directory and selects the chat using `hostname -s`.
+Mappings in run-codex.sh cover optiplex (original chat) and latitude5540 (its
+current chat). Add mappings for other PCs; unknown hostnames exit with an error.
 Extra arguments are passed through. The Codex CLI and locally stored original
 chat must be available; forks should start their own session using AI/ notes.
 
@@ -376,3 +377,41 @@ resource compilation, JVM tests and lint. Lessons, pack names and topic labels
 are content translations in YAML; see CONTENT_FORMAT.md. To add another GUI
 language, add its values-language resources and a selector entry, then extend the
 resource parity check for that locale.
+
+## Desktop sample editor
+
+Android tools are unnecessary for editing samples. Follow
+[the desktop editor guide](../tools/sample_editor/README.md) for installation,
+opening existing projects, safe saving, backups and limitations. Run from the
+repository root:
+
+```bash
+bash scripts/install-sample-editor.sh
+bash scripts/run-sample-editor.sh samples/ru-v2
+```
+
+The installer prepares a user-local Python 3.12 environment, with hash-verified
+PyYAML, Babel, PySide6 Essentials and shiboken6 wheels. A pinned pip bootstrap
+handles missing ensurepip without system changes. Qt is preferred (PySide6 then
+PyQt6), with Tkinter fallback; `--ui tk` selects the smaller setup and may need
+`sudo apt install python3-tk` when the OS module is missing. No sudo is needed for
+Qt dependencies. User-local storage avoids SMB venv symlink failures.
+
+Windows x64 setup and launch, from the repository root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\install-sample-editor.ps1 -InstallPython
+scripts\run-sample-editor.cmd samples\ru-v2
+```
+
+The optional Python bootstrap pins Python 3.12.10 and verifies its archive checksum.
+Both launchers accept `--ui auto|qt|tk` and `--language en|de|ru|pl`. Without a
+language flag, gettext follows OS/environment language with English fallback.
+Both desktop views use `tools/sample_editor/locales/*/LC_MESSAGES/sample-editor.po`;
+compiled MO catalogs are committed. Use the editor Python to run
+`scripts/sample-editor-translations.py extract` or `compile`. Android still uses
+strings.xml. See the editor guide for PO editing and adding locales.
+
+Qt offscreen editing/navigation/save checks pass; native Windows/PowerShell and
+Tkinter display verification remain pending. Tkinter is now available on the host,
+but this sandbox cannot connect to its desktop display.

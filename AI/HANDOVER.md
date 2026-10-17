@@ -1,4 +1,71 @@
-# Implementation handover — 2026-10-11
+# Implementation handover — 2026-10-17
+
+## Desktop editor current status
+
+User requested a PC editor, then Windows, Qt preference with Tkinter fallback,
+restricted forms and German/Russian/Polish PO catalogs. Current implementation
+uses shared controller.py/fields.py, qt_view.py and tk_view.py. app.py selects
+PySide6 → PyQt6 → Tkinter, with explicit --ui and --language overrides. Structured
+forms replace raw YAML tabs; IDs/imported source/unknown nested fields are read-only
+and preserved. Projects can be created or opened; save suffixes remain independent
+of topic metadata. See tools/sample_editor/README.md for current commands/limits.
+
+New project (Ctrl+N) is available on startup. Both views offer target language,
+case checkboxes and a new/empty directory, plus native translation languages.
+Defaults: ru six, pl seven, de four; custom language tags need an explicit case
+selection. Creation writes language.yaml/track directories and opens a first
+blank noun lesson. Invalid startup controls are disabled. Arbitrary editor folder
+names work through safe temporary validation normalization. Completed first lessons
+can be saved before full coverage exists; explicit validation/build/release remain
+strict. allow_incomplete skips only missing lessons/cases and is ignored for release.
+New projects use the original simple 15-question format, no imported profile.
+New project also requires contributor, license and sources once, stores them in
+language.yaml/lesson_defaults, and prefills all future new lessons after reopen.
+Existing/imported lessons keep their own attribution; per-lesson overrides remain.
+No automatic license or contributor identity is assumed.
+
+Only the left group/case pair is visible for browsing. Lesson location is text on
+the right; Move lesson opens an explicit dialog and applies on Save. Add/Delete
+lesson buttons are beneath the lesson list. Add starts a blank draft (15 starter
+slots, one deep slot) with original attribution fields to fill; it is written only
+after complete validation. Delete confirms and moves a saved file to recovery
+backups, or discards an unsaved draft. Deleting a last case/track lesson can leave
+coverage incomplete until replacement/restoration. Browse changes clear old details.
+
+Linux: `bash scripts/install-sample-editor.sh`, then
+`bash scripts/run-sample-editor.sh samples/ru-v2`.
+Windows x64: scripts/install-sample-editor.ps1 and scripts/run-sample-editor.cmd.
+Optional -InstallPython bootstraps SHA-256-verified Python 3.12.10 x64.
+Pinned/hash-verified dependencies live in user-local storage, outside SMB checkouts.
+A pinned pip bootstrap handles hosts without ensurepip. The newest installer was
+verified only into /tmp/grammatical-cases-editor-venv here; nothing installed into
+system Python. Earlier Tkinter-missing/password-blocked notes describe the first
+prototype and are superseded for the current Qt setup.
+
+PO/MO catalogs plus English POT: tools/sample_editor/locales/. Update/compile using
+scripts/sample-editor-translations.py with Babel from the editor environment.
+Runtime gettext needs no Babel. All 192 interface/diagnostic messages have de/ru/pl translations;
+native-speaker review remains pending. Editor/model and structural validator errors
+are localized from structured templates; CLI/Android diagnostics stay English.
+Low-level OS/YAML-parser detail passes through unchanged. Android strings.xml
+localization is unchanged.
+
+Validation: full 38-test suite passed, including real Qt New dialog defaults,
+custom case selection, project creation, first completed-lesson save with other
+tracks/cases empty, reopen and cancellation. Model checks cover arbitrary editor
+folder names, unsafe tags, nonempty-directory refusal, incremental saves and
+strict build/release coverage. New checks cover shared attribution in both tracks
+after reopening and localized field/answer diagnostics with unchanged English CLI
+messages and real paths/IDs. Existing lesson management, PO, packaging and all
+1,722 typed-question round trips pass. German startup/New dialog screenshots were
+rendered and inspected. The first lesson is still an unsaved draft until complete;
+project metadata itself is persisted by creation. No new dependencies were needed.
+Windows PowerShell/native execution and visible Tkinter checks remain pending.
+Tkinter imports here but cannot connect to display :0. Actual PyQt6 is not installed;
+its selection path is covered by a probe. No Android build/content changes required.
+No commit, push or publication requested. An existing owner edit in
+samples/ru-v2/nouns/nominative-plural-masculine.yaml and local recovery backups
+were preserved; tests ignore recovery folders when copying project fixtures.
 
 ## Current status
 

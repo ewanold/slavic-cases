@@ -92,7 +92,9 @@ For publishing, --release requires all loaded samples to be marked reviewed.
 The prototype validates and packages YAML into a deterministic JSON asset via
 scripts/package-content.py, then loads it in Android. Its loader excludes drafts
 outside debug, and release builds require reviewed YAML. Direct on-device YAML
-import and a dedicated authoring preview remain unimplemented.
+import remains unimplemented. A separate Python desktop form editor now edits
+existing sample projects; see tools/sample_editor/README.md. It reuses this
+validator and preserves unknown metadata, but is not an Android rendering preview.
 
 The validator does not prove linguistic correctness or unique grammatical validity.
 Human review must check every correct answer, distractor, native translation and
@@ -154,3 +156,34 @@ Current manifests provide English/German labels for every topic. The validator
 checks nonempty English/German values when these optional mappings are present;
 older packs fall back to their original names. Prepositions/examples in the target
 language can remain untranslated within otherwise localized labels.
+
+## Incremental desktop authoring
+
+The desktop editor can create language.yaml and track folders through New project,
+with selectable language/cases/native translations. It permits arbitrary project
+directory names by normalizing only its temporary validation-copy folder name.
+Android packaging still requires the existing language/code-v2 directory layout.
+
+The validator's internal allow_incomplete option skips only absent track lessons
+and missing declared-case coverage for authoring saves. Every existing lesson
+still has to meet the full question/metadata schema. CLI validation and package/
+Android callers use strict defaults. Release mode ignores allow_incomplete and
+always requires complete coverage plus review/redistribution checks. New editor
+projects use the established simple 15-question format, not an invented import
+profile.
+
+## Shared lesson attribution defaults
+
+The New project dialog stores optional `lesson_defaults` in language.yaml, with
+text fields contributor, license and sources. Each newly authored lesson copies
+these into its normal schema fields. Existing/imported lesson attribution remains
+unchanged and per-lesson overrides are allowed. No schema version bump: older
+projects without this optional authoring metadata remain supported; each sample
+still carries its own attribution for packaging.
+
+Validation errors now carry an English template plus named parameters. CLI and
+Android tooling keep their original English output; the desktop controller formats
+the same errors using gettext catalogs. Paths/question IDs stay intact. OS/parser
+detail is passed through rather than guessed from free-form English. The PO extractor
+uses AST argument positions for editor/validator diagnostic templates so boolean
+conditions containing strings cannot confuse extraction.

@@ -580,3 +580,318 @@ rerun: its old two-locale expectation was updated to four. Resource IDs and type
 placeholders match across all four 60-entry files; all pack/topic labels include
 four locales. Phone execution and native-speaker review remain pending. Both APKs
 are ready at the usual distribution paths; no build is running.
+
+## 2026-10-14 — Host-specific chat launcher and sandbox diagnosis
+
+User requested hostname-based chat selection, with the original ID assigned to
+optiplex and an entry for the current PC. Added latitude5540 with its current
+chat ID. Short-hostname selection preserves argument forwarding; unknown PCs
+fail clearly. Updated DEVELOPMENT.md.
+
+Sandbox commands failed with the loopback RTM_NEWADDR permission error. User
+pointed to the prior bubblewrap repair notes. This PC allows user namespaces
+(limit 55310) but enables AppArmor userns restriction and lacks both installed
+and extra-source bwrap-userns-restrict profiles. Codex 0.162.1, bubblewrap 0.9.0.
+The notes document installing/loading the AppArmor profile as the preferred
+repair; no system settings or packages changed in this task.
+
+Validation: Bash syntax passed; mocked executables verified both host mappings,
+argument preservation and unknown-host failure. Git whitespace check passed.
+
+## 2026-10-14 — Sandbox repair verification and CLI syntax correction
+
+After the AppArmor repair instructions, user reported that the suggested
+`codex sandbox linux -- /bin/true` panicked while trying to execute linux.
+Installed Codex 0.162.1 help shows no linux subcommand: correct verification is
+`codex sandbox -- /bin/true`. This command passed from /tmp with exit status 0.
+Ordinary sandboxed tool commands now also execute successfully. The earlier
+verification command was incorrect for this installed CLI.
+
+## 2026-10-14 — Shared home wiki discovery (separate from app scope)
+
+User requested a shared home llm-wiki based on the OKF specification used at
+work, for faster troubleshooting and generalized knowledge across home PCs.
+Inspected the network share at directory level and document-area file metadata.
+Created provisional README, SETUP, and SOURCE_INVENTORY in the requested wiki
+folder. No source files moved or bulk imported. Exact OKF specification, audience,
+source-retention policy, and starting subjects remain open questions. Proposed
+curated summaries/playbooks and source links are not agreed decisions. This is
+separate knowledge-management work, not an expansion of the Android app scope.
+
+## 2026-10-14 — Home wiki pilot and archive move
+
+User chose a troubleshooting pilot and then explicitly requested moving the
+problem archive into the wiki while retaining browseable files and folders.
+Moved its eight files into llm-wiki/problem-solvers with original topic folders
+and filenames; verified relative names and sizes. Updated wiki inventory links
+and recorded the decision there. Wiki is now the archive home. No content
+conversion yet; a preserved credentials file was not read or indexed.
+
+## 2026-10-14 — Home wiki language and navigation
+
+User chose mostly English and intends to browse with a tool such as Obsidian.
+Added six standard Markdown indexes in the shared wiki, preserving original
+notes. All 14 index links validated. Maintenance workflow and OKF conversion
+remain pending; no reader installation or plugin setup performed.
+
+## 2026-10-14 — Automatic wiki maintenance and reusable setup
+
+User authorized automatically saving important reusable topics, visibly
+reporting edits, and asking in doubtful cases. Requested a dedicated setup
+entry with copyable instructions. Implemented shared wiki AGENTS.md, setup
+guide, log, and current bubblewrap playbook; updated navigation and added
+OKF type metadata without rewriting incident bodies. OKF v0.2 is an
+implementation choice. Added secret/reader-state ignore patterns without
+initializing Git or reading credential contents. Validated metadata, indexes,
+local links, and log date. Other projects need an explicit wiki pointer for
+discovery; global agent configuration was not changed.
+
+## 2026-10-14 — Quarterly shared-wiki change logs
+
+User requested a short entry for every wiki change and quarterly rotation,
+placing old logs in a log folder. Existing root log.md was present. Added a
+standard-library Python helper that logs changes and rotates older date groups
+to log/YYYY-QN/log.md; archive index and original entries retained. Rotation
+is triggered by writes or explicitly, not scheduled. Updated wiki instructions,
+setup guide, decisions, overview, navigation, and ignore rules; recorded eight
+short entries for these changes. Isolated checks passed for quarter/year
+rollover, relative-link preservation, idempotent retries, future-date refusal,
+and conflicting archive preservation. Metadata and local-link validation passed.
+
+## 2026-10-14 — Global Codex shared-wiki discovery
+
+User requested wiki rules in every session and wiki as the nickname for queries
+and explicit additions. Created a reusable installer in the shared wiki and
+installed its block in this PC’s global Codex instructions, preserving project
+rules. Installer check passed; the conversation subsequently received combined
+global and project instructions, confirming discovery. Shared policy and setup
+guide updated, all distinct changes logged through the quarterly helper. Other
+PCs/profiles still require running the installer; no remote PC was configured.
+Preservation/idempotence/override/path-update/malformed-marker checks passed;
+metadata and links passed. Global instructions do not extend sandbox permissions.
+
+## 2026-10-14 — Wiki installer write access
+
+User requested explicit wiki access in the installer. Added merging of
+sandbox_workspace_write.writable_roots with semantic TOML preservation checks,
+retaining existing roots and approval/sandbox/network settings. --check now
+checks access too. Isolated tests passed for nine TOML layouts, configuration
+preservation, idempotence, missing access, malformed settings and header without
+newline. Current real config merge verified read-only; installer was not applied
+to the real Codex home, outside the current writable roots with approvals never.
+Updated wiki instructions/docs and recorded five changes through quarterly log.
+Metadata and local links passed. User should re-run installer in their terminal.
+
+## 2026-10-14 — Imported problem-solver TXT conversion
+
+User requested proper Markdown for the imported text notes and clarified the
+credentials file was an incomplete reminder. Converted all four TXT notes,
+using placeholders for the reminder and preserving other recorded expressions,
+paths and commands. Added headings, code blocks, provenance/scope and OKF type
+metadata; original TXT files replaced. Updated wiki indexes, source inventory,
+template policy and setup notes; distinct changes logged. Metadata and links
+validated; no TXT notes remain in problem-solvers. No operational commands
+from the imported notes executed or newly claimed as verified.
+
+## 2026-10-17 — Desktop sample editor
+
+User requirements: PC app for existing sample editing; pack folder (ru, ru-v2,
+pl, pl-v2, etc.) as project; recognize nouns/adjectives and case-prefixed filenames;
+selectors plus free suffixes such as practice-1 and mnogo-malo. User suggested
+Python. Implementation choice: Tkinter desktop forms, reusing existing PyYAML
+and schema validation, without Android changes or new Python dependencies.
+
+Added tools/sample_editor/model.py and app.py, reusable installer/launcher scripts,
+usage/recovery guide, README entry and AI handover/setup/content notes. Case IDs
+come from manifests. Question fields include native translations, dictionary form,
+prompt, word type, scope, answer choices and correct key. Advanced YAML tabs keep
+features, sources, instructions, topics and unknown fields. Add/duplicate/delete
+questions, rename/move via save selectors, and copy with new IDs/draft status.
+Saves validate the whole selected project before writing, keep local ignored
+backups, detect external source changes and refuse destination collisions. Atomic
+same-file replacement and exclusive new-file creation protect writes. Introductory
+comments retained; PyYAML reformats files and drops inline/interior comments.
+Topic metadata is independent from filename suffixes. Existing manifests are not
+edited through dedicated forms; editor UI is English. These are implementation
+limits, not additional agreed product requirements.
+
+Validation: seven desktop persistence/compatibility integration tests passed,
+covering all five project manifests/filenames and validator compatibility; save
+round trips in all five packs preserve semantic data/source attribution; backups,
+rename IDs, clone IDs/draft status, invalid-save refusal, collision protection,
+stale-source refusal, suffix/path checks and duplicate YAML keys checked.
+Python compilation, shell syntax and launcher help passed. Existing sample files
+were not modified. Tkinter import failed on this host. Installer was written first,
+then attempted; sudo requires an interactive password, so it stopped before apt
+or venv changes. No archive download or new package installation occurred. GUI
+window/interaction checks remain pending and are explicitly documented for the
+owner. No Android build required; no commit/push/publication requested.
+
+Final validation for this addition: the complete Python suite passed all 23 tests
+in 115.488 seconds. An isolated temporary project on this SMB checkout additionally
+passed validated save, backup creation and exclusive lesson copying; hard-link
+creation is supported here. Temporary projects were removed. Final Python/shell
+syntax and Git whitespace checks passed. Desktop-window testing is still pending.
+
+## 2026-10-17 — Desktop editor portability and restricted forms (in progress)
+
+User requested Windows support, Qt preference with Tkinter fallback, .po-format
+internationalization and more restrictive editing for ordinary PC users. Follow-up
+explicitly requested German, Russian and Polish PO catalogs. Implementation choices:
+shared controller and typed fields, PySide6 then PyQt6 then Tkinter; explicit backend
+and locale flags; gettext PO/MO with Babel authoring tools. No raw YAML input in
+normal editor views; unknown/imported source fields remain read-only and preserved.
+
+Pinned dependency locks were generated from public PyPI release metadata through
+a reusable script. Isolated dependencies installed in /tmp through the new installer
+with checksum checks: PyYAML 6.0.1, Babel 2.17.0, PySide6 Essentials/shiboken6 6.8.3,
+pip bootstrap 25.0.1. No system packages changed. An attempted checkout-local venv
+failed because SMB rejects its lib64 symlink; installer defaults moved to user-local
+storage. Host lacks ensurepip/pip, so installer has an explicit pinned/hash-verified
+pip-wheel bootstrap and uses venv without ensurepip. Windows setup includes opt-in
+Python 3.12.10 x64 installation, SHA-256 checked against Microsoft's official winget
+manifest and downloaded from python.org. Native Windows verification still pending.
+
+Desktop refinement completed: restricted forms and shared navigation/save logic
+in both views; Qt preference with explicit overrides; Windows x64 setup/launcher;
+English POT, German/Russian/Polish PO and compiled MO catalogs covering all 97
+interface messages. Runtime locale follows OS or --language. Project display names
+follow the catalog locale. Technical model/validator diagnostics remain English.
+All original samples are unchanged. Current setup/recovery/translation instructions
+are in tools/sample_editor/README.md, README and AI/DEVELOPMENT.md.
+
+Validation: full Python suite 29/29 passed (122.510 seconds), including actual Qt
+Widgets form edits, navigation, save/reload, read-only fields and cancelled unsaved
+navigation. Six focused backend/form/PO/Qt tests passed again (15.246 seconds) after
+final view refinements. All 1,722 question forms round-trip semantically unchanged;
+all five pack formats and existing regression checks pass. Catalog completeness,
+placeholder checks, compiled runtime translations and localized schema-choice
+stability pass. German offscreen Qt screenshot rendered to a temporary file and
+visually inspected. Installer rerun succeeded using already installed pinned
+packages and compiled all three catalogs. Python compilation, shell syntax and
+launcher help checked. Windows saving uses exclusive os.rename instead of hard
+links so non-NTFS volumes can work; this needs native Windows verification.
+
+Remaining verification: native Windows/PowerShell, actual PyQt6 (selection tested
+through a probe), visible Tkinter (module available, but display :0 inaccessible),
+and native-speaker translation review. No Android build required. No system
+package installation, secrets, original sample edits, commit, push or publication.
+
+## 2026-10-17 — Clear lesson navigation and lesson Add/Delete
+
+User reported confusing duplicate group/case selectors and requested lesson
+Add/Delete controls like those for questions. Explained that the left pair browsed
+lessons while the right pair changed save destination. Implementation choice:
+remove the right pair, show a location label and provide an explicit Move lesson
+dialog; relocation remains pending until Save. The free filename suffix remains.
+Both views now have separate Add lesson/Delete lesson controls below the lessons.
+
+Added original blank drafts with unique IDs, manifest-compatible metadata/profile,
+15 starter questions or one deep-topic question, and numeral slots for starter
+adjectives. Contributor/license/sources/instructions must be filled; no imported
+source attribution is copied. Drafts remain in memory until valid first Save.
+Deletion confirms, discards unsaved edits and moves the saved original into ignored
+recovery backups; unsaved drafts never touch disk. External-change/collision checks
+apply to first saves and deletion. A deleted last case/track may leave validation
+incomplete until replacement/restoration; manifests are not altered.
+Browse-filter changes now clear old details and retain the requested filter even
+when Save during navigation refreshes selection. German/Russian/Polish catalogs
+updated for the new actions/dialogs/status messages; usage guide updated.
+
+Initial focused run caught fuzzy catalog entries while translations were still
+being merged, plus test assumptions that input projects contained no recovery
+backups. Tests now exclude existing user backup folders when copying fixtures;
+user recovery files are untouched. New translations were completed and compiled.
+Final validation follows below. No original sample changes, downloads, Android
+build, commit or publication were needed for this task.
+
+Final lesson-management validation: full suite 32/32 passed in 111.088 seconds.
+Six focused UI/form/PO checks passed again in 15.212 seconds after the final
+refinement, including acceptance/cancellation of the actual Qt Move dialog.
+Checks cover blank drafts for starter/deep profiles, valid first saves, no file
+on invalid first save, no fabricated source claims, unique IDs, backup-based
+removal, external-change and collision protection, explicit pending relocation,
+new-draft cancellation, deleted lesson recovery, and clearing discarded details
+when browsing. All 106 desktop messages have complete de/ru/pl catalogs; compiled
+catalog/placeholder checks pass. German Qt layout rendered and visually inspected.
+Python compilation and Git whitespace checks passed. Native Windows/Tk display
+limits remain as documented. Existing owner changes to the Russian masculine-plural
+sample and local recovery backups were preserved, not reverted or edited by this task.
+
+## 2026-10-17 — New project and usable empty-state authoring
+
+User requested New project because startup had no way to choose cases/create
+questions or save without an existing pack. Requested target language, cases,
+directory and applicable defaults. Added a shared setup definition and Qt/Tk
+creation dialogs: Russian six, Polish seven, German four cases; custom language
+tag with explicit case selection; one to eight standard case categories; selected
+native translations; new/empty directory only, default ~/case-samples/<code>.
+Existing files are never overwritten. Project creation writes manifest/track
+folders and opens a first unsaved 15-question noun lesson. New/Open stay enabled;
+project/lesson actions are disabled until their prerequisites exist.
+
+Found a functional obstacle to the first save: old saves demanded every case in
+both tracks. Added an internal allow_incomplete authoring-validation option that
+skips only empty track/missing-case coverage. All existing lesson fields/questions
+still validate; strict defaults for CLI/build/package remain and release forcibly
+disables the override. Editor staging normalizes its directory to the language
+tag, allowing arbitrary working-folder names without changing Android pack naming.
+New projects use the existing simple format; no import profile or invented sample
+content/attribution. German/Russian/Polish PO/MO and guides updated.
+
+Initial new-project regression fixture wrote a second copy of a lesson rather
+than overwriting its copied test path, producing duplicate-ID rejection; corrected
+the fixture path. Real Qt dialog/default/creation/first-save/reopen checks passed.
+Final suite results follow below. Existing owner sample edits/backups preserved;
+no installs, downloads, Android build, commit or publication needed.
+
+Final New-project validation: full 36-test suite passed in 104.176 seconds.
+After final folder/tag safeguards and dialog sizing, three setup/model checks
+passed again in 0.374 seconds and seven UI/form/PO checks in 12.400 seconds.
+Actual Qt dialogs verified language default inventories, checkbox adjustment,
+cancellation, project creation, first save into an incomplete project, and reopen.
+Model checks verify nonempty-folder preservation, custom directory names/language
+codes, unsafe-tag rejection, first-save schema checks and strict release/build
+coverage even when an incomplete-authoring override is requested. German startup
+and New-dialog screenshots rendered and visually inspected; directory input width
+was enlarged after inspection. All 121 desktop messages have complete de/ru/pl
+PO/MO translations and no catalog errors. Python syntax and whitespace checks pass.
+No new dependency installation or Android build was needed. Existing owner sample
+edit and recovery copies are preserved. Native Windows/Tk display limits remain.
+
+## 2026-10-17 — Shared attribution and translated diagnostics
+
+User requested contributor, license and sources in New project so these need only
+be entered once, plus translation of missing-contributor and other diagnostics.
+Both creation dialogs require those common values, persist optional lesson_defaults
+in language.yaml and prefill every new lesson, including after reopening. Existing
+sample attribution is untouched and per-lesson overrides remain. Old manifests
+without the optional block stay supported. Neither author identity nor license is
+assumed. New default values are structurally checked as text.
+
+Refactored validator errors to store stable English templates/named parameters,
+retaining original CLI text and checks. Desktop localizes these and editor errors
+through PO/MO, preserving paths/IDs and translating field labels. No regex guessing
+of English failure text; native OS/parser details pass through. Extractor now
+includes validator diagnostics using AST argument positions, avoiding miscounting
+strings inside boolean conditions. Syntax checks caught and corrected a UTF-8
+source-offset issue during template conversion before validation ran. All 192
+interface/diagnostic messages have complete German/Russian/Polish translations.
+
+Focused model/default/localized-error checks passed (5 tests), as did Qt/form/PO
+checks (7 tests). Qt tests fill the actual New-dialog fields, save/reopen, and
+verify new lessons in the other track retain common attribution. Localized missing
+contributor/license/sources and answer errors preserve original English exceptions,
+real project paths (including braces/Unicode) and question IDs. German New-dialog
+screenshot rendered and visually inspected. Full regression results follow below.
+No new dependencies, downloads, Android build, original sample edits, commit or
+publication were needed. Existing owner sample edit/recovery files preserved.
+
+Final shared-attribution/localization validation: full 38-test suite passed in
+102.673 seconds. The five focused setup/default/error checks also passed after
+hardening malformed-case diagnostic rendering. PO completeness/placeholder/runtime
+checks cover all 192 entries and AST checks ensure editor/validator diagnostics
+are included in the template. Original validation failures still have their English
+exception text; GUI formatting is localized without altering data. Compilation
+and whitespace checks pass. Native Windows/Tk display verification and translation
+native-speaker review remain pending as before; the Qt dialog was inspected offscreen.

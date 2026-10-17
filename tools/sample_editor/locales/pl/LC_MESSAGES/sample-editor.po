@@ -1,0 +1,861 @@
+# Desktop editor translations. MIT license; AI-assisted draft, native-speaker review pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grammatical Cases Sample Editor 0.2\n"
+"Report-Msgid-Bugs-To: https://github.com/ewanold/slavic-cases/issues\n"
+"POT-Creation-Date: 2026-10-17 00:00+0000\n"
+"PO-Revision-Date: 2026-10-17 00:00+0000\n"
+"Last-Translator: Learn Grammatical Cases contributors\n"
+"Language: pl\n"
+"Language-Team: Learn Grammatical Cases contributors\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : "
+"2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: controller.py:33
+msgid "Sample editor"
+msgstr "Edytor przykładów"
+
+#: controller.py:61
+msgid "Project naming issues"
+msgstr "Problemy z nazwami plików projektu"
+
+#: controller.py:78
+msgid "Project created. Complete the first lesson, then Save."
+msgstr "Utworzono projekt. Uzupełnij pierwszą lekcję, a następnie zapisz."
+
+#: controller.py:99
+msgid "Base lesson"
+msgstr "Lekcja podstawowa"
+
+#: controller.py:140 qt_view.py:178 tk_view.py:182
+msgid "Select a lesson"
+msgstr "Wybierz lekcję"
+
+#: controller.py:145 qt_view.py:148 qt_view.py:343 tk_view.py:159 tk_view.py:333
+msgid "Nouns"
+msgstr "Rzeczowniki"
+
+#: controller.py:145 qt_view.py:148 qt_view.py:343 tk_view.py:159 tk_view.py:333
+msgid "Adjectives and numerals"
+msgstr "Przymiotniki i liczebniki"
+
+#: controller.py:156 qt_view.py:349 tk_view.py:340
+msgid "The lesson will move when you press Save."
+msgstr "Lekcja zostanie przeniesiona po naciśnięciu przycisku Zapisz."
+
+#: controller.py:177
+msgid "New lesson: fill the questions and lesson details, then Save."
+msgstr "Nowa lekcja: uzupełnij pytania i szczegóły lekcji, a następnie zapisz."
+
+#: controller.py:188
+msgid "Lesson removed. The saved original is in recovery backups."
+msgstr "Usunięto lekcję. Zapisany oryginał znajduje się w kopiach zapasowych."
+
+#: controller.py:188
+msgid "Unsaved lesson discarded."
+msgstr "Odrzucono niezapisaną lekcję."
+
+#: controller.py:266
+#, python-brace-format
+msgid "Saved {name}. Validation passed."
+msgstr "Zapisano {name}. Sprawdzanie zakończone pomyślnie."
+
+#: controller.py:277
+msgid "Destination exists. Choose another suffix."
+msgstr "Plik docelowy już istnieje. Wybierz inny przyrostek."
+
+#: controller.py:281
+msgid "Validation passed"
+msgstr "Sprawdzanie zakończone pomyślnie"
+
+#: controller.py:282
+#, python-brace-format
+msgid "{count} questions. Format checks passed. Grammar still needs human review."
+msgstr "Liczba pytań: {count}. Format jest poprawny. Gramatyka nadal wymaga sprawdzenia przez człowieka."
+
+#: diagnostics.py:11 fields.py:75 qt_view.py:266 qt_view.py:322 tk_view.py:260 tk_view.py:319
+msgid "Contributor"
+msgstr "Autor materiału"
+
+#: diagnostics.py:11 fields.py:75 qt_view.py:266 qt_view.py:322 tk_view.py:260 tk_view.py:319
+msgid "License"
+msgstr "Licencja"
+
+#: diagnostics.py:11 fields.py:75 qt_view.py:266 qt_view.py:322 tk_view.py:260 tk_view.py:319
+msgid "Sources"
+msgstr "Źródła"
+
+#: fields.py:25
+msgid "Unknown / not specified"
+msgstr "Nieznane / nie podano"
+
+#: fields.py:33
+msgid "Question ID"
+msgstr "Identyfikator pytania"
+
+#: fields.py:34
+msgid "Dictionary form"
+msgstr "Forma podstawowa"
+
+#: fields.py:35
+msgid "Prompt (one ___ blank)"
+msgstr "Zadanie (jedna luka ___)"
+
+#: fields.py:36
+msgid "Word type"
+msgstr "Część mowy"
+
+#: fields.py:37
+msgid "Answer scope"
+msgstr "Zakres odpowiedzi"
+
+#: fields.py:39
+msgid "Exercise type"
+msgstr "Typ ćwiczenia"
+
+#: fields.py:41
+#, python-brace-format
+msgid "Native sentence — {language}"
+msgstr "Tłumaczenie zdania — {language}"
+
+#: fields.py:44
+#, python-brace-format
+msgid "Answer {key}"
+msgstr "Odpowiedź {key}"
+
+#: fields.py:45
+msgid "Correct option"
+msgstr "Poprawna odpowiedź"
+
+#: fields.py:55
+#, python-brace-format
+msgid "Feature — {name}"
+msgstr "Cecha — {name}"
+
+#: fields.py:65
+msgid "Review notes (one per line)"
+msgstr "Uwagi do weryfikacji (jedna w wierszu)"
+
+#: fields.py:69
+msgid "Imported source and other preserved data"
+msgstr "Zaimportowane dane źródłowe i inne zachowane dane"
+
+#: fields.py:74
+msgid "Lesson ID"
+msgstr "Identyfikator lekcji"
+
+#: fields.py:77
+msgid "Review status"
+msgstr "Status weryfikacji"
+
+#: fields.py:80
+#, python-brace-format
+msgid "Instruction — {language}"
+msgstr "Instrukcja — {language}"
+
+#: fields.py:81
+msgid "Topic ID"
+msgstr "Identyfikator tematu"
+
+#: fields.py:81
+msgid "Topic name"
+msgstr "Nazwa tematu"
+
+#: fields.py:85
+msgid "Project metadata (preserved)"
+msgstr "Metadane projektu (zachowane)"
+
+#: fields.py:108
+msgid "Choose a value from the list."
+msgstr "Wybierz wartość z listy."
+
+#: fields.py:113
+msgid "Enter a whole number."
+msgstr "Wpisz liczbę całkowitą."
+
+#: fields.py:117
+msgid "Enter plain text."
+msgstr "Wpisz zwykły tekst."
+
+#: model.py:29
+msgid "Expected a YAML mapping (field: value)."
+msgstr "Oczekiwano mapowania YAML (pole: wartość)."
+
+#: model.py:113
+#, python-brace-format
+msgid "{filename}: filename must start with a declared case, e.g. genitive-practice-1.yaml"
+msgstr ""
+"{filename}: nazwa pliku musi zaczynać się od zadeklarowanego przypadku, np. genitive-"
+"practice-1.yaml."
+
+#: model.py:43
+msgid "Invalid learning-language tag in language.yaml."
+msgstr "Nieprawidłowy kod języka docelowego w language.yaml."
+
+#: model.py:46
+msgid "Project lesson defaults must contain text values."
+msgstr "Domyślne wartości lekcji w projekcie muszą być tekstem."
+
+#: model.py:52
+msgid "Project must declare safe, distinct case IDs and nouns/adjectives tracks."
+msgstr ""
+"Projekt musi określać prawidłowe, unikatowe identyfikatory przypadków oraz grupy rzeczowników i "
+"przymiotników."
+
+#: model.py:59
+msgid "Enter a language tag such as ru, pl, de or cs."
+msgstr "Wpisz kod języka, np. ru, pl, de lub cs."
+
+#: model.py:62
+msgid "Select between one and eight distinct cases."
+msgstr "Wybierz od jednego do ośmiu różnych przypadków."
+
+#: model.py:65
+msgid "Select at least one translation language."
+msgstr "Wybierz co najmniej jeden język tłumaczenia."
+
+#: model.py:67
+msgid "Choose a project directory."
+msgstr "Wybierz folder projektu."
+
+#: model.py:70
+msgid "Choose a directory that is not a symlink."
+msgstr "Wybierz folder, który nie jest dowiązaniem symbolicznym."
+
+#: model.py:73
+msgid "Choose a new or empty directory. Existing files will not be overwritten."
+msgstr "Wybierz nowy lub pusty folder. Istniejące pliki nie zostaną nadpisane."
+
+#: model.py:140
+msgid "Choose a declared track and case."
+msgstr "Wybierz zadeklarowaną grupę i przypadek."
+
+#: model.py:143
+msgid "Suffix must use letters, numbers, hyphens or underscores; no spaces or paths."
+msgstr "Przyrostek może zawierać litery, cyfry, łączniki i podkreślenia; bez spacji ani ścieżek."
+
+#: model.py:174 model.py:236
+msgid "Destination already exists. Choose another suffix."
+msgstr "Plik docelowy już istnieje. Wybierz inny przyrostek."
+
+#: model.py:210
+msgid "Editing symlinked lessons is not supported."
+msgstr "Edycja lekcji przez dowiązania symboliczne nie jest obsługiwana."
+
+#: model.py:213
+msgid "Select a YAML lesson in this project’s nouns/adjectives folder."
+msgstr "Wybierz lekcję YAML w folderze rzeczowników lub przymiotników tego projektu."
+
+#: model.py:220
+msgid "Filename/folder and YAML case/track disagree. Correct the source before editing."
+msgstr "Nazwa pliku/folder nie zgadza się z przypadkiem/grupą w YAML. Popraw plik źródłowy przed edycją."
+
+#: model.py:232
+msgid "Saving through symlinks is not supported."
+msgstr "Zapisywanie przez dowiązania symboliczne nie jest obsługiwane."
+
+#: model.py:234
+msgid "File changed outside the editor. Reopen it before saving."
+msgstr "Plik zmieniono poza edytorem. Otwórz go ponownie przed zapisem."
+
+#: model.py:289
+msgid "File changed outside the editor. Reopen it before deleting."
+msgstr "Plik zmieniono poza edytorem. Otwórz go ponownie przed usunięciem."
+
+#: model.py:258
+msgid "File changed while validating; save cancelled."
+msgstr "Plik zmieniono podczas sprawdzania; zapis anulowano."
+
+#: model.py:133
+#, python-brace-format
+msgid "{filename}: filename/folder and YAML case/track disagree"
+msgstr "{filename}: nazwa pliku/folder nie zgadza się z przypadkiem/grupą w YAML."
+
+#: project_setup.py:18
+msgid "Russian"
+msgstr "Rosyjski"
+
+#: project_setup.py:18
+msgid "Polish"
+msgstr "Polski"
+
+#: project_setup.py:18
+msgid "German"
+msgstr "Niemiecki"
+
+#: project_setup.py:18
+msgid "Other language"
+msgstr "Inny język"
+
+#: qt_view.py:122 qt_view.py:197 qt_view.py:241 qt_view.py:319 qt_view.py:324 tk_view.py:139
+#: tk_view.py:315 tk_view.py:321 tk_view.py:326
+msgid "New project…"
+msgstr "Nowy projekt…"
+
+#: qt_view.py:122 qt_view.py:198 tk_view.py:139
+msgid "Open project…"
+msgstr "Otwórz projekt…"
+
+#: qt_view.py:122 qt_view.py:196 tk_view.py:139
+msgid "Save"
+msgstr "Zapisz"
+
+#: qt_view.py:123 tk_view.py:140
+msgid "Save copy…"
+msgstr "Zapisz kopię…"
+
+#: qt_view.py:123 tk_view.py:140
+msgid "Validate project"
+msgstr "Sprawdź projekt"
+
+#: qt_view.py:131 qt_view.py:195 tk_view.py:147 tk_view.py:197
+msgid "Create a project or open an existing one to begin."
+msgstr "Aby rozpocząć, utwórz projekt lub otwórz istniejący."
+
+#: qt_view.py:149 qt_view.py:347 tk_view.py:160 tk_view.py:332
+msgid "Group"
+msgstr "Grupa"
+
+#: qt_view.py:150 qt_view.py:348 tk_view.py:161 tk_view.py:336
+msgid "Case"
+msgstr "Przypadek"
+
+#: qt_view.py:152 tk_view.py:163
+msgid "Lessons (filename suffix)"
+msgstr "Lekcje (przyrostek nazwy pliku)"
+
+#: qt_view.py:157 tk_view.py:167
+msgid "Add lesson"
+msgstr "Dodaj lekcję"
+
+#: qt_view.py:157 qt_view.py:363 tk_view.py:167 tk_view.py:348
+msgid "Delete lesson"
+msgstr "Usuń lekcję"
+
+#: qt_view.py:163 tk_view.py:171
+msgid "Questions"
+msgstr "Pytania"
+
+#: qt_view.py:168 tk_view.py:175
+msgid "Add"
+msgstr "Dodaj"
+
+#: qt_view.py:168 tk_view.py:175
+msgid "Duplicate"
+msgstr "Powiel"
+
+#: qt_view.py:169 tk_view.py:176
+msgid "Delete"
+msgstr "Usuń"
+
+#: qt_view.py:175 tk_view.py:180
+msgid "Lesson file"
+msgstr "Plik lekcji"
+
+#: qt_view.py:180 qt_view.py:341 tk_view.py:184 tk_view.py:345
+msgid "Move lesson…"
+msgstr "Przenieś lekcję…"
+
+#: qt_view.py:184 tk_view.py:187
+msgid "Free filename suffix (optional)"
+msgstr "Dowolny przyrostek nazwy pliku (opcjonalnie)"
+
+#: qt_view.py:193 tk_view.py:195
+msgid "Question"
+msgstr "Pytanie"
+
+#: qt_view.py:194 tk_view.py:196
+msgid "Lesson details"
+msgstr "Szczegóły lekcji"
+
+#: qt_view.py:215 tk_view.py:211
+msgid "Grammatical Cases — Sample Editor"
+msgstr "Przypadki gramatyczne — Edytor przykładów"
+
+#: qt_view.py:245 tk_view.py:236
+msgid "Target language"
+msgstr "Język docelowy"
+
+#: qt_view.py:247 tk_view.py:240
+msgid "Language tag"
+msgstr "Kod języka"
+
+#: qt_view.py:256 tk_view.py:243
+msgid "Cases (select one to eight)"
+msgstr "Przypadki (wybierz od jednego do ośmiu)"
+
+#: qt_view.py:264 tk_view.py:251
+msgid "Sentence translation languages"
+msgstr "Języki tłumaczeń zdań"
+
+#: qt_view.py:275 tk_view.py:270
+msgid "These values are reused for every new lesson in this project."
+msgstr "Te wartości będą używane w każdej nowej lekcji tego projektu."
+
+#: qt_view.py:284 tk_view.py:279
+msgid "Browse…"
+msgstr "Przeglądaj…"
+
+#: qt_view.py:286 qt_view.py:310 tk_view.py:271 tk_view.py:276
+msgid "Project directory"
+msgstr "Folder projektu"
+
+#: qt_view.py:287 tk_view.py:280
+msgid "Choose a new or empty directory. Existing files are never overwritten."
+msgstr "Wybierz nowy lub pusty folder. Istniejące pliki nigdy nie są nadpisywane."
+
+#: qt_view.py:319 tk_view.py:315
+msgid "Select a language, cases, translation languages and directory."
+msgstr "Wybierz język, przypadki, języki tłumaczeń i folder."
+
+#: qt_view.py:324 tk_view.py:321
+#, python-brace-format
+msgid "Please enter {field}."
+msgstr "Uzupełnij pole „{field}”."
+
+#: qt_view.py:330 tk_view.py:304
+msgid "Create project"
+msgstr "Utwórz projekt"
+
+#: qt_view.py:331 tk_view.py:305
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: qt_view.py:364 tk_view.py:349
+#, python-brace-format
+msgid "Delete {name}? Unsaved changes will be discarded. The saved file will be kept in recovery backups."
+msgstr ""
+"Czy usunąć {name}? Niezapisane zmiany zostaną odrzucone. Zapisany plik pozostanie w kopiach "
+"zapasowych."
+
+#: qt_view.py:372 tk_view.py:356
+msgid "Choose a sample project"
+msgstr "Wybierz projekt przykładów"
+
+#: qt_view.py:380 tk_view.py:362
+msgid "Unsaved changes"
+msgstr "Niezapisane zmiany"
+
+#: qt_view.py:380 tk_view.py:362
+msgid "Save this lesson before continuing?"
+msgstr "Czy zapisać tę lekcję przed kontynuowaniem?"
+
+#: qt_view.py:385 tk_view.py:366
+msgid "Lesson filename"
+msgstr "Nazwa pliku lekcji"
+
+#: qt_view.py:385 tk_view.py:366
+msgid "New filename suffix"
+msgstr "Nowy przyrostek nazwy pliku"
+
+#: qt_view.py:390 tk_view.py:369
+msgid "Delete question"
+msgstr "Usuń pytanie"
+
+#: qt_view.py:390 tk_view.py:369
+msgid "Remove this question?"
+msgstr "Czy usunąć to pytanie?"
+
+#: vocabulary.py:7
+msgid "Nominative"
+msgstr "Mianownik"
+
+#: vocabulary.py:7
+msgid "Genitive"
+msgstr "Dopełniacz"
+
+#: vocabulary.py:7
+msgid "Dative"
+msgstr "Celownik"
+
+#: vocabulary.py:8
+msgid "Accusative"
+msgstr "Biernik"
+
+#: vocabulary.py:8
+msgid "Instrumental"
+msgstr "Narzędnik"
+
+#: vocabulary.py:9
+msgid "Prepositional"
+msgstr "Przypadek przyimkowy"
+
+#: vocabulary.py:9
+msgid "Locative"
+msgstr "Miejscownik"
+
+#: vocabulary.py:9
+msgid "Vocative"
+msgstr "Wołacz"
+
+#: vocabulary.py:10
+msgid "Noun"
+msgstr "Rzeczownik"
+
+#: vocabulary.py:10
+msgid "Adjective"
+msgstr "Przymiotnik"
+
+#: vocabulary.py:10
+msgid "Cardinal numeral"
+msgstr "Liczebnik główny"
+
+#: vocabulary.py:11
+msgid "Ordinal numeral"
+msgstr "Liczebnik porządkowy"
+
+#: vocabulary.py:11
+msgid "Word"
+msgstr "Wyraz"
+
+#: vocabulary.py:11
+msgid "Phrase"
+msgstr "Wyrażenie"
+
+#: vocabulary.py:12
+msgid "Inflection"
+msgstr "Odmiana"
+
+#: vocabulary.py:12
+msgid "Gender"
+msgstr "Rodzaj"
+
+#: vocabulary.py:12
+msgid "Number"
+msgstr "Liczba"
+
+#: vocabulary.py:13
+msgid "Animacy"
+msgstr "Żywotność"
+
+#: vocabulary.py:13
+msgid "Noun gender"
+msgstr "Rodzaj rzeczownika"
+
+#: vocabulary.py:13
+msgid "Declension"
+msgstr "Deklinacja"
+
+#: vocabulary.py:14
+msgid "Plural gender"
+msgstr "Rodzaj w liczbie mnogiej"
+
+#: vocabulary.py:14
+msgid "Quantity"
+msgstr "Liczebność"
+
+#: vocabulary.py:15
+msgid "Noun dictionary form"
+msgstr "Forma podstawowa rzeczownika"
+
+#: vocabulary.py:15
+msgid "Singular"
+msgstr "Liczba pojedyncza"
+
+#: vocabulary.py:16
+msgid "Plural"
+msgstr "Liczba mnoga"
+
+#: vocabulary.py:16
+msgid "Masculine"
+msgstr "Męski"
+
+#: vocabulary.py:16
+msgid "Feminine"
+msgstr "Żeński"
+
+#: vocabulary.py:17
+msgid "Neuter"
+msgstr "Nijaki"
+
+#: vocabulary.py:17
+msgid "Animate"
+msgstr "Żywotny"
+
+#: vocabulary.py:17
+msgid "Inanimate"
+msgstr "Nieżywotny"
+
+#: vocabulary.py:18
+msgid "Weak"
+msgstr "Słaba"
+
+#: vocabulary.py:18
+msgid "Mixed"
+msgstr "Mieszana"
+
+#: vocabulary.py:18
+msgid "Strong"
+msgstr "Mocna"
+
+#: vocabulary.py:18
+msgid "Numeral"
+msgstr "Liczebnik"
+
+#: vocabulary.py:19
+msgid "Masculine personal"
+msgstr "Męskoosobowy"
+
+#: vocabulary.py:19
+msgid "Non-masculine personal"
+msgstr "Niemęskoosobowy"
+
+#: vocabulary.py:20
+msgid "Draft"
+msgstr "Wersja robocza"
+
+#: vocabulary.py:20
+msgid "Reviewed"
+msgstr "Zweryfikowano"
+
+#: validate-samples.py:38
+#, python-brace-format
+msgid "{location}: expected language-to-text mapping"
+msgstr "{location}: oczekiwano mapowania kodów języków na teksty."
+
+#: validate-samples.py:39
+#, python-brace-format
+msgid "{location}: missing translation for {locales}"
+msgstr "{location}: brak tłumaczenia dla {locales}."
+
+#: validate-samples.py:40
+#, python-brace-format
+msgid "{location}: empty or non-text translation"
+msgstr "{location}: tłumaczenie jest puste lub nie jest tekstem."
+
+#: validate-samples.py:47
+#, python-brace-format
+msgid "{location}: expected YAML mapping"
+msgstr "{location}: oczekiwano mapowania YAML."
+
+#: validate-samples.py:48
+#, python-brace-format
+msgid "{location}: unsupported schema_version"
+msgstr "{location}: nieobsługiwana wersja schematu."
+
+#: validate-samples.py:55
+#, python-brace-format
+msgid "{location}: sample directory does not exist"
+msgstr "{location}: folder przykładów nie istnieje."
+
+#: validate-samples.py:58
+#, python-brace-format
+msgid "{location}: no language sets found"
+msgstr "{location}: nie znaleziono zestawów językowych."
+
+#: validate-samples.py:67
+#, python-brace-format
+msgid "{location}: folder/language mismatch"
+msgstr "{location}: folder nie odpowiada językowi."
+
+#: validate-samples.py:68
+#, python-brace-format
+msgid "{location}: missing language name"
+msgstr "{location}: brak nazwy języka."
+
+#: validate-samples.py:83
+#, python-brace-format
+msgid "{location}: declare 1–8 cases"
+msgstr "{location}: zadeklaruj od jednego do ośmiu przypadków."
+
+#: validate-samples.py:84
+#, python-brace-format
+msgid "{location}: invalid case declaration"
+msgstr "{location}: nieprawidłowa deklaracja przypadku."
+
+#: validate-samples.py:86
+#, python-brace-format
+msgid "{location}: duplicate case ID"
+msgstr "{location}: powtórzony identyfikator przypadku."
+
+#: validate-samples.py:88
+#, python-brace-format
+msgid "{location}: declare nouns and adjectives tracks"
+msgstr "{location}: zadeklaruj grupy rzeczowników i przymiotników."
+
+#: validate-samples.py:90
+#, python-brace-format
+msgid "{location}: missing native_languages"
+msgstr "{location}: brak języków tłumaczenia."
+
+#: validate-samples.py:91
+#, python-brace-format
+msgid "{location}: duplicate native language"
+msgstr "{location}: powtórzony język tłumaczenia."
+
+#: validate-samples.py:46
+#, python-brace-format
+msgid "{location}: {exc}"
+msgstr "{location}: {exc}"
+
+#: validate-samples.py:72
+#, python-brace-format
+msgid "{location}: topic_names must be a mapping"
+msgstr "{location}: nazwy tematów muszą być mapowaniem."
+
+#: validate-samples.py:78
+#, python-brace-format
+msgid "{location}: lesson defaults must be text"
+msgstr "{location}: domyślne wartości lekcji muszą być tekstem."
+
+#: validate-samples.py:94
+#, python-brace-format
+msgid "{location}: missing track folder"
+msgstr "{location}: brak folderu grupy."
+
+#: validate-samples.py:96
+#, python-brace-format
+msgid "{location}: no samples"
+msgstr "{location}: brak lekcji."
+
+#: validate-samples.py:154
+#, python-brace-format
+msgid "{location}: missing cases: {details}"
+msgstr "{location}: brak przypadków: {details}."
+
+#: validate-samples.py:74
+#, python-brace-format
+msgid "{location}: empty topic name ID"
+msgstr "{location}: pusty identyfikator tematu."
+
+#: validate-samples.py:101
+#, python-brace-format
+msgid "{location}: content profile mismatch"
+msgstr "{location}: profile treści nie są zgodne."
+
+#: validate-samples.py:106
+#, python-brace-format
+msgid "{location}: undeclared case {case!r}"
+msgstr "{location}: niezadeklarowany przypadek {case!r}."
+
+#: validate-samples.py:108
+#, python-brace-format
+msgid "{location}: language/track mismatch"
+msgstr "{location}: język lub grupa nie są zgodne."
+
+#: validate-samples.py:110
+#, python-brace-format
+msgid "{location}: missing or duplicate sample ID"
+msgstr "{location}: brak identyfikatora lekcji lub identyfikator się powtarza."
+
+#: validate-samples.py:112
+#, python-brace-format
+msgid "{location}: native language list differs from language definition"
+msgstr "{location}: lista języków tłumaczenia różni się od definicji projektu."
+
+#: validate-samples.py:120
+#, python-brace-format
+msgid "{location}: invalid review_status"
+msgstr "{location}: nieprawidłowy status weryfikacji."
+
+#: validate-samples.py:126
+#, python-brace-format
+msgid "{location}: expected exactly 15 sentences"
+msgstr "{location}: oczekiwano dokładnie 15 zdań."
+
+#: validate-samples.py:104
+#, python-brace-format
+msgid "{location}: topic id/name required"
+msgstr "{location}: wymagany jest identyfikator i nazwa tematu."
+
+#: validate-samples.py:115
+#, python-brace-format
+msgid "{location}: unknown import author requires per-question source metadata"
+msgstr "{location}: przy nieznanym autorze importu wymagane są dane źródłowe dla każdego pytania."
+
+#: validate-samples.py:118
+#, python-brace-format
+msgid "{location}: missing {field}"
+msgstr "{location}: brak pola „{field}”."
+
+#: validate-samples.py:122
+#, python-brace-format
+msgid "{location}: redistribution permission required"
+msgstr "{location}: wymagane jest pozwolenie na rozpowszechnianie."
+
+#: validate-samples.py:123
+#, python-brace-format
+msgid "{location}: linguistic review required for release"
+msgstr "{location}: przed wydaniem wymagana jest weryfikacja językowa."
+
+#: validate-samples.py:128
+#, python-brace-format
+msgid "{location}: question must be a mapping"
+msgstr "{location}: pytanie musi być mapowaniem pól."
+
+#: validate-samples.py:131
+#, python-brace-format
+msgid "{location}: missing or duplicate question ID"
+msgstr "{location}: brak identyfikatora pytania lub identyfikator się powtarza."
+
+#: validate-samples.py:135
+#, python-brace-format
+msgid "{location}: word_type does not belong to {track}"
+msgstr "{location}: część mowy nie należy do grupy {track}."
+
+#: validate-samples.py:136
+#, python-brace-format
+msgid "{location}: dictionary_form required"
+msgstr "{location}: wymagana jest forma podstawowa."
+
+#: validate-samples.py:137
+#, python-brace-format
+msgid "{location}: features required"
+msgstr "{location}: wymagane są cechy gramatyczne."
+
+#: validate-samples.py:140
+#, python-brace-format
+msgid "{location}: prompt needs exactly one ___ blank"
+msgstr "{location}: zadanie musi zawierać dokładnie jedną lukę ___."
+
+#: validate-samples.py:141
+#, python-brace-format
+msgid "{location}: answer_scope must be word or phrase"
+msgstr "{location}: zakres odpowiedzi musi być wyrazem lub wyrażeniem."
+
+#: validate-samples.py:143
+#, python-brace-format
+msgid "{location}: exactly a,b,c,d options required"
+msgstr "{location}: wymagane są odpowiedzi a,b,c,d."
+
+#: validate-samples.py:144
+#, python-brace-format
+msgid "{location}: empty/non-text option"
+msgstr "{location}: odpowiedź jest pusta lub nie jest tekstem."
+
+#: validate-samples.py:146
+#, python-brace-format
+msgid "{location}: duplicate answer text"
+msgstr "{location}: tekst odpowiedzi się powtarza."
+
+#: validate-samples.py:147
+#, python-brace-format
+msgid "{location}: correct must reference one option"
+msgstr "{location}: poprawna odpowiedź musi wskazywać istniejący wariant."
+
+#: validate-samples.py:152
+#, python-brace-format
+msgid "{location}: missing adjective questions"
+msgstr "{location}: brak pytań dotyczących przymiotników."
+
+#: validate-samples.py:153
+#, python-brace-format
+msgid "{location}: missing numeral questions"
+msgstr "{location}: brak pytań dotyczących liczebników."
+
+#~ msgid "Save location / filename"
+#~ msgstr "Miejsce zapisu / nazwa pliku"
+
+#~ msgid "Open a folder containing language.yaml"
+#~ msgstr "Otwórz folder zawierający plik language.yaml"
+
+#~ msgid "Ready"
+#~ msgstr "Gotowe"
+
+#~ msgid "adjectives"
+#~ msgstr "Przymiotnik"
+

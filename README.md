@@ -104,6 +104,22 @@ adding languages. Lesson text, sample-set names and topic labels remain in YAML.
 
 ## Creating a sample set
 
+For a desktop form editor on **Linux or Windows**, see the
+[Python sample editor](tools/sample_editor/README.md). It prefers Qt and falls
+back to Tkinter, with structured fields, case/group selectors, editable filename
+suffixes, validation and recovery backups. **New project…** lets you choose a target
+language, cases and folder, with Russian/Polish/German defaults. German, Russian and Polish translations
+use shared [PO catalogs](tools/sample_editor/locales/). Install and start it on Linux:
+
+```bash
+bash scripts/install-sample-editor.sh
+bash scripts/run-sample-editor.sh samples/ru-v2
+```
+
+Windows setup uses `scripts/install-sample-editor.ps1`; launch with
+`scripts\run-sample-editor.cmd`. The editor guide includes the full Windows commands
+and instructions for selecting a toolkit or interface language.
+
 You can write samples in any plain-text editor; no Android programming is needed.
 Use UTF-8 YAML and follow an existing example, such as
 [Russian noun practice](samples/ru/nouns/dative.yaml) or

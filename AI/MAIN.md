@@ -155,3 +155,104 @@ localized launcher names, five pack names and all 84 topic labels. Language
 choices use autonyms in two rows. Sentence translations remain authored content;
 missing Russian/Polish sentence translations show a localized notice. Same-language
 translations remain hidden. These translations await native-speaker review.
+
+## Desktop sample authoring (2026-10-17)
+
+User requested a PC app to open existing samples, recognize nouns/adjectives and
+case prefixes, show selectors and preserve a free filename extension such as
+practice-1 or mnogo-malo. A folder such as ru-v2 is a project collecting its files.
+Python was suggested by the user as appropriate. Implementation choice: standalone
+Python/Tkinter form editor, reusing PyYAML and the authoritative content validator.
+Case IDs come from language.yaml; actual filenames use genitive (not gentive).
+
+Implemented question/translation/answer forms plus advanced YAML metadata tabs,
+question add/duplicate/delete, explicit save-location selectors, rename/save-copy,
+validation, local backups and external-change protection. Existing manifests remain
+authored separately; a filename suffix does not imply a topic-ID change. Current
+editor language is English. No Android app/source content changes were needed.
+See tools/sample_editor/README.md. GUI testing awaits Tkinter installation by the
+owner; the installer attempt required an interactive sudo password.
+
+## Desktop editor refinement (2026-10-17)
+
+User requested Windows support, preferred Qt with Tkinter fallback, PO-format
+i18n, and more restrictive sample editing for normal PC users. Follow-up explicitly
+requested German, Russian and Polish PO files. These supersede the first desktop
+prototype's English-only UI and raw YAML tabs.
+
+Implemented shared controller/typed forms with PySide6 → PyQt6 → Tkinter automatic
+selection and explicit --ui override. Field controls retain canonical schema IDs;
+choices and labels are localized. Stable IDs and imported/unknown complex metadata
+are read-only; supported feature values use dropdowns, quantities use integer
+validation, instructions/sources have plain-text fields. Both views share gettext
+PO/MO catalogs (de, ru, pl), English POT and --language/OS-locale selection. Existing
+validator/model diagnostics remain English. Android resource localization is unchanged.
+
+Windows x64 has PowerShell setup and a CMD launcher; optional Python 3.12.10
+bootstrap is pinned/checksummed. Linux/Windows wheels are pinned/hash-verified;
+default environments live outside network checkouts. Qt was verified offscreen
+including a rendered screenshot. Native Windows/PowerShell and Tkinter display
+checks remain pending. See tools/sample_editor/README.md for current setup and
+limits. Earlier Tkinter-missing/password-blocked notes describe the first prototype;
+current Qt installation succeeded in a temporary isolated environment without sudo.
+
+## Desktop lesson navigation and management (2026-10-17)
+
+User found the duplicate group/case selectors confusing and requested lesson
+Add/Delete buttons like the question controls. Explanation: left selectors filtered
+browsing; right selectors set the save destination. Implementation choice: retain
+only the left browse selectors, show lesson location as text on the right, and
+provide an explicit Move lesson dialog whose changes take effect on Save.
+The filename suffix remains editable. Browse changes now clear old details after
+handling unsaved edits, preserving the requested filter even if a save occurred.
+
+Added separate Add lesson/Delete lesson buttons below the lesson list in both
+backends. New lessons are original blank drafts in the browsed group/case, with
+unique IDs, no copied import attribution, 15 starter slots or one deep-topic slot.
+They are not written until complete structural validation succeeds. Metadata forms
+must include instructions, contributor, license and sources. Deleting a lesson
+asks for confirmation, discards unsaved edits, and moves a saved file into ignored
+recovery backups. New unsaved drafts are discarded without touching disk. Removing
+the last lesson of a declared case/track can leave the project incomplete until
+replacement/restoration; manifests are not edited automatically.
+
+## Desktop New project workflow (2026-10-17)
+
+User reported that a fresh editor could not create projects or select cases/save,
+and requested a New button selecting target language, cases and directory with
+defaults. Implemented New project (Ctrl+N) in Qt and Tkinter. Dialog defaults:
+Russian six cases, Polish seven including vocative, German four; Other language
+accepts a language tag and requires an explicitly selected case inventory. Up to
+eight known case categories can be selected. Native sentence translations are
+selectable (en/de/ru/pl), defaulting to GUI language unless it matches the target.
+Default directory is ~/case-samples/<code>; only new/empty folders are accepted.
+
+Creation saves the manifest and both track folders, opens the first blank noun
+lesson and enables the relevant controls. Start-up controls that require a project
+or lesson are disabled. New projects use simple 15-question lessons; no invented
+learning content/attribution is supplied. Arbitrary editor folder names work via
+normalization in temporary validation copies; Android folder naming is unchanged.
+
+Implementation correction needed for usable new projects: authoring saves now
+allow absent case/track lessons while fully validating every existing lesson.
+Explicit project validation, builds, packaging and releases retain complete-case
+coverage requirements. Release ignores the incomplete-authoring override. This
+supersedes earlier notes that every save requires complete project coverage.
+
+## Shared attribution and localized validation (2026-10-17)
+
+User requested Contributor, License and Sources in New project since these are
+shared across lessons, plus translation of "missing contributor" and similar errors.
+Both creation dialogs now collect these required values and save them under optional
+language.yaml/lesson_defaults. First and subsequent new lessons inherit them, also
+after reopening. Implementation choice: existing/imported lessons are not overwritten,
+and lesson-specific overrides remain available in Lesson details. No identity,
+license or source claims are invented. Older projects without defaults still work.
+
+Editor and structural-validator diagnostics now carry a message template and named
+parameters. The desktop formats them through the shared de/ru/pl PO/MO catalogs,
+including missing contributor/license/sources, translations, invalid answers,
+case coverage, duplicate answers, stale files and conflicts. Paths and question IDs
+are preserved. CLI/Android validation continues to report original English messages;
+low-level OS/parser details can pass through untranslated. No validation checks
+were removed. This supersedes earlier English-only diagnostic limitations.

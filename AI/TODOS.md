@@ -63,3 +63,18 @@ minimum Android 10. Latest validation scope and next-session status: HANDOVER.md
 
 - [x] Add Russian/Polish GUI resources, language choices and pack/topic labels.
 - [ ] Review Russian/Polish interface wording and verify all four GUI languages on a phone.
+
+- [x] Add a Python desktop editor for existing sample projects, track/case selectors and free filename suffixes.
+- [x] Add validated saves, recovery backups, unique-ID lesson copies and persistence safety checks.
+- [x] Add Qt preference with Tkinter fallback, a shared controller and typed metadata forms.
+- [x] Add pinned Windows/Linux editor installers and German/Russian/Polish PO/MO catalogs.
+- [x] Check Qt offscreen editing, navigation, saved copies and localized controls.
+- [ ] Verify native Windows installation/PowerShell launcher and both desktop backends on a visible display.
+- [ ] Obtain native-speaker review of desktop PO translations.
+- [x] Replace duplicate destination selectors with an explicit Move lesson action.
+- [x] Add blank lesson drafts and recoverable lesson deletion in both desktop views.
+- [x] Add New project with language/case/directory defaults and translation-language selection.
+- [x] Disable unusable startup controls and open a first draft after project creation.
+- [x] Allow incremental authoring saves while retaining strict build/release coverage.
+- [x] Collect shared contributor/license/sources during New project and persist defaults for new lessons.
+- [x] Localize editor and structural validation diagnostics through German/Russian/Polish PO files.

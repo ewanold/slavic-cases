@@ -35,3 +35,16 @@ All German sentences are original MIT drafts; none copied from these references.
   — cardinal/ordinal number classes and article-free genitive zweier/dreier.
 - https://developer.android.com/guide/topics/resources/localization
   — device-locale resource selection and default fallback (checked 2026-10-11).
+
+## Desktop editor toolkit and Windows bootstrap
+
+- Qt for Python official setup: https://doc.qt.io/qtforpython-6/gettingstarted.html
+  (Python wheels include Qt; no separate SDK needed for the editor).
+- Qt for Python licensing: https://doc.qt.io/qtforpython-6/commercial/index.html
+  (upstream Qt/PySide licensing remains separate from this project's MIT code).
+- Microsoft's Python 3.12.10 installer manifest, used to cross-check the official
+  x64 Python bootstrap SHA-256:
+  https://github.com/microsoft/winget-pkgs/blob/master/manifests/p/Python/Python/3/12/3.12.10/Python.Python.3.12.installer.yaml
+- Version-specific PyPI metadata URLs are recorded in committed editor requirement
+  locks and requirements/sample-editor-pip.json; scripts/update-sample-editor-locks.py
+  regenerates them for review. Package archives are hash-verified before installation.

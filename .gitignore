@@ -33,3 +33,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Python authoring tools and local sample recovery copies
+__pycache__/
+*.pyc
+.sample-editor-backups/
+.sample-editor-venv/
